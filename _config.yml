@@ -42,18 +42,22 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:              Vicente G. Guzmán Lucio
+  email:             lucio@geeks.ms
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Blog
     url:               /example/
-  - title:             Documentation
+  - title:             Categories
+    url:               https://hydejack.com/docs/
+  - title:             Resume
     url:               https://hydejack.com/docs/
   - title:             About
+    url:               /about/
+  - title:             Contact
     url:               /about/
 
 # Add links to the footer.
