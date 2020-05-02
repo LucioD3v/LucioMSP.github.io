@@ -40,7 +40,6 @@ social:
     # Uncomment below to add more social links
     - https://www.facebook.com/LucioMSP
     - https://www.linkedin.com/in/vggl01
-    - https://www.medium.com/LucioMSP
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -128,7 +127,7 @@ defaults:
       path: resume
     values:
       tab_active: Resume
-      location: Resume
+      location: Tag
       breadcrumb:
         -
           label: Home
