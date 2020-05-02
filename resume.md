@@ -2,19 +2,19 @@
 layout: resume
 title: Resume
 description: >
-  Resume of Xavi Portilla Edo.
+  Resume of Xavier Portilla Edo.
 hide_description: true
 menu: true
 order: 3
 left_column:
  - work
  - volunteer
- - awards
  - publications
- # - references
+ - references
 right_column:
  - languages
- # - skills
+ - skills
  - education
+ - awards
  - interests
 ---

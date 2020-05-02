@@ -12,7 +12,7 @@ url:                   https://luciomsp.github.io
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-# baseurl:               ''
+baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -44,21 +44,20 @@ author:
   name:                Vicente Guzmán
   email:               luciomsp@geeks.ms
   # Used by `jekyll-seo-tag`:
-  # twitter:             luciomsp
+  #twitter:             xavidop
 
 # Add links to the sidebar.
 menu:
   - title:             Blog
     url:               /index.html
   - title:             Categories
-    url:               /about/
+    url:               /projects/
   - title:             Resume
     url:               /resume/
   - title:             About
     url:               /about/
   - title:             Contact
-    url:               /about/
-
+    url:               /contact/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -82,7 +81,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg2.jpg
+accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -120,6 +119,10 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type: posts
+    values:
+      comments: true
 
 
 # 3rd Party Integrations
@@ -127,14 +130,14 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-149142925-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 disqus:                luciomspcode
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-tinyletter:            vicenteguzman
+tinyletter:           vicenteguzman
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -184,12 +187,12 @@ hydejack:
 
   # Set to `true` when building with the `--lsi` option
   # This will increase site build speed!
-  use_lsi:             true
+  use_lsi:             false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
   # Note that this works in the PRO version of Hydejack.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this works in the PRO version of Hydejack.
@@ -273,7 +276,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@v8.5.1
+remote_theme: qwtel/hydejack@v8.5.0
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -288,8 +291,8 @@ remote_theme: qwtel/hydejack@v8.5.1
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            luciomsp
+#twitter:
+#  username:            xavidop
 
 # Used for Facebook open graph
 # facebook:

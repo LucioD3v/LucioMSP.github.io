@@ -1,33 +1,34 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # You can change `author1` to your shortname.
-author1:
+xavi:
   # Replace <...> with your own (remove the < >)
-  name:              Vicente Guzmán  
-  email:             luciomsp@geeks.ms
+  name:              Xavier Portilla Edo
+  email:             xavierportillaedo@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
+    Xavier is from Spain where he works as a software engineer at top global companies.
+    He has more than 5 years of experience with coding with a focus on Java, DevOps, Q&A and microservices. 
+    In his spare time, he enjoys music, beer and friends.
 
   # This photo will be used in the about section.
   picture:
-    path:            https://twitter.com/LucioMSP/photo8
-   
+    path:            https://avatars0.githubusercontent.com/u/4416096
+
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         luciomsp
-    github:          luciomsp
-    # download:        <url>
-    email:           luciomsp@geeks.ms
-    linkedin:        vggl01
-    # rss:             https://<url>/feed.xml
+    twitter:         xavidop
+    github:          xavidop
+    #download:       <url>
+    email:           xavierportillaedo@gmail.com
+    linkedin:        xavierportillaedo
+    medium:          xavidop
+    #devto:           xavidop
+    rss:             https://xavidop.github.io/feed.xml
+    # web:             <web>
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
