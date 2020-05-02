@@ -2,7 +2,7 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Vicente G. Guzmán Lucio
+  name: "Vicente G. Guzmán Lucio"
   label: "Software Engineer"
   picture: "/assets/icons/icon.png"
   email: "luciomsp@geeks.ms"
