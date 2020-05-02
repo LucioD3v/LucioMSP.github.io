@@ -2,7 +2,7 @@
 layout: resume
 title: Resume
 description: >
-  Resume of Vicente G. Guzmán Lucio
+  Resume of Xavi Portilla Edo.
 hide_description: true
 menu: true
 order: 3

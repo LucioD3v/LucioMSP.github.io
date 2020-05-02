@@ -27,8 +27,8 @@ description:           >
   Personal Blog of Vicente Guzmán
 
 # A shorter description for the sidebar.
-tagline:               |
-  Software Engineer  \\
+tagline:               >
+  Software Engineer \\
   "Line by line changing the world"
 
 # A list of keywords for your blog
