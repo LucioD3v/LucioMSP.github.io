@@ -19,7 +19,7 @@ hide_description: true
 image: /assets/img/blog/hydejack-8.png
 ---
 
-The "Best Jekyll Theme by a Mile".
+{Every programmer is an author}
 {:.lead}
 
 Vicente G. Guzmán Lucio is an Engineer in Computer Systems - Degree in Computer Science - Master in Information Technology and has a Master in Commercial Management and Marketing. He has 9 years of experience in the professional field focused on the development of mobile applications, where he started with Windows Phone, BlackBerry, Symbian, among others ... He currently works as Xamarin Developer.
