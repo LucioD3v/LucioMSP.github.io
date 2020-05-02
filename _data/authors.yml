@@ -3,31 +3,31 @@
 # You can change `author1` to your shortname.
 xavi:
   # Replace <...> with your own (remove the < >)
-  name:              Xavier Portilla Edo
-  email:             xavierportillaedo@gmail.com
+  name:              Vicente G. Guzmán Lucio
+  email:             lucioms@geeks.ms
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Xavier is from Spain where he works as a software engineer at top global companies.
-    He has more than 5 years of experience with coding with a focus on Java, DevOps, Q&A and microservices. 
-    In his spare time, he enjoys music, beer and friends.
+    Vicente is from México where he works as a software engineer at top global companies.
+    He has more than 8 years of experience with coding with a focus on C#. 
+    In his spare time, he enjoys exercising like running and having a few beers with friends.
 
   # This photo will be used in the about section.
   picture:
-    path:            https://avatars0.githubusercontent.com/u/4416096
+    path:            https://twitter.com/LucioMSP/photo
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         xavidop
-    github:          xavidop
+    twitter:         luciomsp
+    github:          luciomsp
     #download:       <url>
-    email:           xavierportillaedo@gmail.com
-    linkedin:        xavierportillaedo
-    medium:          xavidop
-    #devto:           xavidop
-    rss:             https://xavidop.github.io/feed.xml
+    email:           lucioms@geeks.ms
+    linkedin:        vggl01
+    medium:          luciomsp
+    #devto:           luciomsp
+    rss:             https://luciomsp.github.io/feed.xml
     # web:             <web>
     # facebook:        <username>
     # google:          <number>
