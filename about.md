@@ -1,30 +1,10 @@
 ---
-# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
-# You can change it to the regular `page` layout if you want.
+# file: about.md
 layout: about
-
-# The title of the page.
-title: About Vicente Guzmán
-# Write a short (~150 characters) description of each blog post.
-# This description is used to preview the page on search engines, social media, etc.
-description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-# You can show the description on the page by deleting this line:
-hide_description: true
-
-# TODO
-image: /assets/img/blog/hydejack-8.png
+title:  About Xavi Portilla
 ---
 
-Short Bio
-{:.lead}
+# Short Bio
+Xavi completed his Ph.D. in engineering physics at Louisiana Tech University in 2016. During his academic career, he had the opportunity to work on various projects, such as: dark matter (stability of the universe), non-incendiary tracers for the U.S. Army (now commercially available as [''Glow Ammo''](https://www.midwayusa.com/product/1012723615?pid=182087)), elastic characterization of metal alloys, [metamaterials](https://www.youtube.com/watch?v=jseHPnqXlPY) (known for invisibility), and the electron self-energy paradox—one of the most infamous paradoxes of classical physics.
 
-Vicente G. Guzmán Lucio is an Engineer in Computer Systems - Degree in Computer Science - Master in Information Technology and has a Master in Commercial Management and Marketing. He has 9 years of experience in the professional field focused on the development of mobile applications, where he started with Windows Phone, BlackBerry, Symbian, among others ... He currently works as Xamarin Developer.
-
-He was recognized as Microsoft MVP in the category of Windows Development, also has several certifications, among them and by Microsoft are those of Microsoft Certified Trainer, which endorses it to provide courses, Microsoft Certified Solutions Associate, Microsoft Certified Professional, Xamarin Certified Mobile Developer and Scrum Master.
-
-He is currently learning about new voice-based technologies and developing skills for Amazon Alexa.
-
-
+To fulfill his passion for health and fitness he enjoys hiking, [snowboarding](https://www.youtube.com/watch?v=lPu8xoFLQLw&feature=youtu.be), camping, hunting, fishing, team sports, [CrossFit](https://vimeo.com/102664855), and many other activities. Hiking the Pacific Crest Trail is on his bucket list. Until then, he's have found it rewarding to help others learn how to utilize their bodies more efficiently and effectively, both physically and mentally. Check out his [CV](/resume/)  for more information.
