@@ -1,10 +1,10 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # You can change `author1` to your shortname.
-author1:
+xavi:
   # Replace <...> with your own (remove the < >)
-  name:              Vicente Guzmán  
-  email:             luciomsp@geeks.ms
+  name:              Xavi Portilla Edo
+  email:             xavierportillaedo@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -17,17 +17,17 @@ author1:
 
   # This photo will be used in the about section.
   picture:
-    path:            https://twitter.com/LucioMSP/photo8
-   
+    path:            https://avatars0.githubusercontent.com/u/4416096
+
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         luciomsp
-    github:          luciomsp
+    #twitter:         xavidop
+    github:          xavierportillaedo
     # download:        <url>
-    email:           luciomsp@geeks.ms
-    linkedin:        vggl01
-    # rss:             https://<url>/feed.xml
+    email:           xavierportillaedo@gmail.com
+    linkedin:        xavierportillaedo
+    rss:             https://xavierportillaedo.github.io/xaviscode/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>

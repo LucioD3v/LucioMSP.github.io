@@ -2,11 +2,11 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Vicente G. Guzmán Lucio"
+  name: "Xavi Portilla Edo"
   label: "Software Engineer"
   picture: "/assets/icons/icon.png"
-  email: "luciomsp@geeks.ms"
-  phone: "(+52) 55 4348 4042"
+  email: "xavierportilla@gmai.com"
+  phone: "(+34) 628 921 252"
   summary: >
     Xavi hails from Tulsa.
     He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
@@ -20,16 +20,16 @@ basics:
   location:
     address: ""
     postalCode: ""
-    city: "México"
+    city: "Madrid"
     countryCode: "ES"
-    region: "México"
+    region: "Spain"
   profiles:
     - network: "Github"
-      username: "luciomsp"
-      url: "https://github.com/luciomsp"
+      username: "xavierportillaedo"
+      url: "https://github.com/xavierportillaedo"
     - network: "LinkedIn"
-      username: "vggl01"
-      url: "https://linkedin.com/in/vggl01/"
+      username: "xavierportillaedo"
+      url: "https://linkedin.com/in/xavierportillaedo/"
 work:
   - company: "Pied Piper"
     position: "CEO/President"
