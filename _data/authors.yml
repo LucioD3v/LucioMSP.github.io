@@ -22,13 +22,13 @@ xavi:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    #twitter:         xavidop
-    github:          LucioMSP
+    twitter:         luciomsp
+    github:          luciomsp
     # download:        <url>
     email:           luciomsp@geeks.ms
     linkedin:        vggl01
     # rss:             
-     facebook:        LucioMSP
+     facebook:        luciomsp
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
