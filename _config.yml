@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://LucioMSP.github.io
+url:                   https://luciomsp.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -12,24 +12,24 @@ url:                   https://LucioMSP.github.io
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl:               '/xaviscode/'
+# baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Xavi Portilla Edo
+title:                 Vicente Guzmán
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal Blog of Xavi Portilla Edo.
+  Personal Blog of Vicente Guzmán
 
 # A shorter description for the sidebar.
 tagline:               |
   Software Engineer  \\
-  "We are still pioneers"
+  "Line by line changing the world"
 
 # A list of keywords for your blog
 keywords:              [code, developer]
@@ -41,19 +41,23 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                Xavi Portilla Edo
-  email:               xavierportillaedo@gmail.com
+  name:                Vicente Guzmán
+  email:               luciomsp@geeks.ms
   # Used by `jekyll-seo-tag`:
-  #twitter:             xavidop
+  # twitter:             luciomsp
 
 # Add links to the sidebar.
 menu:
   - title:             Blog
     url:               /index.html
-  - title:             About
+  - title:             Categories
     url:               /about/
   - title:             Resume
     url:               /resume/
+  - title:             About
+    url:               /about/
+  - title:             Contact
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -64,7 +68,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:            Xavi Portilla Edo © 2019. All rights reserved.
+copyright:             Made with ❤ by Vicente Guzmán © 2020. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -78,7 +82,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar-bg2.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -116,10 +120,6 @@ defaults:
     values:
       seo:
         type:          WebPage
-  - scope:
-      type: posts
-    values:
-      comments: true
 
 
 # 3rd Party Integrations
@@ -127,14 +127,14 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-149142925-1
+# google_analytics:      UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                xaviscode
+disqus:                luciomspcode
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-tinyletter:           xavierportillaedo
+tinyletter:            vicenteguzman
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -184,12 +184,12 @@ hydejack:
 
   # Set to `true` when building with the `--lsi` option
   # This will increase site build speed!
-  use_lsi:             false
+  use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
   # Note that this works in the PRO version of Hydejack.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this works in the PRO version of Hydejack.
@@ -273,7 +273,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@v8.5.0
+remote_theme: qwtel/hydejack@v8.5.1
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -288,8 +288,8 @@ remote_theme: qwtel/hydejack@v8.5.0
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-#twitter:
-#  username:            xavidop
+# twitter:
+#   username:            luciomsp
 
 # Used for Facebook open graph
 # facebook:
@@ -299,10 +299,10 @@ remote_theme: qwtel/hydejack@v8.5.0
 
 # Used on index and about sites
 social:
-  name:                Xavi Portilla Edo
-  links:
-    - https://github.com/xavierportillaedo
-    - https://www.linkedin.com/in/xavierportillaedo/
+   name:                Vicente Guzmán
+   links:
+    - https://twitter.com/luciomsp
+    - https://www.linkedin.com/in/vggl01/
 
 
 # Other Plugins
