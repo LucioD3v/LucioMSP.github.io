@@ -131,10 +131,10 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                luciomspcode
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-# tinyletter:            <tinyletter_username>
+tinyletter:            vicenteguzman
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -289,7 +289,7 @@ remote_theme: qwtel/hydejack@v8.5.1
 
 # Used for Twitter cards
 # twitter:
-#   username:            <shortname>
+#   username:            luciomsp
 
 # Used for Facebook open graph
 # facebook:
@@ -298,11 +298,11 @@ remote_theme: qwtel/hydejack@v8.5.1
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+   name:                Vicente Guzmán
+   links:
+    - https://twitter.com/luciomsp
+    - https://www.linkedin.com/in/vggl01/
 
 
 # Other Plugins
