@@ -9,10 +9,10 @@ title:  About Vicente Guzmán
 {Every programmer is an author}
 {:.lead}
 
-Vicente G. Guzmán Lucio is an Engineer in Computer Systems - Degree in Computer Science - Master in Information Technology and has a Master in Commercial Management and Marketing. He has 9 years of experience in the professional field focused on the development of mobile applications, where he started with Windows Phone, BlackBerry, Symbian, among others ... He currently works as Xamarin Developer.
+Vicente G. Guzmán, born in Guanajuato, holds a career as an Engineer in Computational Systems and a B.A. in Computing. Moreover, he holds a Masters Degree in Information Technologies and a Masters in Commercial Management and Marketing. He has more than 8 years of experience in the professional field, focusing on the development of mobile apps, where he started with Windows Phone, BlackBerry Symbian, Firefox OS, Android, among others. Currently he works as a Mobile Project Leader, centered in the development with Xamarin technology.
 
-He was recognized as Microsoft MVP in the category of Windows Development, also has several certifications, among them and by Microsoft are those of Microsoft Certified Trainer, which endorses it to provide courses, Microsoft Certified Solutions Associate, Microsoft Certified Professional, Xamarin Certified Mobile Developer and Scrum Master.
+He was acknowledged as MVP of Microsoft in the category of Windows Development. He also hold a number of certifications, amongst them provided by Microsoft he has Microsoft Certified Training, which backs him up as course trainer, Microsoft Certified Solutions Associate, Microsoft Certified Professional, Xamarin Certified Mobile Developer and Scrum Master.
 
-He is currently learning about new voice-based technologies and developing skills for Amazon Alexa.
+Currently he is learning about new technologies based on voice and developing Skills for Amazon Alexa. In January of this year (2020), he was awarded the "Alexa Champion" for México.
 
 Check out his [CV](/resume/)  for more information.
