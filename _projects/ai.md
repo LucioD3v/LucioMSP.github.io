@@ -1,12 +1,11 @@
 ---
 layout: project
-title: 'Spring'
-image: /assets/img/categories/spring.png
-screenshot: /assets/img/categories/spring.png
-caption: Examples for every day devs
+title: 'AI'
+image: /assets/img/categories/IA.jpg
+screenshot: /assets/img/categories/IA.jpg
+caption: Artificial Intelligence 
 description: >
- The Spring Framework is an application framework and inversion of control container for the Java platform.
- Spring is a powerful, lightweight framework used for application development. 
+ Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. 
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}

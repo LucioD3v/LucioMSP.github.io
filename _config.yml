@@ -44,7 +44,7 @@ author:
   name:                Vicente Guzmán
   email:               luciomsp@geeks.ms
   # Used by `jekyll-seo-tag`:
-  #twitter:             xavidop
+  #twitter:             luciomsp
 
 # Add links to the sidebar.
 menu:
@@ -292,7 +292,7 @@ remote_theme: qwtel/hydejack@v8.5.0
 
 # Used for Twitter cards
 #twitter:
-#  username:            xavidop
+#  username:            luciomsp
 
 # Used for Facebook open graph
 # facebook:
