@@ -5,7 +5,7 @@ image: /assets/img/categories/IA.jpg
 screenshot: /assets/img/categories/IA.jpg
 caption: Artificial Intelligence 
 description: >
- Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. 
+ Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. 
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}

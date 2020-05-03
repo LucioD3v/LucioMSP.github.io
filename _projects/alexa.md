@@ -3,7 +3,7 @@ layout: project
 title: 'Alexa'
 image: /assets/img/categories/alexa2.png
 screenshot: /assets/img/categories/alexa2.png
-caption: Alexa skills useful tips
+caption: Alexa Skills
 description: >
  Alexa is a virtual digital assistant developed by Amazon for its Amazon Echo and Echo Dot line of computing devices. 
 ---

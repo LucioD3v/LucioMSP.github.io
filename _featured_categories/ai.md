@@ -10,5 +10,5 @@ slug: ai
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Alexa is a virtual digital assistant developed by Amazon for its Amazon Echo and Echo Dot line of computing devices.
+  Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.
 ---

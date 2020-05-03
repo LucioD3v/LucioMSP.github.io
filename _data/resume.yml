@@ -4,7 +4,7 @@
 basics:
   name: "Vicente G. Guzmán Lucio"
   label: "Software Engineer"
-  picture: "/assets/icons/icon.png"
+  # picture: "/assets/icons/icon.png"
   email: "luciomsp@geeks.ms"
   phone: "(+52) 55 4348 4042"
   summary: >
@@ -24,32 +24,29 @@ basics:
       username: "vggl01"
       url: "https://linkedin.com/in/vggl01/"
 work:
-  - company: "Ericsson"
-    position: "R&D Advance Software Engineer"
-    website: "https://www.ericsson.com/en"
-    startDate: "2018-09-01"
+  - company: "Deintec"
+    position: "Mobile Project Leader"
+    website: "https://deintec.com/wordpress/"
+    startDate: "2020-02-10"
     endDate: ""
     summary: >
-      Ericsson, is a Swedish multinational networking and telecommunications 
-      company headquartered in Stockholm. The company offers services, 
-      software and infrastructure in information and communications technology for telecommunications.
+      Deintec is a strong consulting and software developer company established in Mexico in 2001, we provide analytical services, design and construction of applications from our remote development centers in Mexico City, Guadalajara and Monterrey.
     highlights:
       - "Build 5G Policy control function"
       - "Stack used: Java, Maven, Docker, Kubernetes, Helm"
-  - company: "Hyperloop UPV"
-    position: "Software Manager"
-    website: "https://hyperloopupv.com/"
-    startDate: "2016-09-01"
-    endDate: "2019-09-01"
+  - company: "Ikusmen"
+    position: "Mobile Developer"
+    website: "http://www.ikusmen.com.mx/"
+    startDate: "2018-01-22"
+    endDate: "2020-02-07"
     summary: >
-      We are developing a futuristic pod design for the Hyperloop Pod Competition organized by SpaceX 
-      that will be held in Los Angeles at the SpaceX Headquarters
+      We are a team of professionals specialized in developing the best solutions that adapt to your project; giving it the value to potentiate it and energize it in the digital world.
     highlights:
-      - "Build the entire software Architecture.
+      - "Build the 'Dondé Móvil' Application
       We are focused on the improvement of the way we collect the data from the POD in order to analyze it"
-      - "Stack used: Java, Kafka, Spark, NodeJS, Electron, Docker, C++, Mule "
-  - company: "IVI RMA Global"
-    position: "Software Architect"
+      - "Stack used: Xamarin, iONIC, Joomla, NodeJS, C#"
+  - company: "Resuelve tu Deuda"
+    position: "Mobile Developer"
     website: "https://ivi-fertility.com/"
     startDate: "2016-01-01"
     endDate: "2017-09-01"
@@ -60,8 +57,8 @@ work:
     highlights:
       - "Build mobility and innovation projects for IVI clinics"
       - "Stack used: Javascript, Java, Mule, Servoy, Maven"
-  - company: "Everis"
-    position: "Software Analyst"
+  - company: "Edenred"
+    position: "Mobile Developer"
     website: "https://www.everis.com/global/en"
     startDate: "2014-01-01"
     endDate: "2017-01-01"
