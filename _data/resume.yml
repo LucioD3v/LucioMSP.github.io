@@ -35,7 +35,7 @@ work:
     summary: >
       Deintec is a strong consulting and software developer company established in Mexico in 2001, we provide analytical services, design and construction of applications from our remote development centers in Mexico City, Guadalajara and Monterrey.
     highlights:
-      - "Multiple mobile app enhancements provided by assigned customer.
+      - "Multiple mobile app enhancements provided by assigned customer"
       - "Stack used: C#, Xamarin.Forms, DevOps, Xcode, Azure SQL Database"
   - company: "Ikusmen"
     position: "Mobile Developer"
@@ -45,8 +45,7 @@ work:
     summary: >
       We are a team of professionals specialized in developing the best solutions that adapt to your project; giving it the value to potentiate it and energize it in the digital world.
     highlights:
-      - "Build the 'Dondé Móvil' Application
-      We are focused on the improvement of the way we collect the data from the POD in order to analyze it"
+      - "Build the 'Dondé Móvil' Application"
       - "Stack used: Xamarin, iONIC, Joomla, NodeJS, C#"
   - company: "Resuelve tu Deuda"
     position: "Mobile Developer"
