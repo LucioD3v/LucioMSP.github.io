@@ -4,7 +4,7 @@
 basics:
   name: "Vicente G. Guzmán Lucio"
   label: "Software Engineer"
-  # picture: "/assets/icons/icon.png"
+  picture: "/assets/icons/icon.png"
   email: "luciomsp@geeks.ms"
   phone: "(+52) 55 4348 4042"
   summary: >
@@ -19,10 +19,13 @@ basics:
   profiles:
     - network: "Github"
       username: "luciomsp"
-      url: "https://github.com/xavidop"
+      url: "https://github.com/luciomsp"
     - network: "LinkedIn"
       username: "vggl01"
       url: "https://linkedin.com/in/vggl01/"
+    - network: "Twitter"
+      username: "luciomsp"
+      url: "https://twitter.com/luciomsp"
 work:
   - company: "Deintec"
     position: "Mobile Project Leader"
@@ -32,8 +35,8 @@ work:
     summary: >
       Deintec is a strong consulting and software developer company established in Mexico in 2001, we provide analytical services, design and construction of applications from our remote development centers in Mexico City, Guadalajara and Monterrey.
     highlights:
-      - "Build 5G Policy control function"
-      - "Stack used: Java, Maven, Docker, Kubernetes, Helm"
+      - "Multiple mobile app enhancements provided by assigned customer.
+      - "Stack used: C#, Xamarin.Forms, DevOps, Xcode, Azure SQL Database"
   - company: "Ikusmen"
     position: "Mobile Developer"
     website: "http://www.ikusmen.com.mx/"
