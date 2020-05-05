@@ -20,17 +20,14 @@ lang: es
 Hace ya algunos días he visto en diferentes foros y en grupos de Facebook, los cuales están centrados en los dispositivos que tienen integrado Alexa (no necesariamente productos de Amazon) buscan acceder a Skills u opciones que solo se encuentran dependiendo la región de nuestra cuenta, un ejemplo de ello es el siguiente caso:
 
 “Al parecer mi dispositivo echo está configurado para Estados Unidos a pesar de que mi cuenta de Amazon es de México, comparé mi aplicación con la de un amigo y en estas aparecen diferentes Skills y distintas opciones para agregar.”
-
 ## Escenario
 
 Desde mi cuenta de Alexa App no veo las Skills de México, solo puedo ver las de USA 
-
 # ¿Pero por qué sucede esto?
 
 Es sencillo, la razón es que nuestra cuenta de Amazon está configurada para consumir contenido digital (Kindle, Alexa, etc…) de [Amazon.com](http://amazon.com/)(o com.mx), por ende, lo que tenemos que hacer es transferir nuestra cuenta de Amazon.com a Amazon.com.mx. Lo bueno es que este proceso es reversible, así que si no quedamos satisfech@s con el cambio lo podemos regresar, en caso de ser así, solo entren [aquí](https://www.amazon.com/gp/digital/fiona/marketplace/migration.html?ref=&source=myk&originMarketplaceId=ATVPDKIKX0DER&returnMarkteplaceId=ATVPDKIKX0DER&targetMarketplaceId=A1AM78C64UM0Y8).
 
 Por otro lado, si lo que buscan es deshacer el cambio, es decir, regresar nuestra cuenta de [Amazon.com.mx](http://amazon.com.mx/) a [Amazon.com](http://amazon.com/), deberemos de ir [aquí](https://www.amazon.com.mx/gp/digital/fiona/marketplace/migration.html?ref=&source=myk&originMarketplaceId=A1AM78C64UM0Y8&returnMarkteplaceId=A1AM78C64UM0Y8&targetMarketplaceId=ATVPDKIKX0DER).
-
 ## Manos a la obra
 
 Antes de comenzar, si gustan y quieren leerse la documentación oficial para hacer lo que vengo comentando a lo largo de este articulo, esta se la pueden encontrar [aquí](https://www.amazon.com/gp/help/customer/display.html?nodeId=201248840), aunque sí están leyendo esto es para ver el resumen, bueno, a continuación les quiero compartir el proceso que nuestro buen amigo [Carlos Ordoñez](hhttps://github.com/softwarechido) nos ayudo a simplificar. 
@@ -39,7 +36,7 @@ Antes de comenzar, si gustan y quieren leerse la documentación oficial para hac
 
 Caso contrario sigue estos pasos:
 
-1- Visita [https://www.amazon.com/hz/mycd/myx](https://www.amazon.com/hz/mycd/myx)y ve al menú Preferencias (Preferences)
+1- Visita [https://www.amazon.com/hz/mycd/myx](https://www.amazon.com/hz/mycd/myx) y ve al menú Preferencias (Preferences)
 
 2- Selecciona Configuración de País/Región  (Country/Region Settings), posteriromente aparecerá la leyenda:
 
