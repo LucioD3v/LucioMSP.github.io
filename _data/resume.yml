@@ -121,42 +121,28 @@ awards:
     awarder: "Everis"
 skills:
   - name: "Alexa"
-    level: "Master"
+    level: "Intermediate"
     keywords:
       - "Skills"
   - name: "Java"
-    level: "Master"
+    level: "Basic"
     keywords:
-      - "Maven"
-      - "Spring"
-      - "Spring Boot"
-  - name: "Microservices"
-    level: "Master"
-    keywords:
-      - "Docker"
-      - "Kubernetes"
-      - "Helm"
+      - "Android"
   - name: "DevOps"
-    level: "Master"
+    level: "Intermediate"
     keywords:
-      - "Jenkins"
-      - "CI"
-      - "CD"
+      - "Git"
 languages:
   - language: "English"
-    fluency: "Native speaker"
+    fluency: "Intermediate"
   - language: "Spanish"
     fluency: "Native speaker"
 interests:
-  - name: "Music"
-    keywords:
-      - "Alternative"
-      - "Electronic"
   - name: "Technology"
     keywords:
-      - "Kubernetes"
-      - "Docker"
+      - "AI"
+      - "Chatbots"
   - name: "Innovation"
     keywords:
       - "Startups"
-      - "Venture Capital"
+     

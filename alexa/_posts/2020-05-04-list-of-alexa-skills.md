@@ -6,7 +6,7 @@ description: >
  Mis Skills
 noindex: true
 comments: true
-author: luciomsp
+author: lucio
 kate: hl markdown;
 categories: [alexa]
 tags:

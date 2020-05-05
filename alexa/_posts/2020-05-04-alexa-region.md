@@ -6,7 +6,7 @@ description: >
   Tutorial sobre cómo cambiar de región nuestra cuenta de Amazon para activar distintas skills
 noindex: true
 comments: true
-author: luciomsp
+author: lucio
 kate: hl markdown;
 categories: [alexa]
 tags:
