@@ -15,7 +15,7 @@ lucio:
 
   # This photo will be used in the about section.
   picture:
-    path:            https://twitter.com/LucioMSP/photo
+    path:            /assets/icons/icon.png
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
