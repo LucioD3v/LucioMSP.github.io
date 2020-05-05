@@ -2,7 +2,6 @@
 # file: about.md
 layout: about
 title:  About Vicente Guzmán
-subtitle: {Every programmer is an author}
 ---
 # Short Bio
 
@@ -13,3 +12,5 @@ He was acknowledged as MVP of Microsoft in the category of Windows Development. 
 Currently he is learning about new technologies based on voice and developing Skills for Amazon Alexa. In January of this year (2020), he was awarded the "Alexa Champion" for México.
 
 Check out his [CV](/resume/)  for more information.
+
+{Every programmer is an author}
