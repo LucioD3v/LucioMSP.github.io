@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Listado de mis Alexa Skills 
-image: /assets/img/blog/post-headers/develop.jpg
+image: /assets/img/blog/post-headers/alex-skills-banner.jpg
 description: >
  Mis Skills
 noindex: true
