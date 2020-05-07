@@ -33,10 +33,10 @@ work:
     startDate: "2020-02-10"
     endDate: ""
     summary: >
-      Deintec is a strong consulting and software developer company established in Mexico in 2001, we provide analytical services, design and construction of applications from our remote development centers in Mexico City, Guadalajara and Monterrey.
+      Deintec is a strong consulting and software developer company, we provide analytical services, design and construction of applications from our remote development centers in Mexico City.
     highlights:
       - "Multiple mobile app enhancements provided by assigned customer"
-      - "Stack used: C#, Xamarin.Forms, DevOps, Xcode, Azure SQL Database"
+      - "Stack used: Xamarin.Forms, .NET, C#, DevOps, Xcode, Azure SQL Database"
   - company: "Ikusmen"
     position: "Mobile Developer"
     website: "http://www.ikusmen.com.mx/"
@@ -46,17 +46,17 @@ work:
       We are a team of professionals specialized in developing the best solutions that adapt to your project; giving it the value to potentiate it and energize it in the digital world.
     highlights:
       - "Develop mobility and innovation projects, including the 'Donde Móvil' application"
-      - "Stack used: Xamarin, C#, iONIC, Joomla, Node.JS, Visual Studio Code, VUE "
+      - "Stack used: Xamarin.Forms, .NET, C#, iONIC, Joomla, Node.JS, Visual Studio Code, VUE "
   - company: "Resuelve tu Deuda"
     position: "Mobile Developer"
     website: "https://resuelvetudeuda.com/"
     startDate: "2017-08-20"
     endDate: "2017-11-20"
     summary: >
-      Resuelve tu Deuda is a Mexican consumer debt management company, in particular one of the three registered by PROFECO, the branch of the Mexican government responsible for protecting consumers.
+      Resuelve tu Deuda is a mexican consumer debt management company, in particular one of the three registered by PROFECO, the branch of the Mexican government responsible for protecting consumers.
     highlights:
       - "Development of the mobile application 'Resuelve tu Deuda'"
-      - "Stack used: Xamarin, .NET, C#, Xamarin Test Cloud, Azure"
+      - "Stack used: Xamarin.Forms, .NET, C#, Xcode, XML, Xamarin Test Cloud, Azure"
   - company: "Edenred"
     position: "Mobile Developer"
     website: "https://www.edenred.mx/"
@@ -66,7 +66,7 @@ work:
       Edenred is a world leader in the field of prepaid cards and vouchers for companies and businesses, we create and manage solutions, mobile applications and tools that improve the efficiency of organizations and the purchasing power of people, improving their quality of life and that of their families.
     highlights:
       - "Development of the mobile application 'Ticket Expense'"
-      - "Stack used: Xamarin.Forms, .NET, C#, MySQL, XML, Amazon Web Services, HockeyApp, Team Foundation Server, Xamarin Test Cloud."
+      - "Stack used: Xamarin.Forms, .NET, C#, Xcode, MySQL, XML, Amazon Web Services, HockeyApp, Team Foundation Server, Xamarin Test Cloud."
 volunteer:
   - organization: "Global AI CDMX"
     position: "Organizer"
@@ -82,34 +82,33 @@ volunteer:
     startDate: "2019-01-01"
     endDate: ""
     summary: "Community of alexa developers in México which aim focus is sharing knowledge about Amazon Alexa platform."
-  - organization: "DZone Inc"
-    position: "Most Valuable Blogger and Core member"
-    website: "https://dzone.com/users/4278252/xavidop.html"
-    startDate: "2020-03-01"
+  - organization: "Xamarin Latino"
+    position: "Blogger "
+    website: "https://xamarinlatino.com/"
+    startDate: "2019-11-08"
     endDate: ""
-    summary: "DZone.com is one of the world’s largest online communities and leading publisher of knowledge resources for software developers. 
-    Every day, hundreds of thousands of developers come to DZone.com to read about the latest technology trends and learn about new technologies, methodologies, and best practices through shared knowledge."
+    summary: "Xamarin Latino promotes the creation of Xamarin content within the Spanish-speaking community. Spanish is the second most spoken language in the world; With this initiative we want to remove language barriers and provide professionals and amateurs with sources of information."
 education:
   - institution: "La Salle"
-    area: "Computer Science and Engineering"
+    area: "Information Technologies"
     studyType: "Master"
     startDate: "2017-08-31"
     endDate: "2019-12-01"
-  - institution: "UTEL"
-    area: "Mobile Application Development"
+  - institution: "UTEL University"
+    area: "Computational Systems and Engineering"
     studyType: "Bachelor"
-    startDate: "2016-09-01"
-    endDate: "2017-08-01"
-  - institution: "EUDE"
-    area: "Computer Science and Engineering"
+    startDate: "2014-09-01"
+    endDate: "2016-08-01"
+  - institution: "EUDE Business School"
+    area: "Commercial Management and Marketing"
     studyType: "Master"
-    startDate: "2010-09-01"
-    endDate: "2014-09-01"
+    startDate: "2012-11-14"
+    endDate: "2013-11-20"
   - institution: "University Autonomus of Tamaulipas"
     area: "Computer Science and Engineering"
     studyType: "Bachelor"
-    startDate: "2010-09-01"
-    endDate: "2014-09-01"
+    startDate: "2007-08-28"
+    endDate: "2011-06-01"
 awards:
   - title: "Alexa Champion México"
     date: "2020-01-10"
@@ -133,7 +132,13 @@ skills:
   - name: "DevOps"
     level: "Intermediate"
     keywords:
+      - "Bamboo"
+      - "Docker"
       - "Git"
+  - name: "Xamarin"
+    level: "Intermediate"
+    keywords:
+      - "Mobile Apps"
 languages:
   - language: "English"
     fluency: "Intermediate"
