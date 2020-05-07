@@ -45,47 +45,43 @@ work:
     summary: >
       We are a team of professionals specialized in developing the best solutions that adapt to your project; giving it the value to potentiate it and energize it in the digital world.
     highlights:
-      - "Build the 'Dondé Móvil' Application"
-      - "Stack used: Xamarin, iONIC, Joomla, NodeJS, C#"
+      - "Develop mobility and innovation projects, including the 'Donde Móvil' application"
+      - "Stack used: Xamarin, C#, iONIC, Joomla, Node.JS, Visual Studio Code, VUE "
   - company: "Resuelve tu Deuda"
     position: "Mobile Developer"
-    website: "https://ivi-fertility.com/"
-    startDate: "2016-01-01"
-    endDate: "2017-09-01"
+    website: "https://resuelvetudeuda.com/"
+    startDate: "2017-08-20"
+    endDate: "2017-11-20"
     summary: >
-      IVI RMA Global is a medical institute entirely devoted to human reproduction since 1990. 
-      Nowadays, IVIRMA Global counts with a total of 65 clinics spread around 11 countries, 
-      7 investigation centers and teaching and training centers dedicated to Assisted Reproduction professionals.
+      Resuelve tu Deuda is a Mexican consumer debt management company, in particular one of the three registered by PROFECO, the branch of the Mexican government responsible for protecting consumers.
     highlights:
-      - "Build mobility and innovation projects for IVI clinics"
-      - "Stack used: Javascript, Java, Mule, Servoy, Maven"
+      - "Development of the mobile application 'Resuelve tu Deuda'"
+      - "Stack used: Xamarin, .NET, C#, Xamarin Test Cloud, Azure"
   - company: "Edenred"
     position: "Mobile Developer"
-    website: "https://www.everis.com/global/en"
-    startDate: "2014-01-01"
-    endDate: "2017-01-01"
+    website: "https://www.edenred.mx/"
+    startDate: "2016-04-01"
+    endDate: "2017-05-01"
     summary: >
-      Everis is an NTT DATA Company, dedicated to consulting and outsourcing in all sectors.
-      Everis is a large family with 24,500 professionals across Europe, USA and Latin America.
+      Edenred is a world leader in the field of prepaid cards and vouchers for companies and businesses, we create and manage solutions, mobile applications and tools that improve the efficiency of organizations and the purchasing power of people, improving their quality of life and that of their families.
     highlights:
-      - "Build complex software solutions"
-      - "Stack used: Java, Maven"
+      - "Development of the mobile application 'Ticket Expense'"
+      - "Stack used: Xamarin.Forms, .NET, C#, MySQL, XML, Amazon Web Services, HockeyApp, Team Foundation Server, Xamarin Test Cloud."
 volunteer:
-  - organization: "DevopsDays Madrid"
+  - organization: "Global AI CDMX"
     position: "Organizer"
-    website: "https://devopsdays.org/madrid"
-    startDate: "2019-03-01"
-    endDate: ""
-    summary: "DevOpsDays is a worldwide series of community run technical conferences 
-    covering topics of software development, IT infrastructure operations, and the intersection between them."
+    website: "http://globalaicdmx.net/"
+    startDate: "2020-05-05"
+    endDate: "2020-05-08"
+    summary: "The Global AI Community empowers developers who are passionate about AI to share knowledge through events and meetups. We host 3 global AI events across 100 locations that span every corner of the globe. We also provide a variety of resources to members of the community, including a free Meetup Pro account for user groups, event-in-a-box content, Azure passes, and support for booking Microsoft venues. We work closely with product teams at Microsoft to share workshop content about the newest Azure AI products."
     highlights:
-      - "The first DevOpsDays in Spain"
-  - organization: "Alexa Developers Madrid"
+      - "The first Global AI organized in México by Microsoft Student Partners"
+  - organization: "vox Ninja Alexa Community"
     position: "Organizer"
-    website: "https://twitter.com/alexadevsmadrid"
-    startDate: "2020-03-01"
+    website: "https://www.meetup.com/es-ES/vox-Ninja-Alexa-Mx/"
+    startDate: "2019-01-01"
     endDate: ""
-    summary: "Community of alexa developers in Madrid which aim focus is sharing knowledge about Amazon Alexa platform."
+    summary: "Community of alexa developers in México which aim focus is sharing knowledge about Amazon Alexa platform."
   - organization: "DZone Inc"
     position: "Most Valuable Blogger and Core member"
     website: "https://dzone.com/users/4278252/xavidop.html"
@@ -118,10 +114,10 @@ awards:
   - title: "Alexa Champion México"
     date: "2020-01-10"
     awarder: "Amazon"
-  - title: "Most Value Professional"
+  - title: "Microsoft Most Value Professional"
     date: "2014-07-01"
     awarder: "Microsoft"
-  - title: "Student Partner Gold"
+  - title: "Microsoft Student Partner Gold"
     date: "2011-01-07"
     awarder: "Microsoft"
   
