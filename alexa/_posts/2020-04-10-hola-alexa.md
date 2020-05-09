@@ -47,7 +47,7 @@ El servicio de habilidades (Skill Service) determina qué acciones tomar en resp
 
 ## ¿Cómo invoco alguna habilidad (Skill) desarrollada para Alexa?
 
-En inglés, el método usual para invocar una Skill comienza con el uso de la palabra “open” y va seguido del nombre de la Skill. En español seria su traducción, un ejemplo de un nombre práctico, inteligente y memorable es el de la Skill Ayudante de Santa, entonces la invocación de susodicha seria:
+En inglés, el método usual para invocar una Skill comienza con el uso de la palabra “open” y va seguido del nombre de la Skill. En español seria su traducción, un ejemplo de un nombre práctico, inteligente y memorable es el de la Skill Curiosidades de México, entonces la invocación de susodicha seria:
 
 “Alexa, abre Curiosidades de México".
 ## Ahora bien, ¿qué necesitamos para desarrollar una Skill para Alexa?
@@ -62,7 +62,7 @@ Para comenzar en este mundo solo requerimos:
 
 En esta ocasión hemos abordado las características principales de Amazon Alexa, en el próximo artículo brindare un tutorial paso a paso de cómo generar nuestra primera Skill para Alexa en español.
 
-Y bueno, esto es todo, espero que te unas a la comunidad de desarrolladores de voz y generes Skills impresionantes. Recuerda además que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.
+Y bueno, esto es todo, espero que te unas a la comunidad de desarrolladores de voz en México, comunidad que lleva por nombre [vox: Ninja Alexa](https://www.facebook.com/groups/voxAlexaSkills) y generes Skills impresionantes. Recuerda además que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.
 
 Más información:  [Amazon Developer](https://developer.amazon.com/es/) | [Alexa Skills Kit](https://marketplace.visualstudio.com/items?itemName=ask-toolkit.alexa-skills-kit-toolkit)
 
