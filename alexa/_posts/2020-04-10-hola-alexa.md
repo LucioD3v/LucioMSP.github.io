@@ -17,9 +17,9 @@ keywords:
 lang: es
 ---
 
-![image](/assets/img/blog/tutorials/alexa-hola/alexa-momento-magico.png)
-
 El mundo del desarrollo abarca diferentes vertientes, el principal y pionero en todo es la web, el secundario se dirige a las aplicaciones móviles y hoy en día ha emergido otro, el cual se basa en la voz, es decir, dejar de lado una petición por texto para obtener una respuesta de igual índole.
+
+![image](/assets/img/blog/tutorials/alexa-hola/alexa-momento-magico.png)
 
 Donde podemos encontrar este último, es en los asistentes de voz, los cuales están cada vez más presentes en nuestras vidas. Ya no solo en nuestros teléfonos móviles, sino en distintos dispositivos, tales como por ejemplo el  Google Home o Amazon Echo, ambos con distintas variantes.
 
@@ -69,5 +69,5 @@ En esta ocasión hemos abordado las características principales de Amazon Alexa
 
 Y bueno, esto es todo, espero que te unas a la comunidad de desarrolladores de voz y generes Skills impresionantes. Recuerda además que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.
 
-Más información:  Amazon Developer | Alexa Skills Kit
+Más información:  [Amazon Developer](https://developer.amazon.com/es/) | [Alexa Skills Kit](https://marketplace.visualstudio.com/items?itemName=ask-toolkit.alexa-skills-kit-toolkit)
 
