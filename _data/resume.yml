@@ -13,7 +13,7 @@ basics:
   location:
     address: ""
     postalCode: ""
-    city: "México"
+    city: "México City"
     countryCode: "MX"
     region: "México"
   profiles:
