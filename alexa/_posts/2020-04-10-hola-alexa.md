@@ -34,6 +34,7 @@ Si ya tengo tu atención, déjame decirte que hoy ya puedes desarrollar alguna S
 - Alexa Skills Kit SDK for Python 
 - Alexa Skills Kit SDK v2 for Java
 - Alexa Skills Kit SDK v2 for Node.js (Mi favorito)
+
 ## ¿Cómo funciona la comunicación dentro del Alexa Skill?
 
 Los Skills de Alexa constan de dos componentes principales: Skill Interface y el Skill Service.
