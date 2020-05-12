@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alexa Skill Kit (ASK) 
-image: /assets/img/blog/post-headers/alexa-skill-kit.png
+image: /assets/img/blog/post-headers/develop.jpg
 description: >
  Artículo donde se detalla todo lo necesario con respecto al ASK. 
 noindex: true
@@ -27,9 +27,9 @@ De acuerdo al blog de Alexa, es un conjunto de herramientas, documentación, mue
  
 Actualmente nos encontramos en la version [2.8.0 ASK SDK](https://www.npmjs.com/package/ask-sdk) (es la última), estas librerías pueden ser usadas con el lenguaje de programación que nosotros estemos acostumbrados. Por ahora podemos crear o desarrollar Skills para Alexa en Español en los siguientes lenguajes de programación.
 
-[Alexa Skills Kit SDK for Python](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-python/overview.html)
-[Alexa Skills Kit SDK v2 for Java](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/overview.html)
-[Alexa Skills Kit SDK v2 for Node.js](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-nodejs/overview.html)
+- [Alexa Skills Kit SDK for Python](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-python/overview.html)
+- [Alexa Skills Kit SDK v2 for Java](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/overview.html)
+- [Alexa Skills Kit SDK v2 for Node.js](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-nodejs/overview.html)
 
 ## ¿En qué campos necesito tener conocimiento para desarrollar una interfaz de voz?
 Una buena noticia, es que como programadores no necesitamos experiencia en el reconocimiento de voz ni en la comprensión del lenguaje natural para desarrollar una Skill; Alexa se encarga de escuchar, comprender y procesar la solicitud del cliente para que nosotros los desarrolladores sólo tengamos que enfocarnos en el diseño de la Skill.
