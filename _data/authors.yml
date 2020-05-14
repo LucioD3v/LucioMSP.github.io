@@ -32,7 +32,7 @@ lucio:
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         https://www.youtube.com/channel/UCM9wdzw_LU7_rZvyMo0s2LA
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
