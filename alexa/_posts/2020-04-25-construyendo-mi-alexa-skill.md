@@ -30,7 +30,7 @@ Es decir, una parte cliente y una parte servidora. La primera es la responsable 
 
 En este artículo nos centraremos en generar la Skill Interface, esto usando la [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask). Una vez que accedemos con nuestra cuenta podemos iniciar a crear nuestras skills. 
 
-![image](/assets/img/blog/tutorials/alexa-construyendo-mi-alexa-skill/Image1.JPG)
+![image](/assets/img/blog/tutorials/alexa-construyendo-mi-alexa-skill/Image1.jpg)
 
 Si ya hemos generado una que otra, podremos ver el listado de estas con cierta información, así como con acciones directas sobre algunas secciones, como las analíticas o el poder editar la misma, esconderla o eliminarla. Cabe mencionar que cuando publiquemos una skill, esta aparecerá por partida doble, pero con distinto estado, la de desarrollo (In Development) y la que está publicada (Live), en la “tienda de Alexa Skills” de Amazon.
 
