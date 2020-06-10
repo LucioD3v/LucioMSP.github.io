@@ -3,7 +3,7 @@ layout: post
 title: Introducción a WebAssembly
 description: >
   Conociendo a detalle WebAssembly
-image: /assets/img/blog/post-headers/web_assembly.jpg
+image: /assets/img/blog/post-headers/web_assembly.png
 noindex: true
 comments: true
 author: lucio
