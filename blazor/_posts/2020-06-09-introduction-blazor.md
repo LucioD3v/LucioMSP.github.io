@@ -31,9 +31,11 @@ Si no quedo muy entendido,  conozcamos su definición oficial.
 
 ## Definición Oficial
 
-El sitio web oficial de WebAssembly (Sitio Oficial de WebAssembly) indica que:
+El sitio web oficial de WebAssembly ([Sitio Oficial de WebAssembly](https://webassembly.org/)) indica que:
 
 Wasm es un formato de instrucciones binario para una máquina virtual basada en una pila (stack). Wasm esta diseñado como un destino portátil para la compilación de lenguajes de alto nivel como C/ C++/ Rust, permitiendo la implementación en la web para aplicaciones de cliente y servidor.
+
+![image](/assets/img/blog/tutorials/blazor-webassembly/webassembly_binary.png)
 
 ## ¿Entonces...?
 
