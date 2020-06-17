@@ -2,7 +2,7 @@
 layout: post
 title: Introducción a Blazor - Curso Udemy
 description: 
-  Conociendo a detalle Blazor en el nuevo curso en Udemy
+  Conociendo a detalle Blazor en el nuevo curso de Udemy
 image: /assets/img/blog/post-headers/BlazorCourse.jpg
 noindex: true
 comments: true
@@ -16,13 +16,11 @@ keywords:
 lang: es
 ---
 
-Introducción a Blazor  - Curso Udemy
-
 ## Introducción
 
-El día de hoy les quiero compartir el mini curso que en colaboración con mi amigo [Héctor Pérez](https://www.facebook.com/hprez21) hemos desarrollado, este con la la finalidad de que más desarrolladores que quieran conocer sobre Blazor pero no saben por donde comenzar tengan un punto de partida.
+El día de hoy les quiero compartir el mini curso que en colaboración con mi amigo [Héctor Pérez](https://www.facebook.com/hprez21) hemos desarrollado, este con la la finalidad de que más desarrolladores que quieran conocer sobre Blazor pero no saben por donde comenzar, tengan un punto de partida.
 
-Ir a [Introducción  a Blazor](https://www.udemy.com/course/curso-blazor-gratis/)
+Curso: [Introducción  a Blazor](https://www.udemy.com/course/curso-blazor-gratis/)
 
 En este curso introductorio de Blazor, aprenderemos sobre esta novedosa tecnología, que nos permite desarrollar aplicaciones web 100% con C#, sin necesidad de utilizar Javascript.
 
@@ -34,7 +32,7 @@ Entre los temas que se cubren en el curso se encuentran:
 - Componentes en Blazor
 - Bindings en Blazor
 
-## ¿Hay requisitos para realizar el curso?
-Conocimientos básicos de C#, HTML  y CSS, pero estos NO son indispensables.
+## ¿Qué requisitos necesito para realizar el curso?
+Con que tengas conocimientos básicos de C#, HTML  y CSS es suficiente, pero estos NO son indispensables para que lo tomes.
 
 ¿Qué esperas para iniciarte en esta maravillosa tecnología?...
