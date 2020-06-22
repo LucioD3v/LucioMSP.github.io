@@ -20,7 +20,8 @@ keywords:
 lang: es
 ---
 
-## Introducción
+
+# Introducción
 
 Las Skills de Alexa se pueden desarrollar utilizando las Lambda Functions de AWS o usando un servidor REST.Lambda Function es la implementación de Amazon de funciones serverless disponibles en AWS.Amazon recomienda usar las Lambda functions a pesar de que no sean fáciles de debuggear.Si bien puedes loggear en CloudWatch, no puedes poner un breakpoint y revisor el código.
 
@@ -129,6 +130,7 @@ Si le echamos un vistazo al archivo Function.cs, encontraremos el punto de entra
 
 Pero nos mantendremos enfocados en Alexa y reemplazaremos todo el código de este archivo con el fragmento a continuación: [https://gist.github.com/LucioMSP](https://gist.github.com/LucioMSP/090b49385d2cbeef6cf4e00bbdd4c0df#file-function-cs-v2)
 
+
 <script src="https://gist.github.com/LucioMSP/090b49385d2cbeef6cf4e00bbdd4c0df.js"></script>
 
 Como ya lo mencionamos anteriormente, este código es una simple Alexa Skill que le pide al usuario que adivine un número entre uno y diez.
@@ -144,7 +146,6 @@ ResponseBuilder.Ask () también requiere que pase un objeto Reprompt; Esta es so
 Mientras un usuario avanza y retrocede con su habilidad a través de Alexa, querrá realizar un seguimiento de dónde se encuentra en la conversación. Ahí es donde entra en juego el objeto Sesión. Desde el momento en que alguien lanza su habilidad hasta que la habilidad se termina (al decir "detener" u otra frase que desencadena un final), el objeto de sesión conservará los datos que su habilidad puede referenciar mientras maneja los intentos. Sin embargo, cada vez que un usuario inicia su habilidad, se crea una nueva sesión. Si desea almacenar datos entre sesiones, deberá utilizar un almacén de datos más persistente como DynamoDB.
 
 Los atributos de sesión se almacenan en un diccionario al que puede hacer referencia a través de SkillRequest.Session.Attributes; puede leer y escribir en este objeto (consulte las líneas 54 y 69). Un caso de uso de muestra es cuando le hace al usuario una pregunta de sí o no, y su respuesta es manejada por un YesIntent o NoIntent genérico. Tendrás que recordar qué fue lo que preguntaste o la conversación no irá a ningún lado. En nuestro código de muestra, almacenamos la cantidad de conjeturas y la respuesta que buscamos utilizando los atributos de la sesión, y modificamos nuestra respuesta en función de si la conjetura del usuario coincide con nuestro número mágico.
-
 # Publish to AWS Lambda
 
 Ahora necesitamos llevar nuestro código a la nube. Para este paso, deberemos de contar con nuestras credenciales de AWS configuradas en la máquina local; Visual Studio puede recogerlos automáticamente si ya se configuró un usuario a través de la CLI de AWS. De lo contrario, deberemos de hacer esto en otro momento, ya que no lo veremos a continuacion.
