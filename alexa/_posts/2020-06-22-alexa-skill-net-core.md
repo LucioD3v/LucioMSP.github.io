@@ -27,10 +27,6 @@ Las Skills de Alexa se pueden desarrollar utilizando las Lambda Functions de AWS
 
 Esto hace que debuggear una request que nos envía Alexa sea un completo desafío.Este post explica una solución simple pero útil: levantar un proyecto Web API para debug local y un proyecto de función Lambda para luego poder desplegar en AWS.Ambos proyectos ejecutarán el mismo código escrito en C#.
 
-Cabe destacar que Amazon recomienda usar las Lambda functions a pesar de que no sean fáciles de debuggear.Si bien puedes loggear en CloudWatch, no puedes poner un breakpoint y revisor el código.
-
-Esto hace que debuggear una request que nos envía Alexa sea un completo desafío.Es por eso que en esta sesión veremos una solución simple pero útil: levantar un proyecto Web API para debug local y un proyecto de función Lambda para luego poder desplegar en AWS.Ambos proyectos ejecutarán el mismo código escrito en C#.
-
 # Requisitos
 
 Entonces, ya sabemos que las aplicaciones para Alexa se llaman habilidades, en esta ocasión vamos a construir una skill muy sencilla que le pida al usuario que adivine un número aleatorio entre 1 y 10. Para seguir, necesitaremos:
@@ -135,7 +131,7 @@ Pero nos mantendremos enfocados en Alexa y reemplazaremos todo el código de est
 
 Como ya lo mencionamos anteriormente, este código es una simple Alexa Skill que le pide al usuario que adivine un número entre uno y diez.
 
-FunctionHandler es nuestro punto de entrada; toma entrada en forma de una solicitud de habilidad y devuelve una SkillResponse. Ambas clases son ayudantes que encapsulan el formato JSON que Alexa espera. El primer atributo que nos interesa en SkillRequest es el tipo de solicitud (consulte la línea 28).
+FunctionHandler es nuestro punto de entrada; toma entrada en forma de una solicitud de habilidad y devuelve una SkillResponse.
 
 Si se trata de una solicitud de lanzamiento, un usuario acaba de activar nuestra habilidad diciendo el nombre de invocación. Si hemos recibido una IntentRequest (línea 39), Alexa ha comparado el comando del usuario con un enunciado de muestra y su intención asociada. En ese caso, activamos el nombre de la intención y activamos nuestra funcionalidad deseada.
 
@@ -186,13 +182,13 @@ Amazon recomienda habilitar la verificación de ID de habilidad, para garantizar
 
 # Prueba End to End
 
-Nuestro último paso de configuración es conectar la Alexa Skill al EndPoint (punto final) Lambda. Seleccionemos ”EndPoint" en el menú de la izquierda en el panel de Alexa y modifiquemos el ARN de AWS Lambda para que la región predeterminada apunte a nuestro Lambda. Encontraramores el ARN de nuestra Lambda en la esquina superior derecha de la pantalla cuando veamos nuestra función en el panel de AWS.
+Nuestro último paso de configuración es conectar la Alexa Skill al EndPoint (punto final) Lambda. Seleccionemos ”EndPoint" en el menú de la izquierda en el panel de Alexa y modifiquemos el ARN de AWS Lambda para que la región predeterminada apunte a nuestro Lambda. Encontraremos el ARN de nuestra Lambda en la esquina superior derecha de la pantalla cuando veamos nuestra función en el panel de AWS.
 
 ![image](/assets/img/blog/tutorials/alexa-skill-net-core/Step26.png)
 
 ![image](/assets/img/blog/tutorials/alexa-skill-net-core/Step27.png)
 
-Ahora finalmente podemos probar esto. Para realizar esto, vayamos a la consola de Alexa, aunque también podemos probar en un dispositivo, siempre que el dispositivo esté utilizando la misma cuenta de Amazon que su cuenta de desarrollador de Alexa. Hagamos clic en la pestaña "Prueba" (Test) cerca de la parte superior de la pantalla. Posteriormente escribamos (o hablemos) el comando de invocación para lanzar nuestra skill (”open number games"). Esperemos a que la Skill responda, y luego podremos ver la solicitud y respuesta JSON. Posteriormente podemos continuar conversando con nuestra Skill para probar cualquier cantidad de escenarios.
+Ahora finalmente podemos probar esto. Para realizarlo, vayamos a la consola de Alexa, aunque también podemos probar en un dispositivo, siempre que el dispositivo esté utilizando la misma cuenta de Amazon que su cuenta de desarrollador de Alexa. Hagamos clic en la pestaña "Prueba" (Test) cerca de la parte superior de la pantalla. Posteriormente escribamos (o hablemos) el comando de invocación para lanzar nuestra skill (”open number games"). Esperemos a que la Skill responda, y luego podremos ver la solicitud y respuesta JSON. Posteriormente podemos continuar conversando con nuestra Skill para probar cualquier cantidad de escenarios.
 
 ![image](/assets/img/blog/tutorials/alexa-skill-net-core/Step28.png)
 
