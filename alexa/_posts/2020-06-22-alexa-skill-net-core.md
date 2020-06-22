@@ -20,11 +20,9 @@ keywords:
 lang: es
 ---
 
-Tutorial de cómo pueden desarrollar su propia Skill mediante Visual Studio y C#.
-
 ## Introducción
 
-Las Skills de Alexa se pueden desarrollar utilizando las Lambda functions de AWS o usando un servidor REST.Lambda function es la implementación de Amazon de funciones serverless disponibles en AWS.Amazon recomienda usar las Lambda functions a pesar de que no sean fáciles de debuggear.Si bien puedes loggear en CloudWatch, no puedes poner un breakpoint y revisor el código.
+Las Skills de Alexa se pueden desarrollar utilizando las Lambda Functions de AWS o usando un servidor REST.Lambda Function es la implementación de Amazon de funciones serverless disponibles en AWS.Amazon recomienda usar las Lambda functions a pesar de que no sean fáciles de debuggear.Si bien puedes loggear en CloudWatch, no puedes poner un breakpoint y revisor el código.
 
 Esto hace que debuggear una request que nos envía Alexa sea un completo desafío.Este post explica una solución simple pero útil: levantar un proyecto Web API para debug local y un proyecto de función Lambda para luego poder desplegar en AWS.Ambos proyectos ejecutarán el mismo código escrito en C#.
 
@@ -131,9 +129,9 @@ Si le echamos un vistazo al archivo Function.cs, encontraremos el punto de entra
 
 Pero nos mantendremos enfocados en Alexa y reemplazaremos todo el código de este archivo con el fragmento a continuación: [https://gist.github.com/LucioMSP](https://gist.github.com/LucioMSP/090b49385d2cbeef6cf4e00bbdd4c0df#file-function-cs-v2)
 
-<script src="https://gist.github.com/LucioMSP/090b49385d2cbeef6cf4e00bbdd4c0df#file-function-cs-v2.js"></script>
+<script src="https://gist.github.com/LucioMSP/090b49385d2cbeef6cf4e00bbdd4c0df.js"></script>
 
-Como ya lo mencionamos anteriormente, este cödigo es una simple Alexa Skill que le pide al usuario que adivine un número entre uno y diez.
+Como ya lo mencionamos anteriormente, este código es una simple Alexa Skill que le pide al usuario que adivine un número entre uno y diez.
 
 FunctionHandler es nuestro punto de entrada; toma entrada en forma de una solicitud de habilidad y devuelve una SkillResponse. Ambas clases son ayudantes que encapsulan el formato JSON que Alexa espera. El primer atributo que nos interesa en SkillRequest es el tipo de solicitud (consulte la línea 28).
 
