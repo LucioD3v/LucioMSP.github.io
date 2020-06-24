@@ -21,7 +21,7 @@ lang: es
 
 El día de hoy quiero compartir con ustedes un pequeño resumen sobre lo que es ser un Alexa Champion, ya que en varias ocasiones me han preguntado sobre como obtuve dicho galardón y bueno, comencemos por contar un poco sobre como sucedio todo.
 
-![image](/assets/img/blog/tutoials/alexa-champion/trophy.jpeg)
+![image](/assets/img/blog/tutorials/alexa-champion/trophy.jpeg)
 
 ## El inicio
 Mi historia cómo desarrollador de Amazon Alexa comenzó en Diciembre del 2019 cuando encontré algunas publicaciones en blogs y documentación sobre cómo crear Alexa Skills. En un evento llevado a cabo por Amazon en sus oficinas en la Ciudad de México, aprendí a crear una skill con determinadas caracteristicas que hicieron que me motivara a aprender más sobre esto, y a su vez ayudar a otros, creando ejemplos de código y publicaciones en mi blog. Para esto, decidi buscar el apoyo de Amazon para crear una comunidad en México, ya que en su momento no existia ninguna. En [enero del presente año (2020)](https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2020/01/welcome-the-newest-alexa-champions-of-2020) fui seleccionado como Alexa Champion y me siento muy honrado de estar en el programa junto con otras 63 personas expertas en el tema.
@@ -43,7 +43,7 @@ Los campeones tienen la oportunidad de participar en programas beta privados, l�
 
 Actualmente somos 64 personas quienes contamos con dicho reconocimiento a nivel mundial, y bueno, de momento soy el único mexicano:
 
-![image](/assets/img/blog/tutoials/alexa-champion/profileVGGL.png)
+![image](/assets/img/blog/tutorials/alexa-champion/profileVGGL.png)
 
 Perfil: [Vicente Guzmán] (https://developer.amazon.com/en-US/alexa/champions/vicente-lucio)
 
