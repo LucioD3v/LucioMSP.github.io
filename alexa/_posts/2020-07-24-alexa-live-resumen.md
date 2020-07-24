@@ -23,9 +23,9 @@ El pasado miércoles 22 de Julio, Amazon llevó a cabo su evento denonimado "Ale
 
 Como era de esperar, algunos de estos son relativamente menores, pero algunos cambian significativamente la experiencia de Alexa para los más de 700,000 desarrolladores que hemos desarrollado Skills para la plataforma hasta ahora.
 
-## Características
+# Características
 
-# Alexa Conversations
+## Alexa Conversations
 
 Este es un nuevo gestor de diálogos que facilitará y simplificará el trabajo de los desarrolladores, puesto que para mejorar la comprensión del lenguaje natural en Alexa, tanto en sentencias, como en palabras individuales, Amazon adoptará redes neuronales profundas, por ende se aplicará el aprendizaje profundo.
 
@@ -33,7 +33,7 @@ Sinceramente no era una sorpresa que uno de los aspectos más destacados haya si
 
 "Alexa Conversations promete ser un gran avance para los desarrolladores y creará nuevas experiencias excelentes para los clientes", dijo Steven Arkonovich, fundador de Philosophical Creations.
 
-# Alexa for Apps
+## Alexa for Apps
 
 Sinceramente y desde un punto de vista personal, esta nueva característica me llamo mucho la atención, esto por que la idea aquí es permitir que los desarrolladores móviles (me incluyo) lleven a los usuarios de las Skill en Alexa a sus aplicaciones móviles. 
 
@@ -41,7 +41,7 @@ Por ejemplo, para Twitter, esto podría significar decir algo como: "Alexa, píd
 
 Nota: Esta característica se encuentra de momento en vista previa.
 
-# Skill Resumptions
+## Skill Resumptions
 
 Otra interesante característica nueva que se presentó, es la "Reanudación de Skills", la cual permite a un usuario volver a una habilidad pasada después de realizar una pausa larga o haber terminado otra tarea con Alexa.
 
@@ -49,7 +49,7 @@ Basicamente esta característica nos permite como desarrolladores tener nuestras
 
 Lo malo, es que de momento solo se encuentra disponible en versión preliminar para el idioma inglés de EE.UU.
 
-# Quick Links for Alexa & NFI
+## Quick Links for Alexa & NFI
 
 Uno de los mayores problemas que se tiene actualmente es que los usuarios puedan encontrar o descubrir nuestras Skills, el cual no solo presenta la empresa Amazon, sino que es un problema que existe en todas las plataformas de voz y es probablemente una de las razones por las cuales la mayoría de las personas solo usan una fracción de las Skills actualmente disponibles para ellos.
 
@@ -65,11 +65,11 @@ El kit de herramientas de NFI también proporciona un panel de invocación que m
 
 Nota: esta característica tambien se encuentra en su versión preliminar.
 
-# Alexa Web API for Games
+## Alexa Web API for Games
 
 También introdujeron la API Web para Juegos, la cual permitirá a los programadores de habilidades crear experiencias controladas por voz para algunos dispositivos Fire TV y Echo Show, utilizando tecnologías como HTML5, WebGL y Web Audio. 
 
-# APL for Audio
+## APL for Audio
 
 Creo que esta característica fue una de las mejores, puesto que se agrego el APl para audio, el cual proporciona herramientas para mezclar voz, efectos de sonido y música en tiempo de ejecución; Con APL para audio, podemos ofrecer experiencias de audio emocionantes e inmersivas, sin el tiempo, el esfuerzo y el costo necesarios para la premezcla. Audible, Creativity Inc, Doppio Games, Krogoor Entertainment Studio, Stoked Skills y Volley ya están usando esta nueva APL característica. De momento se encuentra en su fase beta.
 
@@ -81,7 +81,7 @@ Si ter perdiste las sesiones del evento, no te preocupes puesto que las puedes r
 
 ![image](/assets/img/blog/tutorials/alexa-live-resumen/alexaliveOnDemand.png)
 
-## Conclusión
+# Conclusión
 
 No cabe duda que Amazon ha trabajado arduamente en todas y cada una de las 31 características anunciadas durante la presentación del Alexa Live, incluidas las actualizaciones de ASK SDK y herramientas, creo que tenemos mucho que leer y experimentar para poder mejorar nuestras Skills existentes.
 
