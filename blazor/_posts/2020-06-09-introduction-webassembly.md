@@ -17,8 +17,6 @@ keywords:
 lang: es
 ---
 
-## Introducción
-
 Hoy en día las aplicaciones que se ejecutan en navegadores, en lugar de ir instaladas en equipos de computo son cada vez más y muy completas. Un ejemplo de estas, son los programas de oficina como Microsoft 365 o Google Docs, que siempre presentan funciones nuevas y por ende requieren más recursos. Este tipo de aplicaciones web se ofrecen a menudo en JavaScript, pero cada vez más desarrolladores apuestan por WebAssembly: un nuevo planteamiento con resultados sorprendentes.
 
 ## ¿Qué es WebAssembly?
