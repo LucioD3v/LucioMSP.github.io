@@ -16,8 +16,6 @@ keywords:
 lang: es
 ---
 
-## Introducción
-
 El día de hoy les quiero compartir el mini curso que en colaboración con mi amigo [Héctor Pérez](https://www.facebook.com/hprez21) hemos desarrollado, este con la la finalidad de que más desarrolladores que quieran conocer sobre Blazor pero no saben por donde comenzar, tengan un punto de partida.
 
 Curso: [Introducción  a Blazor](https://www.udemy.com/course/curso-blazor-gratis/)
