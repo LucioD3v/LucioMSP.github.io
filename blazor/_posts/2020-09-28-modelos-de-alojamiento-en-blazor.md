@@ -16,8 +16,6 @@ keywords:
 lang: es
 ---
 
-Modelos de alojamiento en Blazor
-
 ## Introducción
 
 Blazor actualmente tiene dos modelos de alojamiento, Blazor del lado del Servidor y Web Assembly. El alojamiento del lado del servidor se lanzó en septiembre del 2019 y Web Assembly se lanzó oficialmente en mayo del 2020.
