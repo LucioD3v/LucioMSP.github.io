@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introducción a Blazor
-description: 
+title: Introducción a Blazor - Curso Udemy
+description:
   Conociendo a detalle Blazor en el nuevo curso de Udemy
 image: /assets/img/blog/post-headers/BlazorCourse.jpg
 noindex: true
@@ -15,8 +15,6 @@ keywords:
   - blazor
 lang: es
 ---
-
-Introducción a Blazor - Curso Udemy
 
 ## Introducción
 
