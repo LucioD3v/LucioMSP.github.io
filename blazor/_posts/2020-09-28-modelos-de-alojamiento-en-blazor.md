@@ -24,7 +24,7 @@ Blazor actualmente tiene dos modelos de alojamiento, Blazor del lado del Servido
 
 ![image](/assets/img/blog/tutorials/blazor-hosting-models/BlazorWebAssembly.png)
 
-#Pros
+# Pros
 
 Web Assembly se ejecuta en el cliente, dentro del navegador, por lo que se puede implementar como archivos estáticos. A pesar de esto, las aplicaciones Blazor Wasm no se ejecutarán directamente desde el sistema de archivos local debido a las restricciones de seguridad del navegador.
 
@@ -34,7 +34,7 @@ También puede ejecutarse fácilmente como una aplicación web progresiva, lo qu
 
 Con el código ejecutándose en la máquina del cliente, significa que la carga del servidor se reduce significativamente.
 
-#Contras
+# Contras
 
 El archivo blazor.webassembly.js inicia la aplicación cliente. Descarga todos los ensamblados DLL .NET necesarios, lo que hace que el tiempo de inicio de la aplicación sea más lento que en el lado del servidor.
 
@@ -48,13 +48,13 @@ Además, Blazor Wasm solo funciona en los navegadores más nuevos y no es compat
 
 ![image](/assets/img/blog/tutorials/blazor-hosting-models/BlazorServerSide.png)
 
-#Pros
+# Pros
 
 El lado del servidor de Blazor procesa previamente el contenido HTML antes de enviarlo al navegador del cliente. Esto hace que sea compatible con los motores de búsqueda y no hay un tiempo de inicio perceptible.
 
 Las aplicaciones del lado del servidor de Blazor funcionarán en navegadores más antiguos, ya que no hay requisitos para Web Assembly, solo HTML y JavaScript. A medida que el código se ejecuta en el servidor, también es posible depurar nuestro código .NET en Visual Studio.
 
-#Contras
+# Contras
 
 El lado del servidor de Blazor configura una sesión en memoria para el cliente actual y usa SignalR para comunicarse entre el .NET que se ejecuta en el servidor y el navegador del cliente. Todo el uso de memoria y CPU tiene un costo para el servidor, para todos los usuarios. También significa que el cliente está vinculado al servidor que lo sirvió por primera vez, por lo que no funciona con el equilibrio de carga.
 
