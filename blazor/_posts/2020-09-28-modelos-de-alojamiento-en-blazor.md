@@ -3,7 +3,7 @@ layout: post
 title: Modelos de alojamiento en Blazor
 description:
   Conociendo a detalle los modelos de ajolamiento en Blazor
-image: /assets/img/blog/post-headers/blazorModels.jpg
+image: /assets/img/blog/post-headers/blazorModels.png
 noindex: true
 comments: true
 author: lucio
