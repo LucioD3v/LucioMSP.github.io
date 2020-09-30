@@ -20,8 +20,8 @@ lang: es
 
 A continuación se listan los pasos a seguir para poder crear un nuevo proyecto de tipo Blazor:
 
-Paso 1 - Abramos Visual Studio 2019 for Mac.
-Paso 2 - Hacemos clic en Nuevo (New).
+- Paso 1: Abramos Visual Studio 2019 for Mac.
+- Paso 2: Hacemos clic en Nuevo (New).
 
 ![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject01.png)
 
