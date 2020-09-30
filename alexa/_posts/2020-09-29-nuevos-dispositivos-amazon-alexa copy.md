@@ -20,6 +20,7 @@ El pasado jueves 24 de septiembre, Amazon llevó a cabo su evento denonimado "Al
 
 ## Echo Dot (4ta Generación) / Con y Sin Reloj
 
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/amazon-echo-4taGen.jpg)
 
 Desde que el Echo original debutó a finales de 2014, el dispositivo (y la categoría en general) ha estado dominado por altavoces de forma cilíndrica, pero nada más. Ahora, en esta cuarta generación, Amazon cambia la cara drásticamente a sus altavoces más vendidos, los sencillos Dot, que adoptan una forma esférica dejando atrás su clásico formato de tortita. Cubriendo la esfera encontraremos una tela discreta, disponible en tres colores.
 
@@ -31,10 +32,13 @@ Los Echo Dot de 4ª generación están disponibles por $1,499.00 MXN y $1,799.00
 
 ## Echo Dot for Kids y Alexa for Kids
 
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/echoDotKids.jpg)
 
 Este nuevo altavoz está orientado para niños a nivel de funcionalidades y acabado con animales como pandas o leones. En cuanto a Alexa para niños, el altavoz detectará que la voz que está escuchando es la de un niño para adaptar las respuestas orientadas a ellos, además de censurar letras de canciones con insultos. También incluye 1.000 libros para niños en audible, juegos y tareas educativas, además de control parental y un modo de acompañamiento para la lectura.
 
 ## Echo Show 10
+
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/echoShow10.jpg)
 
 Después de los Echo Show 5 y Echo Show 8, Amazon ha anunciado el Echo Show 10, su nuevo altavoz que además de contar con una pantalla mejorada y una impresionante cámara de 13MP, esta puede girar 360 grados para seguirnos y a nuestra voz, de modo que podamos ver lo que Alexa muestra en la pantalla independientemente de dónde estemos en la habitación. Funciona con un motor silencioso y cuenta con el mismo procesador neuronal AZ1, compatibilidad con Amazon Sidewalk y concentrador Zigbee que en el Echo normal. Una de las consecuencias de que el Echo Show 10 se mueva es que el sonido es realmente direccional, en este caso compuesto por dos tweeters frontales y un woofer. Cabe destacar que podemos controlar la cámara desde la aplicación de Alexa cuando no estemos en casa, o podemos configurar rutinas de Alexa para poner el dispositivo en “modo centinela” para escanear la habitación cuando nos encontremos fuera.
 
@@ -46,6 +50,7 @@ Su precio es $6,699.00 MXN.
 
 ## Amazon Luna
 
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/lunaAmazon.jpg)
 
 Amazon se lanza a los juegos a través de streaming con Luna. Era cuestión de tiempo que la mayor compañía de servidores aprovechase esa potencia para ofrecer un servicio similar a Google Stadia para jugar en streaming, teniendo compatibilidad con iOS, Android, macOS y Fire TV. Cabe destacar que algunos juegos podrán funcionar en 4K a 60 FPS.
 
@@ -77,6 +82,7 @@ Luna por el momento solo estará disponible para Estados Unidos, sin fecha de la
 
 ## Eero 6 y Eero Pro 6
 
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/eero-eeroPro.png)
 
 Amazon ha anunciado también sus nuevos routers inteligentes que ofrecen WiFi 6 y WiFi en malla en el hogar. Aceptan hasta 75 dispositivos conectados, e incorporan TrueMesh, instalación sencilla, hacen de centralita de Zigbee, es compatible con Alexa, y funciona con USB tipo C, por lo que podemos conectarlo en cualquier parte. También cuentan con dos puertos Ethernet Gigabit.
 
@@ -85,6 +91,8 @@ El Eero 6 está orientado para casas que no tengan más de 500 Mbps de velocidad
 Sus precios son de $129.99 dólares para el Eero 6 y de $229.99 dólares para el Eero Pro 6.
 
 ## Ring Car
+
+![image](/assets/img/blog/tutorials/nuevos-dispositivos-alexa/RingCar.jpg)
 
 La compañía ha presentado también interesantes novedades en cuanto a Ring se refiere. Los vídeos de Ring contarán con cifrado de extremo a extremo para evitar cualquier tipo de espionaje.
 
