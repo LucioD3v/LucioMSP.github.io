@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Nuevos dispositivos Echo: Echo Dot, Ring Car, Luna, Echo Show 10
-image: /assets/img/blog/post-headers/amazonAlexa.jpg
+image: /assets/img/blog/post-headers/Amazon-Event-2020.jpg
 description: >
   Entrada dedicada a conocer los nuevos dispositivos presentados en el Amazon Event 2020.
 noindex: true
