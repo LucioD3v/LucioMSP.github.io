@@ -30,10 +30,7 @@ A continuación se listan los pasos a seguir para poder crear un nuevo proyecto 
 ![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject02.png)
 
 - Paso 4: Posteriormente hacemos clic en Siguiente (Next).
-Paso 5 - A continuación, en la vista de Configuración deberemos de seleccionar el framework de destino para el proyecto, dejemos el que se encuentra seleccionado por default: .Net Core 3.1
-         En el siguiente dropbox, seleccionemos la opción correspondiente, es decir, si deseamos que nuestra aplicación requiera o  no autenticación.
-
-         En la parte avanzada, podremos seleccionar una o ambas de las opciones que se nos presenta, marquemos la de ASP.NET Core hosted y después hacemos clic en Siguiente (Next).
+- Paso 5: A continuación, en la vista de Configuración deberemos de seleccionar el framework de destino para el proyecto, dejemos el que se encuentra seleccionado por default: .Net Core 3.1 En el siguiente dropbox, seleccionemos la opción correspondiente, es decir, si deseamos que nuestra aplicación requiera o  no autenticación. En la parte avanzada, podremos seleccionar una o ambas de las opciones que se nos presenta, marquemos la de ASP.NET Core hosted y después hacemos clic en Siguiente (Next).
 
 ![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject03.png)
 
