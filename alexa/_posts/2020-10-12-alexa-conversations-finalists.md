@@ -51,6 +51,6 @@ Aprovechando el espacio, les quiero compartir y hacer saber que la Skill en la q
 
 Así mismo los invitamos a que nos ayuden votando por nuestra Alexa Skill (deja tu Like [aquí](https://devpost.com/software/the-conpiracy-theory)) y probándola desde sus dispositivos (activala [aquí](https://www.amazon.com/The-Conspiracy-Theory-Escape-Room/dp/B08K9G8R3H/ref=sr_1_1?dchild=1&keywords=the+conspiracy+theory&qid=1601686515&s=digital-skills&sr=1-1)), cabe mencionar que solo se encuentra disponible para Estados Unidos.
 
-The Conspiracy Theory Escape Room- Promo Video for #AmazonAlexaConversationsChallenge: https://youtu.be/3xMgpD5ea50
+The Conspiracy Theory Escape Room- Promo Video for #AmazonAlexaConversationsChallenge: [https://youtu.be/3xMgpD5ea50](https://youtu.be/3xMgpD5ea50)
 
 Más información: [Alexa Skills Kit Blog](https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2020/10/announce-the-alexa-skills-challenge--alexa-conversations-finalis?fbclid=IwAR0cBMunjIXbDXfstsP26bG_jQLJWI4ct-2Cf8LIAyONu4EjvGaFbpzlkZM)
