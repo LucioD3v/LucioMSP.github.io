@@ -47,6 +47,8 @@ Y bueno, a continuación les comparto a los finalistas seleccionados para pasar 
 
 Aprovechando el espacio, les quiero compartir y hacer saber que la Skill en la que participo junto con Ethel Gonzalez, Amy Oliver, Jessi Willey y Danno Tabing es la última de la lista y bueno, espero que el famoso dicho: "Los últimos serán los primeros", se haga presente el 30 de este mes, en donde daran a conocer al ganador.
 
+![image](/assets/img/blog/tutorials/alexa-challenge-finalists/AlexaSkill_Conspiracy_Theory.png)
+
 Así mismo los invitamos a que nos ayuden votando por nuestra Alexa Skill (deja tu Like [aquí](https://devpost.com/software/the-conpiracy-theory)) y probándola desde sus dispositivos (activala [aquí](https://www.amazon.com/The-Conspiracy-Theory-Escape-Room/dp/B08K9G8R3H/ref=sr_1_1?dchild=1&keywords=the+conspiracy+theory&qid=1601686515&s=digital-skills&sr=1-1)), cabe mencionar que solo se encuentra disponible para Estados Unidos.
 
 The Conspiracy Theory Escape Room- Promo Video for #AmazonAlexaConversationsChallenge: https://youtu.be/3xMgpD5ea50
