@@ -54,6 +54,8 @@ menu:
     url:               /projects/
   - title:             Resume
     url:               /resume/
+  - title:             Books
+    url:               /books/
   - title:             About
     url:               /about/
   - title:             Contact
