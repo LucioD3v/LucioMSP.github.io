@@ -11,7 +11,7 @@ Here you can find the books I wrote:
 
  ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
 
-* **Authors:** Vicente Gerardo Guzmán Lucio & Xavier Portilla Edo
+* **Authors:** Vicente Gerardo Guzmán Lucio and Xavier Portilla Edo
 * **ISBN:** 
 * **Released:** December 2020
 * **Publisher:** Self-published
