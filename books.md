@@ -1,18 +1,17 @@
 ---
-# file: about.md
 layout: page
 title:  Books
 ---
 Here you can find the books I wrote:
 
-- [La Revolución de Alexa](#la-revolución-de-alexa)
+- [La revolución de Alexa](https://www.amazon.com.mx/dp/B08R8X5QM5)
 
 # La Revolución de Alexa
 
  ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
 
 * **Authors:** Vicente Gerardo Guzmán Lucio and Xavier Portilla Edo
-* **ISBN:** 
+* **ISBN:** 9798585691928
 * **Released:** December 2020
 * **Publisher:** Self-published
 * **Buy:** Amazon Kindle, Apple Books, Google Books
