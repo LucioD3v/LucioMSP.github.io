@@ -6,7 +6,7 @@ Here you can find the books I wrote:
 
 - [La revolución de Alexa](https://www.amazon.com.mx/dp/B08R8X5QM5)
 
-# La Revolución de Alexa
+# La revolución de Alexa
 
  ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
 
