@@ -11,10 +11,13 @@ Here you can find the books I wrote:
  ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
 
 * **Authors:** Vicente Gerardo Guzmán Lucio and Xavier Portilla Edo
+* **Technical Reviewer:** Joaquín Engelmo Moriche
+* **Reviwer:** Joan Orellana Rey
+* **Graphic Designer:** Alfredo Porras Lucio
 * **ISBN:** 9798585691928
 * **Released:** December 2020
 * **Publisher:** Self-published
-* **Buy:** Amazon Kindle, Apple Books, Google Books
+* **Buy:** [Amazon Kindle](https://www.amazon.es/dp/B08R8X5QM5), Apple Books, [Google Books](https://books.google.es/books/about?id=u6AQEAAAQBAJ), [Google Play](https://play.google.com/store/books/details?id=u6AQEAAAQBAJ)
 
 First book on the development of Alexa Skills written in Spanish.
 
