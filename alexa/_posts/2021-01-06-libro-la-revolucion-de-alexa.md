@@ -3,7 +3,7 @@ layout: post
 title:  Mi libro - La revolución de Alexa
 image: /assets/img/blog/post-headers/alexa_book.jpg
 description: >
-  Primer libro enfocado al desarrollo de Alexa Skills en Español.
+  Primer libro en español centrado en el desarrollo de Alexa Skills.
 noindex: true
 comments: true
 author: lucio
