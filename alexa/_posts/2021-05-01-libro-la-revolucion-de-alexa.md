@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mi libro - La revolución de Alexa
-image: /assets/img/blog/post-headers/Amazon-Event-2020.jpg
+image: /assets/img/blog/post-headers/alexa_book.jpg
 description: >
   Primer libro enfocado al desarrollo de Alexa Skills en Español.
 noindex: true
