@@ -42,7 +42,7 @@ Blazor Wasm aún no admite más de un hilo, por lo que todo el procesamiento se 
 
 Además, Blazor Wasm solo funciona en los navegadores más nuevos y no es compatible con los motores de búsqueda (a menos que habilitemos la representación previa del lado del servidor).
 
-## Blazor Web Assembly
+## Blazor Server
 
 ![image](/assets/img/blog/tutorials/blazor-hosting-models/BlazorServerSide.png)
 
