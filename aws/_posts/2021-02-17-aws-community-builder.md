@@ -18,7 +18,7 @@ lang: es
 
 # Conociendo todo sobre los AWS Community Builders
 
-Hace mucho que no me sentaba a escribir un artículo para este blog, tanto asi que el 30 de Julio del 2020, Amazon Web Services anunció un programa denomiado "AWS Community Builders", la cual se centra en darles apoyo a aquellos entusiastas de AWS apasionados por compartir sus conocimientos y conectarse con la comunidad.
+Hace mucho que no me sentaba a escribir un artículo para este blog, tanto así que el 30 de Julio del 2020, Amazon Web Services anunció un programa denominado "AWS Community Builders", la cual se centra en darles apoyo a aquellos entusiastas de AWS apasionados por compartir sus conocimientos y conectarse con la comunidad.
 
 Dicho programa brinda recursos técnicos, tutorías y oportunidades de trabajo en red para entusiastas de AWS y líderes de opinión emergentes que sienten pasión por compartir conocimientos y conectarse con la comunidad técnica.
 
@@ -44,7 +44,7 @@ Las personas que se postulan al programan deben escoger dos categorías según s
 - Security, Identity & Compliance
 - Beneficios del programa
 
-![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject01.png)
+![image](/assets/img/blog/tutorials/aws-builders/BeneficiosAWS.png)
 
 ## Beneficios del Programa
 
