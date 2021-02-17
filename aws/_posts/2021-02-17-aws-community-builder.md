@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conociendo todo sobre los AWS Community Builders
+title: ¿Qué son los AWS Community Builders?
 description:
   Aprende todo sobre el nuevo programa por parte de Amazon Web Services.
 image: /assets/img/blog/post-headers/aws_community_builders.png
@@ -16,7 +16,7 @@ keywords:
 lang: es
 ---
 
-# Conociendo todo sobre los AWS Community Builders
+# ¿Qué son los AWS Community Builders?
 
 Hace mucho que no me sentaba a escribir un artículo para este blog, tanto así que el 30 de Julio del 2020, Amazon Web Services anunció un programa denominado "AWS Community Builders", la cual se centra en darles apoyo a aquellos entusiastas de AWS apasionados por compartir sus conocimientos y conectarse con la comunidad.
 
@@ -26,7 +26,7 @@ A lo largo del programa, los expertos en la materia brindarán tutoría y compar
 
 Los creadores de AWS interesados deben postularse al programa para establecer relaciones con los equipos de productos de AWS, AWS Heroes y la Comunidad de AWS.
 
-## Categorías del Programa
+# Categorías del Programa
 
 Las personas que se postulan al programan deben escoger dos categorías según su conocimiento y experiencia, las categorías son:
 
@@ -42,24 +42,25 @@ Las personas que se postulan al programan deben escoger dos categorías según s
 - Mobile and Web Apps
 - Management, Governance and Migration
 - Security, Identity & Compliance
-- Beneficios del programa
+
+# Beneficios del Programa
 
 ![image](/assets/img/blog/tutorials/aws-builders/BeneficiosAWS.png)
 
-## Beneficios del Programa
+- Acceso a equipos de productos de AWS e información sobre nuevos servicios y funciones.
+- Tutoría de expertos en la materia de AWS sobre una variedad de temas.
+- Créditos promocionales de AWS y otros recursos útiles para respaldar la creación de contenido.
+- Oportunidades para conectarse y aprender de desarrolladores de ideas afines.
 
-- Acceso a equipos de productos de AWS e información sobre nuevos servicios y funciones
-- Tutoría de expertos en la materia de AWS sobre una variedad de temas
-- Créditos promocionales de AWS y otros recursos útiles para respaldar la creación de contenido
-- Oportunidades para conectarse y aprender de desarrolladores de ideas afines
-
-Entre otros beneficios más.
+Entre otros beneficios más...
 
 ![image](/assets/img/blog/tutorials/aws-builders/regalos-aws-builders.png)
 
 # Seleccionado MX 2020
 
-Para mi es un verdadero privilegio el ser parte de este programa, quiero agradecer a Amazon Web Services y a Jason Dunn (AWS Community Builders Program Manager) por la invitación de participar en este programa. Si desean participar de este programa los invito a que visiten el sitio web oficial del programa AWS Community Builder y estén pendientes de la próxima convocatoria. 
+Y bueno, como se imaginan fui seleccionado para formar parte de este programa y quiero agradecer no solo a Amazon Web Services sino también a Jason Dunn (AWS Community Builders Program Manager) por la invitación de participar en este programa. Sinceramente es un verdadero privilegio el ser miembro de esta nueva iniciativa.
+
+Si desean participar de este programa los invito a que visiten el sitio web oficial del programa AWS Community Builder y estén pendientes de la próxima convocatoria. 
 
 # Más Información
 
