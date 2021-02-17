@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Conociendo la estructura de un proyecto Blazor
+title: Conociendo todo sobre los AWS Community Builders
 description:
-  Tutorial básco para aprender a crear un nuevo proyecto de Blazor en Visual Studio 2019 for Mac.
-image: /assets/img/blog/post-headers/newproject00.png
+  Aprende todo sobre el nuevo programa por parte de Amazon Web Services.
+image: /assets/img/blog/post-headers/aws_community_builders.png
 noindex: true
 comments: true
 author: lucio
@@ -16,31 +16,59 @@ keywords:
 lang: es
 ---
 
-# Conociendo la estructura de un proyecto Blazor
+# Conociendo todo sobre los AWS Community Builders
 
-En este pequeño articulo echaremos un vistazdo a la estructura de un proyecto Blazor, esto con la finalidad de familiarizarnos más a fondo con este tipo de aplicaciones. 
+Hace mucho que no me sentaba a escribir un artículo para este blog, tanto asi que el 30 de Julio del 2020, Amazon Web Services anunció un programa denomiado "AWS Community Builders", la cual se centra en darles apoyo a aquellos entusiastas de AWS apasionados por compartir sus conocimientos y conectarse con la comunidad.
 
-IMAGEN
+Dicho programa brinda recursos técnicos, tutorías y oportunidades de trabajo en red para entusiastas de AWS y líderes de opinión emergentes que sienten pasión por compartir conocimientos y conectarse con la comunidad técnica.
 
-- Estructura de un Proyecto Blazor
+A lo largo del programa, los expertos en la materia brindarán tutoría y compartirán conocimientos, incluida información sobre los servicios más recientes, así como las mejores prácticas para crear contenido técnico, aumentar el alcance y compartir el conocimiento de AWS en comunidades en línea y en persona. El programa aceptará un número limitado de miembros por año. Todos los desarrolladores de AWS son bienvenidos y se les anima a postularse.
 
-A continuación se listan los pasos a seguir para poder crear un nuevo proyecto de tipo Blazor:
+Los creadores de AWS interesados deben postularse al programa para establecer relaciones con los equipos de productos de AWS, AWS Heroes y la Comunidad de AWS.
 
-- Paso 1: Abramos Visual Studio 2019 for Mac.
-- Paso 2: Hacemos clic en Nuevo (New).
+## Categorías del Programa
+
+Las personas que se postulan al programan deben escoger dos categorías según su conocimiento y experiencia, las categorías son:
+
+- Networking and Content Delivery
+- Storage
+- Containers
+- Machine Learning
+- Serverless
+- Gravitron / Arm Development
+- Data (Databases, Analytics, Blockchain)
+- Developer Tools
+- Game Tech
+- Mobile and Web Apps
+- Management, Governance and Migration
+- Security, Identity & Compliance
+- Beneficios del programa
 
 ![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject01.png)
 
-- Paso 3:De las plantillas presentadas, deberemos de seleccionar la de Blazor WebAssembly App, que se encuentra dentro de la sección Web and Console
+## Beneficios del Programa
 
-![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject02.png)
+- Acceso a equipos de productos de AWS e información sobre nuevos servicios y funciones
+- Tutoría de expertos en la materia de AWS sobre una variedad de temas
+- Créditos promocionales de AWS y otros recursos útiles para respaldar la creación de contenido
+- Oportunidades para conectarse y aprender de desarrolladores de ideas afines
 
-- Paso 4: Posteriormente hacemos clic en Siguiente (Next).
-- Paso 5: A continuación, en la vista de Configuración deberemos de seleccionar el framework de destino para el proyecto, dejemos el que se encuentra seleccionado por default: .Net Core 3.1 En el siguiente dropbox, seleccionemos la opción correspondiente, es decir, si deseamos que nuestra aplicación requiera o  no autenticación. En la parte avanzada, podremos seleccionar una o ambas de las opciones que se nos presenta, marquemos la de ASP.NET Core hosted y después hacemos clic en Siguiente (Next).
+Entre otros beneficios más.
 
-![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject03.png)
+![image](/assets/img/blog/tutorials/aws-builders/regalos-aws-builders.png)
 
-- Paso 6: En la siguiente vista, deberemos ahora de ingresar un nombre de proyecto, como MyFirstBlazorApp, el cual será tomado como nombre de solución.
-- Paso 7: Por último hacemos clic en Crear.
+# Seleccionado MX 2020
 
-![image](/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject04.png)
+Para mi es un verdadero privilegio el ser parte de este programa, quiero agradecer a Amazon Web Services y a Jason Dunn (AWS Community Builders Program Manager) por la invitación de participar en este programa. Si desean participar de este programa los invito a que visiten el sitio web oficial del programa AWS Community Builder y estén pendientes de la próxima convocatoria. 
+
+# Más Información
+
+En este link puede suscribirse para que sean notificados cuando se abra nuevamente la convocatoria al programa que será en la primavera del 2021.
+
+[Developer Community AWS Community Builders](https://aws.amazon.com/developer/community/community-builders/)
+
+![image](/assets/img/blog/tutorials/aws-builders/CommunityBuilder logofordarkbackground.png)
+
+Y bueno, eso es todo, espero que les sido útil. Recuerden que si tienen alguna inquietud o pregunta, no duden en ponerse en contacto conmigo o poner un comentario a continuación.
+
+¡Happy Coding!
