@@ -19,7 +19,7 @@ keywords:
 lang: es
 ---
 
-# Conociendo la estructura de un proyecto Blazor
+# Como obtener mi Account ID de Alibaba Cloud
 
 En este pequeño articulo se listan los pasos a seguir para poder obtener nuestro Account ID:
 
