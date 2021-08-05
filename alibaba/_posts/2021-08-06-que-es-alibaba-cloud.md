@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es Alibaba Cloud?
 description:
   Cuando los usuarios occidentales de la nube piensan en los principales proveedores de la nube, generalmente estos contemplan a los tres principales = AWS, Microsoft Azure y Google Cloud Platform, pero, ¿qué pasa con el cuarto proveedor de nube más grande del mundo?....
-image: /assets/img/blog/post-headers/alibaba/alibaba_logo_gray.png
+image: /assets/img/blog/post-headers/alibaba/alibaba_cloud.jpeg
 noindex: true
 comments: true
 author: lucio
@@ -37,5 +37,5 @@ Las operaciones internacionales de Alibaba Cloud están registradas y tienen su 
 
 Al entrar en el mercado internacional de las «nubes» más tarde que sus competidores, Alibaba Cloud tiene bolsillos profundos y un fuerte deseo de superar a Amazon a nivel mundial. En abril de este año, anunció que invertirá 28.000 millones de dólares en infraestructura en los próximos 36 meses. La inversión incluye el desarrollo de centros de datos, sistemas operativos personalizados y semiconductores para soluciones aceleradas de hardware.
 
-[Más información](https://zoom.us/meeting/register/tJ0ucuGoqz0iEtWs8qvg_fifoTQS0Nb6_cYE)
+[Más información](https://us.alibabacloud.com/)
  
