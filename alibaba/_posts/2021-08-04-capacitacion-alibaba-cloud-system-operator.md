@@ -31,10 +31,10 @@ Recuerden, tanto el curso como el examen son totalmente GRATUITOS, así que no d
 
 Calendario
 
-Fecha: Jueves 5 de Agosto del 2021 y Viernes 6 de Agosto del 2021
-Hora: 10:00 am - 1:00 pm (GMT +8)
-Idioma: inglés
-Nivel del curso: Principiante a Intermedio
+- Fecha: Jueves 5 de Agosto del 2021 y Viernes 6 de Agosto del 2021
+- Hora: 10:00 am - 1:00 pm (GMT +8)
+- Idioma: inglés
+- Nivel del curso: Principiante a Intermedio
 
 Examen: Lunes 9 de agosto de 2021 - 02:00 pm - 04:30 pm (GMT +8)
 

@@ -5,7 +5,7 @@ image: /assets/img/categories/alibaba_logo.png
 screenshot: /assets/img/categories/alibaba_logo.png
 caption: Alibaba Cloud
 description: >
- Alexa is a virtual digital assistant developed by Amazon for its Amazon Echo and Echo Dot line of computing devices. 
+ Alibaba Cloud
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
