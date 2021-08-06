@@ -33,9 +33,9 @@ work:
     startDate: "2021-04-12"
     endDate: ""
     summary: >
-      Deintec is a strong consulting and software developer company, we provide analytical services, design and construction of applications from our remote development centers in Mexico City.
+      Accenture Limited is a multinational strategy consulting, technology services and outsourcing company.
     highlights:
-      - "Accenture Limited is a multinational strategy consulting, technology services and outsourcing company."
+      - "Multiple mobile app enhancements provided by assigned customer"
       - "Stack used: Xamarin.Forms, .NET, C#, DevOps, Xcode, Azure SQL Database"
   - company: "Deintec"
     position: "Mobile Project Leader"
