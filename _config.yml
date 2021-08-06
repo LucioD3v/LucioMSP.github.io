@@ -244,18 +244,15 @@ collections:
 # ========================================================================================
 
 exclude:
+  - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/.git
+  - .jekyll-cache
+  - .sass-cache
   - vendor
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - "*.gemspec"
-  - _js
-  - _plugins
-  - .sass-cache
 include:
+  - .well-known
   - LICENSE.md
 
 
@@ -273,12 +270,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@v8.5.0
+theme: jekyll-theme-hydejack
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
