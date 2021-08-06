@@ -12,7 +12,7 @@ description: >
 
 {% if page.title.size > 0 %}
   <header>
-   <script data-ad-client="ca-pub-3510124386419898" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
   <hr class="sr-only"/>
 {% endif %}
 
