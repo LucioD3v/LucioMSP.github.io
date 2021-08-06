@@ -31,7 +31,7 @@ work:
     position: "Application Development Specialist"
     website: "https://www.accenture.com/"
     startDate: "2021-04-12"
-    endDate: "Present"
+    endDate: ""
     summary: >
       Deintec is a strong consulting and software developer company, we provide analytical services, design and construction of applications from our remote development centers in Mexico City.
     highlights:
@@ -90,13 +90,13 @@ volunteer:
     position: "Organizer"
     website: "https://www.meetup.com/es-ES/vox-Ninja-Alexa-Mx/"
     startDate: "2019-01-01"
-    endDate: "Present"
+    endDate: ""
     summary: "Community of alexa developers in México which aim focus is sharing knowledge about Amazon Alexa platform."
   - organization: "Xamarin Latino"
     position: "Blogger "
     website: "https://xamarinlatino.com/"
     startDate: "2019-11-08"
-    endDate: "Present"
+    endDate: ""
     summary: "Xamarin Latino promotes the creation of Xamarin content within the Spanish-speaking community. Spanish is the second most spoken language in the world; With this initiative we want to remove language barriers and provide professionals and amateurs with sources of information."
 education:
   - institution: "La Salle"
