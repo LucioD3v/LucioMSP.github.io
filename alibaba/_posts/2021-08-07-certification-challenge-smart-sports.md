@@ -28,7 +28,7 @@ Reglas para la inscripción:
 - Este desafío está abierto a todos los usuarios de Alibaba Cloud. No es necesario registrarse.
 - Para ser elegible para las recompensas, debe obtener las 5 certificaciones en este desafío, compartir una publicación de LinkedIn de las certificaciones y etiquetar Alibaba Cloud Tech Pioneer, y luego enviar una captura de pantalla de la publicación después de que se abra el formulario de envío el 4 de agosto a las 4 p.m. (UTC + 8)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/flujo.png)
+![image](/assets/img/blog/tutorials/alibaba/certification_sports/flujo.png)
 
 # Certificados y Premios
 
@@ -46,7 +46,7 @@ Reglas para la inscripción:
 
 A continuación les comparto mis certificados, mismos que brinda el reto al aprobar cada uno de sus examenes:
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateC.png)
+![image](/assets/img/blog/tutorials/alibaba/certification_sports/certificate_1.png)
 
 ![image](/assets/img/blog/tutorials/alexa-challenge-finalists/AlexaSkill_Conspiracy_Theory.png)
 
