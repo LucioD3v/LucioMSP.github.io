@@ -44,13 +44,13 @@ Reglas para la inscripción:
 
 A continuación les comparto mis certificados, mismos que brinda el reto al aprobar cada uno de sus examenes:
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateC)
+![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateC.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateA)
+![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateA.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateE)
+![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateE.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateU)
+![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateU.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateP)
+![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateP.png)
  
