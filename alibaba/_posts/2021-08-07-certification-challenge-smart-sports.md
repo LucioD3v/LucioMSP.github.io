@@ -19,18 +19,23 @@ keywords:
 lang: es
 ---
 
+Sin duda alguna, Alibaba Cloud viene con todo y es que ahora, acaba de lanzar un reto en donde brinda "capacitación express".
+
 # Entrenamiento - Alibaba Cloud System Operator
-
- Después de ver los seminarios web en vivo de Digitalized and Smart Sports Tech Show, puede realizar nuestros cuestionarios para obtener certificaciones personalizadas y compartirlas en las redes sociales para ganar atractivos premios, incluida la membresía de Alibaba Cloud Academy y recompensas exclusivas.
-
-Reglas para la inscripción:
-
-- Este desafío está abierto a todos los usuarios de Alibaba Cloud. No es necesario registrarse.
-- Para ser elegible para las recompensas, debe obtener las 5 certificaciones en este desafío, compartir una publicación de LinkedIn de las certificaciones y etiquetar Alibaba Cloud Tech Pioneer, y luego enviar una captura de pantalla de la publicación después de que se abra el formulario de envío el 4 de agosto a las 4 p.m. (UTC + 8)
 
 ![image](/assets/img/blog/tutorials/alibaba/certification_sports/flujo.png)
 
+Entonces, lo que se tiene que hacer es ver los seminarios web en vivo de Digitalized and Smart Sports Tech Show, posteriormente realizar los cuestionarios para obtener certificaciones personalizadas y compartirlas en las redes sociales para ganar atractivos premios, incluida la membresía de Alibaba Cloud Academy y recompensas exclusivas.
+
+Reglas para la inscripción:
+
+- Este desafío está abierto a todos los usuarios de Alibaba Cloud, no es necesario registrarse, pero mejor si haganlo.
+- Para ser elegible para las recompensas, debemos obtener las 5 certificaciones en este desafío, compartir una publicación de LinkedIn de las certificaciones y etiquetar Alibaba Cloud Tech Pioneer, y luego enviar una captura de pantalla de la publicación después de que se abra el formulario de envío el 4 de agosto a las 4 pm. (UTC + 8)
+
 # Certificados y Premios
+
+![image](/assets/img/blog/tutorials/alibaba/certification_sports/examenes.png)
+![image](/assets/img/blog/tutorials/alexa-construyendo-mi-alexa-skill/Image1.jpg)
 
 - Recibirá un certificado de Alibaba Cloud con un diseño personalizado después de aprobar cada cuestionario.
 - Cada participante calificado que obtenga las 5 certificaciones en este desafío, comparte una publicación de LinkedIn de las certificaciones que etiquetan a Alibaba Cloud Tech Pioneer y envía las capturas de pantalla de las publicaciones entre el 4 de agosto a las 4 p.m. y el 9 de agosto a las 12 a.m. ( UTC + 8) para nosotros obtendremos una membresía de Alibaba Cloud Academy.
@@ -39,13 +44,11 @@ Reglas para la inscripción:
 
 [Registrate](https://www.alibabacloud.com/olympics/certification-challenge)
 
-
------------------------------------------------------------------------------------
-
 # Resultado
 
 A continuación les comparto mis certificados, mismos que brinda el reto al aprobar cada uno de sus examenes:
 
+![image](/assets/img/blog/tutorials/alibaba/certification_sports/examenes.png)
 ![image](/assets/img/blog/tutorials/alibaba/certification_sports/certificate_1.png)
 
 ![image](/assets/img/blog/tutorials/alexa-challenge-finalists/AlexaSkill_Conspiracy_Theory.png)
@@ -57,4 +60,3 @@ A continuación les comparto mis certificados, mismos que brinda el reto al apro
 ![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateU.png)
 
 ![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateP.png)
- 
