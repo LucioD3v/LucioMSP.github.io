@@ -16,9 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:
- - title:             Cookies Policy
-    url:             /cookies-policy
+-lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Vicente G. Guzmán Lucio
