@@ -23,7 +23,7 @@ Sin duda alguna, Alibaba Cloud viene con todo y es que ahora, acaba de lanzar un
 
 # Entrenamiento - Alibaba Cloud System Operator
 
-![image](/assets/img/blog/tutorials/alibaba/certification_sports/flujo.png)
+  ![image](/assets/img/blog/tutorials/alibaba/certification_sports/flujo.png)
 
 Entonces, lo que se tiene que hacer es ver los seminarios web en vivo de Digitalized and Smart Sports Tech Show, posteriormente realizar los cuestionarios para obtener certificaciones personalizadas y compartirlas en las redes sociales para ganar atractivos premios, incluida la membresía de Alibaba Cloud Academy y recompensas exclusivas.
 
@@ -34,8 +34,8 @@ Reglas para la inscripción:
 
 # Certificados y Premios
 
-![image](/assets/img/blog/tutorials/alibaba/certification_sports/examenes.png)
-![image](/assets/img/blog/tutorials/alexa-construyendo-mi-alexa-skill/Image1.jpg)
+  ![image](/assets/img/blog/tutorials/alibaba/certification_sports/examenes.png)
+  ![image](/assets/img/blog/tutorials/alexa-construyendo-mi-alexa-skill/Image1.jpg)
 
 - Recibirá un certificado de Alibaba Cloud con un diseño personalizado después de aprobar cada cuestionario.
 - Cada participante calificado que obtenga las 5 certificaciones en este desafío, comparte una publicación de LinkedIn de las certificaciones que etiquetan a Alibaba Cloud Tech Pioneer y envía las capturas de pantalla de las publicaciones entre el 4 de agosto a las 4 p.m. y el 9 de agosto a las 12 a.m. ( UTC + 8) para nosotros obtendremos una membresía de Alibaba Cloud Academy.
