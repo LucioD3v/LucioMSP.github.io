@@ -21,11 +21,13 @@ lang: es
 
 Sin duda alguna, Alibaba Cloud viene con todo y es que ahora, acaba de lanzar un reto en donde brinda "capacitación express".
 
+ ![image](/assets/img/books/the_alexa_revolution.png)
+
 # Entrenamiento - Alibaba Cloud System Operator
 
   ![image](/assets/img/blog/tutorials/alibaba/certification_sports/flujo.png)
 
-Entonces, lo que se tiene que hacer es ver los seminarios web en vivo de Digitalized and Smart Sports Tech Show, posteriormente realizar los cuestionarios para obtener certificaciones personalizadas y compartirlas en las redes sociales para ganar atractivos premios, incluida la membresía de Alibaba Cloud Academy y recompensas exclusivas.
+Entonces, lo que se tiene que hacer es ver los seminarios de "Digitalized and Smart Sports Tech Show", posteriormente realizar los cuestionarios para obtener certificaciones personalizadas y compartirlas en las redes sociales para ganar atractivos premios, incluida la membresía de Alibaba Cloud Academy y recompensas exclusivas.
 
 Reglas para la inscripción:
 
@@ -49,13 +51,14 @@ Reglas para la inscripción:
 A continuación les comparto mis certificados, mismos que brinda el reto al aprobar cada uno de sus examenes:
 
 ![image](/assets/img/blog/tutorials/alibaba/certification_sports/examenes.png)
-![image](/assets/img/blog/tutorials/alibaba/certification_sports/certificate_1.png)
 
-![image](/assets/img/blog/tutorials/alexa-challenge-finalists/AlexaSkill_Conspiracy_Theory.png)
+  ![image](/assets/img/blog/tutorials/alibaba/certification_sports/certificate_1.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateA.png)
+  ![image](/assets/img/blog/tutorials/alexa-challenge-finalists/AlexaSkill_Conspiracy_Theory.png)
 
-![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateE.png)
+  ![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateA.png)
+
+  ![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateE.png)
 
 ![image](/assets/img/blog/tutorials/alibaba/certification_challenge_sports/CertificateU.png)
 
