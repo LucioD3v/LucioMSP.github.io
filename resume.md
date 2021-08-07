@@ -5,6 +5,10 @@ description: >
   Resume of Vicente G. Guzmán Lucio.
 hide_description: true
 menu: true
+buttons:
+  print: true
+  vcf: http://h2vx.com/vcf/https://luciomsp.github.io/resume/
+  json: /assets/resume.json
 order: 3
 left_column:
  - work
@@ -12,9 +16,9 @@ left_column:
  - publications
  - references
 right_column:
- - languages
  - skills
  - education
  - awards
+ - languages
  - interests
 ---
