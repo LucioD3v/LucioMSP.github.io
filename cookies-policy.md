@@ -6,7 +6,7 @@ permalink: cookies-policy
 
 <h1>Cookie Policy for My blog</h1>
 
-<p>This is the Cookie Policy for Vicente Guzman's blog, accessible from https://luciomsp.github.io/</p>
+<p>This is the Cookie Policy for Vicente Guzman's blog, accessible from https://vicenteguzman.com/</p>
 
 <p><strong>What Are Cookies?</strong></p>
 

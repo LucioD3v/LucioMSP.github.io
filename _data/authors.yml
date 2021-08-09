@@ -25,11 +25,11 @@ lucio:
     #download:       <url>
     email:           luciomsp@geeks.ms
     linkedin:        vggl01
-    medium:          luciomsp
+    #medium:          luciomsp
     #devto:           luciomsp
     # rss:             https://luciomsp.github.io/feed.xml
     # web:             <web>
-    # facebook:        <username>
+    facebook:        luciomsp
     # google:          <number>
     # vk:              <username>
     youtube:         https://www.youtube.com/channel/UCM9wdzw_LU7_rZvyMo0s2LA
