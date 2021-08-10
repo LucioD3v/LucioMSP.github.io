@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Alibaba Cloud vs AWS - ¿Cuál es mejor para su negocio?
+title: Alibaba Cloud vs AWS
 description: Sin duda alguna, en el ámbito de la computación en la nube, AWS, Microsoft y Google son los principales líderes. Con ofertas de vanguardia y servicios en la nube confiables, cubren todos sus requisitos de nube y operaciones en línea. Pero el espacio en la nube sigue creciendo a medida que los nuevos jugadores agregan en el campo. Alibaba Cloud es también uno de los actores vitales en los servicios empresariales actuales en la nube que ha atraído la atención del mercado en los últimos tiempos.
 image: /assets/img/blog/post-headers/alibaba/Alibaba-Cloud-vs-AWS.png
 noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [alibaba], [aws]
+categories: [alibaba]
 tags:
   - alibaba
   - aws
