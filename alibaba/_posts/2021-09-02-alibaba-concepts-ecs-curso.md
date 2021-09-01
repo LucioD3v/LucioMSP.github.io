@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fundamentos de ECS (Elastic Compute Service) - ECS Conceptos
+title: Fundamentos de (Elastic Compute Service) - Conceptos
 description: Segundo artículo sobre el Elastic Compute Service de Alibaba, o ECS, uno de los servicios más comunes dentro de la plataforma Alibaba.
 image: /assets/img/blog/post-headers/alibaba/second-article-ecs-header.jpeg
 noindex: true
@@ -54,6 +54,5 @@ ECS comprende los siguientes componentes principales:
 La región es donde Alibaba Cloud Services lanzará la instancia que cree. Elija una región para optimizar la latencia, minimizar el costo o abordar los requisitos reglamentarios. Hay regiones específicas en China continental y otras regiones internacionales disponibles. Para la lista actual de regiones alrededor del mundo, se proporciona un enlace en la pestaña de transcripción. Tener varias regiones en todo el mundo significa que puede aprovisionar servidores más cerca de sus usuarios. 
 
 Las zonas se refieren a centros de datos físicos dentro de una región que tienen fuentes de alimentación y redes independientes. Los usuarios pueden separar las instancias de ECS en diferentes zonas de una región para facilitar, por ejemplo, la "alta disponibilidad". Las instancias de ECS creadas en una sola región tendrán conectividad de red de intranet privada de baja latencia con otras zonas de la misma región. Sin embargo, las instancias de ECS creadas en diferentes regiones, de forma predeterminada, no tendrán conectividad de red privada. Sin embargo, la latencia de la red para instancias dentro de la misma zona es menor que cuando se comunican entre zonas en la misma región.
-
 
 [Más Información](https://www.alibabacloud.com/help/doc-detail/123712.htm?spm=a2c63.p38356.b99.10.7f951d600WKWd5)
