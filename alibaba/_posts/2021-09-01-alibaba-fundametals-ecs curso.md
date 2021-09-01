@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Fundamentos de Alibaba Cloud -  ECS (Elastic Compute Service) <Información General>
-description: Primer artícuo sobre el Elastic Compute Service de Alibaba, o ECS, uno de los servicios más comunes dentro de la plataforma Alibaba.
+title:  Fundamentos de ECS (Elastic Compute Service) - Información General
+description: Primer artículo sobre el Elastic Compute Service de Alibaba, o ECS, uno de los servicios más comunes dentro de la plataforma Alibaba.
 image: /assets/img/blog/post-headers/alibaba/alibaba_header.png
 noindex: true
 comments: true
