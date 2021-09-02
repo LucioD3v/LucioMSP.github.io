@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Fundamentos de (Elastic Compute Service) - Instancias
+title: Fundamentos de Elastic Compute Service - Instancias
 description: Tercer artículo sobre Elastic Compute Service de Alibaba - Instancias. 
-image: /assets/img/blog/post-headers/alibaba/second-article-ecs-header.jpeg
+image: /assets/img/blog/post-headers/alibaba/ECS-Instance-Types.png
 noindex: true
 comments: true
 author: lucio
@@ -11,12 +11,13 @@ categories: [alibaba]
 tags:
   - alibaba
   - compute
+  - instancias
 keywords:
   - alibaba
   - ecs
   - elastic
   - service
-  - concepts
+  - instances
   - cloud
 lang: es
 ---
