@@ -1,0 +1,81 @@
+---
+layout: post
+title: Fundamentos de (Elastic Compute Service) - Instancias
+description: Tercer artículo sobre Elastic Compute Service de Alibaba - Instancias. 
+image: /assets/img/blog/post-headers/alibaba/second-article-ecs-header.jpeg
+noindex: true
+comments: true
+author: lucio
+kate: hl markdown;
+categories: [alibaba]
+tags:
+  - alibaba
+  - compute
+keywords:
+  - alibaba
+  - ecs
+  - elastic
+  - service
+  - concepts
+  - cloud
+lang: es
+---
+
+Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta segunda sección cubriremos las Instancias de ECS. 
+
+## ¿Qué es una Instancia?
+
+Una instancia de ECS es una máquina virtual que contiene componentes informáticos básicos como el CPU, la memoria, el sistema operativo, el ancho de banda de la red y los discos. Una vez creada, puede personalizar y modificar la configuración de una instancia de ECS. Por ejemplo, podemos agregar o eliminar discos adicionales en la nube.
+
+Las instancias de ECS se clasifican en diferentes familias, según las necesidades comerciales a las que se pueden aplicar esas familias, y una familia de instancias también tiene muchos tipos de instancias en función de diferentes configuraciones de CPU y memoria. Una instancia de ECS define dos atributos básicos: el CPU y la configuración de la memoria.
+
+Los tipos de instancias siguen una convención de nomenclatura que describe la familia de instancias, la generación de instancias y el tamaño de la instancia, por ejemplo, ecs.g5.large. 
+
+![image](/assets/img/blog/tutorials/alibaba/articulos-ecs/ecs-g5-large.png)
+
+- ecs es un prefijo (todas las instancias de ECS tienen esto en el nombre)
+- 'g' denota la familia de instancias (en este caso, propósito general)
+- 5 denota la generación de instancias e implica la proporción de CPU a RAM, en este caso, una proporción de 1 a 4 (esto significa que para cada CPU hay 4 GB de RAM) 
+- large indica el tamaño de la instancia
+
+ecs.g5.large es la instancia más pequeña de la familia de uso general y esta instancia tiene 2 CPU, por lo que con una proporción de CPU a RAM de 1 a 4, esta instancia tiene 2 CPU y, por lo tanto, 8 GB de RAM.
+
+ecs.g5.xlarge es el siguiente en el árbol genealógico, por lo que tiene 4 CPU y 16 GB de RAM.
+
+ecs.g5.2xlarge es el siguiente en el árbol genealógico, por lo que tiene 8 CPU y 32 GB de RAM.
+
+## Tipos de Familias
+
+Hay 3 tipos principales de familias: 
+
+- Arquitectura X86
+- Computación Heterogénea 
+- Instancias de ECS Bare Metal. 
+
+### Arquitectura X86
+
+Dentro de esta sección, hay 7 subtipos diferentes de la siguiente manera:
+
+Nivel de entrada o Compartido Ampliable (Entry Level (Shared Burstable)): puede acumular créditos de CPU para sus instancias ampliables y consumir esos créditos para aumentar la potencia informática de sus cargas de trabajo cuando sea necesario. Se utiliza principalmente para servidores de aplicaciones web, aplicaciones ligeras y entornos de desarrollo y prueba.
+
+Propósito General (General Purpose): se utiliza para sitios web, servidores de aplicaciones, servidores de juegos, sistemas de bases de datos pequeños y medianos.
+
+Memoria Optimizada (Memory Optimised): se utiliza para el análisis y la minería de datos y otras aplicaciones empresariales que consumen mucha memoria.
+
+Big Data: se utiliza para empresas que necesitan calcular, almacenar y analizar grandes volúmenes de datos.
+
+Local SSD: se utiliza para el procesamiento de transacciones en línea (OLTP) y bases de datos de alto rendimiento.
+
+Reloj de Alta Velocidad (High Clock Speed): se utiliza para el reenvío de datos de telecomunicaciones y video en pantalla, aplicaciones científicas y de ingeniería de alto rendimiento.
+
+### Computación Heterogénea
+
+En esta sección hay 2 subtipos principales:
+
+Computación Optimizada Basada en GPU (GPU-Based Compute-Optimized): se utiliza para renderizado y codificación y decodificación multimedia, aprendizaje automático, computación de alto rendimiento y bases de datos de alto rendimiento, otras cargas de trabajo de servidor de alta gama que requieren potentes capacidades de cómputo de punto flotante concurrentes.
+
+Computación Optimizada Basada en Field-Programble-Gate-Array (Field-Programable-Gate-Array-Based Compute-Optimized: se utiliza para aprendizaje profundo y razonamiento, investigación genómica, análisis financiero, transcodificación de imágenes, cargas de trabajo computacionales como procesamiento de video en tiempo real y administración de seguridad.
+
+### ECS Bare Metal Instances
+
+Este es un servicio informático que combina la elasticidad de las máquinas virtuales y el rendimiento y las características de las máquinas físicas. La virtualización utilizada por ECS Bare Metal Instances está optimizada para admitir instancias comunes de ECS y virtualización anidada. Las instancias nativas de ECS utilizan la virtualización 2.0 para proporcionar a las aplicaciones comerciales acceso directo al procesador y los recursos de memoria de los servidores subyacentes sin gastos generales de virtualización. Son ideales para aplicaciones que deben ejecutarse en un entorno no virtualizado.
