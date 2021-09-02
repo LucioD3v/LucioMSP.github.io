@@ -5,14 +5,14 @@ image: /assets/img/categories/alexa.png
 screenshot: /assets/img/categories/alexa.png
 caption: Alexa Skills
 description: >
- Alexa is a virtual digital assistant developed by Amazon for its Amazon Echo and Echo Dot line of computing devices. 
+ Alexa es un asistente digital virtual desarrollado por Amazon para su línea de dispositivos informáticos Amazon Echo y Echo Dot.
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
 
 {% if page.title.size > 0 %}
   <header>
-   
+   <script data-ad-client="ca-pub-3510124386419898" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <hr class="sr-only"/>
 {% endif %}
 
