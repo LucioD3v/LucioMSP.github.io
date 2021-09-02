@@ -27,7 +27,7 @@ Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicado
 
  Elastic Compute Service (ECS) es un servicio informático con capacidad de procesamiento flexible. Es una solución de nivel IaaS de alto rendimiento, estable, confiable y escalable que se utiliza para implementar servidores virtuales conocidos como instancias. 
  
- ## IaaS o Infraestructura como Servicio 
+## IaaS o Infraestructura como Servicio 
  
  Es un concepto en el que Alibaba proporciona y administra la virtualización, los servidores, el almacenamiento y las redes. Y así, nosotros como clientes, podemos seleccionar el sistema operativo, instalar aplicaciones y administrar nuestros datos.
 
@@ -61,7 +61,7 @@ ECS comprende los siguientes componentes principales:
 
 - Red (Network): una red de nube privada lógicamente aislada. Las regiones son ubicaciones físicas con uno o más centros de datos distribuidos por todo el mundo para reducir la latencia de la red. 
 
-## Rregiones y Zonas
+## Regiones y Zonas
 
 La región es donde Alibaba Cloud Services lanzará la instancia que se genere. Cabe señalar que se debe de elijir una región para optimizar la latencia, minimizar el costo o abordar los requisitos reglamentarios. Hay regiones específicas en China y otras regiones internacionales disponibles. Para ver la lista actual de regiones alrededor del mundo, puedes navegar desde [aquí](https://www.alibabacloud.com/help/doc-detail/123712.htm?spm=a2c63.p38356.b99.10.7f951d600WKWd5). Tener varias regiones en todo el mundo significa que podemos aprovisionar servidores más cerca de nuestros usuarios. 
 
