@@ -2,7 +2,7 @@
 layout: post
 title: Fundamentos de Elastic Compute Service - Instancias
 description: Tercer artículo sobre Elastic Compute Service de Alibaba - Instancias. 
-image: /assets/img/blog/post-headers/alibaba/ECS-Instance-Types.png
+image: /assets/img/blog/post-headers/alibaba/ecs-instance-types01.png
 noindex: true
 comments: true
 author: lucio
@@ -10,7 +10,6 @@ kate: hl markdown;
 categories: [alibaba]
 tags:
   - alibaba
-  - compute
   - instancias
 keywords:
   - alibaba
@@ -53,7 +52,7 @@ Hay 3 tipos principales de familias:
 - Computación Heterogénea 
 - Instancias de ECS Bare Metal. 
 
-### Arquitectura X86
+## Arquitectura X86
 
 Dentro de esta sección, hay 7 subtipos diferentes de la siguiente manera:
 
@@ -69,7 +68,7 @@ Local SSD: se utiliza para el procesamiento de transacciones en línea (OLTP) y 
 
 Reloj de Alta Velocidad (High Clock Speed): se utiliza para el reenvío de datos de telecomunicaciones y video en pantalla, aplicaciones científicas y de ingeniería de alto rendimiento.
 
-### Computación Heterogénea
+## Computación Heterogénea
 
 En esta sección hay 2 subtipos principales:
 
@@ -77,6 +76,6 @@ Computación Optimizada Basada en GPU (GPU-Based Compute-Optimized): se utiliza 
 
 Computación Optimizada Basada en Field-Programble-Gate-Array (Field-Programable-Gate-Array-Based Compute-Optimized: se utiliza para aprendizaje profundo y razonamiento, investigación genómica, análisis financiero, transcodificación de imágenes, cargas de trabajo computacionales como procesamiento de video en tiempo real y administración de seguridad.
 
-### ECS Bare Metal Instances
+## ECS Bare Metal Instances
 
 Este es un servicio informático que combina la elasticidad de las máquinas virtuales y el rendimiento y las características de las máquinas físicas. La virtualización utilizada por ECS Bare Metal Instances está optimizada para admitir instancias comunes de ECS y virtualización anidada. Las instancias nativas de ECS utilizan la virtualización 2.0 para proporcionar a las aplicaciones comerciales acceso directo al procesador y los recursos de memoria de los servidores subyacentes sin gastos generales de virtualización. Son ideales para aplicaciones que deben ejecutarse en un entorno no virtualizado.
