@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fundamentos de Elastic Compute Service - Imagenes
+title: Imagenes
 description: Tercer artículo sobre Elastic Compute Service (ECS) de Alibaba - Imagenes. 
 image: /assets/img/blog/post-headers/alibaba/second-article-ecs-header.jpeg
 noindex: true
