@@ -33,6 +33,7 @@ Los tipos de instancias siguen una convención de nomenclatura que describe la f
 
 ![image](/assets/img/blog/tutorials/alibaba/articulos-ecs/ecs-g5-large.png)
 
+
 - ecs es un prefijo (todas las instancias de ECS tienen esto en el nombre)
 - 'g' denota la familia de instancias (en este caso, propósito general)
 - 5 denota la generación de instancias e implica la proporción de CPU a RAM, en este caso, una proporción de 1 a 4 (esto significa que para cada CPU hay 4 GB de RAM) 
@@ -50,23 +51,23 @@ Hay 3 tipos principales de familias:
 
 - Arquitectura X86
 - Computación Heterogénea 
-- Instancias de ECS Bare Metal. 
+- Instancias de ECS Bare Metal
 
 ## Arquitectura X86
 
-Dentro de esta sección, hay 7 subtipos diferentes de la siguiente manera:
+Dentro de esta sección, hay 6 subtipos diferentes de la siguiente manera:
 
-Nivel de entrada o Compartido Ampliable (Entry Level (Shared Burstable)): puede acumular créditos de CPU para sus instancias ampliables y consumir esos créditos para aumentar la potencia informática de sus cargas de trabajo cuando sea necesario. Se utiliza principalmente para servidores de aplicaciones web, aplicaciones ligeras y entornos de desarrollo y prueba.
+** Nivel de entrada o Compartido Ampliable (Entry Level (Shared Burstable)): puede acumular créditos de CPU para sus instancias ampliables y consumir esos créditos para aumentar la potencia informática de sus cargas de trabajo cuando sea necesario. Se utiliza principalmente para servidores de aplicaciones web, aplicaciones ligeras y entornos de desarrollo y prueba.
 
-Propósito General (General Purpose): se utiliza para sitios web, servidores de aplicaciones, servidores de juegos, sistemas de bases de datos pequeños y medianos.
+** Propósito General (General Purpose): se utiliza para sitios web, servidores de aplicaciones, servidores de juegos, sistemas de bases de datos pequeños y medianos.
 
-Memoria Optimizada (Memory Optimised): se utiliza para el análisis y la minería de datos y otras aplicaciones empresariales que consumen mucha memoria.
+** Memoria Optimizada (Memory Optimised): se utiliza para el análisis y la minería de datos y otras aplicaciones empresariales que consumen mucha memoria.
 
-Big Data: se utiliza para empresas que necesitan calcular, almacenar y analizar grandes volúmenes de datos.
+** Big Data: se utiliza para empresas que necesitan calcular, almacenar y analizar grandes volúmenes de datos.
 
-Local SSD: se utiliza para el procesamiento de transacciones en línea (OLTP) y bases de datos de alto rendimiento.
+** Local SSD: se utiliza para el procesamiento de transacciones en línea (OLTP) y bases de datos de alto rendimiento.
 
-Reloj de Alta Velocidad (High Clock Speed): se utiliza para el reenvío de datos de telecomunicaciones y video en pantalla, aplicaciones científicas y de ingeniería de alto rendimiento.
+** Reloj de Alta Velocidad (High Clock Speed): se utiliza para el reenvío de datos de telecomunicaciones y video en pantalla, aplicaciones científicas y de ingeniería de alto rendimiento.
 
 ## Computación Heterogénea
 
