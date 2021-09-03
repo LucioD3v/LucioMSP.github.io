@@ -77,6 +77,8 @@ Computación Optimizada Basada en GPU (GPU-Based Compute-Optimized): se utiliza 
 
 Computación Optimizada Basada en Field-Programble-Gate-Array (Field-Programable-Gate-Array-Based Compute-Optimized: se utiliza para aprendizaje profundo y razonamiento, investigación genómica, análisis financiero, transcodificación de imágenes, cargas de trabajo computacionales como procesamiento de video en tiempo real y administración de seguridad.
 
-## ECS Bare Metal Instances
+## Instancias de ECS Bare Metal
 
-Este es un servicio informático que combina la elasticidad de las máquinas virtuales y el rendimiento y las características de las máquinas físicas. La virtualización utilizada por ECS Bare Metal Instances está optimizada para admitir instancias comunes de ECS y virtualización anidada. Las instancias nativas de ECS utilizan la virtualización 2.0 para proporcionar a las aplicaciones comerciales acceso directo al procesador y los recursos de memoria de los servidores subyacentes sin gastos generales de virtualización. Son ideales para aplicaciones que deben ejecutarse en un entorno no virtualizado.
+Este es un servicio informático que combina la elasticidad de las máquinas virtuales y el rendimiento y las características de las máquinas físicas. La virtualización utilizada por ECS Bare Metal Instances está optimizada para admitir instancias comunes de ECS y virtualización anidada. 
+
+Las instancias nativas de ECS utilizan la virtualización 2.0 para proporcionar a las aplicaciones comerciales acceso directo al procesador y los recursos de memoria de los servidores subyacentes sin gastos generales de virtualización. Son ideales para aplicaciones que deben ejecutarse en un entorno no virtualizado.
