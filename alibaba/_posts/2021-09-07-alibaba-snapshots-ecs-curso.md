@@ -23,20 +23,15 @@ lang: es
 ---
 
 Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta quinta entrega veremos ECS Snapshots o Instantáneas de ECS.
-
 ## ¿Qué es son las instantáneas de ECS (SnapShots)?
 
 Las instantáneas son copias completas de solo lectura de los datos del disco en determinados momentos y estas se pueden utilizar para los siguientes escenarios:
-
 ### Copia de Seguridad y Recuperación ante Desastres: 
-  puede crear una instantánea para un disco y luego usar la instantánea para crear otro disco para implementar la recuperación ante desastres geográficos o de zona.
-
+  Puede crear una instantánea para un disco y luego usar la instantánea para crear otro disco para implementar la recuperación ante desastres geográficos o de zona.
 ### Clonación del Entorno: 
-  puede utilizar una instantánea del disco del sistema para crear una imagen personalizada y, a continuación, utilizar la imagen personalizada para crear una instancia de ECS para clonar el entorno.
-
+  Puede utilizar una instantánea del disco del sistema para crear una imagen personalizada y, a continuación, utilizar la imagen personalizada para crear una instancia de ECS para clonar el entorno.
 ### Desarrollo de Datos: 
-  las instantáneas pueden proporcionar datos de producción casi en tiempo real para aplicaciones como minería de datos, consultas de informes, desarrollo y pruebas.
-
+  Las instantáneas pueden proporcionar datos de producción casi en tiempo real para aplicaciones como minería de datos, consultas de informes, desarrollo y pruebas.
 ### Tolerancia a Fallas Mejorada: 
   Puede revertir un disco a un punto anterior en el tiempo mediante el uso de una instantánea para reducir el riesgo de pérdida de datos causada por una ocurrencia inesperada. Puede crear instantáneas de forma regular para evitar pérdidas causadas por sucesos inesperados. 
   
