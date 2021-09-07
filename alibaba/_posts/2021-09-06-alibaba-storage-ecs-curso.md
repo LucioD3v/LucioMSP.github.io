@@ -38,7 +38,7 @@ Actualmente, existen 3 tipos de disco en la nube:
 
 - Ultra Disk: discos en la nube con alta rentabilidad, rendimiento de IOPS aleatorio medio y alta confiabilidad de los datos.
 - SSD Estándar: discos de alto rendimiento que cuentan con un rendimiento de IOPS aleatorio alto y constante y una alta confiabilidad de los datos.
-- SSD Mejorado: los ESSD son discos de rendimiento ultraalto basados ​​en la arquitectura de almacenamiento de bloques distribuidos de próxima generación. Cada ESSD puede entregar hasta 1 millón de IOPS aleatorias y tiene baja latencia.
+- SSD Mejorado (Enhanced SSD (ESSD)): los ESSD son discos de rendimiento ultra alto basados ​​en la arquitectura de almacenamiento de bloques distribuidos de próxima generación. Cada ESSD puede entregar hasta 1 millón de IOPS aleatorias y tiene baja latencia.
 
 Las 2 funciones de Cloud Disks son las siguientes:
 ### Como disco del sistema
@@ -50,4 +50,8 @@ Los sistemas Linux y FreeBSD tienen un valor predeterminado de 20 GB. Los sistem
 
 Los discos de datos se pueden crear por separado o al mismo tiempo que una instancia de ECS. Los discos de datos creados al mismo tiempo que las instancias de ECS tienen el mismo ciclo de vida que la instancia correspondiente y se publican junto con la instancia de forma predeterminada. Y nuevamente, esta función de liberación automática se puede cambiar. Los discos de datos creados por separado se pueden liberar por separado o al mismo tiempo que la instancia de ECS correspondiente. 
 
-Y al igual que el disco del sistema, el acceso compartido a un disco de datos no está permitido. Los tamaños de los discos de datos pueden oscilar entre 20 GB y 32 TB y se pueden conectar hasta 16 discos de datos a una única instancia de ECS. Los discos de nube se pueden montar en cualquier instancia de la misma zona, pero no se pueden montar en instancias de distintas zonas.
+Y al igual que el disco del sistema, el acceso compartido a un disco de datos no está permitido. Los tamaños de los discos de datos pueden oscilar entre 20 GB y 32 TB y se pueden conectar hasta 16 discos de datos a una única instancia de ECS. 
+
+Los discos de nube se pueden montar en cualquier instancia de la misma zona, pero no se pueden montar en instancias de distintas zonas.
+
+![image](/assets/img/blog/tutorials/alibaba/articulos-ecs/storage-zones.pngg)
