@@ -2,7 +2,7 @@
 layout: post
 title: Fundamentos de ECS - Instantáneas (SnapShot)
 description: Cuarto artículo sobre Elastic Compute Service (ECS) de Alibaba - Instantáneas (SnapShot).
-image: /assets/img/blog/post-headers/alibaba/SnapShot.png
+image: /assets/img/blog/post-headers/alibaba/alibaba-header-snapshot.png
 noindex: true
 comments: true
 author: lucio
@@ -41,6 +41,8 @@ Las instantáneas son copias completas de solo lectura de los datos del disco en
   Puede revertir un disco a un punto anterior en el tiempo mediante el uso de una instantánea para reducir el riesgo de pérdida de datos causada por una ocurrencia inesperada. Puede crear instantáneas de forma regular para evitar pérdidas causadas por sucesos inesperados. 
   
   Estos sucesos inesperados pueden incluir, por ejemplo, escribir datos incorrectos en discos, eliminar datos accidentalmente de un disco, liberar instancias de ECS accidentalmente, errores de datos causados ​​por errores de aplicación y pérdida de datos debido a intentos de piratería.
+
+![image](/assets/img/blog/tutorials/alibaba/articulos-ecs/SnapShot.png)
 
 Además, puede crear una instantánea antes de realizar operaciones de alto riesgo, como cambiar sistemas operativos, actualizar aplicaciones y migrar datos comerciales.
 
