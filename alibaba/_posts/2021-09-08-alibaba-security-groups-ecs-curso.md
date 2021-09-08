@@ -41,11 +41,17 @@ Hay 2 clasificaciones de grupos de seguridad: Básico y Avanzado.
 Los grupos de seguridad tienen las siguientes características: 
 
 ** Debe especificar un grupo de seguridad cuando crea una instancia de ECS. 
+
 ** Cada instancia de ECS debe pertenecer al menos a un grupo de seguridad, pero se puede agregar a varios grupos de seguridad al mismo tiempo. 
+
 ** Las instancias de ECS no pueden pertenecer a grupos de seguridad básicos y avanzados al mismo tiempo. 
+
 ** Las instancias de ECS en el mismo grupo de seguridad pueden comunicarse entre sí a través de la red interna.
+
 ** Las instancias de ECS en diferentes grupos de seguridad están aisladas entre sí.
+
 ** Se pueden agregar reglas de grupo de seguridad para autorizar el acceso mutuo entre dos grupos de seguridad. 
+
 ** Se pueden configurar reglas de grupo de seguridad solo para grupos de seguridad básicos, para autorizar el acceso mutuo entre dos grupos de seguridad.
 
 ## Grupo de Seguridad Predeterminado
