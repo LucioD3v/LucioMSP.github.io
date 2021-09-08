@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fundamentos de ECS - Instantáneas (SnapShot)
-description: Cuarto artículo sobre Elastic Compute Service (ECS) de Alibaba - Instantáneas (SnapShot).
+description: Quinto artículo sobre Elastic Compute Service (ECS) de Alibaba - Instantáneas (SnapShot).
 image: /assets/img/blog/post-headers/alibaba/alibaba-header-snapshot.png
 noindex: true
 comments: true
