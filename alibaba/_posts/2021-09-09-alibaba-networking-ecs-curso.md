@@ -23,8 +23,8 @@ lang: es
 ---
 
 Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta séptima y última entrega veremos ECS Networking o Redes de ECS.
-
-![image](/assets/img/blog/tutorials/alibaba/articulos-ecs/alibaba-networking.jpg)
+ 
+ --------------------------------------------------------------------------------------
 
 La nube privada virtual (Virtual Private Cloud - VPC) es una red virtual aislada lógicamente, la cual proporciona aislamiento a nivel de VLAN y bloquea las comunicaciones de la red externa; es un requisito al aprovisionar una instancia de ECS.
 
@@ -58,6 +58,7 @@ Se puede utilizar una dirección IP privada en los siguientes escenarios:
 Las instancias de ECS admiten dos tipos de direcciones IP públicas:
 
 ** El primero es NATPublicIP, que se asigna a una instancia ECS conectada a VPC. Este tipo de dirección solo se puede liberar y no se puede desvincular de la instancia. 
+
 ** El segundo es la dirección IP elástica (EIP). Una dirección IP elástica (EIP) es una dirección IP pública independiente que puede comprar y usar. Los EIP se pueden asociar a diferentes instancias de ECS que residen dentro de las VPC a lo largo del tiempo para permitir el acceso público a las instancias de ECS.
 
 Sus casos de uso son:
