@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¡Soy un Alibaba Cloud MVP!
+title: ¡Soy Alibaba Cloud MVP!
 description: Alibaba Cloud Most Valuable Professional (MVP) es un premio para líderes de opinión que se dedican a ayudar a otros a comprender y utilizar completamente las tecnologías de Alibaba Cloud.
 image: /assets/img/blog/post-headers/alibaba/MVP2021.png
 noindex: true
@@ -21,9 +21,9 @@ keywords:
 lang: es
 ---
 
-Hola amigos, el día de hoy les quiero compartir una excelente noticia, y es que fui galardonado como MVP de Alibaba Cloud y bueno, a lo mejor se han de preguntar: ¿qué es esto?, ¿con que se come? o ¿cómo puedo serlo?. 
+Hola amig@s, el día de hoy les quiero compartir una excelente noticia, y es que fui galardonado como MVP de Alibaba Cloud y bueno, a lo mejor se han de preguntar: ¿qué es esto?, ¿con que se come? o ¿cómo puedo serlo?. 
 
-Es por ello, que en este artículo les explicaré todo sobre dicho reconocimiento.
+Es por ello, que en este artículo les explicaré todo sobre dicho reconocimiento, comencemos con:
  
  --------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ Si se logra ingresar con éxito en el programa, es decir, si Alibaba Cloud te re
 
 Haga clic en el siguiente enlace para ver los beneficios completos de Alibaba Cloud MVP: [https://mvp.alibabacloud.com/mvp/benefits](https://mvp.alibabacloud.com/mvp/benefits)
 
-# Mi Caso (Happy Geek)
+## Mi Caso (Happy Geek)
 
 Y bueno, la verdad es que me siento verdaderamente honrado de haber sido seleccionado como MVP de Alibaba Cloud, ¡entre los 368 MVP (en la actualidad) en todo el mundo!, siendo así el único mexicano (de momento).
 
@@ -61,4 +61,4 @@ Más Información:
 - [mvp.alibaba.com](https://mvp.alibabacloud.com/)
 - [The 2021 Autumn Batch Alibaba Cloud MVP Officially Announced](https://www.alibabacloud.com/blog/598120)
 
-Cabe destaca que el programa MVP está abierto a todos los desarrolladores profesionales de todo el mundo.
+Cabe destacar que el programa MVP está abierto a todos los desarrolladores profesionales de todo el mundo.
