@@ -27,17 +27,17 @@ Es por ello, que en este artículo les explicaré todo sobre dicho reconocimient
  
  --------------------------------------------------------------------------------------
 
- ### ¿Qué es el premio MVP de Alibaba Cloud?
+### ¿Qué es el premio MVP de Alibaba Cloud?
 
 Alibaba Cloud Most Valuable Professional (MVP) es un premio otorgado a los líderes de la industria de la nube que se dedican a ayudar a otros a comprender y aprovechar al máximo las tecnologías en la nube de Alibaba. Gracias al premio MVP de Alibaba Cloud, la empresa (Alibaba Cloud) puede expresar su sincero agradecimiento a los innovadores excepcionales de la nube.
 
-En otras palabras, dicho galardón se les brinda a las personas que se dedican a ayudar a la comunidad a comprender y utilizar los productos y tecnologías de Alibaba Cloud. El programa Alibaba Cloud MVP también es una red de líderes comunitarios globales, donde uno puede conectarse con líderes comunitarios de todo el mundo en diferentes industrias y áreas técnicas a través de grupos y eventos en línea así como fuera de línea.
+En otras palabras, dicho galardón se les brinda a las personas que se dedican a ayudar a la comunidad a comprender y utilizar los productos y tecnologías de Alibaba Cloud. El programa Alibaba Cloud MVP también es una red de líderes comunitarios globales, donde uno puede conectarse con líderes comunitarios de todo el mundo en diferentes industrias y áreas técnicas a través de grupos y eventos en línea así como fuera de.
 
 Al convertirse en MVP, se obtiene un reconocimiento excepcional por las contribuciones a la comunidad y aprovechar los privilegios proporcionados por Alibaba Cloud, por ejemplo: MVP Medal, reunirse con expertos internos de Alibaba Cloud por un período ilimitado, servicios exclusivos de Alibaba Cloud, una invitación a las actividades oficiales de Alibaba Cloud y visitar la sede de Alibaba.
 
 ### ¿Cuáles son los beneficios de convertirse en MVP?
 
-Si se inscribe con éxito en el programa, recibirá una certificación MVP y un paquete de bienvenida. Después de eso, puede unirse a nuestro grupo y participar en una capacitación interna exclusiva con Alibaba Cloud. También tendrá la oportunidad de asistir a la conferencia Apsara, visitar la sede de Alibaba y tener reuniones con ejecutivos y expertos de alto nivel de Alibaba Cloud. Además, si actualiza a un nivel superior haciendo más contribuciones a la comunidad, obtendrá beneficios adicionales, que incluyen hasta USD $ 1500.00 en créditos, ACP gratuito y exposición en el canal oficial de Alibaba Cloud.
+Si se logra ingresar con éxito en el programa, es decir, si Alibaba Cloud te reconoce como un experto en sus tecnologías, se recibe una certificación MVP y un paquete de bienvenida. Después de eso, se puede unirse al grupo y participar en una capacitación interna exclusiva con Alibaba Cloud. También se tendrá la oportunidad de asistir a la conferencia Apsara, visitar la sede de Alibaba y tener reuniones con ejecutivos y expertos de alto nivel de Alibaba Cloud. Además, si actualiza a un nivel superior haciendo más contribuciones a la comunidad, obtendrá beneficios adicionales, que incluyen hasta USD $1500.00 en créditos, ACP gratuito y exposición en el canal oficial de Alibaba Cloud.
 
 ![image](/assets/img/blog/tutorials/alibaba/mvp-alibaba/beneficiosMVP.png)
 
