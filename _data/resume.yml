@@ -9,10 +9,10 @@ basics:
   phone: "(+52) 55 4348 4042"
   summary: >
     Vicente hails from Irapuato, Guanajuato.
-    He is a software developer with more than 8 years of experience; 
+    He is a software developer with more than 10 years of experience; 
   location:
     address: ""
-    postalCode: ""
+    postalCode: "11200"
     city: "México City"
     countryCode: "MX"
     region: "México"
@@ -37,11 +37,21 @@ work:
     highlights:
       - "Multiple mobile app enhancements provided by assigned customer"
       - "Stack used: Xamarin.Forms, .NET, C#, DevOps, Xcode, Azure SQL Database"
+  - company: "Applenti"
+    position: "Web and Mobile Developer (Freelance)"
+    website: "http://applenti.com/"
+    startDate: "2020-12-16"
+    endDate: "2021-04-09"
+    summary: >
+      Applenti is a company focused on security and access solutions.
+    highlights:
+      - "Multiple mobile app enhancements provided by assigned customer"
+      - "Stack used: Xamarin.Forms, .NET, C#, DevOps, Xcode, Azure SQL Database"
   - company: "Deintec"
     position: "Mobile Project Leader"
     website: "https://deintec.com/wordpress/"
     startDate: "2020-02-10"
-    endDate: "2020-12-31"
+    endDate: "2020-12-13"
     summary: >
       Deintec is a strong consulting and software developer company, we provide analytical services, design and construction of applications from our remote development centers in Mexico City.
     highlights:
