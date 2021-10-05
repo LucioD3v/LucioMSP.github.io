@@ -86,7 +86,7 @@ volunteer:
     summary: "The Global AI Community empowers developers who are passionate about AI to share knowledge through events and meetups. We host 3 global AI events across 100 locations that span every corner of the globe. We also provide a variety of resources to members of the community, including a free Meetup Pro account for user groups, event-in-a-box content, Azure passes, and support for booking Microsoft venues. We work closely with product teams at Microsoft to share workshop content about the newest Azure AI products."
     highlights:
       - "The first Global AI organized in México by Microsoft Student Partners"
-  - organization: "vox Ninja Alexa Community"
+  - organization: "Vox Ninja Alexa Community"
     position: "Organizer"
     website: "https://www.meetup.com/es-ES/vox-Ninja-Alexa-Mx/"
     startDate: "2019-01-01"
@@ -120,6 +120,9 @@ education:
     startDate: "2007-08-28"
     endDate: "2011-06-01"
 awards:
+  - title: "Alibaba Cloud Most Value Professional"
+    date: "2021-09-28"
+    awarder: "Alibaba Cloud"
   - title: "Alexa Champion México"
     date: "2020-01-10"
     awarder: "Amazon"
