@@ -6,8 +6,8 @@ basics:
   label: "Software Engineer"
   picture: "/assets/icons/icon.png"
   email: "luciomsp@geeks.ms"
-  phone (MX): "(+52) 55 4348 4042"
-  phone (USA): "(805) 223 7460"
+  phone: "(+52) 55 4348 4042 (MX)"
+  phone: "(805) 223 7460 (USA)"
   summary: >
     Vicente hails from Irapuato, Guanajuato.
     He is a software developer with more than 10 years of experience; 
