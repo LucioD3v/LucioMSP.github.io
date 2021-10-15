@@ -1,40 +1,44 @@
 ---
 layout: post
 title: Correción de pantalla blanca en Android al usar NavigationPage (Xamarin.Forms)
-description: Conoce todo sobre .NET MAUI, la evolución de Xamarin.Forms. - Primer articulo -
+description: 
 image: /assets/img/blog/post-headers/xamarin/xamarinBanner.jpg
 noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [maui]
+categories: [xamarin.forms]
 tags:
-  - maui
-  - net
+  - xamarin
+  - xamarin.forms
 keywords:
   - maui
   - net
 lang: es
 ---
 
-Si experimenta una pantalla en blanco al presionar Navegación o Pila modal en Android, siga leyendo.
+Este artículo es una traducción al español del blog de banditoth (con un toque personal), en donde se demuestra como corregir el problema reportado en el GitHub de [Xamarin.Forms](https://github.com/xamarin/Xamarin.Forms/issues/11993).
 
-No estoy seguro de si esto es un error en Xamarin Forms o no, pero supongo que lo es, porque solo se presenta en ciertos escenarios, y no siempre.
+---------------------------------------------------------------------
+
+## Escenario
+
+Si te encuentras experimentando con una pantalla en blanco al presionar Navigation o un Modal Stack en Android, sigue leyendo, ya que este artículo te ayudará a resolverlo.
+
+La verdad no estoy seguro de si esto es un error en Xamarin.Forms o no, pero supongo que lo es, porque solo se presenta en ciertos escenarios, y no siempre.
 
 ## ¿Qué está pasando, cómo nota este error?
-Tienes una NavigationPage. Está enviando una nueva página a la pila de navegación y la página no se está procesando, solo se muestra una pantalla en blanco.
-
-Si está rotando el dispositivo, la página se está renderizando bien.
+Tienes una NavigationPage, la cúal está enviando una nueva página a la pila de navegación y la página no se está procesando, solo se muestra una pantalla en blanco. Ahora bien, si rotas el dispositivo, la página se renderizará correctamente.
 
 Mi entorno es:
-Xamarin.Forms: 4.8 up to 5.0
-Device: Samsung Galaxy A12
-Visual Studio 2019 Professional with Xamarin.Android SDK 11.4.0.5
+Xamarin.Forms: 4.8 hasta 5.0
+Dispositivo: Samsung Galaxy A12 (probado igual en un Samsuns S20+)
+Visual Studio 2019 Professional con Xamarin.Android SDK 11.4.0.5
 
 ## Solución
-Siempre invoque los métodos de INavigation en el subproceso principal de la aplicación. Los cambios en la interfaz de usuario deben ir siempre en el hilo de la interfaz de usuario de la aplicación.
+Siempre se deben de invocar los métodos de INavigation en el subproceso principal de la aplicación, ya que los cambios en la interfaz de usuario deben ir siempre en el hilo de la interfaz de usuario de la aplicación.
 
-Cree una clase que envuelva la INavigation presentada por sus Vistas. Es útil almacenar una referencia en esta clase a la instancia de INavigation de la página principal actual de las aplicaciones, así que intente crear su código para suministrar la instancia de INavigation real cada vez que esta clase cuando la página principal de la aplicación esté configurada.
+Para esto, solo se debe de crear una clase que envuelva la INavigation presentada por sus Vistas. Es útil almacenar una referencia en esta clase a la instancia de INavigation de la página principal actual de las aplicaciones, así que intente crear su código para suministrar la instancia de INavigation cada vez a esta clase cuando la página principal de la aplicación esté configurada.
 
 ~~~bash
 
@@ -151,5 +155,6 @@ public class NavigationDispatcher : INavigation
 ~~~
 
 ## Observaciones
-Considere una verificación del hilo actual en el cuerpo de los métodos.
-Si se están ejecutando en el hilo principal, no necesitará volver a cambiar al hilo principal.
+Considere realizar una verificación del hilo actual en el cuerpo de los métodos, puesto que si se están ejecutando en el hilo principal, no se necesitará volver a cambiar al hilo principal.
+
+Post Original: [banditoth.hu](https://www.banditoth.hu/2021/10/06/xamarin-forms-white-screen-between-page-push-and-pop-solved/)

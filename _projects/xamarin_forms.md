@@ -6,8 +6,6 @@ screenshot: /assets/img/categories/xamarin-forms.png
 caption: Xamarin, Xamarin.Forms 
 description: >
  Xamarin.Forms es un framework de interfaz de usuario de código abierto, el cual nos permite a los desarrolladores crear aplicaciones de Xamarin.Android, Xamarin.iOS y Windows desde una única base de código compartida.
- 
- Xamarin.Forms permite a los desarrolladores crear interfaces de usuario en XAML con código subyacente en C#. Estas interfaces se representan como controles nativos de rendimiento en cada plataforma.
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
