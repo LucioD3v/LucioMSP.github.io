@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Xamarin.Forms - Se elimina la pantalla blanca entre PagePush y PopP
+title: Correción de pantalla blanca en Android al usar NavigationPage (Xamarin.Forms)
 description: Conoce todo sobre .NET MAUI, la evolución de Xamarin.Forms. - Primer articulo -
-image: /assets/img/blog/post-headers/maui/maui01.png
+image: /assets/img/blog/post-headers/xamarin/xamarinBanner.jpg
 noindex: true
 comments: true
 author: lucio
@@ -38,7 +38,7 @@ Cree una clase que envuelva la INavigation presentada por sus Vistas. Es útil a
 
 ~~~bash
 
-  public class NavigationDispatcher : INavigation
+public class NavigationDispatcher : INavigation
 {
     private INavigation _navigation;
  
