@@ -26,16 +26,18 @@ Estamos a nada de que .NET 6 y .NET MAUI se encuentren en su versión estable, p
 
 Para no transcribir toda la información que Microsoft nos brinda, mejor les comparto a continuación el video de James Montemagno, quien como ya muchos sabemos es "el" desarrollador de Xamarin más experto que trabaja en Microsoft.
 
+<div class="sixteen-nine">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zvPPz6DABi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Así mismo los invito a que sigan a James en todas las plataformas en las que se encuentra:
 
-[https://blunders.fm](https://blunders.fm)
-[https://montemagno.com](https://montemagno.com)
-[https://mergeconflict.fm](https://mergeconflict.fm)
-[https://nintendodispatch.com](https://nintendodispatch.com)
-[https://twitter.com/jamesmontemagno](https://twitter.com/jamesmontemagno)
-[https://youtube.com/jamesmontemagno](https://youtube.com/jamesmontemagno)
+- [https://blunders.fm](https://blunders.fm)
+- [https://montemagno.com](https://montemagno.com)
+- [https://mergeconflict.fm](https://mergeconflict.fm)
+- [https://nintendodispatch.com](https://nintendodispatch.com)
+- [https://twitter.com/jamesmontemagno](https://twitter.com/jamesmontemagno)
+- [https://youtube.com/jamesmontemagno](https://youtube.com/jamesmontemagno)
 
 
 
