@@ -2,7 +2,7 @@
 layout: post
 title: Cómo .NET MAUI afectará al desarrollo de aplicaciones Xamarin.Forms
 description: Conoce todo sobre .NET MAUI, la evolución de Xamarin.Forms. - Primer articulo -
-image: /assets/img/blog/post-headers/maui/maui01.png
+image: /assets/img/blog/post-headers/maui/xamarin-forms-maui.jpg
 noindex: true
 comments: true
 author: lucio
@@ -11,26 +11,34 @@ categories: [maui]
 tags:
   - maui
   - net
+  - xamarin
+  - forms
 keywords:
   - maui
   - net
+  - development
+  - desarrollo
+  - xamarin
 lang: es
 ---
 
-.NET 6 y .NET MAUI están en el umbral, pero ¿cómo afectará el desarrollo de aplicaciones Xamarin?
+Estamos a nada de que .NET 6 y .NET MAUI se encuentren en su versión estable, pero ¿cómo afectará el desarrollo de aplicaciones Xamarin de hoy en día?
 
-Por hoy, les he traído un video de James Montemagno, un desarrollador de Xamarin que trabaja en Microsoft.
+Para no transcribir toda la información que Microsoft nos brinda, mejor les comparto a continuación el video de James Montemagno, quien como ya muchos sabemos es "el" desarrollador de Xamarin más experto que trabaja en Microsoft.
 
-<iframe id="ytplayer" type="text/html" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://youtu.be/zvPPz6DABi8">
+<div class="sixteen-nine">
+  <iframe id="ytplayer" type="text/html" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+  src="https://youtu.be/zvPPz6DABi8">
+</div>
 
-Los invito a que sigan a James en todas las plataformas en las que se encuentra:
+Así mismo los invito a que sigan a James en todas las plataformas en las que se encuentra:
 
-https://blunders.fm
-https://montemagno.com
-https://mergeconflict.fm
-https://nintendodispatch.com
-https://twitter.com/jamesmontemagno
-https://youtube.com/jamesmontemagno
+[https://blunders.fm](https://blunders.fm)
+[https://montemagno.com](https://montemagno.com)
+[https://mergeconflict.fm](https://mergeconflict.fm)
+[https://nintendodispatch.com](https://nintendodispatch.com)
+[https://twitter.com/jamesmontemagno](https://twitter.com/jamesmontemagno)
+[https://youtube.com/jamesmontemagno](https://youtube.com/jamesmontemagno)
 
 
 
