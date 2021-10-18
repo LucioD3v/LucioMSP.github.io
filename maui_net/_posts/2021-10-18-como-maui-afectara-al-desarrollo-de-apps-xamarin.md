@@ -26,10 +26,8 @@ Estamos a nada de que .NET 6 y .NET MAUI se encuentren en su versión estable, p
 
 Para no transcribir toda la información que Microsoft nos brinda, mejor les comparto a continuación el video de James Montemagno, quien como ya muchos sabemos es "el" desarrollador de Xamarin más experto que trabaja en Microsoft.
 
-<div class="sixteen-nine">
-  <iframe id="ytplayer" type="text/html" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+<iframe id="ytplayer" type="text/html" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
   src="https://www.youtube.com/watch?v=zvPPz6DABi8&feature=youtu.be">
-</div>
 
 Así mismo los invito a que sigan a James en todas las plataformas en las que se encuentra:
 
