@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo .NET MAUI afectará al desarrollo de aplicaciones Xamarin.Forms
-description: Conoce todo sobre .NET MAUI, la evolución de Xamarin.Forms. - Primer articulo -
+description: Conoce cómo .NET MAIU afectará el desarrollo de aplicaciones de Xamarin.Forms
 image: /assets/img/blog/post-headers/maui/xamarin-forms-maui.jpg
 noindex: true
 comments: true
@@ -28,7 +28,7 @@ Para no transcribir toda la información que Microsoft nos brinda, mejor les com
 
 <div class="sixteen-nine">
   <iframe id="ytplayer" type="text/html" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-  src="https://youtu.be/zvPPz6DABi8">
+  src="https://www.youtube.com/watch?v=zvPPz6DABi8&feature=youtu.be">
 </div>
 
 Así mismo los invito a que sigan a James en todas las plataformas en las que se encuentra:
