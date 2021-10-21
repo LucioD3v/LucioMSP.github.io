@@ -66,6 +66,7 @@ Figura 1 – Comparación de la estructura de una solución entre Xamarin.Forms 
 Además de lo anterior, .NET MAUI nos permite agregar recursos como imágenes, fuentes o formularios de traducción una sola vez, ya que como solo se cuenta con un solo proyecto, no se tiene la necesidad de hacerlo para cada plataforma por separado. En comparación, al usar Xamarin.Forms, debemos agregar cada recurso a cada plataforma por separado. Esto agrega trabajo adicional para nosotros los desarrolladores y claro esta, tambien para el equipo. 
 
 |Xamarin.Forms|
+
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/XF01.png)
 
 |.NET MAUI|
