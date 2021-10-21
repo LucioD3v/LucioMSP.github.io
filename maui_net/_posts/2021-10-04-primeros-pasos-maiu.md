@@ -41,7 +41,6 @@ Este artículo está dirigido principalmente a desarrolladores de .NET con ciert
 Para la aplicación que se va a desarrollar, se requiere un entorno de desarrollo de Windows 10, debido a que la compatibilidad de Visual Studio para Mac con .NET MAUI está prevista para una versión futura.
 
 Idealmente, se debería contar con un dispositivo macOS con Xamarin.iOS y Xcode instalado conectado a su entorno de Windows 10. Esto por que se necesitará compilar y usar el simulador de iOS. Con esta configuración, es decir, Windows y Mac, podemos probar la aplicación de tareas en múltiples plataformas (Android, iOS, macOS y Windows).
-
 ### Nota: 
 
 Actualmente, Visual Studio 2022 solo puede implementar aplicaciones de .NET MAUI iOS en el simulador de iOS, y no en dispositivos físicos.
@@ -55,13 +54,13 @@ Actualmente, Visual Studio 2022 solo puede implementar aplicaciones de .NET MAUI
 
 Si han utilizado anteriormente Xamarin.Forms para crear interfaces de usuario multiplataforma, notarán muchas similitudes con .NET MAUI. De hecho, .NET MAUI es la evolución de Xamarin.Forms. Sin embargo, simplifica la estructura del proyecto en un solo proyecto para apuntar a múltiples plataformas, algo que en Xamarin.Forms no tiene, por el contrario cuenta con un proyecto para cada plataforma de destino y otro proyecto para una base de código compartido:
 
-|Xamarin.Forms|
-
-Figura 1 – Comparación de la estructura de una solución entre Xamarin.Forms (izquierda) y .NET MAUI (derecha)
-
+|Xamarin.Forms
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/App_Xamarin.jpeg)
+|
 
 |.NET MAUI|
 
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/App_MAUI.jpeg)
 
+
+Figura 1 – Comparación de la estructura de una solución entre Xamarin.Forms (izquierda) y .NET MAUI (derecha)
