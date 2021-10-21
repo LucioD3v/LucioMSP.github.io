@@ -54,13 +54,34 @@ Actualmente, Visual Studio 2022 solo puede implementar aplicaciones de .NET MAUI
 
 Si han utilizado anteriormente Xamarin.Forms para crear interfaces de usuario multiplataforma, notarán muchas similitudes con .NET MAUI. De hecho, .NET MAUI es la evolución de Xamarin.Forms. Sin embargo, simplifica la estructura del proyecto en un solo proyecto para apuntar a múltiples plataformas, algo que en Xamarin.Forms no tiene, por el contrario cuenta con un proyecto para cada plataforma de destino y otro proyecto para una base de código compartido:
 
-|Xamarin.Forms
+|Xamarin.Forms|
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/App_Xamarin.jpeg)
-|
 
 |.NET MAUI|
 
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/App_MAUI.jpeg)
 
-
 Figura 1 – Comparación de la estructura de una solución entre Xamarin.Forms (izquierda) y .NET MAUI (derecha)
+
+Además de lo anterior, .NET MAUI nos permite agregar recursos como imágenes, fuentes o formularios de traducción una sola vez, ya que como solo se cuenta con un solo proyecto, no se tiene la necesidad de hacerlo para cada plataforma por separado. En comparación, al usar Xamarin.Forms, debemos agregar cada recurso a cada plataforma por separado. Esto agrega trabajo adicional para nosotros los desarrolladores y claro esta, tambien para el equipo. 
+
+|Xamarin.Forms|
+![image](/assets/img/blog/tutorials/maui-primeros-pasos/XF01.png)
+
+|.NET MAUI|
+
+![image](/assets/img/blog/tutorials/maui-primeros-pasos/MAUI01.png)
+
+Figura 2 - Agregando imagenes en Xamarin.Forms y en .NET MAUI
+
+Sin embargo, .NET MAUI todavía nos permite trabajar con las APIs nativas del sistema operativo subyacente. En la carpeta Plataformas, se pueden agregar archivos de código fuente para un sistema operativo específico y acceder a las API nativas:
+
+|.NET MAUI|
+
+![image](/assets/img/blog/tutorials/maui-primeros-pasos/MAUI02.png)
+
+Figura 3 - Carpeta Platforms
+
+Y bueno, eso es todo por el momento, en el siguiente artículo conoceremos cuales son las ventajas de MAUI sobre otros marcos multiplataforma (frameworks).
+
+¡Hasta la próxima!
