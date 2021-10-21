@@ -55,6 +55,7 @@ Actualmente, Visual Studio 2022 solo puede implementar aplicaciones de .NET MAUI
 Si han utilizado anteriormente Xamarin.Forms para crear interfaces de usuario multiplataforma, notarán muchas similitudes con .NET MAUI. De hecho, .NET MAUI es la evolución de Xamarin.Forms. Sin embargo, simplifica la estructura del proyecto en un solo proyecto para apuntar a múltiples plataformas, algo que en Xamarin.Forms no tiene, por el contrario cuenta con un proyecto para cada plataforma de destino y otro proyecto para una base de código compartido:
 
 |Xamarin.Forms|
+
 ![image](/assets/img/blog/tutorials/maui-primeros-pasos/App_Xamarin.jpeg)
 
 |.NET MAUI|
