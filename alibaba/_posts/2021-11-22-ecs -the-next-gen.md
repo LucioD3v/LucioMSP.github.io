@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECC - la nueva generación (Gen 7)
+title: ECS - la nueva generación (Gen 7)
 description: El servidor en la nube Elastic Compute Service (ECS) es un servicio básico de computación en la nube proporcionado por Alibaba Cloud.
 image: /assets/img/blog/post-headers/alibaba/ecsGen7.png
 noindex: true
@@ -32,17 +32,17 @@ Esto también significa un mejor soporte para las operaciones de cifrado y trans
 
 La velocidad máxima de reloj también se ha aumentado de 3,2 Ghz (Gen 6) a 3,5 Ghz, para aquellos usuarios que ejecutan aplicaciones urgentes. Si necesita velocidades de reloj aún más altas que eso, consulte la clase de instancia hfg7 basada en Cooper Lake, que tiene una frecuencia turbo de todos los núcleos de hasta 3.8 Ghz.
 
-2. Mejor rendimiento de la red
+### 2. Mejor rendimiento de la red
 
 Las instancias Gen 7 vienen con dos interfaces de red de 50 Gigabit, lo que permite un rendimiento de paquetes de hasta 24 millones de paquetes por segundo y un rendimiento de red de hasta 64 Gbit/s (para los tipos de instancias de ECS más grandes, como 32xlarge).
 
-3. Computación confiable
+### 3. Computación confiable
 
 Las instancias de la séptima generación son compatibles con SGX (Software Guard Extensions) 2.0 de Intel, lo que significa que puede crear enclaves protegidos para los datos en la memoria.
 
 Aunque esto ya estaba disponible en las instancias Gen 6, las instancias Gen 7 también vienen equipadas con chips TPM (Trusted Platform Module), lo que permite una seguridad general aún más sólida y un entorno de arranque a prueba de manipulaciones.
 
-4. Almacenamiento más rápido
+### 4. Almacenamiento más rápido
 
 Las nuevas instancias Gen 7 utilizan la tecnología Enhanced SSD (ESSD) de Alibaba Cloud, lo que permite un rendimiento de almacenamiento de hasta 32 Gbit / sy 600.000 IOPS. Esta es una mejora significativa con respecto a instancias anteriores: hasta aproximadamente 3 veces más rápido, de hecho.
 
