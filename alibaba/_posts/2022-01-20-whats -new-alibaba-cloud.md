@@ -59,7 +59,7 @@ La herramienta es demasiado grande para cubrirla en detalle en la publicación d
 
 ### Compute Nest
 
-Un servicio completamente nuevo,[Compute Nest](https://www.alibabacloud.com/help/en/doc-detail/290066.html?spm=a2c65.11461447.0.0.c51077dccYyf5F), ya está disponible.
+Un servicio completamente nuevo, [Compute Nest](https://www.alibabacloud.com/help/en/doc-detail/290066.html?spm=a2c65.11461447.0.0.c51077dccYyf5F), ya está disponible.
 
 Compute Nest es un servicio PaaS que proporciona una plataforma de gestión centralizada para proveedores de servicios.
 
