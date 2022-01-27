@@ -2,7 +2,7 @@
 layout: post
 title: What’s New in .NET 6
 description: In this article we will see the news that the arrival of .NET 6 brings
-image: /assets/img/blog/post-headers/maui/xamarin-forms-maui.jpg
+image: /assets/img/blog/post-headers/portadaNET6.jpg
 noindex: true
 comments: true
 author: lucio
