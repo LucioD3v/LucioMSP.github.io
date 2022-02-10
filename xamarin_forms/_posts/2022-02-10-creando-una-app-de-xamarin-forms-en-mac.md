@@ -77,7 +77,6 @@ Ya por último podemos seleccionar el modo de depuración en Android o iOS y con
 
 ### Android
 
-
 ![image](/assets/img/blog/tutorials/creandoAppXamarinFormsMac/resultadoAndroid.png)
 
 ## Conclusión
