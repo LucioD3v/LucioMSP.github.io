@@ -22,14 +22,14 @@ lang: es
 ## Introducción
 En este pequeño artículo, explicaré el cómo crear un proyecto Xamarin.Forms de muestra y ejecutar la aplicación Android/iOS en Visual Studio 2019 para Mac.
 
-La verdad es algo muy sencillo, por ello realizaremos esto en tan solo 5 pasos, los cuales son los siguientes:
+La verdad es algo muy sencillo, por ello realizaremos esto en tan solo 6 pasos, los cuales son los siguientes:
 
-### Nota 
+### Nota:
 Cabe destacar que no se verá o tocará como instalar Visual Studio for Mac, ya que esto es muy sencillo de realizar.
 
 ## Paso 1
 
-Abramos Visual Studio 2019 en nuestra máquina Mac y en la parte derecha tendremos dos opciones que son, Abrir y Nuevo. Cabe mencionar que podemos hacer clic en la opción Abrir para abrir un proyecto ya existente de Xamarin y en la opción Nuevo para crear un proyecto desde cero, la cual sera la opción que elegiremos.
+Abramos Visual Studio 2019 en nuestra máquina Mac y en la parte derecha tendremos dos opciones que son: Abrir y Nuevo. Cabe mencionar que podemos hacer clic en la opción Abrir para abrir un proyecto ya existente de Xamarin y en la opción Nuevo para crear un proyecto desde cero, la cual será la opción que elegiremos.
 
 ![image](/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso1.png)
 
@@ -47,7 +47,7 @@ Después de hacer clic en el botón de Siguiente, VS navegará a la siguiente pa
 
 ![image](/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso3.png)
 
-- Cabe destacar que podemos deshabilitar cualquier opcion de SO y por ende no se creará la aplicación de dicha plataforma, pero no lo recomiendo, ya que la idea de Xamarin.Forms es que podamos crear un proyecto y lanzarla para Android como para iOS, por ello es que vienen seleccionados ambos por default.
+Cabe destacar que podemos deshabilitar cualquier opcion de SO y por ende no se creará la aplicación de dicha plataforma, pero no lo recomiendo, ya que la idea de Xamarin.Forms es que podamos crear un proyecto y lanzarla para Android como para iOS, por ello es que vienen seleccionados ambos por default.
 
 ## Paso 4
 Después de hacer clic en el botón Siguiente, VS navegará a la siguiente pantalla, en donde deberemos de configurar la ruta de donde queremos que se genere el proyecto (podemos dejar la ruta predefinida si queremos) y podemos de igual manera marcar la casilla  de Control de Versiones si lo situaremos en algun repositorio y si este proyecto sera compartido con otros desarrolladores. Posteriormente hagamos clic en el botón Crear.
