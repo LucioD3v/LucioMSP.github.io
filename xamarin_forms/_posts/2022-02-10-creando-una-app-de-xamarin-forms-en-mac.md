@@ -19,7 +19,7 @@ keywords:
 lang: es
 ---
 
-## Introducción
+
 En este pequeño artículo, explicaré el cómo crear un proyecto Xamarin.Forms de muestra y ejecutar la aplicación Android/iOS en Visual Studio 2019 para Mac.
 
 La verdad es algo muy sencillo, por ello realizaremos esto en tan solo 6 pasos, los cuales son los siguientes:
