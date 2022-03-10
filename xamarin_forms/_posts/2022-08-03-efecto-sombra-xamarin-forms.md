@@ -2,7 +2,7 @@
 layout: post
 title: Añadiendo el efecto de sombra a una aplicación de Xamarin.Forms
 description: En este artículo mostraré que tan fácilmente es agregar sombras a nuestras aplicaciones de Xamarin.Forms sin utilizar Frames.
-image: /assets/img/blog/post-headers/xamarin/xamarinForMac.png
+image: /assets/img/blog/post-headers/xamarin/shadow.png
 noindex: true
 comments: true
 author: lucio
@@ -14,12 +14,12 @@ tags:
   - sombras
   - toolkit
   - xamarin
-  - xamarin.forms
 keywords:
   - ios
   - android
   - xamarin
   - maui
+  
 lang: es
 ---
 
