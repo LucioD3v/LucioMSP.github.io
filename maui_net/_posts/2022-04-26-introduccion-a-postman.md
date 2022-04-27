@@ -88,7 +88,7 @@ Paso 1
 
 Abramos la aplicación Postman (Usando la versión de escritorio)
 
-![image](/assets/img/blog/tutorials/intro_postman/01.png)
+![image](/assets/img/blog/tutorials/intro-postman/01.png)
 
 Una vez que haya abierto Postman, verá el resultado como se muestra en la captura de pantalla anterior. Así es como se ve la interfaz de usuario de Postman y puede ver las diversas opciones, como Iniciar sesión, Crear cuenta, Inicio, Área de trabajo, Informes, Explorar, Colecciones, API, Entornos, etc. Estas opciones las aprenderemos en próximos artículos.
 
@@ -96,11 +96,25 @@ Paso 2
 
 Haga clic en el botón del icono más como se muestra en la siguiente captura de pantalla:
 
-![image](/assets/img/blog/tutorials/intro_postman/02.png)
+![image](/assets/img/blog/tutorials/intro-postman/02.png)
 
 Se abrirá la ventana emergente de solicitud en la misma ventana como la siguiente captura de pantalla:
 
-![image](/assets/img/blog/tutorials/intro_postman/03.png)
+![image](/assets/img/blog/tutorials/intro-postman/03.png)
+
+Paso 3
+
+A continuación, ingrese la URL para nuestra primera solicitud GET como 'https://api.github.com/users/jsgund' y haga clic en el botón Enviar como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/04.png)
+
+Una vez que haga clic en el botón Enviar, obtendrá la respuesta como se muestra en la siguiente captura de pantalla:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+En este ejemplo, estamos accediendo a GitHub para que los usuarios soliciten por ID y, al final, puede ver mi ID de inicio de sesión de GitHub como "jsgund". En la respuesta, obtendrá los detalles de la identificación de inicio de sesión de GitHub "jsgund", propiedades como nombre, identificación, imageUrl, URL de seguidores, etc.
+
+Estén atentos para aprender cosas nuevas sobre Postman….
 
 ## Conclusión
 En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
