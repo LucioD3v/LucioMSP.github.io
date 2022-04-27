@@ -107,6 +107,7 @@ Paso 3
 A continuación, ingrese la URL para nuestra primera solicitud GET como 'https://api.github.com/users/jsgund' y haga clic en el botón Enviar como se muestra a continuación:
 
 ![image](/assets/img/blog/tutorials/intro-postman/04.png)
+![image](/assets/img/blog/tutorials/alexa-champion/profileVGGL.png)
 
 Una vez que haga clic en el botón Enviar, obtendrá la respuesta como se muestra en la siguiente captura de pantalla:
 
