@@ -19,7 +19,7 @@ keywords:
 lang: es
 ---
 
-En esta serie de artículos paso a paso, aprenderemos sobre Postman. Este artículo cubre los siguientes temas:
+En esta serie de artículos paso a paso, aprenderemos sobre Postman. En esta ocasión cubriremos los siguientes temas:
 
 - ¿Qué es Postman?
 - Características
@@ -65,7 +65,6 @@ Proporciona un montón de características interesantes, algunas son las siguien
 - Escriba scripts a nivel de colección, carpeta o solicitud.
 - Escriba guiones previos o posteriores a la solicitud para después o antes de la solicitud.
 - Utilice scripts para enviar la solicitud, etc.
-
 
 ### Colaboración
 
@@ -120,4 +119,4 @@ Estén atentos para aprender cosas nuevas sobre Postman….
 ## Conclusión
 En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
 
- Happy Coding!
+ Hasta la próxima...
