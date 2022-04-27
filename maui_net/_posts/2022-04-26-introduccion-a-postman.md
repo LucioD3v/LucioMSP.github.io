@@ -81,6 +81,27 @@ Proporciona un montón de características interesantes, algunas son las siguien
 
 Puede consultar más funciones interesantes aquí: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
+### ¿Cómo hacer una primera solicitud GET API?
+Espero que haya instalado alguna de las versiones de Postman en su ordenador, o sino haber abierto la versión web. A continuación lo invito a que siga los pasos para realizar su primera solicitud en Postman:
+
+Paso 1
+
+Abramos la aplicación Postman (Usando la versión de escritorio)
+
+![image](/assets/img/blog/tutorials/intro_postman/01.png)
+
+Una vez que haya abierto Postman, verá el resultado como se muestra en la captura de pantalla anterior. Así es como se ve la interfaz de usuario de Postman y puede ver las diversas opciones, como Iniciar sesión, Crear cuenta, Inicio, Área de trabajo, Informes, Explorar, Colecciones, API, Entornos, etc. Estas opciones las aprenderemos en próximos artículos.
+
+Paso 2
+
+Haga clic en el botón del icono más como se muestra en la siguiente captura de pantalla:
+
+![image](/assets/img/blog/tutorials/intro_postman/02.png)
+
+Se abrirá la ventana emergente de solicitud en la misma ventana como la siguiente captura de pantalla:
+
+![image](/assets/img/blog/tutorials/intro_postman/03.png)
+
 ## Conclusión
 En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
 
