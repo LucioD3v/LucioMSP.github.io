@@ -19,105 +19,98 @@ keywords:
 lang: es
 ---
 
-En esta serie de artículos paso a paso, aprenderemos sobre Postman. Este artículo cubre los siguientes temas:
+Esta es una serie de artículos paso a paso, a continuación aprenderemos sobre las características de los encabezados preestablecidos de Postman. Antes de aprender sobre los encabezados preestablecidos, los invito a que lean el artículo anterior de esta serie para una mejor comprensión:
 
-- ¿Qué es Postman?
-- Características
-- ¿Cómo hacer una primera solicitud GET API?
+[Aprenda Postman paso a paso - Introducción (Día 1)](https://vicenteguzman.com/maui_net/net/2022-04-25-introduccion-a-postman/)
 
-## Entonces, ¿qué es Postman?
+Este artículo cubre los siguientes temas:
 
-Es una plataforma para construir y usar APIs. Podemos crear mejores APIs o más rápidas con la ayuda de un repositorio de API, herramientas, inteligencia, espacio de trabajo e integraciones. Cabe destacar que está construido sobre tecnologías de código abierto.
+- Encabezados preestablecidos
+- Adición de encabezados preestablecidos
+- Uso de encabezados preestablecidos
 
-- Repositorio de API: al usar la plataforma central, puede almacenar, catalogar y colaborar fácilmente con todo su material relacionado con API, como casos de prueba, especificaciones, documentación, etc.
-- Herramientas: proporciona varios conjuntos de herramientas API para acelerar el ciclo de vida de la API, como diseño, prueba, simulación, documentación, etc.
-- Inteligencia: proporciona un nivel avanzado de inteligencia e información sobre las alertas de operaciones de API, búsqueda, advertencias de seguridad, informes, etc.
-- Espacio de trabajo: lo ayuda a organizar su trabajo de API y colaborar en todo el mundo. Hay tres espacios de trabajo diferentes: personal, de equipo y público.
-- Integraciones: es una herramienta muy importante en la tubería de desarrollo de software para ir con las prácticas de API primero. Puede integrar Postman en los repositorios de código, canalización de CI/CD, puede crear sus integraciones utilizando la API de Postman, etc.
+## Encabezados preestablecidos
+Cuando desea interactuar con una API, se requieren algunos encabezados cada vez que realiza una solicitud. Los encabezados incluyen nombre de usuario, contraseña, clave de API, autorización, etc., pero cuando trabaja con la aplicación, se configura automáticamente y envía la solicitud. En caso de acceder directamente a la API, debe pasar esos encabezados cada vez que necesite realizar una solicitud.
 
-¿Entonces, qué esperas? ve y descarga Postman, comienza a diseñar, probar y documentar la API: [https://www.postman.com/downloads/](postman.com/downloads/)
-
-Viene en dos versiones, aplicación de escritorio y una versión web.
-
-## Características
-Proporciona un montón de características interesantes, algunas son las siguientes:
-
-### Petición (Request)
-
-- Cree, envíe y guarde solicitudes REST, SOAP o GraphQL.
-- Guardar solicitud en colecciones.
-- Enviar una solicitud a través de un servidor proxy, etc.
-
-### Respuesta (Response)
-
-- Ver código de estado, tiempo de respuesta, encabezados y tamaño.
-- Ver el cuerpo de la respuesta en una vista cruda y bonita.
-- Guarde la respuesta como un ejemplo, etc.
-
-### Variables
-
-- Soporte integrado para variables.
-- Cree y establezca variables para colecciones, entornos y globales.
-- Variables dinámicas para datos ficticios, etc.
-
-### Scripts y Postman Sandbox 
-
-- Escriba scripts a nivel de colección, carpeta o solicitud.
-- Escriba guiones previos o posteriores a la solicitud para después o antes de la solicitud.
-- Utilice scripts para enviar la solicitud, etc.
-
-
-### Colaboración
-
-- Cree espacios de trabajo personales o de equipo ilimitados.
-- Cree un espacio de trabajo privado (solo Enterprise).
-- Puede establecer roles e invitar a miembros, etc.
-
-### Colecciones
-
-- Son descripciones de API ejecutables.
-- Puede organizar y realizar un seguimiento de las solicitudes relacionadas.
-- Puede compartir colecciones en espacios de trabajo, etc.
-
-Puede consultar más funciones interesantes aquí: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
-
-### ¿Cómo hacer una primera solicitud GET API?
-Espero que haya instalado alguna de las versiones de Postman en su ordenador, o sino haber abierto la versión web. A continuación lo invito a que siga los pasos para realizar su primera solicitud en Postman:
-
-Paso 1
-
-Abramos la aplicación Postman (Usando la versión de escritorio)
+En cartero, cuando realiza una nueva solicitud, debe completar todos los encabezados nuevamente, para ahorrar tiempo. Preestablecidos o Encabezados preestablecidos entran en escena para preservar la configuración de los encabezados para usar en futuras solicitudes.
 
 ![image](/assets/img/blog/tutorials/intro-postman/01.png)
 
-Una vez que haya abierto Postman, verá el resultado como se muestra en la captura de pantalla anterior. Así es como se ve la interfaz de usuario de Postman y puede ver las diversas opciones, como Iniciar sesión, Crear cuenta, Inicio, Área de trabajo, Informes, Explorar, Colecciones, API, Entornos, etc. Estas opciones las aprenderemos en próximos artículos.
+Los ajustes preestablecidos se encuentran debajo de la sección de encabezados cuando solicita la captura de pantalla anterior.
+
+### Adición de encabezados preestablecidos
+Veamos cómo agregar los encabezados preestablecidos, siguiendo los pasos a continuación:
+
+Paso 1
+
+Abra el cartero, cree una nueva solicitud y haga clic en los encabezados, seleccione el valor 'Administrar ajustes preestablecidos' del menú desplegable 'Preajustes' como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/04.png)
 
 Paso 2
 
-Haga clic en el botón del icono más como se muestra en la siguiente captura de pantalla:
-
-![image](/assets/img/blog/tutorials/intro-postman/02.png)
-
-Se abrirá la ventana emergente de solicitud en la misma ventana como la siguiente captura de pantalla:
-
-![image](/assets/img/blog/tutorials/intro-postman/03.png)
-
-Paso 3
-
-A continuación, ingrese la URL para nuestra primera solicitud GET como 'https://api.github.com/users/jsgund' y haga clic en el botón Enviar como se muestra a continuación:
-
-![image](/assets/img/blog/tutorials/intro-postman/04.png)
-![image](/assets/img/blog/tutorials/alexa-champion/profileVGGL.png)
-
-Una vez que haga clic en el botón Enviar, obtendrá la respuesta como se muestra en la siguiente captura de pantalla:
+Una vez que haga clic en 'Administrar ajustes preestablecidos', se abrirá la ventana emergente como se muestra a continuación:
 
 ![image](/assets/img/blog/tutorials/intro-postman/05.png)
 
-En este ejemplo, estamos accediendo a GitHub para que los usuarios soliciten por ID y, al final, puede ver mi ID de inicio de sesión de GitHub como "jsgund". En la respuesta, obtendrá los detalles de la identificación de inicio de sesión de GitHub "jsgund", propiedades como nombre, identificación, imageUrl, URL de seguidores, etc.
+En esta ventana emergente, puede administrar su grupo de encabezados preestablecidos, como agregar, actualizar o eliminar el grupo. El grupo contiene los pares clave-valor del encabezado.
 
-Estén atentos para aprender cosas nuevas sobre Postman….
+Paso 3
+
+A continuación, haga clic en el botón 'Agregar' y se abre otra ventana emergente para crear el grupo de encabezado preestablecido como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+Contiene el nombre del encabezado preestablecido, la clave, el valor, la descripción que se debe completar y la funcionalidad de edición masiva.
+
+Paso 4
+
+A continuación, complete los detalles requeridos para el grupo de encabezados preestablecidos y haga clic en el botón 'Agregar' como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+Paso 5
+
+Una vez que hizo clic en el botón 'Agregar', agrega ese grupo y verá la lista de grupos a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+En la ventana emergente después del botón 'Agregar', verá el grupo 'GET-Headers' agregado recientemente. Aquí puede administrar los grupos como 'Agregar', 'Actualizar' y 'Eliminar'.
+
+Para la funcionalidad de actualización, simplemente haga clic en el nombre del grupo y verá una ventana emergente como la siguiente:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+
+Para la funcionalidad de eliminación, simplemente haga clic en el icono de eliminación y le dará un mensaje de advertencia antes de eliminar ese grupo como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+
+Espero que comprenda cómo agregar o administrar el grupo de encabezado preestablecido.
+
+Uso de encabezados preestablecidos
+En la sección anterior, aprendimos cómo agregar el grupo preestablecido, veamos cómo usarlo en la solicitud de la siguiente manera:
+
+Paso 1
+
+Cree una nueva solicitud, vaya a la pestaña de encabezados y haga clic en el menú desplegable 'Preajustes' como se muestra a continuación:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+En la captura de pantalla anterior, puede ver que el grupo agregado recientemente está junto a 'Administrar ajustes preestablecidos', que es 'GET-Headers'.
+
+Paso 2
+
+A continuación, haga clic en el grupo agregado recientemente que es 'GET-Headers' y se agrega a los encabezados de la siguiente manera:
+
+![image](/assets/img/blog/tutorials/intro-postman/05.png)
+
+En la pestaña de encabezados, puede ver los encabezados agregados 'API-Key' y 'User-Name' del grupo que hemos creado, que es 'GET-Headers'. No es que lo hayamos seleccionado de los ajustes preestablecidos, por lo que no es editable, podemos actualizar ese valor aquí.
 
 ## Conclusión
-En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
 
- Happy Coding!
+En este artículo, aprendimos sobre ajustes preestablecidos, encabezados y cómo agregarlos y usarlos en una solicitud. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
+
+Estén atentos para aprender cosas nuevas sobre Postman…....
+
