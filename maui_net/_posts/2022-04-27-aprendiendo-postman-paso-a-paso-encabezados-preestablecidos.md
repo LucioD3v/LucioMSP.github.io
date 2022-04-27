@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducción a Postman
+title: Aprendiendo Postman paso a paso - encabezados preestablecidos
 description:
 image: /assets/img/blog/post-headers/postman.jpeg
 noindex: true
