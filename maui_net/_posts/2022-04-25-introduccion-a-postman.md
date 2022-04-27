@@ -33,19 +33,19 @@ Es una plataforma para construir y usar APIs. Podemos crear mejores APIs o más 
 - Herramientas: proporciona varios conjuntos de herramientas API para acelerar el ciclo de vida de la API, como diseño, prueba, simulación, documentación, etc.
 - Inteligencia: proporciona un nivel avanzado de inteligencia e información sobre las alertas de operaciones de API, búsqueda, advertencias de seguridad, informes, etc.
 - Espacio de trabajo: lo ayuda a organizar su trabajo de API y colaborar en todo el mundo. Hay tres espacios de trabajo diferentes: personal, de equipo y público.
-- Integraciones: es una herramienta muy importante en la tubería de desarrollo de software para ir con las prácticas de API primero. Puede integrar Postman en los repositorios de código, canalización de CI/CD, puede crear sus integraciones utilizando la API de Postman, etc.
+- Integraciones: es una herramienta muy importante en el medio de desarrollo de software para ir con las prácticas de API-first. Tambien podemos integrar Postman en los repositorios de código, canalización de CI/CD, de igual manera podemos crear nuestras integraciones utilizando la API de Postman, etc.
 
-¿Entonces, qué esperas? ve y descarga Postman, comienza a diseñar, probar y documentar la API: [https://www.postman.com/downloads/](postman.com/downloads/)
+¿Entonces, qué esperas? ve y descarga Postman, comienza a diseñar, probar y documentar la API: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
 Viene en dos versiones, aplicación de escritorio y una versión web.
 
 ## Características
 Proporciona un montón de características interesantes, algunas son las siguientes:
 
-### Petición (Request)
+### Solicitud (Request)
 
 - Cree, envíe y guarde solicitudes REST, SOAP o GraphQL.
-- Guardar solicitud en colecciones.
+- Guardar la solicitud (request) en colecciones.
 - Enviar una solicitud a través de un servidor proxy, etc.
 
 ### Respuesta (Response)
@@ -85,7 +85,7 @@ Espero que haya instalado alguna de las versiones de Postman en su ordenador, o 
 
 Paso 1
 
-Abramos la aplicación Postman (Usando la versión de escritorio)
+Abramos la aplicación Postman (usando la versión de escritorio)
 
 ![image](/assets/img/blog/tutorials/intro-postman/01.png)
 
@@ -93,7 +93,7 @@ Una vez que haya abierto Postman, verá el resultado como se muestra en la captu
 
 Paso 2
 
-Haga clic en el botón del icono más como se muestra en la siguiente captura de pantalla:
+Haga clic en el botón del icono más (+) como se muestra en la siguiente captura de pantalla:
 
 ![image](/assets/img/blog/tutorials/intro-postman/02.png)
 
@@ -106,7 +106,6 @@ Paso 3
 A continuación, ingrese la URL para nuestra primera solicitud GET como 'https://api.github.com/users/jsgund' y haga clic en el botón Enviar como se muestra a continuación:
 
 ![image](/assets/img/blog/tutorials/intro-postman/04.png)
-![image](/assets/img/blog/tutorials/alexa-champion/profileVGGL.png)
 
 Una vez que haga clic en el botón Enviar, obtendrá la respuesta como se muestra en la siguiente captura de pantalla:
 
@@ -114,9 +113,9 @@ Una vez que haga clic en el botón Enviar, obtendrá la respuesta como se muestr
 
 En este ejemplo, estamos accediendo a GitHub para que los usuarios soliciten por ID y, al final, puede ver mi ID de inicio de sesión de GitHub como "jsgund". En la respuesta, obtendrá los detalles de la identificación de inicio de sesión de GitHub "jsgund", propiedades como nombre, identificación, imageUrl, URL de seguidores, etc.
 
-Estén atentos para aprender cosas nuevas sobre Postman….
-
 ## Conclusión
 En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
+
+Estén atentos para aprender cosas nuevas sobre Postman….
 
  Hasta la próxima...
