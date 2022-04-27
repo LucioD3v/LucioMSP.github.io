@@ -32,9 +32,9 @@ Este artículo cubre los siguientes temas:
 ## Encabezados preestablecidos
 Cuando desea interactuar con una API, se requieren algunos encabezados cada vez que realiza una solicitud. Los encabezados incluyen nombre de usuario, contraseña, clave de API, autorización, etc., pero cuando trabaja con la aplicación, se configura automáticamente y envía la solicitud. En caso de acceder directamente a la API, debe pasar esos encabezados cada vez que necesite realizar una solicitud.
 
-En cartero, cuando realiza una nueva solicitud, debe completar todos los encabezados nuevamente, para ahorrar tiempo. Preestablecidos o Encabezados preestablecidos entran en escena para preservar la configuración de los encabezados para usar en futuras solicitudes.
+En Postman, cuando realiza una nueva solicitud, debe completar todos los encabezados nuevamente, para ahorrar tiempo. Preestablecidos o encabezados preestablecidos entran en escena para preservar la configuración de los encabezados para usar en futuras solicitudes.
 
-![image](/assets/img/blog/tutorials/intro-postman/01.png)
+![image](/assets/img/blog/tutorials/postman-encabezados/Imagen1.png)
 
 Los ajustes preestablecidos se encuentran debajo de la sección de encabezados cuando solicita la captura de pantalla anterior.
 
