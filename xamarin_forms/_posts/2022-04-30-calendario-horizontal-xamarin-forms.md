@@ -22,25 +22,24 @@ keywords:
 lang: es
 ---
 
-Horizontal Calendar Control: es un complemento multiplataforma para Xamarin.Forms que le permite mostrar un calendario de una sola fila en su aplicación.
+Horizontal Calendar Control es un complemento multiplataforma para Xamarin.Forms que nos permite mostrar un calendario de una sola fila en nuestras aplicaciones.
 
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img01.png)
 
 
 ### Cómo utilizarlo
 
-Lo primero que se debe de hacer es instalar el complemente mediante el administrador de paquetes:
+Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes:
 
-IMAGEN
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img02.png)
 
-### Package Manager
+Ya si se quiere hacer mediante la consola del Package Manager:
 
-![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img00.png)
-
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img03.png)
 
 ### Ejemplo de implementación
 
-Espacio de Nombres (Namespace):
+Ahora lo que se debe de hacer es escribir (agregar) el espacio de nombres (namespace) en la vista que vayamos a utilizar el control:
 
 ~~~bash
 
@@ -48,29 +47,81 @@ xmlns:views="clr-namespace:HorizontalCalendar.Views;assembly=HorizontalCalendar"
 
 ~~~
 
-Escriba el siguiente código en su página XAML.
+Posteriomente habrá  que escribir el siguiente código en la página XAML.
 
 ~~~bash
 
- <views:HorizontalCalendarControl LeftRightArrowColor="White"   />
+  <StackLayout >
+      <views:HorizontalCalendarControl  x:Name="calendarControl" />
+  </StackLayout>
 
 ~~~
 
-### Personalización de la interfaz de usuario
+## Personalización de la Interfaz de Usuario (UI)
 
-Propiedad de personalización de la interfaz de usuario
-HeaderBackgroundColor: se utiliza para establecer el color de fondo del encabezado.
-HeaderTextColor: se utiliza para establecer el color del texto del encabezado.
-LeftRightArrowColor: se utiliza para establecer el color de la flecha izquierda y derecha.
-SelectedDateTextColor: se utiliza para establecer el color del texto de la fecha seleccionada.
-SelectedDateBackGroundColor: se utiliza para establecer el color de fondo del texto de la fecha seleccionada.
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png)
 
 
-Cómo mostrar la fecha seleccionada
-Escriba el siguiente código para obtener la fecha seleccionada.
+### Propiedades de la Interfaz de Usuario
+
+- HeaderBackgroundColor: se utiliza para establecer el color de fondo del encabezado.
+- HeaderTextColor: se utiliza para establecer el color del texto del encabezado.
+- LeftRightArrowColor: se utiliza para establecer el color de la flecha izquierda y derecha.
+- SelectedDateTextColor: se utiliza para establecer el color del texto de la fecha seleccionada.
+- SelectedDateBackGroundColor: se utiliza para establecer el color de fondo del texto de la fecha seleccionada.
+
+~~~bash
+
+  <views:HorizontalCalendarControl 
+      HeaderBackgroundColor="LightBlue"
+      HeaderTextColor="Black"
+      SelectedDateTextColor="LightBlue" 
+      SelectedDateBackGroundColor="Black" 
+      LeftRightArrowColor="Black"   />
+
+~~~
+
+### Cómo mostrar la fecha seleccionada
+Para poder obtener la fecha seleccionada, deberemos de escribir el siguiente código:
+
+~~~bash
+
+  <Label Text="{Binding Source={x:Reference calendarControl},Path=SelectedDate}" />
+  <views:HorizontalCalendarControl  x:Name="calendarControl"/>
+
+~~~
+
+### Cómo obtener la fecha seleccionada
+
+Para obtener la fecha seleccionada deberemos de usar este comando: SelectedDateCommand
+
+### XAML
+
+~~~bash
+
+<views:HorizontalCalendarControl SelectedDateCommand="{Binding SelectedDateCommand}" x:Name="calendarControl"  />
+
+~~~
+
+### Code Behind (Código)
+
+~~~bash
+
+private DateTime _selectedDate;
+public DateTime SelectedDate
+{
+   get => _selectedDate;
+   set => SetProperty(ref _selectedDate, value);
+}
+ 
+public ICommand SelectedDateCommand => new Command<DateTime>((selectedDate) =>
+{
+     SelectedDate = selectedDate; 
+});
+
+~~~
 
 Y listo, ¡eso es todo! Ahora ya podemos hacer uso del Horizontal Control.
-
 
 ## Resultado / Salida
 
