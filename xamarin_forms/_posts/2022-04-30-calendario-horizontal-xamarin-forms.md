@@ -26,7 +26,6 @@ Horizontal Calendar Control es un complemento multiplataforma para Xamarin.Forms
 
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img01.png)
 
-
 ### Cómo utilizarlo
 
 Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes solamente en el proyecto de Xamarin.Forms:
@@ -34,6 +33,8 @@ Lo primero que se debe de hacer es instalar el complemento mediante el administr
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img02.png)
 
 Ya si se quiere hacer mediante la consola del Package Manager:
+
+Install-Package HorizontalCalendarControl -Version 1.0.2
 
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img03.png)
 
@@ -122,13 +123,13 @@ Y listo, ¡eso es todo! Ahora ya podemos hacer uso del Horizontal Calendar Contr
 
 ## Resultado / Salida
 
+| Android |
+
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png)
+
 | iOS |
 
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img05.png)
-
-| Android |
-
-![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img06.png)
 
 ## Conclusión
 
@@ -136,8 +137,8 @@ Espero que este pequeño artículo te haya brindado suficiente información para
 
 Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.
 
-Más información: 
+Más información:
 
 - NuGet: [https://www.nuget.org/packages/HorizontalCalendarControl/1.0.2](https://www.nuget.org/packages/HorizontalCalendarControl/1.0.2)
 
-## Happy Coding!
+## ¡Happy Coding!
