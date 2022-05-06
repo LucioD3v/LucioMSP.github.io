@@ -29,7 +29,7 @@ Horizontal Calendar Control es un complemento multiplataforma para Xamarin.Forms
 
 ### Cómo utilizarlo
 
-Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes:
+Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes solamente en el proyecto de Xamarin.Forms:
 
 ![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img02.png)
 
@@ -47,7 +47,7 @@ xmlns:views="clr-namespace:HorizontalCalendar.Views;assembly=HorizontalCalendar"
 
 ~~~
 
-Posteriomente habrá  que escribir el siguiente código en la página XAML.
+Posteriomente habrá  que escribir el siguiente código en la página XAML donde lo vayamos a ocupar:
 
 ~~~bash
 
@@ -59,10 +59,7 @@ Posteriomente habrá  que escribir el siguiente código en la página XAML.
 
 ## Personalización de la Interfaz de Usuario (UI)
 
-![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png)
-
-
-### Propiedades de la Interfaz de Usuario
+### Propiedades
 
 - HeaderBackgroundColor: se utiliza para establecer el color de fondo del encabezado.
 - HeaderTextColor: se utiliza para establecer el color del texto del encabezado.
@@ -121,19 +118,17 @@ public ICommand SelectedDateCommand => new Command<DateTime>((selectedDate) =>
 
 ~~~
 
-Y listo, ¡eso es todo! Ahora ya podemos hacer uso del Horizontal Control.
+Y listo, ¡eso es todo! Ahora ya podemos hacer uso del Horizontal Calendar Control.
 
 ## Resultado / Salida
 
 | iOS |
 
-![image](/assets/img/blog/tutorials/xamarin_sombras/resultadoAntes.png)
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img05.png)
 
 | Android |
 
-![image](/assets/img/blog/tutorials/xamarin_sombras/resultadoDespues.png)
-
-¡Felicidades! Ahora ya sabes cómo usar el control de Horizontal Calendar.
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img06.png)
 
 ## Conclusión
 
