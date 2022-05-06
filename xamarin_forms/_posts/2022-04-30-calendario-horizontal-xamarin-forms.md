@@ -2,7 +2,7 @@
 layout: post
 title: Implementando un Calendario Horizontal en Xamarin.Forms
 description: En este artículo mostraré que tan fácilmente es agregar un control de calendario de manera horizontal a nuestras aplicaciones de Xamarin.Forms
-image: /assets/img/blog/post-headers/xamarin/shadow.png
+image: /assets/img/blog/tutorials/xamarin-horizontal-calendar/img01.png
 noindex: true
 comments: true
 author: lucio
