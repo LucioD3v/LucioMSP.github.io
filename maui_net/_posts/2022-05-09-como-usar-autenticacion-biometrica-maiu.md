@@ -19,7 +19,7 @@ keywords:
 lang: es
 ---
 
-Sin duda alguna la autenticación biométrica se ha convertido cada vez más en una parte integral de las aplicaciones móviles para garantizar que el usuario sea el propietario legítimo del dispositivo que está utilizando. Existen dos maneras de poder autenticarse, unas es a través de Face ID (iOS) y la otra mediante huella digital (Android / iOS), en este caso, en nuestra aplicación .NET MAUI.
+Sin duda alguna la autenticación biométrica se ha convertido cada vez más en una parte integral de las aplicaciones móviles para garantizar que el usuario sea el propietario legítimo del dispositivo que está utilizando. Existen dos maneras de poder autenticarse, una es a través de Face ID (iOS) y la otra mediante huella digital (Android / iOS), en este caso, en nuestra aplicación .NET MAUI.
 
 El día de hoy veremos como integrar la autenticación biométrica en un proyecto .NET MAUI, asi que comencemos.
 
@@ -82,7 +82,7 @@ En iOS es más sencillo, solo se debe de agregar el "NSFaceIDUsageDescription" a
 
 ~~~
 
-Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, po  r lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.
+Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, por lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.
 
 ### MauiProgram.cs
 
@@ -91,7 +91,7 @@ Ya por último y antes de irnos a modificar nuestro XAML y añadir la funcionali
 ~~~bash
 
     builder.Services.AddSingleton<MainPage>();
-		builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
+	builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
 
 ~~~
 
@@ -132,7 +132,7 @@ private readonly IFingerprint fingerprint;
 
 ~~~
 
-Misma que se pasara como parametro: 
+Misma que se pasara como parámetro: 
 
 ~~~bash
 
@@ -140,7 +140,7 @@ public MainPage(IFingerprint fingerprint)
 
 ~~~
 
-Y que declararemos dentro de:
+Y que declararemos dentro del MainPage:
 
 ~~~bash
 
@@ -187,7 +187,7 @@ Como siempre, a continuación proporciono un ejemplo de código en mi [GitHub](h
 
 ## Conclusión
 
-Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en sus aplicaciones .NET MAUI y ver los resultados tanto en Android como en iOS. 
+Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en sus aplicaciones .NET MAUI y ver los resultados esperados.
 
 Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.
 
