@@ -73,7 +73,7 @@ Nuestro archivo quedará de la siguiente manera:
 
 ### Implementación - iOS
 
-En iOS es mas sencillo, solo se debe de agregar el "NSFaceIDUsageDescription" al archivo Info.plist para describir la razón por la que nuestra aplicación usara Face ID. ([ver Documentación](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75)). De lo contrario, la aplicación se bloqueará cuando inicie una autenticación de Face ID en iOS 11.3+.
+En iOS es más sencillo, solo se debe de agregar el "NSFaceIDUsageDescription" al archivo Info.plist para describir la razón por la que nuestra aplicación usará Face ID. ([ver Documentación](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75)). De lo contrario, la aplicación se bloqueará cuando inicie una autenticación de Face ID en iOS 11.3+.
 
 ~~~bash
 
@@ -83,6 +83,8 @@ En iOS es mas sencillo, solo se debe de agregar el "NSFaceIDUsageDescription" al
 ~~~
 
 Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, po  r lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.
+
+### MauiProgram.cs
 
 Ya por último y antes de irnos a modificar nuestro XAML y añadir la funcionalidad principal, en el archivo MauiProgram.cs deberemos de agregar las siguiente lineas:
 
@@ -122,7 +124,7 @@ using Plugin.Fingerprint.Abstractions;
 
 ~~~
 
-Posteriormente 
+Posteriormente declarar la interface IFingerprint:
 
 ~~~bash
 
@@ -130,9 +132,20 @@ private readonly IFingerprint fingerprint;
 
 ~~~
 
+Misma que se pasara como parametro: 
+
 ~~~bash
 
-this.fingerprint = fingerprint;
+public MainPage(IFingerprint fingerprint)
+
+~~~
+
+Y que declararemos dentro de:
+
+~~~bash
+
+	InitializeComponent();
+	this.fingerprint = fingerprint;
 
 ~~~
 
@@ -169,18 +182,12 @@ private async void OnBiometricClicked(object sender, EventArgs e)
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/07.png)
 
-| iOS |
-
-![image](/assets/img/blog/tutorials/maui-biometrics/08.png)
-
-![image](/assets/img/blog/tutorials/maui-biometrics/09.png)
-
 
 Como siempre, a continuación proporciono un ejemplo de código en mi [GitHub](https://github.com/LucioMSP/biometricMAUI), mismo que puedes consultar si lo deseas.
 
 ## Conclusión
 
-Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en tus aplicaciones .NET MAUI y ver los resultados tanto en Android como en iOS. 
+Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en sus aplicaciones .NET MAUI y ver los resultados tanto en Android como en iOS. 
 
 Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.
 
