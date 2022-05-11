@@ -19,15 +19,15 @@ keywords:
 lang: es
 ---
 
-Sin duda alguna la autenticación biométrica se ha convertido cada vez más en una parte integral de las aplicaciones móviles para garantizar que el usuario sea el propietario legítimo del dispositivo que está utilizando. Así es como puede autenticarse a través de Face ID (iOS) o huella digital (Android / iOS) en su aplicación .NET MAUI.
+Sin duda alguna la autenticación biométrica se ha convertido cada vez más en una parte integral de las aplicaciones móviles para garantizar que el usuario sea el propietario legítimo del dispositivo que está utilizando. Existen dos maneras de poder autenticarse, unas es a través de Face ID (iOS) y la otra mediante huella digital (Android / iOS), en este caso, en nuestra aplicación .NET MAUI.
 
 El día de hoy veremos como integrar la autenticación biométrica en un proyecto .NET MAUI, asi que comencemos.
 
 ### Cómo utilizarlo
 
-Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes solamente en el proyecto de .NET MAUI:
+Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes en el proyecto de .NET MAUI:
 
-En su proyecto .NET MAUI, instale el paquete NuGet [Plugin.Fingerprint](https://github.com/smstuebe/xamarin-fingerprint). Necesitará la versión 3.0.0-beta.1, que actualmente se encuentra en versión preliminar, así que recuerde marcar "Incluir versión preliminar":
+En el proyecto .NET MAUI, instale el paquete NuGet [Plugin.Fingerprint](https://github.com/smstuebe/xamarin-fingerprint). Necesitará la versión 3.0.0-beta.1, que actualmente se encuentra en versión preliminar, así que recuerde marcar "Incluir Versión Preliminar":
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/01.png)
 
@@ -51,7 +51,7 @@ Acto seguido, deberemos de agregar el permiso en el archivo AndroidManifest.xml
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/02.png)
 
-Ya para terminar en Android, en el archivo MainActivity.cs añadamos el espacio de nombres: 
+Ya para terminar en Android, en el archivo MainActivity.cs añadamos el using correspondiente: 
 
 ~~~bash
 
@@ -59,7 +59,7 @@ using Plugin.Fingerprint;
 
 ~~~
 
-Para poder crear el método OnCreate(), en el cual recordemos se ejecuta la lógica de arranque básica de la aplicación que debe ocurrir una sola vez en toda la vida de la actividad. Aqui agregaremos la siguiente linea de código:
+Posteriormente en el mismo archivo, añadamos el método OnCreate(), en el cual recordemos se ejecuta la lógica de arranque básica de la aplicación que debe ocurrir una sola vez en toda la vida de la actividad. Aqui agregaremos la siguiente linea de código:
 
 ~~~bash
 
@@ -67,17 +67,39 @@ CrossFingerprint.SetCurrentActivityResolver(() => this);
 
 ~~~
 
+Nuestro archivo quedará de la siguiente manera:
+
 ![image](/assets/img/blog/tutorials/maui-biometrics/img02.png)
 
 ### Implementación - iOS
 
-.........................
+En iOS es mas sencillo, solo se debe de agregar el "NSFaceIDUsageDescription" al archivo Info.plist para describir la razón por la que nuestra aplicación usara Face ID. ([ver Documentación](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75)). De lo contrario, la aplicación se bloqueará cuando inicie una autenticación de Face ID en iOS 11.3+.
 
-Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, por lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.
+~~~bash
+
+<key>NSFaceIDUsageDescription</key>
+<string>Need your face to unlock magic things</string>
+
+~~~
+
+Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, po  r lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.
+
+Ya por último y antes de irnos a modificar nuestro XAML y añadir la funcionalidad principal, en el archivo MauiProgram.cs deberemos de agregar las siguiente lineas:
+
+~~~bash
+
+    builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
+
+~~~
+
+Quedando de la siguiente manera:
+
+![image](/assets/img/blog/tutorials/maui-biometrics/img021.png)
 
 ### XAML
 
-A continuación agreguemos un botón con un controlador de clic (o modifiquemos el que nos creó la solución si el proyecto es nuevo). 
+A continuación agreguemos un botón con un controlador de clic (o modifiquemos el que nos creó la solución si el proyecto es nuevo):
 
 ~~~bash
 
@@ -92,7 +114,32 @@ A continuación agreguemos un botón con un controlador de clic (o modifiquemos 
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/03.png)
 
-Dentro del controlador de eventos en el código subyacente, añadamos el siguiente código, el cual cuando haga clic en el botón, se le pedirá que se autentique mediante huella digital:
+A continuación debemos de añadir el using correspondiente:
+
+~~~bash
+
+using Plugin.Fingerprint.Abstractions;
+
+~~~
+
+Posteriormente 
+
+~~~bash
+
+private readonly IFingerprint fingerprint;
+
+~~~
+
+~~~bash
+
+this.fingerprint = fingerprint;
+
+~~~
+
+![image](/assets/img/blog/tutorials/maui-biometrics/05.png)
+
+
+Ahora, dentro del controlador de eventos "OnBiometricClicked", en el código subyacente añadamos el siguiente código, el cual cuando haga clic en el botón, se le pedirá que se autentique mediante huella digital:
 
 ~~~bash
 
@@ -114,20 +161,22 @@ private async void OnBiometricClicked(object sender, EventArgs e)
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/04.png)
 
-Ya por último
-
 ## Resultado / Salida
 
 | Android |
 
-![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png)
+![image](/assets/img/blog/tutorials/maui-biometrics/06.png)
+
+![image](/assets/img/blog/tutorials/maui-biometrics/07.png)
 
 | iOS |
 
-![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img05.png)
+![image](/assets/img/blog/tutorials/maui-biometrics/08.png)
+
+![image](/assets/img/blog/tutorials/maui-biometrics/09.png)
 
 
-Como siempre, a continuación proporciono un ejemplo de código en mi [GitHub](URL), mismo que puedes consultar si lo deseas.
+Como siempre, a continuación proporciono un ejemplo de código en mi [GitHub](https://github.com/LucioMSP/biometricMAUI), mismo que puedes consultar si lo deseas.
 
 ## Conclusión
 
