@@ -2,7 +2,7 @@
 layout: post
 title: Implementando la autenticación biométrica en .NET MAUI
 description: En este artículo mostraré que tan fácilmente es agregar la autenticación biométrica en .NET MAUI
-image: /assets/img/blog/post-headers/maui/maui01.png
+image: /assets/img/blog/post-headers/maui/Integrate-biometric.png
 noindex: true
 comments: true
 author: lucio
@@ -51,6 +51,24 @@ Acto seguido, deberemos de agregar el permiso en el archivo AndroidManifest.xml
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/02.png)
 
+Ya para terminar en Android, en el archivo MainActivity.cs añadamos el espacio de nombres: 
+
+~~~bash
+
+using Plugin.Fingerprint;
+
+~~~
+
+Para poder crear el método OnCreate(), en el cual recordemos se ejecuta la lógica de arranque básica de la aplicación que debe ocurrir una sola vez en toda la vida de la actividad. Aqui agregaremos la siguiente linea de código:
+
+~~~bash
+
+CrossFingerprint.SetCurrentActivityResolver(() => this);
+
+~~~
+
+![image](/assets/img/blog/tutorials/maui-biometrics/img02.png)
+
 ### Implementación - iOS
 
 .........................
@@ -96,10 +114,20 @@ private async void OnBiometricClicked(object sender, EventArgs e)
 
 ![image](/assets/img/blog/tutorials/maui-biometrics/04.png)
 
+Ya por último
 
-Mira el video a continuación para ver cómo funciona en Android:
+## Resultado / Salida
 
-Como siempre, a continuación proporciono un ejemplo de código en mi GitHub, mismo que puedes consultar si lo deseas.
+| Android |
+
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png)
+
+| iOS |
+
+![image](/assets/img/blog/tutorials/xamarin-horizontal-calendar/img05.png)
+
+
+Como siempre, a continuación proporciono un ejemplo de código en mi [GitHub](URL), mismo que puedes consultar si lo deseas.
 
 ## Conclusión
 
