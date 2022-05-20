@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entrenamiento y Certificación - Alibaba Cloud Associate Developer
+title: Entrenamiento y Certificación - Alibaba Cloud ACA Developer
 description:
   Registrate a este curso que brinda Alibaba Cloud... ¡gratis!
 image: /assets/img/blog/post-headers/alibaba/alibaba_training_associate_developer_HEADER.png
@@ -21,7 +21,11 @@ lang: es
 
 # Entrenamiento - Alibaba Cloud Associate Developer 
 
-¡Hola a todos! ¿Te imaginas como desarrollador en el futuro? ¿Está luchando por sobresalir entre todos los desarrolladores? ¡Entonces aquí viene el examen de certificación y capacitación de certificación de desarrollador de Alibaba Cloud Associate (ACA) GRATUITO! ¡Regístrese AHORA para estar más cerca!
+¡Hola a tod@s! 
+
+¿Te imaginas como desarrollador en el futuro? ¿Estás luchando por sobresalir entre todos los desarrolladores? ¡Entonces aquí viene el examen de certificación y capacitación de certificación de desarrollador de Alibaba Cloud Associate (ACA) GRATUITO! ¡Regístrese AHORA para estar más cerca!
+
+El contenido del examen de certificación cubre las características y soluciones de productos relacionados con Alibaba Cloud, incluidos contenedores, monitoreo de aplicaciones, depuración, optimización, computación de funciones de Alibaba Cloud y control de acceso a productos de Alibaba Cloud.
 
 Una vez completada la capacitación, tendremos la oportunidad de obtener la certificación de Associate Developer, siempre y cuando se logra aprobar el examen.
 
@@ -43,5 +47,5 @@ Examen de certificación: el examen se llevará a cabo de 2:00 p.m. a 4:30 p.m. 
 ¡Nos vemos pronto en la nube!
 
 
-![image](//assets/img/blog/post-headers/alibaba/alibaba_training_associate_developer.png)
+![image](/assets/img/blog/post-headers/alibaba/alibaba_training_associate_developer.png)
  
