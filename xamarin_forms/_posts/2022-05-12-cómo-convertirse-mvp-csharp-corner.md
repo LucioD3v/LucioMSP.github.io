@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo convertirse en un MVP de C# Corner
-description: En este artículo mostraré que tan fácilmente es agregar un control de calendario de manera horizontal a nuestras aplicaciones de Xamarin.Forms
+description: En este artículo daré a conocer todo sobre el premio MVP que brinda C# Corner.
 image: /assets/img/blog/post-headers/mvpCcorner.jpeg
 noindex: true
 comments: true
@@ -12,19 +12,18 @@ tags:
   - c#
   - c
   - sharp
-  - mvp
+  - MVP
   - corner
 keywords:
   - c#
   - sharp
   - c
+  - MVP
   - xamarin
   - corner
   
 lang: es
 ---
-
-### Historia
 
 C# Corner se fundó en el año 2000 para compartir código con otros desarrolladores. Actualmente, C# Corner se ha convertido en una de las comunidades en línea más populares para que los desarrolladores de software y datos aprendan, compartan, nutran, orienten, motiven y obtengan recompensas.
 
