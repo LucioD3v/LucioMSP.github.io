@@ -32,7 +32,7 @@ Conclusiones clave:
 
 Si te intereso conocer más sobre Alibaba Cloud Quick BI, te invitamos a que te unas a nosotros en #MultiCloud4U & #AlibabaCloud #CommunityDays, puesto que se llevará a cabo un evento en💡“Alibaba Cloud QuickBI” con certificación el 18 de Junio de 2022. 
 
-✔️ Organizado por # multicloud4U
+✔️ Organizado por: MultiCloud4U
 ✔️ Impartido por el MVP: GAVASKAR S
 
 📝Registrate en → [https://resource.alibabacloud.com/event/detail?id=5439](https://resource.alibabacloud.com/event/detail?id=5439)
