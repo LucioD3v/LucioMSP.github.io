@@ -20,7 +20,7 @@ keywords:
 lang: es
 ---
 
-El día de hoy salio la noticia de que GitHub Copilot ya está disponible de forma general y pública!, lo cual sinceramente es algo genial.
+El día de hoy (21-Junio-2022) salio la noticia de que GitHub Copilot ya está disponible de forma general y pública!, lo cual sinceramente es algo genial.
 
 ![image](/assets/img/blog/tutorials/github-copilot/00.png)
 
