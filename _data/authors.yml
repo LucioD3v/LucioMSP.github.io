@@ -4,13 +4,13 @@
 lucio:
   # Replace <...> with your own (remove the < >)
   name:              Vicente Gerardo Guzmán Lucio
-  email:             lucioms@geeks.ms
+  email:             luciomsp@geeks.ms
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     Vicente is from México where he works as a software engineer at top global companies.
-    He has more than 8 years of experience with coding with a focus on C#. 
+    He has more than 10 years of experience with coding with a focus on C#. 
     In his spare time, he enjoys exercising like running and having a few beers with friends.
 
   # This photo will be used in the about section.
