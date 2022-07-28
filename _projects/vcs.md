@@ -1,11 +1,11 @@
 ---
 layout: project
-title: 'Git_VCS'
+title: 'VCS'
 image: /assets/img/categories/gitv2.jpg
 screenshot: /assets/img/categories/gitv2.jpg
-caption: Git_VCS
+caption: VCS
 description: >
-Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+VCS, del inglés Version Control System ("sistema de control de versiones"), que es un sistema para gestionar los cambios de un proyecto de desarrollo de software
 ---
 
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
