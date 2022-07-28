@@ -18,8 +18,8 @@ lang: es
 
 Esta es una serie de artículos paso a paso, a continuación aprenderemos sobre las características de los Entornos o Ambientes (Environments) de Postman. Antes de aprender sobre esto, los invito a que lean los artículo anteriores de esta serie para una mejor comprensión:
 
-[Aprenda Postman paso a paso - Introducción (Día 1)](https://vicenteguzman.com/maui_net/net/2022-04-25-introduccion-a-postman/)
-[Aprenda Postman paso a paso - Encabezados Preestablecidos (Día 2)](https://vicenteguzman.com/postman/2022-04-27-aprendiendo-postman-paso-a-paso-encabezados-preestablecidos/)
+- [Aprenda Postman paso a paso - Introducción (Día 1)](https://vicenteguzman.com/maui_net/net/2022-04-25-introduccion-a-postman/)
+- [Aprenda Postman paso a paso - Encabezados Preestablecidos (Día 2)](https://vicenteguzman.com/postman/2022-04-27-aprendiendo-postman-paso-a-paso-encabezados-preestablecidos/)
 
 Este artículo cubre los siguientes temas:
 
@@ -34,9 +34,13 @@ Los entornos no son más que el conjunto de variables definidas, las variables s
 
 Sintaxis - Para acceder a las variables de entorno.
 
+~~~bash
+
 {{nombre de la variable}}
 
-Hay un alcance definido para cada variable de entorno como se muestra a continuación:
+~~~
+
+Cabe señalar que hay un alcance definido para cada variable de entorno:
 
 ### Variable Local
 Es la variable temporal utilizada para la solicitud o colección en particular, ya no está disponible una vez que se completa la solicitud. Se usa cuando desea anular el valor de las variables para una solicitud en particular.
@@ -53,7 +57,7 @@ Está disponible para las solicitudes de una colección, más adecuado para un s
 ### Variable de Datos
 Proviene de archivos externos como CSV y JSON. Contiene los valores actuales para una solicitud en particular o la colección.
 
-## Creando los entornos y variables
+## Creando los Entornos y Variables
 
 A continuación vamos a crear los entornos y las variables, para ello seguiremos los siguientes pasos:
 
@@ -96,12 +100,17 @@ En la captura de pantalla anterior, cuando hacemos clic en los tres puntos super
 
 Paso 4
 
+Pasenos a crer dos entornos más, el de Prod y el de Stagging. Una vez realizado lo anterior, podremos ver los susodichos en dos lugares, primero en la pestaña Entornos del lado izquierdo y en el menú desplegable superior del lado derecho. Acto seguido, configuremos el entorno predeterminado como 'Dev', tal y como se puede a continuación:
+
+![image](/assets/img/blog/tutorials/postman-environments/Imagen6.png)
 
 ### Acceder a las variables de entorno
 
 Ahora veamos cómo podemos acceder a esas variables de entorno en la solicitud como se indica a continuación:
 
 Paso 1
+
+Hagamos clic en el ícono "+" para crear una solicitud:
 
 
 
@@ -111,3 +120,4 @@ En este artículo, aprendimos sobre el entorno y las variables, el alcance de la
 
 Estén atentos para aprender cosas nuevas sobre Postman.
 
+¡Hasta la próxima!
