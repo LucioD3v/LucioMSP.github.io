@@ -7,14 +7,15 @@ noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [github]
+categories: [git]
 tags:
   - ai
   - ia
+  - git
   - github
 keywords:
   - github
-  - net
+  - git
   - ia
   - ai
 lang: es
