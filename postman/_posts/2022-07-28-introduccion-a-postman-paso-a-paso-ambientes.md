@@ -34,11 +34,7 @@ Los entornos no son más que el conjunto de variables definidas, las variables s
 
 Sintaxis - Para acceder a las variables de entorno.
 
-~~~bash
-
-" {{nombre de la variable}} "
-
-~~~
+![image](/assets/img/blog/tutorials/postman-environments/Imagen0.png)
 
 Cabe señalar que hay un alcance definido para cada variable de entorno:
 
@@ -141,7 +137,7 @@ Ahora, simplemente hagamos clic en el botón Enviar (Send) y veamos el resultado
 
 Como pudimos observar, las variables de entorno son fáciles de usar y actualizar en un solo lugar, mismo que usará el valor actualizado para ese entorno.
 
-## Establecer y Obtener la variable de entorno del script
+## Establecer y Obtener (Set & Get) la variable de entorno del Script
 
 También hay otra forma de configurar o crear la variable de entorno en el script 'Requisito previo (Pre-req)' y 'Prueba (Test)':
 
