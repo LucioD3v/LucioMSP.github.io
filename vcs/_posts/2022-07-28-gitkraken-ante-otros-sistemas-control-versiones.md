@@ -3,7 +3,7 @@ layout: post
 title: GitKraken ante otros Sistemas de Control de Versiones
 description:
   Conoce el "porque" usar GitKraken como VCS
-image: /assets/img/blog/post-headers/vcs/agitkraken.png
+image: /assets/img/blog/post-headers/vcs/gitkraken.png
 noindex: true
 comments: true
 author: lucio
