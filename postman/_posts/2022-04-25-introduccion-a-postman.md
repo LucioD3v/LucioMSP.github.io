@@ -7,13 +7,10 @@ noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [maui]
+categories: [postman]
 tags:
-  - net
-  - c#
+  - postman
 keywords:
-  - net
-  - c#
   - development
   
 lang: es
