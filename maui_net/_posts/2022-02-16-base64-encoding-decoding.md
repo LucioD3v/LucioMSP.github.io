@@ -7,7 +7,7 @@ noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [net]
+categories: [maui]
 tags:
   - net
   - c#
