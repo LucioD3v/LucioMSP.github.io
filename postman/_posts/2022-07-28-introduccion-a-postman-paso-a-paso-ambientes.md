@@ -36,7 +36,7 @@ Sintaxis - Para acceder a las variables de entorno.
 
 ~~~bash
 
-{{nombre de la variable}}
+" {{nombre de la variable}} "
 
 ~~~
 
@@ -112,7 +112,56 @@ Paso 1
 
 Hagamos clic en el ícono "+" para crear una solicitud:
 
+![image](/assets/img/blog/tutorials/postman-environments/Imagen7.png)
 
+Paso 2
+
+Esto lo que hará, es que nos abrirá la página de solicitud de creación en el lado derecho, aqui proporcionemos los siguientes datos:
+
+![image](/assets/img/blog/tutorials/postman-environments/Imagen8.png)
+
+En la captura de pantalla anterior, podemos ver la URL que hemos utilizado para la solicitud GET como '{{base_url}}/users/jsgund'. Aquí '{{base_url}}' significa la variable de entorno y cuando hacemos clic en enviar, reemplazará la variable con el valor real como 'https://api.github.com'. En el menú desplegable superior del lado derecho, puede ver el entorno seleccionado para esta solicitud como 'Dev'.
+
+Paso 3
+
+A continuación, si deseas verificar las variables de entorno para 'Dev', hagamos clic en el icono del ojo del lado derecho para ver las variables como se muestra arriba:
+
+![image](/assets/img/blog/tutorials/postman-environments/Imagen9.png)
+
+O simplemente pasemos el mouse sobre la variable de entorno '{{base_url}}', para poder obtener los detalles sobre esa variable:
+
+
+![image](/assets/img/blog/tutorials/postman-environments/Imagen10.png)
+
+Paso 4
+
+Ahora, simplemente hagamos clic en el botón Enviar (Send) y veamos el resultado:
+
+![image](/assets/img/blog/tutorials/postman-environments/Imagen11.png)
+
+Como pudimos observar, las variables de entorno son fáciles de usar y actualizar en un solo lugar, mismo que usará el valor actualizado para ese entorno.
+
+## Establecer y Obtener la variable de entorno del script
+
+También hay otra forma de configurar o crear la variable de entorno en el script 'Requisito previo (Pre-req)' y 'Prueba (Test)':
+
+La sintaxis para Set sería:
+
+~~~bash
+
+pm.environment.set("base_url", "https://api.github.com");
+
+~~~
+
+La sintaxis para Get:
+
+~~~bash
+
+pm.entorno.get("variable_clave");
+
+~~~
+
+En el código anterior, podemos ver el objeto 'pm', al usar este se puede acceder y manipular las variables en Postman usando la API 'pm'.
 
 ## Conclusión
 
