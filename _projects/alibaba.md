@@ -1,9 +1,9 @@
 ---
 layout: project
-title: 'Alibaba Cloud'
+title: 'Alibaba'
 image: /assets/img/categories/alibaba_logo.png
 screenshot: /assets/img/categories/alibaba_logo.png
-caption: Alibaba Cloud
+caption: Alibaba
 description: >
  Alibaba Cloud, también conocida como AliCloud, ofrece una gama de servicios de infraestructura, plataforma y aplicaciones en numerosas áreas. Dichas ofertas incluyen servicios de almacenamiento, red, base de datos, análisis, seguridad y plataforma de aplicaciones.
 ---
