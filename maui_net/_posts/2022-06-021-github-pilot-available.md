@@ -7,7 +7,7 @@ noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [git]
+categories: [vcs]
 tags:
   - ai
   - ia
@@ -18,6 +18,7 @@ keywords:
   - git
   - ia
   - ai
+  - vcs
 lang: es
 ---
 
