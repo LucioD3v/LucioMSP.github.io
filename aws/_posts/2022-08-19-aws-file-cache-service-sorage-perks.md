@@ -20,8 +20,6 @@ keywords:
 lang: es
 ---
 
-Nota: Este artículo es una traducción no perfecta al español del blog [AWS Insider.NET](https://awsinsider.net/articles/2022/08/11/aws-file-cache-service.aspx)
-
 ¡Hola a tod@s!
 
 Les traigo noticias sorprendentes sobre Amazon Web Services (AWS) y es que hace poco presentó varias actualizaciones de productos relacionadas con el almacenamiento en su reciente evento Storage Day, incluida una solución de nube híbrida llamada Amazon File Cache.
@@ -41,5 +39,7 @@ Otras noticias del evento Storage Day incluyen:
 - El lanzamiento del Programa de entrega de AWS Transfer Family para socios que "ofrecen transferencia de archivos administrada (MFT) nativa de la nube y soluciones de intercambio de archivos de empresa a empresa (B2B) utilizando AWS Transfer Family".
 
 Cabe destacar que el evento Storage Day 2022, que se transmitió en vivo en [Twitch](https://www.twitch.tv/videos/1557921433) el 10 de agosto, está disponible para verlo bajo demanda aquí.
+
+Nota: Este artículo es una traducción no perfecta al español del blog [AWS Insider.NET](https://awsinsider.net/articles/2022/08/11/aws-file-cache-service.aspx)
 
 ## ¡Happy Coding! 
