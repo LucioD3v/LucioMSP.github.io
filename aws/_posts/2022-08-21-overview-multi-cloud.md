@@ -18,7 +18,6 @@ keywords:
 lang: es
 ---
 
-## Introducción
 Multi-Cloud es un modelo popular de computación en la nube porque es una combinación de dos o más nubes públicas o privadas, o ambas, que administran proveedores de servicios.
 
 ## ¿Qué es la Nube Múltiple (Multi-Cloud)?
