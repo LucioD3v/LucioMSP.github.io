@@ -21,7 +21,7 @@ keywords:
 lang: es
 ---
 
-## Interrogantes sobre el rendimiento de la Base de Datos
+Interrogantes sobre el rendimiento de la Base de Datos
 
   ¿Podemos optimizar nuestra base de datos para maximizar su rendimiento?
   ¿Podemos diagnosticar y tratar rápidamente varios problemas inesperados de rendimiento de la base de datos?
