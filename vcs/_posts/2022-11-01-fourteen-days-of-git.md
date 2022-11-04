@@ -11,10 +11,12 @@ categories: [vcs]
 tags:
   - git
   - github
+  - 14díasdeGit
 keywords:
   - github
   - git
   - vcs
+  - 14díasdeGit
 lang: es
 ---
 
