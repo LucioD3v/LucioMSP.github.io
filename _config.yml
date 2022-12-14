@@ -304,10 +304,10 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-
+theme: jekyll-theme-hydejack@v9.1.5
 # theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v8.5.2
+
+# remote_theme: hydecorp/hydejack@v9.1.6
 # remote_theme: qwtel/hydejack
 
 # SEO Tag
