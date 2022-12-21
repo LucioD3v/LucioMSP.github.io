@@ -304,7 +304,7 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack@v9.1.0
+theme: jekyll-theme-hydejack
 #remote_theme: hydecorp/hydejack@v9.1.6 #medio funciona
 # remote_theme: qwtel/hydejack
 
