@@ -42,6 +42,9 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
   gem "jekyll-theme-hydejack"
+  gem "github-pages", group: :jekyll_plugins
+  gem "jekyll-include-cache", group: :jekyll_plugins
+
 
 end
 
