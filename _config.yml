@@ -155,7 +155,7 @@ tinyletter:           luciomsp
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random]
+  post_addons:         [comments, about, newsletter, related, random]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other]
@@ -304,9 +304,8 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
+# theme: jekyll-theme-hydejack
 theme: jekyll-theme-hydejack
-#remote_theme: hydecorp/hydejack@v9.1.6 #medio funciona
-# remote_theme: qwtel/hydejack
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
