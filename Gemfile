@@ -31,6 +31,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
+  gem "jekyll-remote-theme"
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
@@ -41,6 +42,7 @@ group :jekyll_plugins do
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
+  gem 'github-pages', '170', group: :jekyll_plugins
 end
 
 gem 'wdm' if Gem.win_platform?
