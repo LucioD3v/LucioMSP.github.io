@@ -1,0 +1,70 @@
+I"{<p>Este es el 1er artículo o día de 14 del recorrido del aprendizaje sobre Git. El día de hoy (02-Nov-2022) exploraremos de lleno sobre que es VCS.</p>
+
+<p>Cuando hablamos sobre “control de versiones” en programación cabe destacar que nos referimos a la capacidad de registrar los cambios realizados sobre los archivos del código fuente.</p>
+
+<p>Como se han de imaginar, este control se puede hacerse de manera manual creando diferentes archivos para cada modificación o realizando copias incrementales con la fecha de modificación, tal y como muchos de nosotros lo haciamos con un trabajo para la Universidad, ¿recuerdan?:</p>
+
+<ul>
+  <li>Trabajo Final</li>
+  <li>Trabajo Final 1.0</li>
+  <li>Trabajo Final 2.0</li>
+  <li>Trabajo Final 3.0</li>
+  <li>Trabajo Final - Bueno</li>
+  <li>Trabajo Final - Ahora si es el bueno</li>
+  <li>Trabajo Final Final - Este es el bueno</li>
+</ul>
+
+<p>Pero esto nos llevaba mucho tiempo y daba como resultado un sistema desorganizado por lo que es mejor automatizar el proceso. Por ello aparecierón los VCS, pero ¿qué es esto?</p>
+
+<h2 id="qué-es-vcs">¿Qué es VCS?</h2>
+<p>Los VCS (version control system - por sus siglas en inglés) son aplicaciones que nos permiten realizar el control de modificaciones de código fuente de manera automática y eficiente. En otras palabras este realiza un seguimiento de cada cambio en el código en una especie de registro. Por lo cual si se llegase a cometer un error, se puede retroceder en el tiempo (no tanto así pero mínimo en el registro), para posteriormente compararlo con versiones anteriores y ayudar a mitigar el error, al tiempo que minimiza la interrupción de otros que están trabajando en ese código.</p>
+
+<h2 id="por-qué-utilizar-un-control-de-versiones">¿Por qué utilizar un Control de Versiones?</h2>
+<p>Para la mayoría de los proyectos en los que se usa código, ya sea el código de la aplicación o el código que usa para implementar sus recursos de infraestructura. Es la joya de la corona. Ya que para ser honesto y siendo mi profesión el desarrollar aplicaciones (programador), el código es un bien preciado que debe ser protegido.</p>
+
+<p>El repositorio de código contiene conocimiento e historial de trabajo a través del proyecto. Contiene la clave de los problemas encontrados y las soluciones. Este nos sirve para indicarnos el tiempo y esfuerzo que se ha consumido al realizar determinado proyecto o tarea.</p>
+
+<p>Así mismo, el control de versiones protege el código de errores catastróficos y casuales. Ya que recordemos, somos humanos y facilmente cometemos errores, como por ejemplo y en este caso, guardando un archivo equivocado, o que determinada linea de código haga que truene nuestro aplicativo. Y no me dejaran mentir, todos hemos estado allí. Todos lo hemos hecho aunque sea una sola vez.</p>
+
+<p>Por ejemplo, cuando estamos trabajando en documentos como Word o Excel, el historial de OneDrive nos ha salvado. Puesto que nos ayudó a restaurar una versión anterior que guardamos accidentalmente. Ahora bien, el control de versiones puede hacer esa misma tarea para el código.</p>
+
+<p>Algo ademas que esta super genial, es que varias personas pueden estar trabajando en el código al mismo tiempo. Hoy en día no es raro que un equipo de personas trabaje en el mismo código. Por ejemplo un ingeniero podría estar agregando una nueva característica al código mientras que otro está tratando de resolver un error.</p>
+
+<p>El control de versiones nos permite realizar un seguimiento de los cambios por parte de las personas del equipo o de quien haya colaborado.</p>
+
+<p>También podemos crear lo que se conoce como ramas, a partir del código principal. Esto permite que cada miembro del equipo trabaje en su tarea por separado y luego, cuando estén listos, pueden fusionar sus cambios en el código principal.</p>
+
+<p>Las ramas permiten que las personas trabajen sin ser bloqueadas por otros. Y poder fusionar el código con el código principal permite realizar comprobaciones para garantizar que no haya conflictos de código que puedan causar problemas.</p>
+
+<h2 id="características-principales">Características Principales</h2>
+<p>Algunas de las  características de los sistemas de control de versiones son:</p>
+
+<ul>
+  <li>Reporte de cambios: Cuando un archivo es modificado se guarda la fecha y hora del cambio, el autor que lo realizó y un mensaje opcional explicando las razones o naturaleza del cambio.</li>
+  <li>Sincronización: Si varias personas trabajan o utilizan el mismo proyecto permite que todas puedan tener la última versión</li>
+  <li>Backup y restauración: Permite guardar los cambios realizados en los archivos y restaurar el archivo a cualquiera de los estados previos en los que fue guardado</li>
+  <li>Crear branch: Permite crear una branch (rama) del proyecto y trabajarla por separado sin modificar el proyecto original.</li>
+  <li>Realizar merge: Permite convertir el contenido de branch al proyecto principal</li>
+</ul>
+
+<h3 id="nota-importante-el-control-de-versiones-no-es-solo-para-desarrolladores-de-software">Nota Importante: El control de versiones NO es solo para desarrolladores de software.</h3>
+
+<h2 id="el-control-de-versiones-es-lo-mismo-que-el-control-de-código-fuente">¿El control de versiones es lo mismo que el control de código fuente?</h2>
+<p>Los términos control de versiones y control de código fuente se usan indistintamente, pero quieren decir lo mismo.</p>
+
+<h2 id="se-puede-programar-sin-hacer-uso-de-un-control-de-versiones">¿Se puede programar sin hacer uso de un control de versiones?</h2>
+<p>La respuesta concreta es si, si es posible continuar trabajando en su software o infraestructura como proyecto de código sin hacer uso de ningún control de versión, pero hacerlo sinceramente puede poner en riesgo los esfuerzos y el trabajo del equipo, puesto que como lo comentamos con anterioridad, si se presenta un error, el poder regresarlo a una versión anterior seria muy lento y complicado, ya que a veces solo requerimos hacer una pequeña regresión y no una de gran escala.</p>
+
+<p>Por ende, la pregunta que realmente nos debemos de hacer no es si se debería de utilizar el control de versiones o no, sino más bien qué sistema o herramienta de control de versiones deberíamos usar.</p>
+
+<h2 id="14-días-de-git">14 días de Git</h2>
+
+<p>Como ya lo suponemos o sabemos, existen muchos sistemas de control de versiones diferentes, en nuestro próximo ejercicio (artículo) de aprendizaje como parte de 14 días de Git. Exploraremos <a href="https://git-scm.com/">Git</a> y cómo se puede usar en el control de versiones.</p>
+
+<p>Recuerda que puedes seguirlo aquí: <a href="https://github.com/LucioMSP/14-dias-de-Git">https://github.com/LucioMSP/14-dias-de-Git</a></p>
+
+<h2 id="happy-coding">¡Happy Coding!</h2>
+
+<h3 id="nota">Nota:</h3>
+<p>Este artículo es una traducción al español no 100% fiel a <a href="https://www.techielass.com/what-is-version-control/">Techielass por Sarah Lean</a></p>
+:ET

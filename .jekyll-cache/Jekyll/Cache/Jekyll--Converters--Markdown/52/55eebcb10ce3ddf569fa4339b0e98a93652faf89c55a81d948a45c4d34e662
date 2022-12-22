@@ -1,0 +1,19 @@
+I"<p>En este pequeño articulo se listan los pasos a seguir para poder obtener nuestro Account ID:</p>
+
+<ul>
+  <li>Paso 1: Naveguemos al portal de <a href="https://account.alibabacloud.com/">Alibaba Cloud</a></li>
+  <li>Paso 2: Hacemos clic en Console, claramente para entrar a la consola.</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/account_id/console.png" alt="image" /></p>
+
+<ul>
+  <li>Paso 3: Posteriormente nos posicionaremos en nuestro perfil para que nos despliegue información de la cuenta:</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/account_id/account.png" alt="image" /></p>
+
+<p>Y listo, con esto habremos obtenido nuestra Account ID, el cual Alibaba nos solicita con determinada frecuencia dependiendo de las actividades que se ejecuten en su portal.</p>
+
+<p>Ya si queremos entrar a más detalle, solo es cuestión de ingresar a Security Settings.</p>
+:ET

@@ -1,0 +1,118 @@
+I"�	
+
+
+
+
+
+<article id="post-maui_net-maui-10-mejores-practicas-rendimiento-ASP-NET" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/maui_net/maui/2022-02-02-10-mejores-practicas-rendimiento-ASP-NET/" class="flip-title">
+        Top 10 - Mejores prácticas para ASP.NET Core
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-02-02T00:00:00-06:00">02 Feb 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Maui_net</span> / <a href="/maui/" class="flip-title">MAUI</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Asp</span>, <span>Net</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-07-27T22:50:25-05:00">2022-07-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/maui_net/maui/2022-02-02-10-mejores-practicas-rendimiento-ASP-NET/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/aspNetCore.jpeg"
+  
+  alt="Top 10 - Mejores prácticas para ASP.NET Core"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo conoceremos el top 10 de las mejores prácticas para mejorar el rendimiento de ASP.Net Core
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Sinceramente una de las principales razones por las que ASP.NET Core es el framework favorito de muchos, es el rendimiento. Puesto que nos brinda a los desarrolladores una base estable para crear aplicaciones basadas en web. Cabe mencionar que es crucial revisar nuestras aplicaciones regularmente para cumplir con las expectativas y es por ello que, en este artículo se trataran algunos consejos esenciales para mejorar la velocidad y el rendimiento para las aplicaciones ASP.NET Core.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/maui_net/maui/2022-02-02-10-mejores-practicas-rendimiento-ASP-NET/">Top 10 - Mejores prácticas para ASP.NET Core</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

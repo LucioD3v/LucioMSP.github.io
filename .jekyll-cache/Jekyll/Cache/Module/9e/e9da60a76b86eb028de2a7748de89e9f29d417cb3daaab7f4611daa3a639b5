@@ -1,0 +1,235 @@
+I"�/
+
+
+
+
+
+<article id="post-maui_net-maui-10-mejores-practicas-rendimiento-ASP-NET" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Top 10 - Mejores prácticas para ASP.NET Core
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-02-02T00:00:00-06:00">02 Feb 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Maui_net</span> / <a href="/maui/" class="flip-title">MAUI</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Asp</span>, <span>Net</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-07-27T22:50:25-05:00">2022-07-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/aspNetCore.jpeg"
+  
+  alt="Top 10 - Mejores prácticas para ASP.NET Core"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo conoceremos el top 10 de las mejores prácticas para mejorar el rendimiento de ASP.Net Core
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Sinceramente una de las principales razones por las que ASP.NET Core es el framework favorito de muchos, es el rendimiento. Puesto que nos brinda a los desarrolladores una base estable para crear aplicaciones basadas en web. Cabe mencionar que es crucial revisar nuestras aplicaciones regularmente para cumplir con las expectativas y es por ello que, en este artículo se trataran algunos consejos esenciales para mejorar la velocidad y el rendimiento para las aplicaciones ASP.NET Core.</p>
+
+<h2 id="usa-la-última-versión">Usa la última versión</h2>
+
+<p>¿Por qué hacer esto? Bueno, cada versión viene con las capacidades más recientes y avanzadas, por ende un rendimiento más rápido.
+Al desarrollar aplicaciones con ASP.NET Core debemos de asegurarnos de utilizar la versión más reciente dado que Microsoft mejora constantemente su rendimiento en la versión más reciente con respecto a la versión anterior.</p>
+
+<h3 id="1-evite-el-bloqueo-de-llamadas">1. Evite el bloqueo de llamadas</h3>
+
+<p>Es importante diseñar su aplicación ASP.NET Core para ejecutar varios procesos a la vez. Puede lograr esto mediante el uso de una API asíncrona, ya que esta puede manejar miles de solicitudes y no depende de que se bloqueen las llamadas. En lugar de esperar a que finalice un trabajo asíncrono, comenzará a trabajar en un subproceso diferente.</p>
+
+<p>El problema en las aplicaciones ASP.NET Core es bloquear la ejecución asíncrona a través de llamadas a Task. El subproceso se bloquea hasta que se completa la tarea y espera a que se complete. Ejecutar desde ASP.NET Core que ya este ejecutando subprocesos dentro del grupo de subprocesos estándar dará como resultado una programación de grupo de subprocesos innecesaria. En su lugar, podemos crear rutas de código activo que sean síncronas y llamen a E/S, acceso a datos. Aunado a patrones de API que se ejecutan durante largos períodos para ejecutar operaciones de forma asíncrona, con la finalidad de que puedan llevarse a cabo sin afectar a otros procesos.</p>
+
+<h3 id="2-usar-caché">2. Usar caché</h3>
+
+<p>Si busca mejorar el rendimiento de su aplicación, el método mejor conocido es el de reducir la cantidad de solicitudes realizadas al servidor cada vez. Funciona: se realiza una llamada al servidor y se guarda la respuesta, por lo tanto, la próxima vez que se realice una llamada para obtener la misma respuesta, en lugar de solicitar la ayuda del servidor esta información se compara con los datos almacenados. Y cuando se determina que es compatible, se lee de la base de datos en lugar de llamar al servidor.</p>
+
+<p>Así es como el almacenamiento en caché puede ahorrar tiempo y mejorar el rendimiento general, reduciendo las llamadas al servidor con frecuencia. Es posible realizar el almacenamiento en caché del lado del servidor o del lado del cliente del lado del servidor, ya que ASP.NET Core nos permite diferentes tipos de almacenamiento en caché, incluido el almacenamiento en caché en la memoria de almacenamiento en caché de respuestas. Y también almacenamiento en caché de respuestas, almacenamiento en caché distribuido y más.</p>
+
+<p>Por lo tanto la recomendación en este punto es: ¡siempre asegúrese de usar el caché para mejorar el rendimiento!</p>
+
+<h3 id="3-optimice-el-acceso-a-los-datos">3. Optimice el acceso a los datos</h3>
+
+<p>Para mejorar el rendimiento del software, necesitamos mejorar la eficiencia de la lógica de acceso a los datos. Dado que los datos se eliminan directamente de las bases de datos, recuperar cada vez lleva tiempo. Aquí hay algunos métodos que pueden aumentar el rendimiento de su aplicación.</p>
+
+<ul>
+  <li>Reducir el número de llamadas HTTP</li>
+  <li>En lugar de realizar varias conexiones a su servidor obteniendo los datos en tan solo una o varias llamadas</li>
+  <li>Cree un caché que almacenará datos sin cambios</li>
+  <li>No acceda a los datos antes de tiempo si no es necesario. Esto mejora la carga en la aplicación y puede ser lento</li>
+</ul>
+
+<h3 id="4-optimizar-código-personalizado">4. Optimizar código personalizado</h3>
+
+<p>La optimización del código y la lógica empresarial ayuda a mejorar el rendimiento de las aplicaciones, por lo tanto esto es lo que podriamos realizar:</p>
+
+<ul>
+  <li>Crear un registro y autenticación personalizados o algún controlador personalizado que se ejecute cada vez que se solicite.</li>
+  <li>No ejecutar procedimientos personalizados de ejecución prolongada en la capa lógica o el middleware. Ya que bloqueará la solicitud del servidor y aumentará el tiempo para obtener los datos de la aplicación. En su lugar, podemos optimizar el software en el lado del cliente o del servidor.</li>
+  <li>Complete de forma asincrónica tareas de ejecución prolongada para asegurarse de que otras tareas no se vean afectadas.</li>
+  <li>La comunicación cliente-servidor en tiempo real es SignalR que funciona de forma asíncrona.</li>
+</ul>
+
+<h3 id="5-usar-middleware-de-almacenamiento-en-caché-de-respuestas">5. Usar middleware de almacenamiento en caché de respuestas</h3>
+
+<p>Cree código rápido mediante el uso de elementos de Middleware que puedan optimizar las rutas de código de uso frecuente. Almacene las respuestas y sírvalas desde el caché. Se recomienda emplear herramientas para perfilar el rendimiento como PerfView para encontrar rutas de código activas.</p>
+
+<h3 id="6-minimice-las-asignaciones-de-objetos-grandes">6. Minimice las asignaciones de objetos grandes</h3>
+
+<p>Aunque el recolector de basura (garbage) de .Net Core está a cargo de todas las asignaciones y las liberaciones de memoria por cuenta propia dentro de la aplicación ASP.NET Core. La limpieza de objetos a los que no se ha hecho referencia requiere tiempo del CPU. Por lo tanto, nosotros como desarrolladores debemos evitar colocar objetos no deseados en rutas de código activo. La recolección de basura puede ser costosa y acumular enormes generaciones como generación. Eso requiere una suspensión indefinida del rendimiento de la aplicación para borrarlo. Una asignación y limpieza frecuente podría ralentizar el rendimiento de la aplicación.</p>
+
+<h3 id="consejos">Consejos:</h3>
+
+<ul>
+  <li>Almacenar en caché objetos más grandes porque ayuda a evitar asignaciones costosas.</li>
+  <li>Utilice un grupo de arreglos para mantener arreglos masivos.</li>
+  <li>No asigne objetos grandes a rutas de código activo.</li>
+</ul>
+
+<h3 id="7-usa-la-serialización-json">7. Usa la serialización JSON</h3>
+
+<p>.NET Core 3.0 utiliza System.Text.Json para realizar la serialización JSON. Esto significa que puede escribir y leer JSON de forma asíncrona. sin esperar a que se completen las otras tareas. Utilice JSON ya que puede mejorar el rendimiento de la aplicación más que Newtonsoft.Json. El espacio de nombres Json ofrece alto rendimiento y baja asignación y capacidades compatibles. Ese objeto en la serialización de texto JSON y el proceso de deserialización del texto JSON en objetos.</p>
+
+<h3 id="8-usa-la-compresión-de-respuesta">8. Usa la compresión de respuesta</h3>
+
+<p>La compresión del tamaño del archivo es un factor diferente que puede mejorar el rendimiento. La compresión de respuesta reduce el tamaño del archivo en ASP.NET Core puesto que está disponible como un componente de middleware. Cabe señalar que la mayoría de las respuestas no están comprimidas de forma nativa. Este suele ser el caso con CSS, JavaScript, HTML, XML y JSON.</p>
+
+<ul>
+  <li>
+    <p>Importante:</p>
+  </li>
+  <li>No comprima archivos de menos de 150 a 1000 bytes.</li>
+  <li>No comprima archivos comprimidos de forma nativa como imágenes PNG.</li>
+</ul>
+
+<h3 id="9-minimiza-las-excepciones">9. Minimiza las excepciones</h3>
+
+<p>El proceso de lanzar y capturar excepciones puede ser más lento que otros patrones de código. Por lo tanto, no deben usarse con poca frecuencia y no deben usarse para regular el flujo normal de programas.</p>
+
+<h3 id="tips">Tips:</h3>
+
+<ul>
+  <li>Lanzar o capturar excepciones por imprevisibilidad o circunstancias inusuales.</li>
+  <li>Cree lógica de código para identificar y tratar situaciones que pueden causar excepciones.</li>
+</ul>
+
+<p>Se pueden utilizar herramientas de diagnóstico de aplicaciones como Application Insights para identificar errores comunes en las aplicaciones y ver cómo funcionan.</p>
+
+<h2 id="consejos-para-mejorar-el-rendimiento">Consejos para mejorar el rendimiento</h2>
+
+<ul>
+  <li>Preferir ReadFormAsync sobre el formulario de solicitud</li>
+  <li>No almacene IHttpContextAccessor.HttpContext en un campo</li>
+  <li>No abra HttpContext a través de varios subprocesos, ya que no es seguro y puede causar un comportamiento indefinido, tels como bloqueos o corrupción de datos.</li>
+  <li>No registre los servicios que se inyectan en los controladores a través de subprocesos en segundo plano.</li>
+  <li>No modifique los encabezados ni el código de estado después de que se haya iniciado el cuerpo de la respuesta HTTP, porque ASP.NET Core no almacena en búfer el cuerpo de la respuesta HTTP.</li>
+</ul>
+
+<h2 id="10-mejoras-del-lado-del-cliente">10. Mejoras del lado del cliente</h2>
+
+<ul>
+  <li>Agrupación y Minificación</li>
+</ul>
+
+<p>Optimice su contenido antes de cargarlo usando minificación. Asi mismo asegúrese de reducir el código y cargar todos los activos del lado del cliente. Una vez que haya reducido los archivos, júntelos para que se carguen más rápido. Al igual que con el archivo zip. Luego comprímalo y hagalo zip.</p>
+
+<ul>
+  <li>Cargar JavaScript al final</li>
+</ul>
+
+<p>Asegúrese de cargar los archivos JavaScript en último lugar. Con este método, su sitio web se completará en poco tiempo, además cuando se ejecuta JavaScript, los elementos DOM ya están allí. Por lo tanto, su aplicación se puede ser más rápida.</p>
+
+<ul>
+  <li>Reducción de Imágenes</li>
+</ul>
+
+<p>Las imágenes grandes requieren mucho esfuerzo para cargar. En cambio, puede reducir las imágenes con herramientas de compresión para reducir la velocidad de carga.</p>
+
+<ul>
+  <li>Uso de CDN</li>
+</ul>
+
+<p>Si está utilizando bibliotecas de terceros para CSS y JavaScript que viene con una versión de CDN. Debe intentar usar la ruta de su archivo CDN en lugar de descargar los archivos de la biblioteca. CDN tiene múltiples servidores en diferentes zonas. Si está utilizando un sitio dentro de una sola región, descargará el archivo CDN a través del servidor. Al acceder al sitio, que es más rápido que cargar automáticamente el archivo de biblioteca grande.</p>
+
+<hr />
+
+<p>Artículo Original: <a href="https://hireaspnet.medium.com/10-best-practices-to-improve-asp-net-core-performance-f600e041a87b">hireaspnet.medium.com</a></p>
+
+  
+</article>
+:ET

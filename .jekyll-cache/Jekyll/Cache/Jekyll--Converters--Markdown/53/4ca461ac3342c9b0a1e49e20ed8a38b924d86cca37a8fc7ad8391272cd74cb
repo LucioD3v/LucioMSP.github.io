@@ -1,0 +1,22 @@
+I"�<p>Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba.</p>
+
+<h1 id="fundamentos-de-alibaba-cloud---elastic-compute-service-ecs">Fundamentos de Alibaba Cloud - Elastic Compute Service (ECS)</h1>
+
+<p>Elastic Compute Service o ECS es uno de los servicios más comunes dentro de la plataforma Alibaba. Esto le permite implementar servidores virtuales dentro de su entorno de Alibaba Cloud. La mayoría de las personas necesitarán algún tipo de instancia de ECS que se ejecute en su entorno como parte de al menos una de sus soluciones.</p>
+
+<p>En esta introducción al “Elastic Compute Service” de Alibaba Cloud, cubriré los siguientes componentes principales:</p>
+
+<ul>
+  <li>Conceptos de ECS</li>
+  <li>Instancias de ECS</li>
+  <li>Imágenes de ECS</li>
+  <li>Almacenamiento de ECS</li>
+  <li>Instantáneas de ECS (Snapshots)</li>
+  <li>Grupos de seguridad de ECS</li>
+  <li>Redes de ECS</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/articulos-ecs/componentes-alibaba.png" alt="image" /></p>
+
+<p>Por lo tanto, los invito a que no se pierdan ningún artículo, asi que ¡comencemos!</p>
+:ET

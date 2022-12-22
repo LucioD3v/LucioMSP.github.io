@@ -1,0 +1,97 @@
+I"�%<p>Como ya hemos visto o como ya sabemos, Blazor WASM (o Blazor WebAssembly) es un marco (framework)) de aplicación web de una sola página que nos permite crear aplicaciones web de una sola página. Construido como parte del ecosistema .NET Core, Blazor usa C# para generar contenido dinámico para una rica experiencia del cliente.</p>
+
+<h2 id="cómo-funciona-blazor-wasm">¿Cómo funciona Blazor WASM?</h2>
+<p>Tradicionalmente, todas las páginas web están estructuradas con HTML, diseñadas con CSS y usan Javascript para introducir una interactividad dinámica. C# como lenguaje no se creó para ejecutarse de forma nativa en los navegadores. Sin embargo, con la presencia de WebAssembly, el navegador ahora puede alojar el tiempo de ejecución de dotnet, lo que hace posible ejecutar y ejecutar código C#.</p>
+
+<h2 id="cuál-es-el-problema-con-javascript-en-el-navegador">¿Cuál es el problema con Javascript en el navegador?</h2>
+<p>Si bien es cierto que Javascript es el idioma nativo de los navegadores web y puede ejecutarse en el frontend y backend. Pero, ¿es realmente necesario ejecutar C# en el navegador?</p>
+
+<p>A continuación se destacan los beneficios de ejecutar C# en el navegador:</p>
+
+<h3 id="habilitación-de-pila-completa-full-stack">Habilitación de Pila Completa (Full Stack)</h3>
+<p>El ecosistema dotnet core proporciona una de las implementaciones del lado del servidor más seguras y resistentes. Ocupa un lugar destacado entre los marcos de back-end más populares con su implementación de ASP.NET.</p>
+
+<p>Al extender el tiempo de ejecución de .NET al navegador, Microsoft habilitó una verdadera experiencia de pila completa para permitir que los equipos usen el mismo conocimiento y bibliotecas de clases con las que están familiarizados del lenguaje C# en ambas pilas.</p>
+
+<h3 id="integración-más-fácil">Integración más fácil</h3>
+<p>En el desarrollo web, hay desarrolladores que se enfocan en el lado del cliente o en el lado del servidor. Si bien las clases de código no necesitan conocer los detalles de implementación de otras clases, los desarrolladores del lado del cliente necesitan conocimientos sobre la implementación del lado del servidor, y esto a veces puede resultar difícil al usar dos idiomas, especialmente cuando uno está fuertemente tipado y el otro no. .</p>
+
+<p>Al usar Blazor WASM, el lado del cliente y el lado del servidor pueden compartir una base de código común en el mismo idioma, que se puede integrar fácilmente entre sí. Los desarrolladores del lado del cliente comprenderán la lógica del lado del servidor y cómo integrarla e implementarla sin problemas.</p>
+
+<h3 id="costos-de-desarrollo-reducidos">Costos de desarrollo reducidos</h3>
+<p>Los lenguajes de programación tardan años en aprenderse y dominarse. Como los desarrolladores no son baratos, encontrar y pagar a los desarrolladores es una decisión estratégica para los equipos pequeños. Contar con un equipo de desarrolladores capacitados que puedan alternar entre las aplicaciones del lado del cliente y del servidor sin perder la comprensión de ambos lados mejora la colaboración, lo cual es vital para los equipos pequeños.</p>
+
+<h3 id="reutilización-de-código-mejorada">Reutilización de código mejorada</h3>
+<p>El principio DRY es una de las formas más sencillas de prevenir y reducir los olores de código y el código espagueti. Al no tener que volver a escribir código nuevo, se reduce el acoplamiento y los cambios futuros no afectan a otras partes del código base.</p>
+
+<p>Se pueden compartir y consumir bibliotecas .NET completas en Blazor WASM. Hacer uso de la lógica, la funcionalidad y las capacidades existentes permite a los desarrolladores centrarse en innovar más, ya que no están obligados a reinventar la rueda.</p>
+
+<h2 id="características-de-blazor-wasm">Características de Blazor WASM</h2>
+<p>Blazor WASM tiene un conjunto único de características que lo convierten en una opción convincente para el desarrollo del lado del cliente.</p>
+
+<h3 id="componentes-reutilizables">Componentes reutilizables</h3>
+<p>Con Blazor, puede crear componentes para usarlos en su aplicación. Los componentes son bloques de construcción para una interfaz de usuario, como formularios, tarjetas, tablas, cuadrículas y muchos más.</p>
+
+<p>Estos componentes se pueden definir una vez y llamar varias veces. En esencia, los componentes son un grupo de elementos HTML que especifican la estructura de un sitio.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;Dropdown&gt;
+    &lt;DropdownToggle <span class="nv">Color</span><span class="o">=</span><span class="s2">"Color.Primary"</span><span class="o">&gt;</span>
+        Dropdown
+    &lt;/DropdownToggle&gt;
+    &lt;DropdownMenu&gt;
+        &lt;DropdownItem&gt;Action&lt;/DropdownItem&gt;
+        &lt;DropdownDivider /&gt;
+        &lt;DropdownItem&gt;Another Action&lt;/DropdownItem&gt;
+    &lt;/DropdownMenu&gt;
+&lt;/Dropdown&gt;
+
+</code></pre></div></div>
+
+<p>Lo anterior es un componente de menú desplegable con Blazorise. Esto hace que el desarrollo sea más fácil y rápido y se puede llamar en cualquier momento que desee crear un menú desplegable, sin tener que escribir mucho código.</p>
+
+<h3 id="hot-reload">Hot Reload</h3>
+<p>La recarga activa hace que el navegador se actualice automáticamente cuando se realizan cambios en el código base. Esto ayuda a mejorar la productividad de los desarrolladores, ya que necesitan reiniciar la aplicación para ver los efectos de esos cambios.</p>
+
+<h3 id="rendimiento-rápido">Rendimiento rápido</h3>
+<p>Blazor WASM en la primera carga tarda un tiempo, ya que se debe descargar el entorno de tiempo de ejecución y otras dependencias. Luego, Blazor WASM se basa en el tiempo de ejecución descargado para ejecutarse a velocidades casi nativas en el navegador, lo que hace que las aplicaciones sean más rápidas.</p>
+
+<h2 id="qué-se-puede-construir-con-blazor">¿Qué se puede construir con Blazor?</h2>
+<p>Esta sección destaca algunos de los mejores casos de uso para Blazor</p>
+
+<h2 id="aplicación-web-progresiva">Aplicación Web Progresiva</h2>
+<p>Una aplicación web progresiva es una aplicación que se puede instalar y ejecutar como una aplicación nativa. La creación de PWA ayuda a los equipos a proporcionar experiencias móviles y de escritorio nativas para sus aplicaciones sin crearlas específicamente para esos entornos.</p>
+
+<p>Para equipos pequeños, Blazor puede ser una forma de ahorrar costos sin sacrificar el rendimiento y la entrega.</p>
+
+<h3 id="aplicaciones-de-una-sola-página">Aplicaciones de una sola página</h3>
+<p>Una aplicación de página única (SPA) es una aplicación web o sitio web que interactúa con el usuario al reescribir dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método predeterminado de un navegador web que carga páginas nuevas completas.</p>
+
+<p>En Blazor WebAssembly, cuando el cliente realiza una solicitud, se presenta como un poco de HTML, CSS y JavaScript, como todas las demás aplicaciones web. El archivo blazor.webassembly.js arranca la aplicación y comienza a cargar archivos binarios .NET que se pueden ver en la pestaña Red del navegador.</p>
+
+<h3 id="aplicaciones-fuera-de-línea">Aplicaciones fuera de línea</h3>
+<p>Debido a que Blazor WASM descarga el tiempo de ejecución y las dependencias al inicio, la mayor parte de la representación se realiza en el lado del cliente. Como resultado, puede funcionar bien en escenarios donde no hay Internet o una conexión limitada.</p>
+
+<h2 id="desacreditando-conceptos-erróneos-comunes">Desacreditando conceptos erróneos comunes</h2>
+<p>Al igual que todos los demás marcos de SPA, Blazor WASM tiene sus deficiencias. Aquí hay algunos para tomar nota</p>
+
+<h3 id="enorme-carga-útil-y-tamaño-inicial-lento">Enorme carga útil y tamaño inicial lento</h3>
+<p>Las aplicaciones Blazor WASM pueden crecer rápidamente debido a los tiempos de ejecución necesarios para ejecutar C# en el navegador. Este gran tamaño puede hacer que el inicio inicial sea lento, y esto puede afectar una mala conexión a Internet. Afortunadamente, esto solo sucede una vez, por lo que las cargas subsiguientes son más rápidas y más pequeñas, ya que la mayor parte del trabajo pesado ya se ha realizado.</p>
+
+<h3 id="no-más-javascript">No más JavaScript</h3>
+<p>El objetivo de Blazor WASM es permitir que C# se ejecute en el navegador, pero eso no significa que no necesitará javascript en absoluto. Blazor WASM no puede interactuar directamente con el DOM ni tener acceso a las API del navegador y, como resultado, es necesario llamarlas mediante javascript, en un proceso llamado Javascript Interop. Dado que Javascript es el idioma nativo de los navegadores, será necesario para acceder a las funcionalidades basadas en el navegador y</p>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>En este artículo, vimos como es que Blazor ayuda a los equipos a crear interfaces de interfaz de usuario enriquecidas. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<p>Más información:</p>
+
+<ul>
+  <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">Web Apps Blazor</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-6.0">Host and deploy ASP.NET Core Blazor WebAssembly</a></li>
+</ul>
+
+<p>¡Hasta la próxima!</p>
+:ET

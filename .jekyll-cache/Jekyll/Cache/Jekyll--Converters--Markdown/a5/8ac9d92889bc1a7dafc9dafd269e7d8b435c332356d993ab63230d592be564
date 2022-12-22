@@ -1,0 +1,33 @@
+I"�<p>El día de hoy les voy a compartir el cómo pueden desarrollar su propia Skill mediante ASK CLI.</p>
+
+<p>Recordemos que aunque no tengais un Amazon Echo, podeis usar el simulador que te ofrece Amazon para hacer las pruebas.</p>
+
+<p>Pasos para desarrollar una Skill en Alexa
+Esto es lo que hariamos
+1.- Crear una cuenta en AWS
+2.- Crear una cuenta de desarollador
+3.- Instalación del ask-cli y configuración con AWS
+4.- Crear nuevo proyecto y explicación de la estructura.
+5.- Picar código
+6.- ask deploy
+7.- Testing y a certificación!</p>
+
+<h1 id="1-crear-una-cuenta-en-aws">1. Crear una cuenta en AWS</h1>
+<p>Lo primero que tenemos que hacer es abrirnos una cuenta en Amazon Web Services (AWS), esto lo necesitaremos para usar la herramienta Lambda que nos permitirá incluir alli el código del backend de nuestra Skill. Usar Lambda es totalmente gratuito a menos que superemos las 1.000.000 peticiones al mes.</p>
+
+<p>Para abrir una cuenta en AWS simplemente tenemos que ir a Amazon y seguir los pasos. Te pedirá los datos de la tarjeta, pero eso es simplemente para la verificación de la cuenta.</p>
+
+<p>Cuando hayamos abierto una cuenta en AWS, empezará a contar un año de pruebas de otros servicios como por ejemplo EC2, que podrías usarlo para otras cosas 🙂</p>
+
+<h1 id="2-crear-una-cuenta-de-desarollador">2. Crear una cuenta de desarollador</h1>
+<p>Una vez abierto una cuenta en AWS, tenemos que abrir una cuenta de desarrollador en amazon, lo puedes hacer en el siguiente enlace: developer.amazon.com</p>
+
+<p>Estando logueado, veremos un panel para poder crear skills, alli nosotros NO le vamos a dar, ya que vamos a usar el ASK-CLI para hacer deploy de nuestro codigo de la Skill.</p>
+
+<h1 id="3-ask-cli">3. ASK-CLI</h1>
+<p>Para instalar ask-cli necesitamos tener instalado node, podemos comprobarlo ejecutando</p>
+
+<p><img src="/assets/img/blog/skills-logos/consejosdelAbuelo.png" alt="image" /></p>
+
+<p>Y bueno, esto es todo, espero que te unas a la comunidad de desarrolladores de voz y generes Skills impresionantes. Recuerda además que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.</p>
+:ET

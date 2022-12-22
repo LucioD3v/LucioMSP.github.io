@@ -1,0 +1,131 @@
+I"q<p>Horizontal Calendar Control es un complemento multiplataforma para Xamarin.Forms que nos permite mostrar un calendario de una sola fila en nuestras aplicaciones.</p>
+
+<h3 id="cómo-utilizarlo">Cómo utilizarlo</h3>
+
+<p>Lo primero que se debe de hacer es instalar el complemento mediante el administrador de paquetes solamente en el proyecto de Xamarin.Forms:</p>
+
+<p><img src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img02.png" alt="image" /></p>
+
+<p>Ya si se quiere hacer mediante la consola del Package Manager:</p>
+
+<p><img src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img01.png" alt="image" /></p>
+
+<p>Install-Package HorizontalCalendarControl -Version 1.0.2</p>
+
+<p><img src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img03.png" alt="image" /></p>
+
+<h3 id="ejemplo-de-implementación">Ejemplo de implementación</h3>
+
+<p>Ahora lo que se debe de hacer es escribir (agregar) el espacio de nombres (namespace) en la vista que vayamos a utilizar el control:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+xmlns:views<span class="o">=</span><span class="s2">"clr-namespace:HorizontalCalendar.Views;assembly=HorizontalCalendar"</span>
+
+</code></pre></div></div>
+
+<p>Posteriomente habrá  que escribir el siguiente código en la página XAML donde lo vayamos a ocupar:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  &lt;StackLayout <span class="o">&gt;</span>
+      &lt;views:HorizontalCalendarControl  x:Name<span class="o">=</span><span class="s2">"calendarControl"</span> /&gt;
+  &lt;/StackLayout&gt;
+
+</code></pre></div></div>
+
+<h2 id="personalización-de-la-interfaz-de-usuario-ui">Personalización de la Interfaz de Usuario (UI)</h2>
+
+<h3 id="propiedades">Propiedades</h3>
+
+<ul>
+  <li>HeaderBackgroundColor: se utiliza para establecer el color de fondo del encabezado.</li>
+  <li>HeaderTextColor: se utiliza para establecer el color del texto del encabezado.</li>
+  <li>LeftRightArrowColor: se utiliza para establecer el color de la flecha izquierda y derecha.</li>
+  <li>SelectedDateTextColor: se utiliza para establecer el color del texto de la fecha seleccionada.</li>
+  <li>SelectedDateBackGroundColor: se utiliza para establecer el color de fondo del texto de la fecha seleccionada.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  &lt;views:HorizontalCalendarControl 
+      <span class="nv">HeaderBackgroundColor</span><span class="o">=</span><span class="s2">"LightBlue"</span>
+      <span class="nv">HeaderTextColor</span><span class="o">=</span><span class="s2">"Black"</span>
+      <span class="nv">SelectedDateTextColor</span><span class="o">=</span><span class="s2">"LightBlue"</span> 
+      <span class="nv">SelectedDateBackGroundColor</span><span class="o">=</span><span class="s2">"Black"</span> 
+      <span class="nv">LeftRightArrowColor</span><span class="o">=</span><span class="s2">"Black"</span>   /&gt;
+
+</code></pre></div></div>
+
+<h3 id="cómo-mostrar-la-fecha-seleccionada">Cómo mostrar la fecha seleccionada</h3>
+<p>Para poder obtener la fecha seleccionada, deberemos de escribir el siguiente código:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  &lt;Label <span class="nv">Text</span><span class="o">=</span><span class="s2">"{Binding Source={x:Reference calendarControl},Path=SelectedDate}"</span> /&gt;
+  &lt;views:HorizontalCalendarControl  x:Name<span class="o">=</span><span class="s2">"calendarControl"</span>/&gt;
+
+</code></pre></div></div>
+
+<h3 id="cómo-obtener-la-fecha-seleccionada">Cómo obtener la fecha seleccionada</h3>
+
+<p>Para obtener la fecha seleccionada deberemos de usar este comando: SelectedDateCommand</p>
+
+<h3 id="xaml">XAML</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;views:HorizontalCalendarControl <span class="nv">SelectedDateCommand</span><span class="o">=</span><span class="s2">"{Binding SelectedDateCommand}"</span> x:Name<span class="o">=</span><span class="s2">"calendarControl"</span>  /&gt;
+
+</code></pre></div></div>
+
+<h3 id="code-behind-código">Code Behind (Código)</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+private DateTime _selectedDate<span class="p">;</span>
+public DateTime SelectedDate
+<span class="o">{</span>
+   get <span class="o">=&gt;</span> _selectedDate<span class="p">;</span>
+   <span class="nb">set</span> <span class="o">=&gt;</span> SetProperty<span class="o">(</span>ref _selectedDate, value<span class="o">)</span><span class="p">;</span>
+<span class="o">}</span>
+ 
+public ICommand SelectedDateCommand <span class="o">=&gt;</span> new Command&lt;DateTime&gt;<span class="o">((</span>selectedDate<span class="o">)</span> <span class="o">=&gt;</span>
+<span class="o">{</span>
+     SelectedDate <span class="o">=</span> selectedDate<span class="p">;</span> 
+<span class="o">})</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Y listo, ¡eso es todo! Ahora ya podemos hacer uso del Horizontal Calendar Control.</p>
+
+<h2 id="resultado--salida">Resultado / Salida</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Android</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img04.png" alt="image" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>iOS</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img05.png" alt="image" /></p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control em tus aplicaciones de Xamarin.Forms y ver los resultados tanto en Android como en iOS.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<p>Más información:</p>
+
+<ul>
+  <li>NuGet: <a href="https://www.nuget.org/packages/HorizontalCalendarControl/1.0.2">https://www.nuget.org/packages/HorizontalCalendarControl/1.0.2</a></li>
+</ul>
+
+<h2 id="happy-coding">¡Happy Coding!</h2>
+:ET

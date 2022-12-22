@@ -1,0 +1,96 @@
+I"4<p>Esta es una serie de artículos paso a paso, a continuación aprenderemos sobre las características de los encabezados preestablecidos de Postman. Antes de aprender sobre los encabezados preestablecidos, los invito a que lean el artículo anterior de esta serie para una mejor comprensión:</p>
+
+<p><a href="https://vicenteguzman.com/maui_net/net/2022-04-25-introduccion-a-postman/">Aprenda Postman paso a paso - Introducción (Día 1)</a></p>
+
+<p>Este artículo cubre los siguientes temas:</p>
+
+<ul>
+  <li>Encabezados preestablecidos</li>
+  <li>Adición de encabezados preestablecidos</li>
+  <li>Uso de encabezados preestablecidos</li>
+</ul>
+
+<h2 id="encabezados-preestablecidos">Encabezados preestablecidos</h2>
+<p>Cuando desea interactuar con una API, se requieren algunos encabezados cada vez que realiza una solicitud. Los encabezados incluyen nombre de usuario, contraseña, clave de API, autorización, etc., pero cuando trabaja con la aplicación, se configura automáticamente y envía la solicitud. En caso de acceder directamente a la API, debe pasar esos encabezados cada vez que necesite realizar una solicitud.</p>
+
+<p>En Postman, cuando realiza una nueva solicitud, debe completar todos los encabezados nuevamente, para ahorrar tiempo. Preestablecidos o encabezados preestablecidos entran en escena para preservar la configuración de los encabezados para usar en futuras solicitudes.</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen1.png" alt="image" /></p>
+
+<p>Los ajustes preestablecidos se encuentran debajo de la sección de encabezados cuando está solicitando la captura de pantalla anterior.</p>
+
+<h3 id="adición-de-encabezados-preestablecidos">Adición de encabezados preestablecidos</h3>
+<p>Veamos cómo agregar los encabezados preestablecidos, siguiendo los pasos a continuación:</p>
+
+<p>Paso 1</p>
+
+<p>Abra Postman, cree una nueva solicitud y haga clic en los encabezados, seleccione el valor ‘Administrar ajustes preestablecidos’ del menú desplegable ‘Preajustes’ como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen2.png" alt="image" /></p>
+
+<p>Paso 2</p>
+
+<p>Una vez que haga clic en ‘Administrar ajustes preestablecidos’, se abrirá la ventana emergente como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen3.png" alt="image" /></p>
+
+<p>En esta ventana emergente, puede administrar su grupo de encabezados preestablecidos, como agregar, actualizar o eliminar el grupo. El grupo contiene los pares clave-valor del encabezado.</p>
+
+<p>Paso 3</p>
+
+<p>A continuación, haga clic en el botón ‘Agregar’ y se abre otra ventana emergente para crear el grupo de encabezado preestablecido como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen4.png" alt="image" /></p>
+
+<p>Contiene el nombre del encabezado preestablecido, la clave, el valor, la descripción que se debe completar y la funcionalidad de edición masiva.</p>
+
+<p>Paso 4</p>
+
+<p>A continuación, complete los detalles requeridos para el grupo de encabezados preestablecidos y haga clic en el botón ‘Agregar’ como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen5.png" alt="image" /></p>
+
+<p>Paso 5</p>
+
+<p>Una vez que hizo clic en el botón ‘Agregar’, agrega ese grupo y verá la lista de grupos a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen6.png" alt="image" /></p>
+
+<p>En la ventana emergente después del botón ‘Agregar’, verá el grupo ‘GET-Headers’ agregado recientemente. Aquí puede administrar los grupos como ‘Agregar’, ‘Actualizar’ y ‘Eliminar’.</p>
+
+<p>Para la funcionalidad de actualización, simplemente haga clic en el nombre del grupo y verá una ventana emergente como la siguiente:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen7.png" alt="image" /></p>
+
+<p>Para la funcionalidad de eliminación, simplemente haga clic en el icono de eliminación y le dará un mensaje de advertencia antes de eliminar ese grupo como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen8.png" alt="image" /></p>
+
+<p>Espero que comprenda cómo agregar o administrar el grupo de encabezados preestablecidos.</p>
+
+<h3 id="uso-de-encabezados-preestablecidos">Uso de encabezados preestablecidos</h3>
+
+<p>En la sección anterior, aprendimos cómo agregar el grupo preestablecido, veamos cómo usarlo en la solicitud de la siguiente manera:</p>
+
+<p>Paso 1</p>
+
+<p>Cree una nueva solicitud, vaya a la pestaña de encabezados y haga clic en el menú desplegable ‘Preajustes’ como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen9.png" alt="image" /></p>
+
+<p>En la captura de pantalla anterior, puede ver que el grupo agregado recientemente está junto a ‘Administrar ajustes preestablecidos’, que es ‘GET-Headers’.</p>
+
+<p>Paso 2</p>
+
+<p>A continuación, haga clic en el grupo agregado recientemente que es ‘GET-Headers’ y se agrega a los encabezados de la siguiente manera:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-encabezados/Imagen10.png" alt="image" /></p>
+
+<p>En la pestaña de encabezados, puede ver los encabezados agregados ‘API-Key’ y ‘User-Name’ del grupo que hemos creado, que es ‘GET-Headers’. No es que lo hayamos seleccionado de los ajustes preestablecidos, por lo que no es editable, podemos actualizar ese valor aquí.</p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>En este artículo, aprendimos sobre ajustes preestablecidos, encabezados y cómo agregarlos y usarlos en una solicitud. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.</p>
+
+<p>Estén atentos para aprender cosas nuevas sobre Postman…….</p>
+:ET

@@ -1,0 +1,167 @@
+I"
+
+
+
+
+
+<article id="post-aws-aws-community-builder" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        ¿Qué son los AWS Community Builders?
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-02-17T00:00:00-06:00">17 Feb 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/aws/" class="flip-title">AWS</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Aws</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/aws_community_builders.png"
+  
+  alt="¿Qué son los AWS Community Builders?"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Aprende todo sobre el nuevo programa por parte de Amazon Web Services.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hace mucho que no me sentaba a escribir un artículo para este blog, tanto así que el 30 de Julio del 2020, Amazon Web Services anunció un programa denominado “AWS Community Builders”, la cual se centra en darles apoyo a aquellos entusiastas de AWS apasionados por compartir sus conocimientos y conectarse con la comunidad.</p>
+
+<p>Dicho programa brinda recursos técnicos, tutorías y oportunidades de trabajo en red para entusiastas de AWS y líderes de opinión emergentes que sienten pasión por compartir conocimientos y conectarse con la comunidad técnica.</p>
+
+<p>A lo largo del programa, los expertos en la materia brindarán tutoría y compartirán conocimientos, incluida información sobre los servicios más recientes, así como las mejores prácticas para crear contenido técnico, aumentar el alcance y compartir el conocimiento de AWS en comunidades en línea y en persona. El programa aceptará un número limitado de miembros por año. Todos los desarrolladores de AWS son bienvenidos y se les anima a postularse.</p>
+
+<p>Los creadores de AWS interesados deben postularse al programa para establecer relaciones con los equipos de productos de AWS, AWS Heroes y la Comunidad de AWS.</p>
+
+<h1 id="categorías-del-programa">Categorías del Programa</h1>
+
+<p>Las personas que se postulan al programan deben escoger dos categorías según su conocimiento y experiencia, las categorías son:</p>
+
+<ul>
+  <li>Networking and Content Delivery</li>
+  <li>Storage</li>
+  <li>Containers</li>
+  <li>Machine Learning</li>
+  <li>Serverless</li>
+  <li>Gravitron / Arm Development</li>
+  <li>Data (Databases, Analytics, Blockchain)</li>
+  <li>Developer Tools</li>
+  <li>Game Tech</li>
+  <li>Mobile and Web Apps</li>
+  <li>Management, Governance and Migration</li>
+  <li>Security, Identity &amp; Compliance</li>
+</ul>
+
+<h1 id="beneficios-del-programa">Beneficios del Programa</h1>
+
+<p><img src="/assets/img/blog/tutorials/aws-builders/BeneficiosAWS.png" alt="image" /></p>
+
+<ul>
+  <li>Acceso a equipos de productos de AWS e información sobre nuevos servicios y funciones.</li>
+  <li>Tutoría de expertos en la materia de AWS sobre una variedad de temas.</li>
+  <li>Créditos promocionales de AWS y otros recursos útiles para respaldar la creación de contenido.</li>
+  <li>Oportunidades para conectarse y aprender de desarrolladores de ideas afines.</li>
+</ul>
+
+<p>Entre otros beneficios más…</p>
+
+<p><img src="/assets/img/blog/tutorials/aws-builders/regalos-aws-builders.png" alt="image" /></p>
+
+<h1 id="seleccionado-mx-2020">Seleccionado MX 2020</h1>
+
+<p>Y bueno, como se imaginan fui seleccionado para formar parte de este programa y quiero agradecer no solo a Amazon Web Services sino también a Jason Dunn (AWS Community Builders Program Manager) por la invitación de participar en este programa. Sinceramente es un verdadero privilegio el ser miembro de esta nueva iniciativa.</p>
+
+<p>Si desean participar de este programa los invito a que visiten el sitio web oficial del programa AWS Community Builder y estén pendientes de la próxima convocatoria.</p>
+
+<h1 id="más-información">Más Información</h1>
+
+<p>En este link puede suscribirse para que sean notificados cuando se abra nuevamente la convocatoria al programa que será en la primavera del 2021.</p>
+
+<p><a href="https://aws.amazon.com/developer/community/community-builders/">Developer Community AWS Community Builders</a></p>
+
+<p><img src="/assets/img/blog/tutorials/aws-builders/CommunityBuilder logofordarkbackground.png" alt="image" /></p>
+
+<p>Y bueno, eso es todo, espero que les sido útil. Recuerden que si tienen alguna inquietud o pregunta, no duden en ponerse en contacto conmigo o poner un comentario a continuación.</p>
+
+<p>¡Happy Coding!</p>
+
+  
+</article>
+:ET

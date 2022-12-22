@@ -1,0 +1,132 @@
+I"�
+
+
+
+
+
+<article id="post-alibaba-alibaba-snapshots-ecs-curso" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Fundamentos de ECS - Instantáneas (SnapShot)
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-09-07T00:00:00-05:00">07 Sep 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alibaba/" class="flip-title">Alibaba</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alibaba</span>, <span>Snapshot</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/alibaba/alibaba-header-snapshot.png"
+  
+  alt="Fundamentos de ECS - Instantáneas (SnapShot)"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Quinto artículo sobre Elastic Compute Service (ECS) de Alibaba - Instantáneas (SnapShot).
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta quinta entrega veremos ECS Snapshots o Instantáneas de ECS.</p>
+<h2 id="qué-es-son-las-instantáneas-de-ecs-snapshots">¿Qué es son las instantáneas de ECS (SnapShots)?</h2>
+
+<p>Las instantáneas son copias completas de solo lectura de los datos del disco en determinados momentos y estas se pueden utilizar para los siguientes escenarios:</p>
+<h3 id="copia-de-seguridad-y-recuperación-ante-desastres">Copia de Seguridad y Recuperación ante Desastres:</h3>
+<p>Puede crear una instantánea para un disco y luego usar la instantánea para crear otro disco para implementar la recuperación ante desastres geográficos o de zona.</p>
+<h3 id="clonación-del-entorno">Clonación del Entorno:</h3>
+<p>Puede utilizar una instantánea del disco del sistema para crear una imagen personalizada y, a continuación, utilizar la imagen personalizada para crear una instancia de ECS para clonar el entorno.</p>
+<h3 id="desarrollo-de-datos">Desarrollo de Datos:</h3>
+<p>Las instantáneas pueden proporcionar datos de producción casi en tiempo real para aplicaciones como minería de datos, consultas de informes, desarrollo y pruebas.</p>
+<h3 id="tolerancia-a-fallas-mejorada">Tolerancia a Fallas Mejorada:</h3>
+<p>Puede revertir un disco a un punto anterior en el tiempo mediante el uso de una instantánea para reducir el riesgo de pérdida de datos causada por una ocurrencia inesperada. Puede crear instantáneas de forma regular para evitar pérdidas causadas por sucesos inesperados.</p>
+
+<p>Estos sucesos inesperados pueden incluir, por ejemplo, escribir datos incorrectos en discos, eliminar datos accidentalmente de un disco, liberar instancias de ECS accidentalmente, errores de datos causados ​​por errores de aplicación y pérdida de datos debido a intentos de piratería.</p>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/articulos-ecs/SnapShot.png" alt="image" /></p>
+
+<p>Además, puede crear una instantánea antes de realizar operaciones de alto riesgo, como cambiar sistemas operativos, actualizar aplicaciones y migrar datos comerciales.</p>
+
+<p>En cualquiera de estos escenarios, los datos se pueden recuperar de una instantánea.</p>
+
+<p>Las instantáneas se pueden crear de forma manual o automática mediante la creación de una política de instantáneas. Se pueden crear hasta 64 instantáneas por disco y cada instantánea es una copia incremental de la instantánea anterior. Cuando se alcanza el número máximo de instantáneas, se elimina la instantánea más antigua y se crea una nueva.</p>
+
+<p>Sin embargo, las instantáneas no son gratuitas y se cobran en función del espacio de almacenamiento utilizado y la cantidad de tiempo que se guardan.</p>
+
+  
+</article>
+:ET

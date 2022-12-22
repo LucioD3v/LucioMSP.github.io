@@ -1,0 +1,118 @@
+I"k
+
+
+
+
+
+<article id="post-aws-aws-s3" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/aws/2021-09-29-aws-s3/" class="flip-title">
+        ¿Qué es Amazon S3?
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-09-29T00:00:00-05:00">29 Sep 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/aws/" class="flip-title">AWS</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Aws</span>, <span>S3</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/aws/2021-09-29-aws-s3/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/s3.png"
+  
+  alt="¿Qué es Amazon S3?"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Aprende todo sobre Amazon S3 (Amazon Simple Storage Service).
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Amazon S3 (Amazon Simple Storage Service) es un servicio líder en el sector del cloud computing. Debido a que es la última tecnología aplicada al sector y es que sinceramente se trata de un servicio ya imprescindible para cualquier empresa. A día de hoy, ya son muchas las compañías que cuentan con este servicio. En el siguiente artículo podremos descubrir exactamente qué es, cómo funciona y cómo podríamos incorporar este sistema en nuestra actividad empresarial.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/aws/2021-09-29-aws-s3/">¿Qué es Amazon S3?</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

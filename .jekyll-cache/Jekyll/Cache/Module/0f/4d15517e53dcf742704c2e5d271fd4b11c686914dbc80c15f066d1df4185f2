@@ -1,0 +1,210 @@
+I"�
+
+
+
+
+
+<article id="post-maui_net-maui-primeros-pasos-maiu" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Primeros pasos con Microsoft .NET MAUI
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-10-04T00:00:00-05:00">04 Oct 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Maui_net</span> / <a href="/maui/" class="flip-title">MAUI</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Maui</span>, <span>Net</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/maui/maui01.png"
+  
+  alt="Primeros pasos con Microsoft .NET MAUI"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Conoce todo sobre .NET MAUI, la evolución de Xamarin.Forms. - Primer articulo -
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Como ya muchos sabemos, la interfaz de usuario de la aplicación multiplataforma .NET (.NET Multi-platform App UI (.NET MAUI)) es la evolución del kit de herramientas de Xamarin.Forms. Teniendo en cuenta la productividad del desarrollador, MAUI simplifica la estructura del proyecto en un solo proyecto para apuntar a múltiples plataformas (Android, iOS, macOS y Windows).</p>
+
+<hr />
+
+<p>En esta serie de artículos, exploraremos MAUI y aprenderemos a crear nuestra ya famosisima primera aplicación de “Hola Mundo”.</p>
+
+<p>A continuación dejo los temas que veremos y que nos permitirán conocer más sobre .NET MAUI:</p>
+
+<ul>
+  <li>¿Qué es .NET MAUI, para quién es, cómo funciona?</li>
+  <li>Ventajas de MAUI sobre otros marcos multiplataforma (frameworks)</li>
+  <li>Instalación de requisitos previos para el desarrollo multiplataforma con MAUI</li>
+  <li>Instalación de MAUI</li>
+  <li>Creación de una aplicación usando .NET MAUI</li>
+  <li>Corrección a problemas</li>
+</ul>
+
+<hr />
+
+<h4 id="importante---requerimientos-técnicos">Importante -&gt; Requerimientos Técnicos</h4>
+
+<p>Este artículo está dirigido principalmente a desarrolladores de .NET con cierta experiencia con Xamarin y .NET.</p>
+
+<p>Para la aplicación que se va a desarrollar, se requiere un entorno de desarrollo de Windows 10, debido a que la compatibilidad de Visual Studio para Mac con .NET MAUI está prevista para una versión futura.</p>
+
+<p>Idealmente, se debería contar con un dispositivo macOS con Xamarin.iOS y Xcode instalado conectado a su entorno de Windows 10. Esto por que se necesitará compilar y usar el simulador de iOS. Con esta configuración, es decir, Windows y Mac, podemos probar la aplicación de tareas en múltiples plataformas (Android, iOS, macOS y Windows).</p>
+<h3 id="nota">Nota:</h3>
+
+<p>Actualmente, Visual Studio 2022 solo puede implementar aplicaciones de .NET MAUI iOS en el simulador de iOS, y no en dispositivos físicos.</p>
+
+<h2 id="qué-es-net-maui-para-quién-es-cómo-funciona">¿Qué es .NET MAUI, para quién es, cómo funciona?</h2>
+<p>.NET MAUI es un framework multiplataforma para crear aplicaciones nativas de escritorio y móviles con C# y XAML. Funciona como una capa de abstracción que gestiona la comunicación de código compartido con plataformas subyacentes como Android, iOS, macOS y Windows.</p>
+
+<p>.NET MAUI nos permite crear una interfaz de usuario nativa en cada plataforma y escribir lógica de negocios en C# que se comparte entre plataformas. Está construido sobre .NET, lo que significa que maneja tareas como la asignación de memoria, la recolección de basura (garbage collection) y la interoperabilidad con las plataformas Android, iOS, macOS y Windows.</p>
+
+<p>.NET MAUI es para desarrolladores que desean escribir aplicaciones multiplataforma usando C# desde una única base de código compartida en Visual Studio.</p>
+
+<p>Si han utilizado anteriormente Xamarin.Forms para crear interfaces de usuario multiplataforma, notarán muchas similitudes con .NET MAUI. De hecho, .NET MAUI es la evolución de Xamarin.Forms. Sin embargo, simplifica la estructura del proyecto en un solo proyecto para apuntar a múltiples plataformas, algo que en Xamarin.Forms no tiene, por el contrario cuenta con un proyecto para cada plataforma de destino y otro proyecto para una base de código compartido:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Xamarin.Forms</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-primeros-pasos/App_Xamarin.jpeg" alt="image" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>.NET MAUI</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-primeros-pasos/App_MAUI.jpeg" alt="image" /></p>
+
+<p>Figura 1 – Comparación de la estructura de una solución entre Xamarin.Forms (izquierda) y .NET MAUI (derecha)</p>
+
+<p>Además de lo anterior, .NET MAUI nos permite agregar recursos como imágenes, fuentes o formularios de traducción una sola vez, ya que como solo se cuenta con un solo proyecto, no se tiene la necesidad de hacerlo para cada plataforma por separado. En comparación, al usar Xamarin.Forms, debemos agregar cada recurso a cada plataforma por separado. Esto agrega trabajo adicional para nosotros los desarrolladores y claro esta, tambien para el equipo.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Xamarin.Forms</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-primeros-pasos/XF01.png" alt="image" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>.NET MAUI</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-primeros-pasos/MAUI01.png" alt="image" /></p>
+
+<p>Figura 2 - Agregando imagenes en Xamarin.Forms y en .NET MAUI</p>
+
+<p>Sin embargo, .NET MAUI todavía nos permite trabajar con las APIs nativas del sistema operativo subyacente. En la carpeta Plataformas, se pueden agregar archivos de código fuente para un sistema operativo específico y acceder a las API nativas:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>.NET MAUI</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-primeros-pasos/MAUI02.png" alt="image" /></p>
+
+<p>Figura 3 - Carpeta Platforms</p>
+
+<p>Y bueno, eso es todo por el momento, en el siguiente artículo conoceremos cuales son las ventajas de MAUI sobre otros marcos multiplataforma (frameworks).</p>
+
+<p>¡Hasta la próxima!</p>
+
+  
+</article>
+:ET

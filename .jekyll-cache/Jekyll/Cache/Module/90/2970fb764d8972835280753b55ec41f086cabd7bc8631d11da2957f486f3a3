@@ -1,0 +1,118 @@
+I"�
+
+
+
+
+
+<article id="post-vcs-fourteen-days-of-git" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/vcs/2022-11-01-fourteen-days-of-git/" class="flip-title">
+        14 días de Git
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-11-01T00:00:00-06:00">01 Nov 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/vcs/" class="flip-title">VCS</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Git</span>, <span>Github</span>, <span>14díasdegit</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-11-04T09:08:28-06:00">2022-11-04</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/vcs/2022-11-01-fourteen-days-of-git/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/vcs/git_14days.png"
+  
+  alt="14 días de Git"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Git es el sistema de control de versiones moderno más utilizado del mundo.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Como todo buen desarrollador (programdador), Git es una herramienta que he aprendido sobre la marcha. Es decir, no fue algo que aprendí en la Universidad (además de que no era muy famoso en aquel entonces). Ademas de leer algunos tutoriales básicos y ver videos, toco tirar código o bueno, escribir algunas líneas de comandos para poder hacer lo que quería. Pero para ser honestos, realmente no conozco la herramienta a profundidad, ya que no me he sentado y leído el manual en absoluto.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/vcs/2022-11-01-fourteen-days-of-git/">14 días de Git</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

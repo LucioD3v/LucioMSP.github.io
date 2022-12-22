@@ -1,0 +1,30 @@
+I"�<p>Este artículo es una traducción al español del blog de <a href="https://www.banditoth.hu/2022/02/04/xamarin-forms-prevent-dark-mode-on-ios-android/">banditoth</a> (con un toque personal), en donde se demuestra como forzar el modo blanco o light en una aplicación desarrollada en Xamarin.Forms</p>
+
+<hr />
+
+<h2 id="solución-para-ios">Solución para iOS</h2>
+
+<p>Abramos nuestro archivo info.plist y agreguemos la siguiente clave:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;key&gt;UIUserInterfaceStyle&lt;/key&gt; 
+&lt;string&gt;Light&lt;/string&gt;
+
+</code></pre></div></div>
+
+<h2 id="solución-para-android">Solución para Android</h2>
+
+<p>Para que se realice lo mismo pero en Android, deberemos de poner este código en el MainAcitivity.cs</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+AppCompatDelegate.DefaultNightMode <span class="o">=</span> AppCompatDelegate.ModeNightNo<span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Recordemos guardar los cambios y si es necesario recompilar para que los cambios se implementen en las aplicaciones.</p>
+
+<h2 id="observaciones">Observaciones</h2>
+<p>Consideren el realizar varias pruebas previas antes de subir cambios a su repositorio o generar versión para publicar en las respectivas tiendas de los sistemas operativos móviles.</p>
+
+<h1 id="happy-coding">Happy Coding</h1>
+:ET

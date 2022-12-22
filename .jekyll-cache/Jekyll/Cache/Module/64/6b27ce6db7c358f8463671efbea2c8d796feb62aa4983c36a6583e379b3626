@@ -1,0 +1,137 @@
+I"?
+
+
+
+
+
+<article id="post-alexa-libro-la-revolucion-de-alexa" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        La revolución de Alexa - Desarrollo de Alexa Skills
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-01-06T00:00:00-06:00">06 Jan 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alexa/" class="flip-title">Alexa</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alexa</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/alexa_book.jpg"
+  
+  alt="La revolución de Alexa - Desarrollo de Alexa Skills"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Primer libro en español centrado en el desarrollo de Alexa Skills.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>El pasado jueves 24 de diciembre y tras varios meses de trabajo, por fin ha salido a la luz este gran proyecto que nos tiene muy contentos, ya que es nuestro primer libro y esperamos que no sea el único.</p>
+
+<p>Este libro lo escribí junto a mi amigo <a href="https://xavidop.github.io/">Xavier Portilla Edo</a>.</p>
+
+<p><img src="/assets/img/books/la_revolucion_de_alexa.jpg" alt="image" /></p>
+
+<h1 id="sinopsis">Sinopsis</h1>
+
+<p>En 2018 se instalaron aproximadamente 100 millones de dispositivos controlados por voz en hogares de todo el mundo. Los asistentes que los controlan, como Amazon Alexa y Google Assistant se están volviendo más potentes, con nuevas características que se agregan cada día. Las aplicaciones de voz mejoran la forma en la que los usuarios interactúan con estos asistentes, ya sea que estén preguntando por el tiempo, pidiendo resultados deportivos o escuchando música.</p>
+
+<p>Este libro te servirá de guía para diseñar, construir e implementar aplicaciones basadas en voz para Alexa. En su interior, conocerás y aprenderás a desarrollar tus propias Skills, el término con el que Amazon ha designado a las aplicaciones de voz para Alexa. Todo desde cero, por lo que no te debes de preocupar si no eres desarrollador, es decir, no se necesitan conocimientos previos de programación. Una vez dominado lo básico, profundizaremos en el flujo de conversación y en conceptos más avanzados.</p>
+
+<p>Aquí les brindo todos los datos del libro:</p>
+
+<ul>
+  <li><strong>Autores:</strong> Vicente Gerardo Guzmán Lucio, <a href="https://xavidop.github.io/">Xavier Portilla Edo</a></li>
+  <li><strong>Revisor Técnico:</strong> <a href="https://www.kinisoftware.com/">Joaquín Engelmo Moriche</a></li>
+  <li><strong>Revisor:</strong> Joan Orellana Rey</li>
+  <li><strong>Diseñadores Gráficos:</strong> Alfredo Porras Lucio</li>
+  <li><strong>ISBN:</strong> 9798585691928</li>
+  <li><strong>Fecha de publicación:</strong> Diciembre 24 del 2020</li>
+  <li><strong>Editorial:</strong> Auto Editado</li>
+</ul>
+
+<p><strong>Recuerda que puedes adquirirlo en las siguientes tiendas:</strong> <a href="https://www.amazon.es/dp/B08R8X5QM5">Amazon Kindle</a>, <a href="https://books.apple.com/es/book/id1546878047">Apple Books</a>, <a href="https://books.google.es/books/about?id=u6AQEAAAQBAJ">Google Books</a>, <a href="https://play.google.com/store/books/details?id=u6AQEAAAQBAJ">Google Play</a></p>
+
+<p>Y así como en el libro brindamos los respectivos agradecimientos, no quiero pasar por desapercibido lo mismo a quienes lo merecen, por lo tanto me gustaría dar las infinitas gracias a todas aquellas personas que han contribuido a que esto fuera posible. !Muchas Gracias!</p>
+
+<p>¡Happy coding!</p>
+
+  
+</article>
+:ET

@@ -1,0 +1,59 @@
+I"Ü
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/alexa/#project"
+  >
+  <meta property="name" content="Alexa"/>
+  <meta property="image" content="/assets/img/categories/alexa.png"/>
+
+  <a href="/projects/alexa/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/alexa.png"
+  
+  alt="Alexa"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/alexa/" class="flip-title" property="mainEntityOfPage">Alexa</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Alexa Skills
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/alexa/" tabindex="-1"><span class="sr-only">Continue reading Alexa
+</span></a>
+</article>
+:ET

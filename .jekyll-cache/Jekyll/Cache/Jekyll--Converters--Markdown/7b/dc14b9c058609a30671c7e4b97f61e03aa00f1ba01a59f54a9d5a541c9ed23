@@ -1,0 +1,2 @@
+I"�<p>Las Skills de Alexa se pueden desarrollar utilizando las Lambda Functions de AWS o usando un servidor REST.Lambda Function es la implementación de Amazon de funciones serverless disponibles en AWS.Amazon recomienda usar las Lambda functions a pesar de que no sean fáciles de debuggear.Si bien puedes loggear en CloudWatch, no puedes poner un breakpoint y revisor el código.</p>
+:ET

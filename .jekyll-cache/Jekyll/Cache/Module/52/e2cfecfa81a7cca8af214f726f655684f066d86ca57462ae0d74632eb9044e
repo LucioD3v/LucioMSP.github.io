@@ -1,0 +1,131 @@
+I"�
+
+
+
+
+
+<article id="post-vcs-fourteen-days-of-git" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        14 días de Git
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-11-01T00:00:00-06:00">01 Nov 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/vcs/" class="flip-title">VCS</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Git</span>, <span>Github</span>, <span>14díasdegit</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-11-04T09:08:28-06:00">2022-11-04</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/vcs/git_14days.png"
+  
+  alt="14 días de Git"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Git es el sistema de control de versiones moderno más utilizado del mundo.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Como todo buen desarrollador (programdador), Git es una herramienta que he aprendido sobre la marcha. Es decir, no fue algo que aprendí en la Universidad (además de que no era muy famoso en aquel entonces). Ademas de leer algunos tutoriales básicos y ver videos, toco tirar código o bueno, escribir algunas líneas de comandos para poder hacer lo que quería. Pero para ser honestos, realmente no conozco la herramienta a profundidad, ya que no me he sentado y leído el manual en absoluto.</p>
+
+<p>Por lo tanto, quiero cambiar eso, es decir, me dare un tiempo para aprender de manera correcta y que mejor que trabajando en algunos escenarios y aprendiendo. Esto con el objetivo de ser un usuario de Git más competente, hablando de manera profesional.</p>
+
+<p>Y si, se que es todo un viaje, pero quiero que todos ustedes (que me leen) me acompañen.</p>
+
+<h2 id="el-plan">El Plan</h2>
+<p>Para comenzar, les quiero compartir el plan de aprendizaje, para esto sera necesario pasar de una o dos horas al día aprendiendo algo diferente y compartiéndolo con ustedes.</p>
+
+<p>Mi plan de aprendizaje empieza desde muy principiante, es decir, comenzaré desde cero. Aunque es muy probable que ya conozca algunos de los temas iniciales, quiero asegurarme de que realmente los comprendo o entiendo.</p>
+
+<p>Tal y como ya les mencione, pueden seguir conmigo, ya sea que sean principiantes en Git o expertos, de hecho si son este último los invito a que nos compartan consejos o experiencias de aprendizaje que realizarón para instruirse.</p>
+
+<p>Nota Importante: El objetivo personal que tengo es aprender cosas nuevas y explorar nuevos temas y ayudar a otros mediante los artículos que estaré publicando.</p>
+
+<p>Les adelanto que se estarán publicando artícuos después de las actividades de aprendizaje de cada día. Por ende podrán encontrar todas estas publicaciones de blog usando el hashtag #14díasdeGit.</p>
+
+<p>Por último les comento que pueden encontrar el plan de aprendizaje que se ha diseñado en GitHub - <a href="https://github.com/LucioMSP/14-dias-de-Git">https://github.com/LucioMSP/14-dias-de-Git</a></p>
+
+<p>¡Así que empecemos!</p>
+
+<h3 id="nota">Nota:</h3>
+<p>Este artículo es una traducción al español no 100% fiel a <a href="https://www.techielass.com/14-days-of-git/">Techielass por Sarah Lean</a></p>
+
+  
+</article>
+:ET

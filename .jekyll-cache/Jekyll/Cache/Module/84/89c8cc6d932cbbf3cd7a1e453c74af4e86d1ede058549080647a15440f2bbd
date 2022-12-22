@@ -1,0 +1,248 @@
+I"&&
+
+
+
+
+
+<article id="post-postman-introduccion-a-postman-paso-a-paso-ambientes" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Aprendiendo Postman paso a paso - Ambientes (Environments)
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-07-28T00:00:00-05:00">28 Jul 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/postman/" class="flip-title">Postman</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Postman</span>
+
+      </span>
+      
+        
+          
+          
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/postman.jpeg"
+  
+  alt="Aprendiendo Postman paso a paso - Ambientes (Environments)"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+
+
+  </header>
+
+  
+    <p>Esta es una serie de artículos paso a paso, a continuación aprenderemos sobre las características de los Entornos o Ambientes (Environments) de Postman. Antes de aprender sobre esto, los invito a que lean los artículo anteriores de esta serie para una mejor comprensión:</p>
+
+<ul>
+  <li><a href="https://vicenteguzman.com/maui_net/net/2022-04-25-introduccion-a-postman/">Aprenda Postman paso a paso - Introducción (Día 1)</a></li>
+  <li><a href="https://vicenteguzman.com/postman/2022-04-27-aprendiendo-postman-paso-a-paso-encabezados-preestablecidos/">Aprenda Postman paso a paso - Encabezados Preestablecidos (Día 2)</a></li>
+</ul>
+
+<p>Este artículo cubre los siguientes temas:</p>
+
+<ul>
+  <li>Entornos</li>
+  <li>Alcance variable</li>
+  <li>Crear entornos y variables</li>
+  <li>Acceder a las variables de entorno</li>
+  <li>Establecer y obtener la variable de entorno del script</li>
+</ul>
+
+<h2 id="entornos">Entornos</h2>
+<p>Los entornos no son más que el conjunto de variables definidas, las variables se almacenan en forma de pares clave-valor y se utilizan en la solicitud del cartero. Puede crear los entornos como Desarrollo, Puesta en escena, Producción, etc., y definir las variables.</p>
+
+<p>Sintaxis - Para acceder a las variables de entorno.</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen0.png" alt="image" /></p>
+
+<p>Cabe señalar que hay un alcance definido para cada variable de entorno:</p>
+
+<h3 id="variable-local">Variable Local</h3>
+<p>Es la variable temporal utilizada para la solicitud o colección en particular, ya no está disponible una vez que se completa la solicitud. Se usa cuando desea anular el valor de las variables para una solicitud en particular.</p>
+
+<h3 id="variable-global">Variable Global</h3>
+<p>Nos permite acceder a los valores de las variables en todo el espacio de trabajo.</p>
+
+<h3 id="variable-ambiental-o-de-entorno">Variable Ambiental o de Entorno</h3>
+<p>Nos permite acceder a los valores de las variables para diferentes entornos como dev, prod, stage, etc. A la vez, solo un entorno puede estar activo. Es más adecuado para el acceso basado en roles.</p>
+
+<h3 id="variable-de-colección">Variable de Colección</h3>
+<p>Está disponible para las solicitudes de una colección, más adecuado para un solo entorno o un entorno independiente. No se modifica en el caso del medio ambiente.</p>
+
+<h3 id="variable-de-datos">Variable de Datos</h3>
+<p>Proviene de archivos externos como CSV y JSON. Contiene los valores actuales para una solicitud en particular o la colección.</p>
+
+<h2 id="creando-los-entornos-y-variables">Creando los Entornos y Variables</h2>
+
+<p>A continuación vamos a crear los entornos y las variables, para ello seguiremos los siguientes pasos:</p>
+
+<p>Paso 1</p>
+
+<p>Abra Postman, ya sea la versión web o la aplicación de escritorio y seleccione ‘Entornos (Environments)’ en el lado izquierdo como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen1.png" alt="image" /></p>
+
+<p>A ustedes les puede aparecer diferente, esto seria por que no tendrian entornos, es decir, estaria vacío.</p>
+
+<p>Paso 2</p>
+
+<p>Acto seguido, crearemos un entorno. Para eso, debemos hacer clic en el ícono más o en el enlace inferior que les aparezca ‘Crear entorno’:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen2.png" alt="image" /></p>
+
+<p>Una vez que hacemos clic, se abre la pantalla para crear un entorno en la parte del lado derecho como se muestra a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen3.png" alt="image" /></p>
+
+<p>Paso 3</p>
+
+<p>En este paso, proporcionaremos los valores como se puede ver y hacemos clic en el botón Guardar al final:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen4.png" alt="image" /></p>
+
+<ul>
+  <li>Variable: Es el valor utilizado en las solicitudes del cartero.</li>
+  <li>Tipo: contiene dos valores predeterminado y secreto. 
+El tipo secreto se utiliza para almacenar los datos confidenciales en él y mantiene sus valores enmascarados en la pantalla.</li>
+  <li>Valor inicial: este valor se sincroniza cuando trabaja con el equipo en el espacio de trabajo.</li>
+  <li>Valor actual: este valor se usa cuando enviamos la solicitud y no está sincronizado. 
+Si no hemos fijado el valor actual, automáticamente toma el valor inicial como actual.</li>
+  <li>Persist All - reemplaza todos los valores iniciales con valores actuales.</li>
+  <li>Restablecer todo: reemplaza todos los valores actuales con los valores iniciales.</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen5.png" alt="image" /></p>
+
+<p>En la captura de pantalla anterior, cuando hacemos clic en los tres puntos superiores, muestra la opción Establecer como entorno activo, Exportar, Duplicar, Eliminar, etc.</p>
+
+<p>Paso 4</p>
+
+<p>Pasenos a crer dos entornos más, el de Prod y el de Stagging. Una vez realizado lo anterior, podremos ver los susodichos en dos lugares, primero en la pestaña Entornos del lado izquierdo y en el menú desplegable superior del lado derecho. Acto seguido, configuremos el entorno predeterminado como ‘Dev’, tal y como se puede a continuación:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen6.png" alt="image" /></p>
+
+<h3 id="acceder-a-las-variables-de-entorno">Acceder a las variables de entorno</h3>
+
+<p>Ahora veamos cómo podemos acceder a esas variables de entorno en la solicitud como se indica a continuación:</p>
+
+<p>Paso 1</p>
+
+<p>Hagamos clic en el ícono “+” para crear una solicitud:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen7.png" alt="image" /></p>
+
+<p>Paso 2</p>
+
+<p>Esto lo que hará, es que nos abrirá la página de solicitud de creación en el lado derecho, aqui proporcionemos los siguientes datos:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen8.png" alt="image" /></p>
+
+<p>En la captura de pantalla anterior, podemos ver la URL que hemos utilizado para la solicitud GET como ‘/users/jsgund’. Aquí ‘’ significa la variable de entorno y cuando hacemos clic en enviar, reemplazará la variable con el valor real como ‘https://api.github.com’. En el menú desplegable superior del lado derecho, puede ver el entorno seleccionado para esta solicitud como ‘Dev’.</p>
+
+<p>Paso 3</p>
+
+<p>A continuación, si deseas verificar las variables de entorno para ‘Dev’, hagamos clic en el icono del ojo del lado derecho para ver las variables como se muestra arriba:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen9.png" alt="image" /></p>
+
+<p>O simplemente pasemos el mouse sobre la variable de entorno ‘’, para poder obtener los detalles sobre esa variable:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen10.png" alt="image" /></p>
+
+<p>Paso 4</p>
+
+<p>Ahora, simplemente hagamos clic en el botón Enviar (Send) y veamos el resultado:</p>
+
+<p><img src="/assets/img/blog/tutorials/postman-environments/Imagen11.png" alt="image" /></p>
+
+<p>Como pudimos observar, las variables de entorno son fáciles de usar y actualizar en un solo lugar, mismo que usará el valor actualizado para ese entorno.</p>
+
+<h2 id="establecer-y-obtener-set--get-la-variable-de-entorno-del-script">Establecer y Obtener (Set &amp; Get) la variable de entorno del Script</h2>
+
+<p>También hay otra forma de configurar o crear la variable de entorno en el script ‘Requisito previo (Pre-req)’ y ‘Prueba (Test)’:</p>
+
+<p>La sintaxis para Set sería:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+pm.environment.set<span class="o">(</span><span class="s2">"base_url"</span>, <span class="s2">"https://api.github.com"</span><span class="o">)</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>La sintaxis para Get:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+pm.entorno.get<span class="o">(</span><span class="s2">"variable_clave"</span><span class="o">)</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>En el código anterior, podemos ver el objeto ‘pm’, al usar este se puede acceder y manipular las variables en Postman usando la API ‘pm’.</p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>En este artículo, aprendimos sobre el entorno y las variables, el alcance de las variables y la creación y el uso en la solicitud. Si tiene alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.</p>
+
+<p>Estén atentos para aprender cosas nuevas sobre Postman.</p>
+
+<p>¡Hasta la próxima!</p>
+
+  
+</article>
+:ET

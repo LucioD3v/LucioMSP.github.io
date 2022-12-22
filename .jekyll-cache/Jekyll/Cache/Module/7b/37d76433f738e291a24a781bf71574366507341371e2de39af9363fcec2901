@@ -1,0 +1,113 @@
+I"�
+
+
+
+
+
+<article id="post-blazor-instalando-blazor" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Instalación de Blazor
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2020-09-29T00:00:00-05:00">29 Sep 2020</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/blazor/" class="flip-title">Blazor</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Blazor</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/blazorInstallHeader.png"
+  
+  alt="Instalación de Blazor"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Aprende como instalar Blazor de una manera sencilla
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>El proceso de instalación es sumamente sencillo, puesto que el lado del servidor de Blazor y de WebAssembly ahora se envían como parte de .NET Core 3.2.0. En otras palabras, instalar Blazor ahora es tan simple como instalar la versión 16.6 o posterior de Visual Studio (Windows) Puede descargar la última versión de Visual Studio siguiendo este <a href="https://visualstudio.microsoft.com/vs/">enlace</a>.</p>
+
+<p>Al instalar, asegurémonos de seleccionar la opción ASP.NET y desarrollo web en la pestaña Cargas de Trabajo (Workloads).</p>
+
+<p><img src="/assets/img/blog/tutorials/instalacion-blazor/workloads.png" alt="image" /></p>
+
+  
+</article>
+:ET

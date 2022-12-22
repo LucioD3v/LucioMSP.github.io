@@ -1,0 +1,285 @@
+I"�0
+
+
+
+
+
+<article id="post-maui_net-maui-creando-un-boton-de-conteo-regresivo-maiu" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Creando un boton de conteo regresivo en .NET MAUI
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-08-12T00:00:00-05:00">12 Aug 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Maui_net</span> / <a href="/maui/" class="flip-title">MAUI</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Maui</span>, <span>Net</span>
+
+      </span>
+      
+        
+          
+          
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/maui/Integrate-biometric.png"
+  
+  alt="Creando un boton de conteo regresivo en .NET MAUI"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo veremos que tan fácilmente es crear un botón de cuenta regresiva en .NET MAUI
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Tal vez sea la vejez o simplemente la falta de atención, pero me he sentido mucho menos flexible en el pasado, así que hice lo que haría cualquier desarrollador de aplicaciones. Vaya a la tienda de aplicaciones y busque una aplicación que pueda ayudar. No solo encontré una aplicación que mejoró drásticamente mi flexibilidad debido a una rutina de estiramiento enfocada en mis puntos débiles, sino que también tenía un control de botón de cuenta regresiva ordenado. Y dado que es UI julio, esta es una publicación para dicho evento comunitario. Echemos un vistazo a cómo podemos crear dicho control.</p>
+
+<p>Tal vez te estés preguntando: ¿Qué es este control de botón de cuenta regresiva del que hablas? - Bueno, gracias por preguntar. El control comienza al 100%. Mientras los segundos cuentan hacia atrás, el círculo alrededor del control se reduce a medida que pasa el tiempo.</p>
+
+<p>Botón de progreso que muestra los segundos restantes y un anillo de progreso decreciente.</p>
+
+<p>Como ya habrás pensado. Este es el momento en que estás haciendo un estiramiento. Entonces, ¿cómo podemos implementar dicho control en .NET MAUI?</p>
+
+<p>El día de hoy veremos como integrar la autenticación biométrica en un proyecto .NET MAUI, asi que comencemos.</p>
+
+<h3 id="el-botón-redondo">El botón redondo</h3>
+
+<p>Comencemos con los bits fáciles, un control de botón redondo:</p>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/01.png" alt="image" /></p>
+
+<h3 id="implementación---android">Implementación - Android</h3>
+
+<p>Ahora lo que se debe de hacer es establecer la versión del SDK de destino. La versión del SDK de destino debe ser &gt;= 6.0. Por mi parte y si es posible, recomiendo usar siempre la última versión estable del SDK. Puede establecer la versión del SDK de destino en las propiedades del proyecto de Android.</p>
+
+<h4 id="instalar-la-migración-de-android-x">Instalar la migración de Android X</h4>
+
+<p>Desde la versión 2, el plugin antes mencionado usa Android X. Por ende se debe instalar Xamarin.AndroidX.Migration en nuestro proyecto de Android.</p>
+
+<h3 id="solicita-el-permiso-en-androidmanifestxml">Solicita el permiso en AndroidManifest.xml</h3>
+
+<p>Acto seguido, deberemos de agregar el permiso en el archivo AndroidManifest.xml</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;uses-permission android:name<span class="o">=</span><span class="s2">"android.permission.USE_FINGERPRINT"</span> /&gt;
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/02.png" alt="image" /></p>
+
+<p>Ya para terminar en Android, en el archivo MainActivity.cs añadamos el using correspondiente:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+using Plugin.Fingerprint<span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Posteriormente en el mismo archivo, añadamos el método OnCreate(), en el cual recordemos se ejecuta la lógica de arranque básica de la aplicación que debe ocurrir una sola vez en toda la vida de la actividad. Aqui agregaremos la siguiente linea de código:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+CrossFingerprint.SetCurrentActivityResolver<span class="o">(()</span> <span class="o">=&gt;</span> this<span class="o">)</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Nuestro archivo quedará de la siguiente manera:</p>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/img02.png" alt="image" /></p>
+
+<h3 id="implementación---ios">Implementación - iOS</h3>
+
+<p>En iOS es más sencillo, solo se debe de agregar el “NSFaceIDUsageDescription” al archivo Info.plist para describir la razón por la que nuestra aplicación usará Face ID. (<a href="https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75">ver Documentación</a>). De lo contrario, la aplicación se bloqueará cuando inicie una autenticación de Face ID en iOS 11.3+.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;key&gt;NSFaceIDUsageDescription&lt;/key&gt;
+&lt;string&gt;Need your face to unlock magic things&lt;/string&gt;
+
+</code></pre></div></div>
+
+<p>Nota: Si tienen alguna duda de como implementar esto, les recomiendo que sigan la guía en GitHub para saber mas sobre cómo configurarlo para su proyecto .NET MAUI. Cabe mencionar que la guía se encuentra actualmente en la rama de soporte de maui, por lo que si el enlace no funciona, ya se ha fusionado y puede usar el enlace proporcionado anteriormente.</p>
+
+<h3 id="mauiprogramcs">MauiProgram.cs</h3>
+
+<p>Ya por último y antes de irnos a modificar nuestro XAML y añadir la funcionalidad principal, en el archivo MauiProgram.cs deberemos de agregar las siguiente lineas:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    builder.Services.AddSingleton&lt;MainPage&gt;<span class="o">()</span><span class="p">;</span>
+	builder.Services.AddSingleton<span class="o">(</span>typeof<span class="o">(</span>IFingerprint<span class="o">)</span>, CrossFingerprint.Current<span class="o">)</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Quedando de la siguiente manera:</p>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/img021.png" alt="image" /></p>
+
+<h3 id="xaml">XAML</h3>
+
+<p>A continuación agreguemos un botón con un controlador de clic (o modifiquemos el que nos creó la solución si el proyecto es nuevo):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;Button 
+                <span class="nv">Text</span><span class="o">=</span><span class="s2">"Authenticate"</span>
+                <span class="nv">FontAttributes</span><span class="o">=</span><span class="s2">"Bold"</span>
+                SemanticProperties.Hint<span class="o">=</span><span class="s2">"Click to authenticate with your fingerprint"</span>
+                <span class="nv">Clicked</span><span class="o">=</span><span class="s2">"OnBiometricClicked"</span>
+                <span class="nv">HorizontalOptions</span><span class="o">=</span><span class="s2">"Center"</span> /&gt;
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/03.png" alt="image" /></p>
+
+<p>A continuación debemos de añadir el using correspondiente:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+using Plugin.Fingerprint.Abstractions<span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Posteriormente declarar la interface IFingerprint:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+private <span class="nb">readonly </span>IFingerprint fingerprint<span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>Misma que se pasara como parámetro:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+public MainPage<span class="o">(</span>IFingerprint fingerprint<span class="o">)</span>
+
+</code></pre></div></div>
+
+<p>Y que declararemos dentro del MainPage:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+	InitializeComponent<span class="o">()</span><span class="p">;</span>
+	this.fingerprint <span class="o">=</span> fingerprint<span class="p">;</span>
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/05.png" alt="image" /></p>
+
+<p>Ahora, dentro del controlador de eventos “OnBiometricClicked”, en el código subyacente añadamos el siguiente código, el cual cuando haga clic en el botón, se le pedirá que se autentique mediante huella digital:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+private async void OnBiometricClicked<span class="o">(</span>object sender, EventArgs e<span class="o">)</span>
+	<span class="o">{</span>
+		var request <span class="o">=</span> new AuthenticationRequestConfiguration<span class="o">(</span><span class="s2">"Validate that you have fingers"</span>, <span class="s2">"Because without them you will not be able to access"</span><span class="o">)</span><span class="p">;</span>
+		var result <span class="o">=</span> await fingerprint.AuthenticateAsync<span class="o">(</span>request<span class="o">)</span><span class="p">;</span>
+		<span class="k">if</span> <span class="o">(</span>result.Authenticated<span class="o">)</span>
+		<span class="o">{</span>
+			await DisplayAlert<span class="o">(</span><span class="s2">"Authenticate!"</span>, <span class="s2">"Access Granted"</span>, <span class="s2">"OK"</span><span class="o">)</span><span class="p">;</span>
+		<span class="o">}</span>
+		<span class="k">else</span>
+		<span class="o">{</span>
+			await DisplayAlert<span class="o">(</span><span class="s2">"Unauthenticated"</span>, <span class="s2">"Access Denied"</span>, <span class="s2">"OK"</span><span class="o">)</span><span class="p">;</span>
+		<span class="o">}</span>
+	<span class="o">}</span>
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/04.png" alt="image" /></p>
+
+<h2 id="resultado--salida">Resultado / Salida</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Android</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/06.png" alt="image" /></p>
+
+<p><img src="/assets/img/blog/tutorials/maui-biometrics/07.png" alt="image" /></p>
+
+<p>Como siempre, a continuación proporciono un ejemplo de código en mi <a href="https://github.com/LucioMSP/biometricMAUI">GitHub</a>, mismo que puedes consultar si lo deseas.</p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Y esto concluye el temporizador del botón de cuenta regresiva. Como puede ver, dibujar botones redondos fue bastante sencillo. Dibujar el círculo fue un poco más complicado, pero también mostró que se podía crear una forma diferente usando .NET MAUI Graphics. Asegúrese de consultar los documentos para ver todo el potencial de esta biblioteca, ya que obtendrá estos beneficios listos para usar con .NET MAUI.</p>
+
+<p>Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en sus aplicaciones .NET MAUI y ver los resultados esperados.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<p>Recuerda que puedes encontrar una pequeña aplicación de muestra en mi repositorio de GitHub. Y no se olvide de buscar publicaciones existentes y otras publicaciones de julio de UI en todo el atractivo visual de .NET MAUI.</p>
+
+<p>Más información:</p>
+
+<ul>
+  <li>
+    <p>Articulo original por <a href="https://mallibone.com/post/dotnetmaui-countdown-button">Mark´s Blog (versión en Ingles)</a></p>
+  </li>
+  <li>
+    <p>GitHub Xamarin-Fingerprint: <a href="https://github.com/smstuebe/xamarin-fingerprint/tree/maui-support">https://github.com/smstuebe/xamarin-fingerprint/tree/maui-support</a></p>
+  </li>
+</ul>
+
+<h2 id="happy-coding">¡Happy Coding!</h2>
+
+  
+</article>
+:ET

@@ -1,0 +1,126 @@
+I"'	
+
+
+
+
+
+<article id="post-alibaba-obtener-account-id-cuenta-alibaba" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Como obtener mi Account ID de Alibaba Cloud
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-08-05T00:00:00-05:00">05 Aug 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alibaba/" class="flip-title">Alibaba</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alibaba</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/alibaba/alibaba_header.png"
+  
+  alt="Como obtener mi Account ID de Alibaba Cloud"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Tutorial básco para aprender a obtener el account id en nuestra cuenta de Alibaba Cloud.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>En este pequeño articulo se listan los pasos a seguir para poder obtener nuestro Account ID:</p>
+
+<ul>
+  <li>Paso 1: Naveguemos al portal de <a href="https://account.alibabacloud.com/">Alibaba Cloud</a></li>
+  <li>Paso 2: Hacemos clic en Console, claramente para entrar a la consola.</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/account_id/console.png" alt="image" /></p>
+
+<ul>
+  <li>Paso 3: Posteriormente nos posicionaremos en nuestro perfil para que nos despliegue información de la cuenta:</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/account_id/account.png" alt="image" /></p>
+
+<p>Y listo, con esto habremos obtenido nuestra Account ID, el cual Alibaba nos solicita con determinada frecuencia dependiendo de las actividades que se ejecuten en su portal.</p>
+
+<p>Ya si queremos entrar a más detalle, solo es cuestión de ingresar a Security Settings.</p>
+
+  
+</article>
+:ET

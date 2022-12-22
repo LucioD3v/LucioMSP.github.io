@@ -1,0 +1,136 @@
+I"
+
+
+
+
+
+<article id="post-blazor-creando-un-nuevo-proyecto-blazor" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Creando un nuevo proyecto de Blazor con Visual Studio 2019 for Mac
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2020-09-30T00:00:00-05:00">30 Sep 2020</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/blazor/" class="flip-title">Blazor</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Blazor</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/newproject00.png"
+  
+  alt="Creando un nuevo proyecto de Blazor con Visual Studio 2019 for Mac"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Tutorial básco para aprender a crear un nuevo proyecto de Blazor en Visual Studio 2019 for Mac.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>A continuación se listan los pasos a seguir para poder crear un nuevo proyecto de tipo Blazor:</p>
+
+<ul>
+  <li>Paso 1: Abramos Visual Studio 2019 for Mac.</li>
+  <li>Paso 2: Hacemos clic en Nuevo (New).</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject01.png" alt="image" /></p>
+
+<ul>
+  <li>Paso 3:De las plantillas presentadas, deberemos de seleccionar la de Blazor WebAssembly App, que se encuentra dentro de la sección Web and Console</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject02.png" alt="image" /></p>
+
+<ul>
+  <li>Paso 4: Posteriormente hacemos clic en Siguiente (Next).</li>
+  <li>Paso 5: A continuación, en la vista de Configuración deberemos de seleccionar el framework de destino para el proyecto, dejemos el que se encuentra seleccionado por default: .Net Core 3.1 En el siguiente dropbox, seleccionemos la opción correspondiente, es decir, si deseamos que nuestra aplicación requiera o  no autenticación. En la parte avanzada, podremos seleccionar una o ambas de las opciones que se nos presenta, marquemos la de ASP.NET Core hosted y después hacemos clic en Siguiente (Next).</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject03.png" alt="image" /></p>
+
+<ul>
+  <li>Paso 6: En la siguiente vista, deberemos ahora de ingresar un nombre de proyecto, como MyFirstBlazorApp, el cual será tomado como nombre de solución.</li>
+  <li>Paso 7: Por último hacemos clic en Crear.</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/nuevo-proyecto-blazor/newproject04.png" alt="image" /></p>
+
+  
+</article>
+:ET

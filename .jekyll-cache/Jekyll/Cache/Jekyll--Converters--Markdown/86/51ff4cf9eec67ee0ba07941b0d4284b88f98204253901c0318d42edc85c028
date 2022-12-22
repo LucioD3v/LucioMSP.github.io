@@ -1,0 +1,47 @@
+I"�<p>Sin duda alguna, con la evolución de la computación en la nube, la forma en la que accedemos a las aplicaciones y bases de datos ha cambiado drasticamente, puesto que ahora lo hacemos a través de Internet, lo que ha empujado a los proveedores de Cloud Computing a garantizar la integración y el mantenimiento de las funciones necesarias para que nuestros dispositivos puedan acceder, almacenar o modificar las bases de datos. Cuando se habla de desarrollo, AWS se ha convertido en uno de los proveedores de servicios más populares para DevOps. Tiene varias herramientas que ayudan a los desarrolladores a acelerar el proceso de creación e implementación de aplicaciones.</p>
+
+<p>AWS proporciona servicios que facilitan a las empresas la creación y entrega de productos. Estos servicios incluyen el aprovisionamiento de infraestructura simplificado, la implementación de código de aplicación, la automatización de procesos de lanzamiento de software y la supervisión del rendimiento de su aplicación e infraestructura.
+.—-</p>
+
+<p>AWS proporciona un conjunto flexible de servicios diseñados para permitir que las empresas construyan y entreguen productos de manera más rápida y confiable mediante las metodologías de AWS y DevOps.</p>
+
+<p>Estos servicios simplifican el aprovisionamiento y la gestión de la infraestructura, implementan el código de la aplicación, automatizan el proceso de lanzamiento del software y supervisan el rendimiento de sus aplicaciones e infraestructura.</p>
+
+<p>DevOps es una combinación de filosofías, prácticas y herramientas culturales que aumentan la capacidad de una organización para entregar aplicaciones y servicios a alta velocidad: desarrolle y mejore productos a un ritmo más rápido que nunca con organizaciones que utilizan procesos tradicionales de gestión de infraestructura y desarrollo de software. Esta velocidad permite a las organizaciones brindar un mejor servicio a sus clientes y ser más competitivas en el mercado.</p>
+
+<h2 id="por-qué-usar-aws-para-devops">¿Por qué usar AWS para DevOps?</h2>
+<h3 id="inicio-rápido">Inicio rápido</h3>
+<p>Cualquier servicio de AWS es perfecto si tiene una cuenta de AWS. No hay requisitos de sistema o software para instalar.</p>
+
+<h3 id="servicio-totalmente-gestionado">Servicio totalmente gestionado</h3>
+<p>Estos servicios pueden ayudarlo a aprovechar los recursos de AWS más rápido. Puede preocuparse menos por configurar, instalar y operar la infraestructura usted mismo. Esto le permite concentrarse en su producto principal.</p>
+
+<h3 id="construido-para-la-escala">Construido para la escala</h3>
+<p>Puede administrar una sola instancia o escalar a miles con los servicios de AWS. Estos servicios lo ayudan a aprovechar al máximo los recursos informáticos flexibles al simplificar las licencias, la configuración y el escalado.</p>
+
+<h3 id="programable">Programable</h3>
+<p>Tiene la opción de utilizar cada servicio a través de la CLI de AWS o a través de la API y el SDK. También puede modelar y aprovisionar sus recursos de AWS y toda su infraestructura de AWS mediante plantillas declarativas de AWS CloudFormation.</p>
+
+<h3 id="automatización">Automatización</h3>
+<p>AWS lo ayuda a usar la automatización para que pueda construir de manera más rápida y eficiente. Con los servicios de AWS, puede automatizar tareas o procesos manuales, como flujos de trabajo de implementación, desarrollo y prueba, administración de contenedores y administración de configuración.</p>
+
+<h3 id="privacidad">Privacidad</h3>
+<p>Utilice AWS Identity and Access Management (IAM) para definir políticas y permisos de usuario. Esto le brinda un control granular sobre quién puede acceder a sus recursos y cómo acceden a ellos.</p>
+
+<h3 id="amplio-ecosistema-de-socios">Amplio ecosistema de socios</h3>
+<p>AWS admite un gran ecosistema de socios que integran y amplían los servicios de AWS. Utilice sus herramientas de código abierto y de terceros favoritas con AWS para crear soluciones integrales.</p>
+
+<h3 id="cuanto-pagas-tanto">cuanto pagas tanto</h3>
+<p>Con AWS, compre los servicios que necesita y solo por el tiempo que planee usarlos. Los precios de AWS no tienen tarifas iniciales, multas por rescisión ni contratos a largo plazo. La capa gratuita de AWS lo ayuda a comenzar con AWS. Visite la página de precios de cada servicio para obtener más información.</p>
+
+<p>Gracias por leer mi artículo hasta el final. Espero que hayas aprendido algo especial hoy. Si disfrutó de este artículo, compártalo con sus amigos y si tiene sugerencias o pensamientos para compartir conmigo, escríbalos en el cuadro de comentarios.</p>
+
+<h2 id="happy-coding">¡Happy Coding!</h2>
+
+<p>Más Información:</p>
+
+<ul>
+  <li>Why use AWS for DevOps?. (2022). Retrieved 27 September 2022, from https://dev.to/aws-builders/why-use-aws-for-devops-39d8</li>
+  <li>Bits Lovers. (2022, septiembre 6). How does AWS contribute to DevOps? Bits Lovers; user. https://www.bitslovers.com/how-does-aws-contribute-to-devops/</li>
+</ul>
+:ET

@@ -1,0 +1,127 @@
+I"�
+
+
+
+
+
+<article id="post-maui_net-maui-base64-encoding-decoding" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Codificación Base64
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-02-16T00:00:00-06:00">16 Feb 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Maui_net</span> / <a href="/maui/" class="flip-title">MAUI</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Net</span>, <span>C#</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-07-27T22:50:21-05:00">2022-07-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/b64-fb.png"
+  
+  alt="Codificación Base64"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+
+
+  </header>
+
+  
+    <p>Base64 es un método de codificación en el que cualquier archivo de datos/imágenes/audio se puede convertir en datos binarios. Y los datos convertidos pueden pasar por la red sin ninguna pérdida de datos/imagen/audio.</p>
+
+<p>A continuación veremos como hacer esto en C#</p>
+
+<h3 id="codificación-de-base64-en-c">Codificación de Base64 en C#</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+var plainTextBytes <span class="o">=</span> System.Text.Encoding.UTF8.GetBytes<span class="o">(</span><span class="s2">"SampleTest"</span><span class="o">)</span><span class="p">;</span>
+Console.WriteLine<span class="o">(</span>System.Convert.ToBase64String<span class="o">(</span>plainTextBytes<span class="o">))</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<h2 id="decodificación-base64">Decodificación Base64</h2>
+<p>Este método es el reverso de la codificación base64, cuando se recibe en el otro extremo, a través de la red. Decodificarlo y procesar archivos de datos/imagen/audio para el próximo requisito específico, veamos dicho proceso en C#.</p>
+
+<h3 id="decodificación-de-base64-en-c">Decodificación de Base64 en C#</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+var base64EncodedBytes <span class="o">=</span> System.Convert.FromBase64String<span class="o">(</span>System.Convert.ToBase64String<span class="o">(</span>plainTextBytes<span class="o">))</span><span class="p">;</span>
+Console.WriteLine<span class="o">(</span>System.Text.Encoding.UTF8.GetString<span class="o">(</span>base64EncodedBytes<span class="o">))</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<h3 id="happy-coding">Happy Coding!</h3>
+
+  
+</article>
+:ET

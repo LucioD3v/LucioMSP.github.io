@@ -1,0 +1,40 @@
+I"f<p>Los espacios de trabajo de Postman nos permiten organizar y trabajar en proyectos de API con el equipo. Dentro de cada espacio de trabajo, podemos compartir <a href="https://learning.postman.com/docs/designing-and-developing-your-api/creating-an-api/">APIs</a>, <a href="https://learning.postman.com/docs/getting-started/creating-the-first-collection/">colecciones</a>, <a href="https://learning.postman.com/docs/sending-requests/managing-environments/">entornos</a> y otros elementos de Postman.</p>
+
+<p>Cuando abrimos Postman por primera vez, estaremos en nuestro espacio de trabajo personal predeterminado. Claro esta que podems crear más espacios de trabajo para su uso personal y para trabajar con compañeros de equipo. Cabe señalar que para crear más espacios de trabajo, debemos iniciar sesión en nuestra <a href="https://learning.postman.com/docs/getting-started/postman-account/">cuenta de Postman</a>.</p>
+
+<h2 id="pasos-para-crear-un-nuevo-espacio-de-trabajo-workspace">Pasos para crear un nuevo espacio de trabajo (workspace):</h2>
+
+<h3 id="paso-1">Paso 1.</h3>
+<p>Seleccionemos Workspaces (espacios de trabajo) en la esquina superior izquierda. Posteriormente demos click en el boton “Create Workspace (crear espacio de trabajo) para agregar un nuevo espacio de trabajo. Si contamos con varios espacios de trabajo, también podemos realizar busqueda de estos utilizando la barra de búsqueda o seleccionando alguno de la lista desplegable.</p>
+
+<p><img src="/assets/img/blog/tutorials/creando-workspaces/1.png" alt="image" /></p>
+
+<h3 id="paso-2">Paso 2.</h3>
+<p>Aquí solo deberemos de ingresar un nombre y un resumen(descripción), el cual es opcional.</p>
+
+<h3 id="paso-3">Paso 3.</h3>
+<p>En este elejiremos la visibilidad del espacio de trabajo:</p>
+
+<ul>
+  <li>Personal: este espacio de trabajo solo lo podemos ver nosotros (usted).</li>
+  <li>Privado: este espacio de trabajo solo es visible para usted y los miembros del equipo que invite (solo en los planes Pro y Enterprise).</li>
+  <li>Equipo: este espacio de trabajo es visible para todos los miembros de su equipo.</li>
+  <li>Público: este espacio de trabajo  es visible para todos los usuarios de Postman.</li>
+</ul>
+
+<h3 id="paso-4">Paso 4.</h3>
+<p>Por último demos click en el botón de “Crear espacio de trabajo”.</p>
+
+<p><img src="/assets/img/blog/tutorials/creando-workspaces/2.png" alt="image" /></p>
+
+<p>Al finalizar, Postman nos redirigirá o cambiará al nuevo espacio de trabajo.</p>
+
+<p>Cabe destacar que podemos movernos entre los espacios de trabajo en cualquier momento seleccionandolo de la lista desplegable en la parte superior izquierda.</p>
+
+<h2 id="próximos-pasos">Próximos pasos</h2>
+<p>Ahora que hemos aprendido a crear un espacio de trabajo, podemos usarlo para colaborar con nuestro equipo de trabajo.</p>
+
+<p>Estén atentos para aprender cosas nuevas sobre Postman.</p>
+
+<p>¡Hasta la próxima!</p>
+:ET

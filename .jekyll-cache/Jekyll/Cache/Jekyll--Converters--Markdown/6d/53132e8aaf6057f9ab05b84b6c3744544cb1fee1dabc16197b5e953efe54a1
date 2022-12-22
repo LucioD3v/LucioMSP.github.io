@@ -1,0 +1,62 @@
+I"�<p>El día de hoy (21-Junio-2022) salio la noticia de que GitHub Copilot ya está disponible de forma general y pública!, lo cual sinceramente es algo genial.</p>
+
+<p><img src="/assets/img/blog/tutorials/github-copilot/00.png" alt="image" /></p>
+
+<h2 id="qué-es-github-copilot">Qué es GitHub Copilot?</h2>
+<p>Bueno, para quienes no lo saben, GitHub Copilot es el asistente basado en la Inteligencia Artificial de OpenAI que sugiere código y funciones completas en tiempo real.</p>
+
+<p>Cabe destacar que desde su lanzamiento de la technical preview del año pasado, GitHub Copilot ha demostrado ser un interesante recurso para los programadores, y claro, este no busca reemplazarnos, antes al contrario, busca brindarnos ayuda para evitar perder el tiempo principalmente con ciertas tareas repetitivas.</p>
+
+<h2 id="github-copilot-permite-a-los-desarrolladores">GitHub Copilot permite a los desarrolladores</h2>
+<ul>
+  <li>
+    <p>Obtenga sugerencias de codificación basadas en IA: obtenemos sugerencias de código que coincidan con el contexto y las convenciones de estilo de un proyecto, y recorre diferentes opciones para decidir qué aceptar, rechazar o editar.</p>
+  </li>
+  <li>
+    <p>Utilice su entorno preferido: podemos integrar GitHub Copilot con editores populares, incluidos Neovim, JetBrains IDE, Visual Studio y Visual Studio Code como una extensión discreta.</p>
+  </li>
+  <li>
+    <p>Codifique con confianza en un territorio desconocido: nos permite codificar en nuevos idiomas o probar algo nuevo, ya que podemos dejar que GitHub Copilot nos sugiera sintaxis y código en docenas de idiomas, para que podamos pasar más tiempo aprendiendo haciendo.</p>
+  </li>
+</ul>
+
+<h2 id="donde-me-registro">Donde me registro?</h2>
+<p>Puedes registrarte para acceder a una versión de prueba gratuita <a href="https://github.com/features/copilot?utm_medium=email&amp;utm_source=announcement&amp;utm_campaign=copilot-technical-preview">aquí</a>, pero..</p>
+
+<p><img src="/assets/img/blog/tutorials/github-copilot/01.png" alt="image" /></p>
+
+<h2 id="cuánto-cuesta-">Cuánto cuesta ($$)</h2>
+
+<p>Pero hay que tomar en cuenta que será de pago a partir del 22 de Agosto, en donde podrás adquirir un plan mensual (10 dólares al mes) o un plan anual (100 dólares) para continuar utilizando este asistente de programación.</p>
+
+<p><img src="/assets/img/blog/tutorials/github-copilot/02.png" alt="image" /></p>
+
+<h2 id="no-todo-en-la-vida-son-noticias-malas">No todo en la vida son noticias malas…</h2>
+
+<p>Pero existen formas de utilizarlo GRATIS:</p>
+
+<ul>
+  <li>Si eres estudiante (a través del GitHub Student Developer Pack)</li>
+  <li>Si mantienes un proyecto open-source popular</li>
+</ul>
+
+<p>“Visite la página de suscripción de GitHub Copilot para ver si es uno de los mantenedores de código abierto que cumple con nuestros criterios”, dice <a href="https://github.com/pricing#faq-copilot">GitHub</a> para estos últimos.</p>
+
+<p><img src="/assets/img/blog/tutorials/github-copilot/03.png" alt="image" /></p>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Sin duda alguna, GitHub Copilot es el primer paso para empoderar a los desarrolladores con IA. A partir de hoy que ya está disponible para todos los desarrolladores, creo que las empresas no dudarán en volterar a verlo cuando la compañia lo comience a ofrecer a estas ultimas a finales de este año.</p>
+
+<p><img src="/assets/img/blog/tutorials/github-copilot/04.png" alt="image" /></p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<p>Más información:</p>
+
+<ul>
+  <li><a href="https://github.com/features/copilot?utm_medium=email&amp;utm_source=announcement&amp;utm_campaign=copilot-technical-preview">GitHub Copilot</a></li>
+  <li><a href="https://github.com/github/copilot-docs/tree/main/docs?utm_medium=email&amp;utm_source=announcement&amp;utm_campaign=copilot-technical-preview#getting-started">GitHub Copilot Docs</a></li>
+</ul>
+
+<h2 id="happy-coding">¡Happy Coding!</h2>
+:ET

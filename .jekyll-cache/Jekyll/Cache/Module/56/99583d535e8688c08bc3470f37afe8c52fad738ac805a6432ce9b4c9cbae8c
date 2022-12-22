@@ -1,0 +1,174 @@
+I"�
+
+
+
+
+
+<article id="post-xamarin_forms-xamarin.forms-efecto-sombra-xamarin-forms" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Añadiendo el efecto de sombra a una aplicación de Xamarin.Forms
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-08-03T00:00:00-05:00">03 Aug 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Xamarin_forms</span> / <span>Xamarin.forms</span>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Shadow</span>, <span>Effects</span>, <span>Sombras</span>, <span>Toolkit</span>, <span>Xamarin</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/xamarin/shadow.png"
+  
+  alt="Añadiendo el efecto de sombra a una aplicación de Xamarin.Forms"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo mostraré que tan fácilmente es agregar sombras a nuestras aplicaciones de Xamarin.Forms sin utilizar Frames.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>En este artículo mostraré que tan fácilmente se pueden agregar sombras a nuestras aplicaciones de Xamarin.Forms, esto sin hacer uso de Frames y lo mejor, que se vera en menos de dos minutos.</p>
+
+<h2 id="paso-1">Paso 1</h2>
+
+<p>En primer lugar, instalemos el paquete nuget Xamarin.CommunityToolkit a todos nuestros proyectos de Xamarin.Forms (incluidos los específicos de la plataforma iOS, Android, UWP, etc).</p>
+
+<p><img src="/assets/img/blog/tutorials/xamarin_sombras/paso1.png" alt="image" /></p>
+
+<h2 id="paso-2">Paso 2</h2>
+
+<p>Ahora naveguemos a cualquier archivo XAML en la que deseemos agregar sombra, posteriormente agreguemos el siguiente espacio de nombres (también puede ser un archivo C#, pero en este ejemplo, me centrare en XAML).</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+xmlns:xct<span class="o">=</span><span class="s2">"http://xamarin.com/schemas/2020/toolkit"</span>
+
+</code></pre></div></div>
+
+<p>Y listo, ¡eso es todo! Ahora ya podemos hacer uso del ShadowEffect.</p>
+
+<p>Ahora solo tocar usar las propiedades adjuntas de ShadowEffect para controlar la sombra, por ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&lt;StackLayout
+    xct:ShadowEffect.Color<span class="o">=</span><span class="s2">"Red"</span>
+    xct:ShadowEffect.OffsetY<span class="o">=</span><span class="s2">"5"</span>
+    xct:ShadowEffect.Radius<span class="o">=</span><span class="s2">"10"</span><span class="o">&gt;</span>
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/blog/tutorials/xamarin_sombras/code.png" alt="image" /></p>
+
+<h2 id="resultado--salida">Resultado / Salida</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Antes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/xamarin_sombras/resultadoAntes.png" alt="image" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Despues</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/img/blog/tutorials/xamarin_sombras/resultadoDespues.png" alt="image" /></p>
+
+<p>Las propiedades Color, Opacidad, Radio, OffsetX, OffsetY están disponibles para que ajuste la sombra según lo requiera su diseño.</p>
+
+<p>La buena noticia es que este efecto se puede aplicar a cualquier vista de Xamarin.Forms (no solo a los diseños). Para que podamos agregar sombras tanto a etiquetas (labels), botones y  vistas personalizadas.</p>
+
+<p>¡Felicidades! Ahora ya sabes cómo usar los efectos de sombra de Xamarin.CommunityToolkit</p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Espero que este pequeño artículo te haya brindado suficiente información para aplicar sombras em tus aplicaciones de Xamarin.Forms y ver los resultados tanto en Android como en iOS.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<h2 id="happy-coding">Happy Coding</h2>
+
+  
+</article>
+:ET

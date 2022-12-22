@@ -1,0 +1,171 @@
+I"�
+
+
+
+
+
+<article id="post-xamarin_forms-xamarin.forms-creando-una-app-de-xamarin-forms-en-mac" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Creando mi primera aplicación de Xamarin.Forms en Mac
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-02-10T00:00:00-06:00">10 Feb 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Xamarin_forms</span> / <span>Xamarin.forms</span>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Xamarin</span>, <span>Xamarin.forms</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/xamarin/xamarinForMac.png"
+  
+  alt="Creando mi primera aplicación de Xamarin.Forms en Mac"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Este artículo realizaremos (crearemos) nuestra primera aplicación de Xamarin.Forms utilizando MacOS
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>En este pequeño artículo, explicaré el cómo crear un proyecto Xamarin.Forms de muestra y ejecutar la aplicación Android/iOS en Visual Studio 2019 para Mac.</p>
+
+<p>La verdad es algo muy sencillo, por ello realizaremos esto en tan solo 6 pasos, los cuales son los siguientes:</p>
+
+<h3 id="nota">Nota:</h3>
+<p>Cabe destacar que no se verá o tocará como instalar Visual Studio for Mac, ya que esto es muy sencillo de realizar.</p>
+
+<h2 id="paso-1">Paso 1</h2>
+
+<p>Abramos Visual Studio 2019 en nuestra máquina Mac y en la parte derecha tendremos dos opciones que son: Abrir y Nuevo. Cabe mencionar que podemos hacer clic en la opción Abrir para abrir un proyecto ya existente de Xamarin y en la opción Nuevo para crear un proyecto desde cero, la cual será la opción que elegiremos.</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso1.png" alt="image" /></p>
+
+<h2 id="paso-2">Paso 2</h2>
+
+<p>Después de hacer clic en la opción de Nuevo, VS navegará a la siguiente pantalla, en donde del lado izquierdo, podremos observar varias secciones, pero nosotros nos centraremos en la sección de Multiplataforma, posteriormente deberemos de seleccionar y hacer clic en Aplicación -&gt; Aplicación en blanco -&gt; Siguiente.</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso2.png" alt="image" /></p>
+
+<h2 id="paso-3">Paso 3</h2>
+
+<p>Después de hacer clic en el botón de Siguiente, VS navegará a la siguiente pantalla, en donde deberemos de configurar el nombre de nuestra aplicación en blanco, asi mismo deberemos de cubrir la organización identificada y posteriormente hacer clic en el botón Siguiente.</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso3.png" alt="image" /></p>
+
+<p>Cabe destacar que podemos deshabilitar cualquier opcion de SO y por ende no se creará la aplicación de dicha plataforma, pero no lo recomiendo, ya que la idea de Xamarin.Forms es que podamos crear un proyecto y lanzarla para Android como para iOS, por ello es que vienen seleccionados ambos por default.</p>
+
+<h2 id="paso-4">Paso 4</h2>
+<p>Después de hacer clic en el botón Siguiente, VS navegará a la siguiente pantalla, en donde deberemos de configurar la ruta de donde queremos que se genere el proyecto (podemos dejar la ruta predefinida si queremos) y podemos de igual manera marcar la casilla  de Control de Versiones si lo situaremos en algun repositorio y si este proyecto sera compartido con otros desarrolladores. Posteriormente hagamos clic en el botón Crear.</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso4.png" alt="image" /></p>
+
+<h2 id="paso-5">Paso 5</h2>
+
+<p>Después de hacer clic en el botón Crear, VS navegará a la siguiente pantalla, en donde veremos ya como tal el proyecto de Xamarin.Forms creado, junto con la biblioteca de clases PCL-Portable (XamVG), XamVG.Android y XamVG.iOS</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso5.png" alt="image" /></p>
+
+<h2 id="paso-6">Paso 6</h2>
+
+<p>Ya por último podemos seleccionar el modo de depuración en Android o iOS y configurar el proyecto que deseemos ejecutar, cabe mencionar que del SO seleccionado podremos ver las diferentes opciones con las que contamos, ya sea a través de dispositivos fisicos o simuladores.</p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso6Android.png" alt="image" /></p>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/paso6iOS.png" alt="image" /></p>
+
+<h2 id="resultado--salida">Resultado / Salida</h2>
+
+<h3 id="ios">iOS</h3>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/resultadoiOS.png" alt="image" /></p>
+
+<h3 id="android">Android</h3>
+
+<p><img src="/assets/img/blog/tutorials/creandoAppXamarinFormsMac/resultadoAndroid.png" alt="image" /></p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Espero que este pequeño artículo te haya brindado suficiente información para crear un proyecto Xamarin y ejecutar la aplicación tanto en Android como en iOS.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<h2 id="happy-coding">Happy Coding</h2>
+
+  
+</article>
+:ET

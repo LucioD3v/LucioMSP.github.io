@@ -1,0 +1,159 @@
+I"�)<p>Esta semana echamos un vistazo rápido a las novedades en el mundo de Alibaba Cloud.</p>
+<h1 id="novedades">Novedades:</h1>
+
+<h2 id="bases-de-datos">Bases de Datos</h2>
+
+<h3 id="polardb">PolarDB</h3>
+
+<p>La <a href="https://www.alibabacloud.com/help/en/doc-detail/173396.html?spm=a2c65.11461447.0.0.c51077dccYyf5F">función de proxy</a> de la base de datos PolarProxy se convertirá en una función paga, incluida en la edición Enterprise de PolarDB. El clúster de base de datos de archivo de PolarDB ahora es compatible con MySQL 8.0.</p>
+
+<h3 id="rds">RDS</h3>
+
+<ul>
+  <li>RDS (MySQL) ahora admite el cambio de zona de disponibilidad con un solo clic (dentro de una sola región, por supuesto). ¡Todo el proceso de migración se maneja automáticamente!</li>
+  <li>RDS (PostgreSQL) ahora es compatible con PostgreSQL 14.1.</li>
+  <li>RDS (SQL Server) ha agregado soporte para algunas versiones adicionales de SQL Server: ediciones básicas para 2016EE, 2016SE, 2017SE, 2019SE, 2017 Web y 2019 Web.</li>
+</ul>
+
+<h3 id="otras-actualizaciones-de-la-base-de-datos">Otras actualizaciones de la base de datos</h3>
+
+<ul>
+  <li>AnalyticDB para PostgreSQL ha lanzado una edición sin servidor. Como se trata de una versión anticipada, debe enviar un <a href="https://workorder-intl.console.aliyun.com/?spm=a2c65.11461447.0.0.c51077dccYyf5F#/ticket/list">ticket de soporte</a> para habilitar esta función.</li>
+  <li>La herramienta de migración de datos DTS ahora es compatible con Microsoft SQL Server 2019.</li>
+</ul>
+
+<h2 id="novedades-informática">Novedades: Informática</h2>
+
+<h3 id="ecs">ECS</h3>
+
+<ul>
+  <li>
+    <p>Se han agregado dos nuevos tipos de instancias ECS equipados con AMD de séptima generación, en particular ebmg7a y ebmr7a, que son instancias Bare Metal de séptima generación con procesadores AMD. Estas instancias basadas en AMD ofrecen una excelente relación precio/rendimiento y admiten grandes cantidades de memoria… en el caso de ebmr7a, ¡hasta 256 núcleos de vCPU y 2048 GB de memoria!</p>
+  </li>
+  <li>
+    <p>Ya está disponible un nuevo tipo de instancia Bare Metal equipada con GPU, la ebmgn7e, que utiliza GPU NVIDIA A100 SXM4 de 80 GB con compatibilidad con NVSwitch y ofrece hasta 312 TFLOPS en TensorFloat-32.</p>
+  </li>
+</ul>
+
+<h3 id="function-compute">Function Compute</h3>
+
+<p>Una herramienta completamente nueva, <a href="https://www.alibabacloud.com/help/en/doc-detail/195473.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">Serverless Devs</a>, ahora reemplaza a la divertida herramienta de línea de comandos como la forma recomendada de implementar y administrar aplicaciones sin servidor.</p>
+
+<p>La herramienta es demasiado grande para cubrirla en detalle en la publicación de blog de esta semana, pero eche un vistazo a la documentación de Serverless Devs (enlace en el párrafo anterior), o consulte <a href="https://community.alibabacloud.com/blog/598366?spm=a2c65.11461447.0.0.c51077dccYyf5F">esta publicación de blog</a> donde uso Serverless Devs para implementar un tiempo de ejecución de contenedor personalizado.</p>
+
+<h3 id="compute-nest">Compute Nest</h3>
+
+<p>Un servicio completamente nuevo, <a href="https://www.alibabacloud.com/help/en/doc-detail/290066.html?spm=a2c65.11461447.0.0.c51077dccYyf5F">Compute Nest</a>, ya está disponible.</p>
+
+<p>Compute Nest es un servicio PaaS que proporciona una plataforma de gestión centralizada para proveedores de servicios.</p>
+
+<p>Esencialmente, es una herramienta para ayudarlo a construir e implementar sus propios servicios en la nube sobre Alibaba Cloud. Si es un proveedor de software independiente (ISV), un proveedor de servicios de TI, un proveedor de servicios de entrega (implementación) o un proveedor de O&amp;M, puede usar Compute Nest para crear e implementar servicios en Alibaba Cloud, que luego puede poner a disposición de sus usuarios finales. .</p>
+
+<p>Consulte la documentación para obtener más detalles.</p>
+
+<h3 id="server-migration-center-centro-de-migración-del-servidor">Server Migration Center (Centro de migración del servidor)</h3>
+
+<ul>
+  <li>La herramienta de migración go2aliyun de Server Migration Center <a href="https://www.alibabacloud.com/help/en/doc-detail/122992.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">ahora admite migraciones de servidor ARM64</a>.</li>
+</ul>
+
+<h2 id="novedades-contenedores">Novedades: Contenedores</h2>
+
+<h3 id="servicio-de-contenedores-para-kubernetes-ack">Servicio de contenedores para Kubernetes (ACK)</h3>
+
+<ul>
+  <li>Se agregó una <a href="https://www.alibabacloud.com/help/en/doc-detail/215497.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">función de análisis de costos de clúster</a>, que le permite crear paneles para comprender mejor sus gastos de ACK. ¡Se ve bastante bien!</li>
+</ul>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/whatsNewAlibaba/containerService.png" alt="image" /></p>
+
+<h3 id="registro-de-contenedores-en-la-nube-de-alibaba-acr">Registro de contenedores en la nube de Alibaba (ACR)</h3>
+
+<ul>
+  <li>Ahora puede sincronizar manualmente las imágenes de los contenedores, así como reintentar manualmente las tareas de sincronización fallidas. Esto funciona tanto para la <a href="https://www.alibabacloud.com/help/en/doc-detail/147064.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">sincronización dentro de una sola región</a> como para la <a href="https://www.alibabacloud.com/help/en/doc-detail/305586.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">sincronización entre regiones</a>.</li>
+</ul>
+
+<h2 id="novedades-seguridad">Novedades: Seguridad</h2>
+
+<h3 id="actiontrail">ActionTrail</h3>
+
+<ul>
+  <li>ActionTrail ha agregado una función de <a href="https://www.alibabacloud.com/help/en/doc-detail/289019.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">Insight Events</a> para ayudar a los usuarios a identificar automáticamente operaciones inusuales. Esta es una gran ayuda para descubrir configuraciones erróneas y errores temprano.</li>
+</ul>
+
+<h3 id="bastion-host">Bastion Host</h3>
+<ul>
+  <li>
+    <p>El servicio <a href="https://www.alibabacloud.com/help/en/doc-detail/52922.html?spm=a2c65.11461447.0.0.c51077dccYyf5F">Bastion Host</a> ahora le permite crear reglas de autorización de tiempo limitado para los usuarios, permitiéndoles acceso temporal a una o más instancias de ECS detrás de la instancia de Bastion Host.</p>
+  </li>
+  <li>
+    <p>Ahora puede importar y exportar configuraciones de Bastion Host, lo que le permite transferir todos sus datos de configuración existentes de un Bastion Host a otro.</p>
+  </li>
+</ul>
+
+<h3 id="big-data-e-ia">Big Data e IA</h3>
+<hr />
+
+<h3 id="quickbi">QuickBI</h3>
+
+<p>QuickBI ahora ha agregado soporte para una amplia gama de bases de datos autoconstruidas.</p>
+
+<p>Los siguientes ahora son compatibles como fuentes de datos en QuickBI 3.12.2:</p>
+
+<ul>
+  <li>Copo de nieve</li>
+  <li>Impala</li>
+  <li>Kylin</li>
+</ul>
+
+<p>Ahora puede exportar tablas y gráficos como imágenes y archivos PDF, además del formato Excel.
+También puede exportar informes directamente a OSS.</p>
+
+<h3 id="pai-plataforma-para-ia">PAI (Plataforma para IA)</h3>
+
+<p>Se han agregado <a href="https://www.alibabacloud.com/help/en/doc-detail/196904.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">modelos ASR</a> actualizados para hablar en chino e inglés a Model Hub. Esto le permite entrenar más fácilmente sistemas automáticos de reconocimiento de voz de alta precisión.</p>
+
+<h3 id="redes">Redes</h3>
+<hr />
+
+<h3 id="nube-privada-virtual-vpc">Nube Privada Virtual (VPC)</h3>
+
+<p>Técnicamente, estas funciones no son tan nuevas (la mayoría se lanzaron a mediados de 2021), pero siguen siendo importantes. Estas son cuatro adiciones importantes al servicio de VPC que todo el mundo debería conocer:</p>
+
+<ol>
+  <li>
+    <ul>
+      <li>Los <a href="https://www.alibabacloud.com/help/en/doc-detail/174112.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">conjuntos de opciones de DHCP</a> le permiten personalizar DHCP dentro de su VPC. Esto le permite pasar automáticamente la información del servidor DNS a las nuevas instancias de ECS tan pronto como se conecten, o establecer nombres de dominio personalizados para sus instancias de ECS.</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>La <a href="https://www.alibabacloud.com/help/en/doc-detail/207513.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">duplicación de tráfico</a> le permite reenviar el tráfico destinado a una ENI (interfaz de red elástica) a un equilibrador de carga o una ENI secundaria, lo cual es ideal para la detección, el registro y la supervisión de amenazas, o simplemente para la resolución de problemas antiguos.</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>Las VPC ahora son compatibles con las <a href="https://www.alibabacloud.com/help/en/doc-detail/116626.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">ACL de red (NACL)</a>, lo que le permite un control más detallado sobre cómo se pueden comunicar los ENI y los VSwitches. Esto le permite hacer cosas como crear una “subred privada” (VSwitch) que no puede comunicarse con Internet.</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>El <a href="https://www.alibabacloud.com/help/en/doc-detail/160633.htm?spm=a2c65.11461447.0.0.c51077dccYyf5F">uso compartido de VPC</a> le permite hacer algo realmente genial: con el uso compartido de VPC, puede permitir que varias cuentas de Alibaba Cloud creen recursos dentro de una sola VPC. Esto significa que más de una cuenta puede crear bases de datos de RDS, instancias de ECS o balanceadores de carga dentro de una sola VPC compartida. Esto ayuda a evitar la necesidad de configurar la interconexión de VPC mediante CEN.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="vpn-gateway-puerta-de-enlace-vpn">VPN Gateway (Puerta de enlace VPN)</h3>
+
+<p>VPN Gateway ahora ha agregado soporte para BGP Dynamic Routing. Aprende más <a href="https://www.alibabacloud.com/help/en/doc-detail/170235.html?spm=a2c65.11461447.0.0.c51077dccYyf5F">aquí</a>.</p>
+
+<hr />
+
+<h2 id="cosas-inusuales">Cosas Inusuales</h2>
+
+<p>¿Sabía que Alibaba Cloud tiene un servicio para extraer datos de futuros y bolsas de valores? Si, existe en realidad y se llama <a href="https://www.alibabacloud.com/help/en/doc-detail/147299.html?spm=a2c65.11461447.0.0.c51077dccYyf5F">CloudQuotation</a>. Puedes encontrarlo en la consola <a href="https://assetservice.console.aliyun.com/commodity?spm=a2c65.11461447.0.0.c51077dccYyf5F">aquí</a>.</p>
+
+<p>Es costoso, pero si está creando una aplicación financiera y necesita acceso a datos de mercado actualizados, CloudQuotation es un buen lugar para comenzar.</p>
+
+<p>Blog Post Original: <a href="https://www.alibabacloud.com/blog/598490">alibabacloud.com</a></p>
+:ET

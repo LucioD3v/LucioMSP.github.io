@@ -1,0 +1,59 @@
+I"ü
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/maui_net/#project"
+  >
+  <meta property="name" content=".NET MAUI"/>
+  <meta property="image" content="/assets/img/categories/maui-bot.png"/>
+
+  <a href="/projects/maui_net/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/maui-bot.png"
+  
+  alt=".NET MAUI"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/maui_net/" class="flip-title" property="mainEntityOfPage">.NET MAUI</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      .NET, MAUI
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/maui_net/" tabindex="-1"><span class="sr-only">Continue reading .NET MAUI
+</span></a>
+</article>
+:ET

@@ -1,0 +1,59 @@
+I"Ü
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/aws/#project"
+  >
+  <meta property="name" content="AWS"/>
+  <meta property="image" content="/assets/img/categories/aws-amazon.jpg"/>
+
+  <a href="/projects/aws/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/aws-amazon.jpg"
+  
+  alt="AWS"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/aws/" class="flip-title" property="mainEntityOfPage">AWS</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Amazon Web Service
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/aws/" tabindex="-1"><span class="sr-only">Continue reading AWS
+</span></a>
+</article>
+:ET

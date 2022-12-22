@@ -1,0 +1,34 @@
+I"!
+<p>Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta tercera sección veremos ECS Images.</p>
+
+<h2 id="qué-son-las-imagenes-de-ecs">¿Qué son las imagenes de ECS?</h2>
+
+<p>Las imágenes son una plantilla de un entorno de ejecución para una instancia de ECS. Existen 4 tipos principales.</p>
+
+<h3 id="imágenes-públicas-del-sistema-public-system-images">Imágenes Públicas del Sistema (Public System Images)</h3>
+<p>Las imágenes públicas con licencia de Alibaba Cloud son muy seguras y estables. Estas imágenes públicas incluyen la mayoría de los sistemas Windows Server y Linux convencionales.</p>
+
+<p>Estas imágenes solo incluyen entornos de sistema estándar y puede aplicar su propia personalización y configuraciones basadas en estas imágenes.</p>
+
+<h3 id="imágenes-de-marketplace-marketplace-images">Imágenes de Marketplace (Marketplace Images)</h3>
+<p>Las imágenes de Alibaba Cloud Marketplace se clasifican en los 2 tipos siguientes:</p>
+
+<ul>
+  <li>Imágenes proporcionadas por Alibaba Cloud</li>
+  <li>Imágenes proporcionadas por Proveedores de Software Independientes y con licencia de Alibaba Cloud Marketplace.</li>
+</ul>
+
+<p>Una imagen de Alibaba Cloud Marketplace contiene un sistema operativo y software preinstalado.</p>
+
+<p>El proveedor de software independiente (ISV - Independent Software Vendors) y Alibaba Cloud prueban y verifican el sistema operativo y el software preinstalado para garantizar que las imágenes sean seguras de usar. Estos son adecuados para la creación de sitios web, el desarrollo de aplicaciones y otros escenarios de uso personalizados.</p>
+
+<h3 id="imagen-personalizada-custom-images">Imagen Personalizada (Custom Images)</h3>
+<p>Las imágenes personalizadas se crean a partir de instancias o instantáneas del sistema, o se importan desde su dispositivo local. Solo el creador de una imagen personalizada puede usar, compartir, copiar y eliminar la imagen.</p>
+
+<p>Estas imágenes personalizadas se pueden utilizar para crear más instancias, lo que le ahorrará el esfuerzo de crear un nuevo sistema desde cero.</p>
+
+<h3 id="imagen-compartida-shared-images">Imagen Compartida (Shared Images)</h3>
+<p>Una imagen compartida es una imagen personalizada que se ha compartido con otros usuarios o cuentas.</p>
+
+<p>Cabe mencionar que Alibaba Cloud no puede garantizar la seguridad e integridad de las imágenes compartidas con usted o con cualquier otro usuario, por lo que si hace uso de esta imagen, la usa bajo su propio riesgo y discreción.</p>
+:ET

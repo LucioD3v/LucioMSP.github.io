@@ -1,0 +1,118 @@
+I"�
+
+
+
+
+
+<article id="post-xamarin_forms-xamarin.forms-creando-una-app-de-xamarin-forms-en-mac" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/xamarin_forms/xamarin.forms/2022-02-10-creando-una-app-de-xamarin-forms-en-mac/" class="flip-title">
+        Creando mi primera aplicación de Xamarin.Forms en Mac
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-02-10T00:00:00-06:00">10 Feb 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Xamarin_forms</span> / <span>Xamarin.forms</span>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Xamarin</span>, <span>Xamarin.forms</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/xamarin_forms/xamarin.forms/2022-02-10-creando-una-app-de-xamarin-forms-en-mac/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/xamarin/xamarinForMac.png"
+  
+  alt="Creando mi primera aplicación de Xamarin.Forms en Mac"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Este artículo realizaremos (crearemos) nuestra primera aplicación de Xamarin.Forms utilizando MacOS
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>En este pequeño artículo, explicaré el cómo crear un proyecto Xamarin.Forms de muestra y ejecutar la aplicación Android/iOS en Visual Studio 2019 para Mac.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/xamarin_forms/xamarin.forms/2022-02-10-creando-una-app-de-xamarin-forms-en-mac/">Creando mi primera aplicación de Xamarin.Forms en Mac</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

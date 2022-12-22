@@ -1,0 +1,134 @@
+I"�
+
+
+
+
+
+<article id="post-alexa-alexa-skill-kit" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Alexa Skill Kit (ASK)
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2020-04-20T00:00:00-05:00">20 Apr 2020</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alexa/" class="flip-title">Alexa</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alexa</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/develop.jpg"
+  
+  alt="Alexa Skill Kit (ASK)"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Artículo donde se detalla todo lo necesario con respecto al ASK.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Como ya sabemos, los dispositivos Echo de Amazon en todas sus variedades llegarón a México hace ya 2 años, y con el fin de facilitar la regionalización de Alexa, su asistente virtual con el cual se manejan estos dispositivos, Amazon lanzó en México el Alexa Skills Kit.</p>
+
+<p>Como dato curioso, México fue el primer país latinoamericano en el que se lanzo el ASK.</p>
+<h2 id="qué-es-el-alexa-skills-kit-ask">¿Qué es el Alexa Skills Kit (ASK)?</h2>
+<p>De acuerdo al blog de Alexa, es un conjunto de herramientas, documentación, muestras de código y API en self-service con el que podemos añadir Skills a Alexa de forma rápida y sencilla. El ASK le permite a diseñadores, desarrolladores y marcas crear Skills atractivas y llegar a los consumidores. Con este kit, podemos aprovechar el conocimiento y la innovación de Amazon en el sector del diseño de voz.</p>
+
+<p>Actualmente nos encontramos en la version <a href="https://www.npmjs.com/package/ask-sdk">2.8.0 ASK SDK</a> (es la última), estas librerías pueden ser usadas con el lenguaje de programación que nosotros estemos acostumbrados. Por ahora podemos crear o desarrollar Skills para Alexa en Español en los siguientes lenguajes de programación.</p>
+
+<ul>
+  <li><a href="https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-python/overview.html">Alexa Skills Kit SDK for Python</a></li>
+  <li><a href="https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/overview.html">Alexa Skills Kit SDK v2 for Java</a></li>
+  <li><a href="https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-nodejs/overview.html">Alexa Skills Kit SDK v2 for Node.js</a>
+    <h2 id="en-qué-campos-necesito-tener-conocimiento-para-desarrollar-una-interfaz-de-voz">¿En qué campos necesito tener conocimiento para desarrollar una interfaz de voz?</h2>
+    <p>Una buena noticia, es que como programadores no necesitamos experiencia en el reconocimiento de voz ni en la comprensión del lenguaje natural para desarrollar una Skill; Alexa se encarga de escuchar, comprender y procesar la solicitud del cliente para que nosotros los desarrolladores sólo tengamos que enfocarnos en el diseño de la Skill.</p>
+    <h2 id="cómo-diseñar-skills-de-alexa-para-clientes-de-todo-el-mundo">¿Cómo diseñar Skills de Alexa para clientes de todo el mundo?</h2>
+    <p>Según el mismo blog, comenzar a crear aplicaciones de voz para Alexa es fácil. Para ello, pusieron a la mano de todos los desarrolladores <a href="https://developer.amazon.com/es-MX/alexa/alexa-skills-kit/?gclid=CjwKCAjw7-P1BRA2EiwAXoPWAxXMLL8BM8f8d6sDgGx0-_RaOYHQNkDgrk03gp_g1PyGJVXw2M-__hoCxSQQAvD_BwE">tutoriales</a>, además de lanzar seminarios web disponibles bajo demanda para aprender a desarrollar una Skill rápidamente.</p>
+  </li>
+</ul>
+
+<p>Igualmente, en caso de que quieran desarrollar una Skill multi-lenguaje de Alexa, publicaron documentación técnica en la que se explica cómo diseñar una Skill en todos los modelos de lenguaje disponibles.</p>
+
+<p>Entre estos lenguajes se encuentran el Inglés de Estados Unidos, India, Reino Unido, Canadá y Australia, así como el Alemán, Japonés, Francés, Italiano, Español de España, y por supuesto, el Español de México.</p>
+
+<p>Como podemos ver, cada vez esta avanzando y haciéndose más común el desarrollar Skills para Alexa.</p>
+
+<p>Y bueno, esto es todo, espero que te unas a la comunidad de desarrolladores de voz de méxico (<a href="https://www.facebook.com/groups/voxAlexaSkills">vox: Ninja Alexa</a>) y generes Skills impresionantes. Recuerda además que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.</p>
+
+  
+</article>
+:ET

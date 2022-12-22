@@ -1,0 +1,141 @@
+I"�$<p>Este artículo es una traducción al español del blog de banditoth (con un toque personal), en donde se demuestra como corregir el problema reportado en el GitHub de <a href="https://github.com/xamarin/Xamarin.Forms/issues/11993">Xamarin.Forms</a>.</p>
+
+<hr />
+
+<h2 id="escenario">Escenario</h2>
+
+<p>Si te encuentras experimentando con una pantalla en blanco al presionar Navigation o un Modal Stack en Android, sigue leyendo, ya que este artículo te ayudará a resolverlo.</p>
+
+<p>La verdad no estoy seguro de si esto es un error en Xamarin.Forms o no, pero supongo que lo es, porque solo se presenta en ciertos escenarios, y no siempre.</p>
+
+<h2 id="qué-está-pasando-cómo-nota-este-error">¿Qué está pasando, cómo nota este error?</h2>
+<p>Tienes una NavigationPage, la cúal está enviando una nueva página a la pila de navegación y la página no se está procesando, solo se muestra una pantalla en blanco. Ahora bien, si rotas el dispositivo, la página se renderizará correctamente.</p>
+
+<p>Mi entorno es:
+Xamarin.Forms: 4.8 hasta 5.0
+Dispositivo: Samsung Galaxy A12 (probado igual en un Samsuns S20+)
+Visual Studio 2019 Professional con Xamarin.Android SDK 11.4.0.5</p>
+
+<h2 id="solución">Solución</h2>
+<p>Siempre se deben de invocar los métodos de INavigation en el subproceso principal de la aplicación, ya que los cambios en la interfaz de usuario deben ir siempre en el hilo de la interfaz de usuario de la aplicación.</p>
+
+<p>Para esto, solo se debe de crear una clase que envuelva la INavigation presentada por sus Vistas. Es útil almacenar una referencia en esta clase a la instancia de INavigation de la página principal actual de las aplicaciones, así que intente crear su código para suministrar la instancia de INavigation cada vez a esta clase cuando la página principal de la aplicación esté configurada.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+public class NavigationDispatcher : INavigation
+<span class="o">{</span>
+    private INavigation _navigation<span class="p">;</span>
+ 
+    public IReadOnlyList&lt;Page&gt; ModalStack <span class="o">=&gt;</span> _navigation?.ModalStack<span class="p">;</span>
+ 
+    public IReadOnlyList&lt;Page&gt; NavigationStack <span class="o">=&gt;</span> _navigation?.NavigationStack<span class="p">;</span>
+ 
+    private void SetNavigation<span class="o">(</span>INavigation navigation<span class="o">)</span>
+    <span class="o">{</span>
+        _navigation <span class="o">=</span> navigation<span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public void InsertPageBefore<span class="o">(</span>Page page, Page before<span class="o">)</span>
+    <span class="o">{</span>
+        _ <span class="o">=</span> Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(()</span> <span class="o">=&gt;</span>
+          <span class="o">{</span>
+              _navigation.InsertPageBefore<span class="o">(</span>page, before<span class="o">)</span><span class="p">;</span>
+          <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task&lt;Page&gt; PopAsync<span class="o">()</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            <span class="k">return </span>await _navigation.PopAsync<span class="o">()</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task&lt;Page&gt; PopAsync<span class="o">(</span>bool animated<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            <span class="k">return </span>await _navigation.PopAsync<span class="o">(</span>animated<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task&lt;Page&gt; PopModalAsync<span class="o">()</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            <span class="k">return </span>await _navigation.PopModalAsync<span class="o">()</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task&lt;Page&gt; PopModalAsync<span class="o">(</span>bool animated<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            <span class="k">return </span>await _navigation.PopModalAsync<span class="o">(</span>animated<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PopToRootAsync<span class="o">()</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PopToRootAsync<span class="o">()</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PopToRootAsync<span class="o">(</span>bool animated<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PopToRootAsync<span class="o">(</span>animated<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PushAsync<span class="o">(</span>Page page<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PushAsync<span class="o">(</span>page<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PushAsync<span class="o">(</span>Page page, bool animated<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PushAsync<span class="o">(</span>page, animated<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PushModalAsync<span class="o">(</span>Page page<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PushModalAsync<span class="o">(</span>page<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public Task PushModalAsync<span class="o">(</span>Page page, bool animated<span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return </span>Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(</span>async <span class="o">()</span> <span class="o">=&gt;</span>
+        <span class="o">{</span>
+            await _navigation.PushModalAsync<span class="o">(</span>page, animated<span class="o">)</span><span class="p">;</span>
+        <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+ 
+    public void RemovePage<span class="o">(</span>Page page<span class="o">)</span>
+    <span class="o">{</span>
+        _ <span class="o">=</span> Xamarin.Essentials.MainThread.InvokeOnMainThreadAsync<span class="o">(()</span> <span class="o">=&gt;</span>
+          <span class="o">{</span>
+              _navigation.RemovePage<span class="o">(</span>page<span class="o">)</span><span class="p">;</span>
+          <span class="o">})</span><span class="p">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></div></div>
+
+<h2 id="observaciones">Observaciones</h2>
+<p>Considere realizar una verificación del hilo actual en el cuerpo de los métodos, puesto que si se están ejecutando en el hilo principal, no se necesitará volver a cambiar al hilo principal.</p>
+
+<p>Post Original: <a href="https://www.banditoth.hu/2021/10/06/xamarin-forms-white-screen-between-page-push-and-pop-solved/">banditoth.hu</a></p>
+:ET

@@ -1,0 +1,59 @@
+I"ê
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/blazor/#project"
+  >
+  <meta property="name" content="Blazor"/>
+  <meta property="image" content="/assets/img/categories/blazor_logo.jpg"/>
+
+  <a href="/projects/blazor/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/blazor_logo.jpg"
+  
+  alt="Blazor"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/blazor/" class="flip-title" property="mainEntityOfPage">Blazor</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Blazor
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/blazor/" tabindex="-1"><span class="sr-only">Continue reading Blazor
+</span></a>
+</article>
+:ET

@@ -1,0 +1,47 @@
+I"�<p>Here you can find the books I wrote:</p>
+
+<ul>
+  <li><a href="https://www.amazon.com/dp/B099BZMZ4D">The Alexa Revolution</a></li>
+  <li><a href="https://www.amazon.com.mx/dp/B08R8X5QM5">La revolución de Alexa</a></li>
+</ul>
+
+<h1 id="the-alexa-revolution">The Alexa Revolution</h1>
+
+<p><img src="/assets/img/books/the_alexa_revolution.png" alt="image" /></p>
+
+<ul>
+  <li><strong>Authors:</strong> Vicente Gerardo Guzmán Lucio and Xavier Portilla Edo</li>
+  <li><strong>Technical Reviewer:</strong> Joaquín Engelmo Moriche</li>
+  <li><strong>Translator:</strong> Joan Orellana Rey</li>
+  <li><strong>Graphic Designer:</strong> Alfredo Porras Lucio</li>
+  <li><strong>ISBN:</strong> 9798532810174</li>
+  <li><strong>Released:</strong> July 2021</li>
+  <li><strong>Publisher:</strong> Self-published</li>
+  <li><strong>Buy:</strong> <a href="https://www.amazon.com/dp/B099BZMZ4D">Amazon Kindle</a>, <a href="https://books.apple.com/us/book/id1578470243">Apple Books</a>, <a href="https://books.google.es/books/about?id=Dzs6EAAAQBAJ">Google Books</a>, <a href="https://play.google.com/store/books/details?id=Dzs6EAAAQBAJ">Google Play</a></li>
+</ul>
+
+<p>In 2018, approximately 100 million voice-controlled devices were installed in homes around the world. The voice assistants that control them, like Amazon Alexa and Google Assistant, are getting more powerful, with new features being added every day. Voice applications improve the way users interact with these assistants, whether they are asking for the weather, requesting sports scores or listening to music.</p>
+
+<p>This book will guide you in designing, and building voice-based applications for Alexa. Inside, you’ll learn how to develop your own Skills, Amazon’s term for voice apps that are running in Alexa. Everything from scratch, so you should not worry if you are not a developer, that is, no previous programming knowledge is needed. Once the basics are controlled, we will delve into the flow of conversation and into more advanced concepts.</p>
+
+<h1 id="la-revolución-de-alexa">La revolución de Alexa</h1>
+
+<p><img src="/assets/img/books/la_revolucion_de_alexa.jpg" alt="image" /></p>
+
+<ul>
+  <li><strong>Autores:</strong> Vicente Gerardo Guzmán Lucio and Xavier Portilla Edo</li>
+  <li><strong>Revisor técnico:</strong> Joaquín Engelmo Moriche</li>
+  <li><strong>Revisor:</strong> Joan Orellana Rey</li>
+  <li><strong>Diseñador gráfico:</strong> Alfredo Porras Lucio</li>
+  <li><strong>ISBN:</strong> 9798585691928</li>
+  <li><strong>Liberado:</strong> Diciembre 2020</li>
+  <li><strong>Editor:</strong> Autoeditado</li>
+  <li><strong>Comprar:</strong> <a href="https://www.amazon.es/dp/B08R8X5QM5">Amazon Kindle</a>, <a href="https://books.apple.com/es/book/id1546878047">Apple Books</a>, <a href="https://books.google.es/books/about?id=u6AQEAAAQBAJ">Google Books</a>, <a href="https://play.google.com/store/books/details?id=u6AQEAAAQBAJ">Google Play</a></li>
+</ul>
+
+<p>Primer libro sobre el desarrollo de Alexa Skills escrito en español.</p>
+
+<p>En 2018 se instalaron aproximadamente 100 millones de dispositivos controlados por voz en hogares de todo el mundo. Los asistentes que los controlan, como Amazon Alexa y Google Assistant se están volviendo más potentes, con nuevas características que se agregan cada día. Las aplicaciones de voz mejoran la forma en la que los usuarios interactúan con estos asistentes, ya sea que estén preguntando por el tiempo, pidiendo resultados deportivos o escuchando música.</p>
+
+<p>Este libro te servirá de guía para diseñar, construir e implementar aplicaciones basadas en voz para Alexa. En su interior, conocerás y aprenderás a desarrollar tus propias Skills, el término con el que Amazon ha designado a las aplicaciones de voz para Alexa. Todo desde cero, por lo que no te debes de preocupar si no eres desarrollador, es decir, no se necesitan conocimientos previos de programación. Una vez dominado lo básico, profundizaremos en el flujo de conversación y en conceptos más avanzados.</p>
+:ET

@@ -1,0 +1,59 @@
+I"õ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/alibaba/#project"
+  >
+  <meta property="name" content="Alibaba"/>
+  <meta property="image" content="/assets/img/categories/alibaba_logo.png"/>
+
+  <a href="/projects/alibaba/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/alibaba_logo.png"
+  
+  alt="Alibaba"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/alibaba/" class="flip-title" property="mainEntityOfPage">Alibaba</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Alibaba
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/alibaba/" tabindex="-1"><span class="sr-only">Continue reading Alibaba
+</span></a>
+</article>
+:ET

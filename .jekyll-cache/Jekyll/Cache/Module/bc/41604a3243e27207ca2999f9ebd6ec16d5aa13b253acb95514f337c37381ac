@@ -1,0 +1,155 @@
+I"C
+
+
+
+
+
+<article id="post-alibaba-alibaba-networking-ecs-curso" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Fundamentos de ECS - Redes (Networking)
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-09-09T00:00:00-05:00">09 Sep 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alibaba/" class="flip-title">Alibaba</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alibaba</span>, <span>Networking</span>, <span>Redes</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/alibaba/VPC.jpg"
+  
+  alt="Fundamentos de ECS - Redes (Networking)"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Séptimo artículo sobre Elastic Compute Service (ECS) de Alibaba - Redes (Networking).
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta séptima y última entrega veremos ECS Networking o Redes de ECS.</p>
+
+<hr />
+
+<p>La nube privada virtual (Virtual Private Cloud - VPC) es una red virtual aislada lógicamente, la cual proporciona aislamiento a nivel de VLAN y bloquea las comunicaciones de la red externa; es un requisito al aprovisionar una instancia de ECS.</p>
+
+<p>VPC ofrece dos funciones principales, los usuarios pueden personalizar su propia topología de red, asignar rangos de direcciones IP privadas, asignar segmentos de red y configurar VSwitches.</p>
+
+<p>Los clientes pueden integrar centros de datos existentes a través de una línea dedicada (Express Connect) o una puerta de enlace VPN para formar una nube híbrida.</p>
+
+<p>Una red privada virtual se compone de dos componentes principales:</p>
+
+<ul>
+  <li>Un enrutador virtual (VRouter)</li>
+  <li>Uno o más conmutadores virtuales (VSwitch).</li>
+</ul>
+
+<p>Un VSwitch es un dispositivo de red básico de una red de VPC y se usa para conectar diferentes instancias de ECS juntas en una subred. Una VPC puede tener un máximo de 24 VSwitches.</p>
+
+<p>Un VRouter es un concentrador que conecta todos los VSwitches en la VPC y sirve como un dispositivo de puerta de enlace que puede conectarse a otras redes.</p>
+
+<p><img src="/assets/img/blog/tutorials/alibaba/articulos-ecs/VPC-Networking.png" alt="image" /></p>
+
+<p>En el diagrama, puede ver la zona 1 y la zona 2 representadas en la región de Mumbai en Asia. Como podemos ver, en la zona 1 contamos que la VM 1 y la VM 2 están conectadas a un vSwitch, y en la zona 2, la VM 3 está conectada a un VSwitch. Pero ambos VSwitches están dentro de la VPC que se ha creado, por lo tanto, VM1, VM2 y VM3 pueden comunicarse entre sí, independientemente del hecho de que estén en zonas diferentes; están en la misma red de nube privada virtual.</p>
+
+<h2 id="virtual-private-network">Virtual Private Network</h2>
+
+<p>A cada instancia de ECS conectada a VPC se le asigna una dirección IP privada cuando se crea. Esa dirección está determinada por la VPC y el bloque CIDR del vSwitch al que está conectada la instancia.</p>
+
+<p>Se puede utilizar una dirección IP privada en los siguientes escenarios:</p>
+
+<ul>
+  <li>Balanceo de carga</li>
+  <li>Comunicación entre instancias de ECS dentro de una intranet</li>
+  <li>Comunicación entre una instancia de ECS y otros productos en la nube (como OSS y RDS) o dentro de una intranet.</li>
+</ul>
+
+<p>Las instancias de ECS admiten dos tipos de direcciones IP públicas:</p>
+
+<p>** El primero es NATPublicIP, que se asigna a una instancia ECS conectada a VPC. Este tipo de dirección solo se puede liberar y no se puede desvincular de la instancia.</p>
+
+<p>** El segundo es la dirección IP elástica (EIP). Una dirección IP elástica (EIP) es una dirección IP pública independiente que puede comprar y usar. Los EIP se pueden asociar a diferentes instancias de ECS que residen dentro de las VPC a lo largo del tiempo para permitir el acceso público a las instancias de ECS.</p>
+
+<p>Sus casos de uso son:</p>
+
+<p>Si no desea conservar la dirección IP pública cuando se libera la instancia, puede usar una dirección NatPublicIP
+Si desea mantener una dirección IP pública y asociarla a cualquiera de sus instancias ECS conectadas a VPC en la misma región, debe usar la dirección EIP.</p>
+
+  
+</article>
+:ET

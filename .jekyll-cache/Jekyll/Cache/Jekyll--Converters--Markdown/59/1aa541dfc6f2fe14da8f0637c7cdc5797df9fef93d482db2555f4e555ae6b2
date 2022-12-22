@@ -1,0 +1,58 @@
+I"9.<p>El día de hoy quiero compartir con ustedes un artículo impresionante que mi colega <a href="https://www.linkedin.com/in/java-rock-star-kesha/">Kesha Williams</a> (<a href="https://developer.amazon.com/en-US/alexa/champions/kesha-williams">Alexa Champion</a>) y <a href="https://aws.amazon.com/developer/community/heroes/kesha-williams/">Heroína de Aprendizaje Automático de AWS</a> ha publicado y que ha llamado “What’s New With Alexa”, la cual forma parte de una serie trimestral donde destaca las nuevas características del <a href="https://developer.amazon.com/en-US/alexa/alexa-skills-kit">Alexa Skills Kit (ASK)</a>.</p>
+
+<p>En su artículo comienza diciendo que son muy buenas amigas, puesto que su amistad comenzó en 2015 y bueno, que mantienen conversaciones a diario. Expresa que ha desarrollado muchos tipos de aplicaciones durante sus 25 años en Ingeniería de Software, y definitivamente menciona que, el desarrollar aplicaciones (es decir, habilidades (Skills)) para Alexa ha sido lo más divertido.</p>
+
+<p>Menciona que es fácil transferir su conocimiento de Ingeniera de Software, desarrollo web o codificación en general para construir con Alexa porque puede usar algunos de los lenguajes de programación más populares para crear el back-end para sus Skills . Así mismo indica que si nunca antes han codificado, pueden comenzar a usar <a href="https://blueprints.amazon.com/">Alexa Skill Blueprints</a>. También nos hace la invitación a desarrollar para Alexa, puesto que esta es un gran punto de entrada para la inteligencia artificial y el aprendizaje automático, así que si no lo tenían contemplado, ¡ahora es el momento!</p>
+
+<p>El equipo de Amazon Alexa continúa agregando nuevas funciones al Alexa Skill Kit(ASK) que brinda a los desarrolladores de voz nuevas y emocionantes capacidades. Kesha nos expresa que como programador de voz, disfruta el desafío de aprender una nueva característica y descubrir cómo se puede incorporar mejor a sus habilidades existentes.</p>
+
+<p>Lo bueno y por lo cual les comparto su publicación es que ha visto las nuevas funciones lanzadas en los últimos meses y ha proporcionado una lista seleccionada solo para nosotros. Por ende, conozcamos sus  Favoritos Top 10.</p>
+
+<h2 id="1--ciertas-actualizaciones-de-skills-vivas-se-pueden-hacer-al-instante">1 – Ciertas actualizaciones de Skills “Vivas” se pueden hacer al instante</h2>
+<p>Hay un nuevo proceso de certificación automatizado para ciertas actualizaciones realizadas en Skills que ya se encuentran “vivas” o publicadas. Y es que para cualquier desarrollador de voz que haya pasado por el proceso de certificación, ¡saben lo emocionante qué es esto!. Ahora existe un botón “Update Live Skill (Actualizar Skill en Vivo)” que permitirá que los cambios en los valores de los Slots y de los Utterances sean acelerados a través del proceso de certificación. Esto significa que podemos actualizar nuestras Skills que ya se encuentren certificadas en tan solo cuestión de minutos. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2020/01/update-live-skills-in-minutes">blog de Alexa</a>.</p>
+
+<h2 id="2--se-pueden-compartir-slots-personalizados-entre-nuestras-skills">2 – Se pueden compartir Slots personalizados entre nuestras Skills</h2>
+<p>Gracias a esta nueva característica, se pueden generar Slots personalizados independientemente de nuestras Skills. Esto significa que los Slots se pueden compartir y reutilizar a través de las Skills. Imaginemos el tiempo que ahorraremos en el mantenimiento de los Slots, especialmente para los cuales que cambian con frecuencia. Esta característica también nos permite mantener fácilmente la coherencia en todas nuestras Skills. ¡Definitivamente deben revisar esta nueva característica!. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2020/03/create-shared-slots-across-your-skills-to-optimize-productivity-and-customer-experience">blog de Alexa</a>.</p>
+
+<h2 id="3--se-puede-elegir-una-fecha-de-lanzamiento-para-los-cambios-en-nuestras-skills-ya-publicadas">3 – Se puede elegir una fecha de lanzamiento para los cambios en nuestras Skills ya publicadas</h2>
+<p>Atrás quedaron los días en que una Skill se publica inmediatamente una vez que pasa por el proceso de certificación. Ahora se puede controlar cuando los cambios podrán estar disponibles para los usuarios. Al enviar nuestra Skill para la certificación, ahora contamos con dos opciones: “certificar y publicar” o “simplemente certificar”. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2019/12/New-Tools-Give-You-Better-Control-of-Publishing-Distribution-Permissions.html">blog de Alexa</a>.</p>
+
+<h2 id="4--soporte-para-regiones-adicionales-de-aws-lambda-como-endpoints">4 – Soporte para regiones adicionales de AWS Lambda como endpoints</h2>
+<p>Gracias a esta nueva característica, ya podemos alojar el Lambda de nuestra Alexa Skill en regiones adicionales. Esto mejorará en gran medida la latencia ya que el Lambda se puede alojar en la misma región que otros recursos de habilidades como DynamoDB, S3, etc.</p>
+
+<p>Regiones de AWS Lambda permitidas
+Este de los Estados Unidos (Ohio)	UE (Frankfurt)	Asia Pacífico (Hong Kong)
+Este de los Estados Unidos (Virginia del Norte)	UE (Irlanda)	Asia Pacífico (Mumbai)
+Oeste de EE. UU. (California del Norte)	UE (Londres)	Asia Pacífico (Seúl)
+Oeste de EE. UU. (Oregón)	UE (París)	Asia Pacífico (Singapur)
+Canadá (Central)	UE (Estocolmo)	Asia Pacífico (Sydney)
+América del Sur (Sao Paulo)	Medio Oriente (Bahrein)	Asia Pacífico (Tokio)
+Más información sobre esto, visiten la <a href="https://developer.amazon.com/en-US/docs/alexa/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html#select-the-optimal-region-for-your-aws-lambda-function">documentación</a>.</p>
+
+<h2 id="5--nuevas-métricas-proporcionadas-para-mejorar-el-rendimiento-de-nuestra-skill">5 – Nuevas métricas proporcionadas para mejorar el rendimiento de nuestra Skill</h2>
+<p>Ahora hay dos nuevas métricas en la pestaña Análisis en la sección Rendimiento dedicada al punto final de AWS Lambda: latencia de punto final (endpoint latency) y respuesta de punto final (endpoint response) . En el pasado, la única forma de monitorear el AWS Lambda era a través de CloudWatch. Estas nuevas métricas nos ayudarán a reducir la latencia del endpoint y mejorar la capacidad de respuesta de nuestras Skills. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2019/11/Improve-Skill-Performance-With-New-Skill-Metrics-on-Latency-and-Responsiveness">blog de Alexa</a>.</p>
+
+<h2 id="6--skill-permissions-para-recordatorios-ahora-habilitados-para-voz">6 – Skill Permissions para Recordatorios ahora habilitados para voz</h2>
+<p>Para qué nuestra Skill establezca recordatorios, los usuarios deben darle permiso a la Skill. Anteriormente, la Skill tenía que enviar una tarjeta a la aplicación Alexa cuando solicitaba permisos y el usuario tenía que abrir la aplicación Alexa para otorgar permisos a la Skill. Ahora, los usuarios pueden otorgar los permisos necesarios por voz. Este cambio hace que sea más fácil para los usuarios otorgar permisos, por lo que debería ver un aumento en la tasa de permisos otorgados. Espero que amplíen esto a otras solicitudes de permiso como las necesarias para la información de perfil del cliente, datos de dirección, etc. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2019/12/New-Tools-Give-You-Better-Control-of-Publishing-Distribution-Permissions.html">blog de Alexa</a>.</p>
+
+<h2 id="7--alexa-ahora-tiene-emociones-reales">7 – Alexa ahora tiene emociones reales</h2>
+<p>Las emociones de Alexa nos dan la capacidad de hacer que Alexa responda con un tono feliz/emocionado o decepcionado/empático. Esta característica ordenada proporciona una experiencia de usuario más agradable y hace que Alexa parezca más real. Por ahora, esta característica se limita a los EE.UU. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2019/11/new-alexa-emotions-and-speaking-styles">blog de Alexa</a>.</p>
+
+<h2 id="8--compras-en-habilidad-isp-expandidas-a-francia-italia-y-españa">8 – Compras en Habilidad (ISP) expandidas a Francia, Italia y España</h2>
+<p>Por ahora, los desarrolladores de Francia, Italia y España pueden monetizar sus Skills utilizando In-Skill Purchasing (ISP). ISP es un gran incentivo para los desarrolladores de voz, ya que nos permite ganar dinero al ofrecer contenido premium dentro de nuestras Skills. Imagínense, un desarrollador de voz que pudo comprar un Tesla utilizando el dinero que ganó a través de ISP y recompensas de desarrollador. ¡Esta expansión debería hacer que los desarrolladores en Francia, Italia y España estén súper felices!, de mientras en México tocara esperar un poco hasta cuando la habiliten. Más información sobre esto, visiten el <a href="https://developer.amazon.com/it-IT/blogs/alexa/alexa-skills-kit/2019/11/in-skill-purchasing-isp-now-available-in-france-italy-and-spain">blog de Alexa</a>.</p>
+
+<h2 id="9--capacidad-para-guardar-y-clonar-documentos-de-alexa-presentation-language-apl-desde-la-herramienta-de-autoría">9 – Capacidad para guardar y clonar documentos de Alexa Presentation Language (APL) desde la herramienta de autoría</h2>
+<p>El Alexa Presentation Language (APL) nos permite crear experiencias visuales para acompañar nuestras Skills; Las experiencias se almacenan en documentos JSON. Esta nueva característica nos permite guardar y clonar los documentos APL directamente en la herramienta de autoría. En el pasado, la única forma de guardar un documento APL era copiar y pegar el JSON en su editor de texto favorito y guardarlo desde allí. Esto realmente simplifica el proceso. Más información sobre esto, visiten el <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2019/12/new-save-clone-multimodal-assets">blog de Alexa</a>.</p>
+
+<h2 id="10--alexa-presentation-language-apl-puede-controlar-el-reloj-en-el-echo-dot-con-reloj">10 – Alexa Presentation Language (APL) puede controlar el reloj en el Echo Dot con reloj</h2>
+<p>El Echo Dot con reloj es uno de los dispositivos Echo más nuevos que contiene una pantalla basada en caracteres. El dispositivo generalmente muestra una cara de reloj la mayor parte del tiempo; sin embargo, la pantalla es alfanumérica, por lo que se puede usar para mostrar otras cosas como la temperatura. La nueva característica agrega soporte APL limitado para controlar la pantalla. Más información sobre esto, visiten el <a href="https://developer.amazon.com/blogs/alexa/post/4228a00a-655d-45fe-80aa-f6d4eaf8a441/build-skills-on-echo-dot-with-clock-with-alexa-presentation-language-apl">blog de Alexa</a>.</p>
+
+<p>Bueno, esto es todo lo que nos comparte Kesha por este trimestre. Esperemos que te hayan inspirado algunas de las nuevas características agregadas al Alexa Skill Kit (ASK). Esperamos que te unas a nosotros en el desarrollo de voz e incorpores algunas de estas nuevas características en tus Skill existentes o que mejor, en nuevas Skills.</p>
+
+<p>Recuerda que si tienes alguna inquietud o pregunta, no dudes en ponerte en contacto conmigo o poner un comentario a continuación.</p>
+
+<p>¡Happy Coding!</p>
+
+<p>Articulo Original:
+<a href="https://info.acloud.guru/resources/our-most-interesting-alexa-update-yet-keshas-top-10-for-q1">Our Most Interesting Alexa Update Yet: Kesha’s Top 10 For Q1</a></p>
+:ET

@@ -1,0 +1,151 @@
+I"�
+
+
+
+
+
+<article id="post-blazor-modelos-de-alojamiento-en-blazor" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Modelos de alojamiento en Blazor
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2020-09-28T00:00:00-05:00">28 Sep 2020</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/blazor/" class="flip-title">Blazor</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Blazor</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:58-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/blazorModels.png"
+  
+  alt="Modelos de alojamiento en Blazor"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Conociendo a detalle los modelos de ajolamiento en Blazor
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Blazor actualmente tiene dos modelos de alojamiento, Blazor del lado del Servidor y Web Assembly. El alojamiento del lado del servidor se lanzó en septiembre del 2019 y Web Assembly se lanzó oficialmente en mayo del 2020.</p>
+
+<h2 id="blazor-web-assembly">Blazor Web Assembly</h2>
+
+<p><img src="/assets/img/blog/tutorials/blazor-hosting-models/BlazorWebAssembly.png" alt="image" /></p>
+
+<h1 id="pros">Pros</h1>
+
+<p>Web Assembly se ejecuta en el cliente, dentro del navegador, por lo que se puede implementar como archivos estáticos. A pesar de esto, las aplicaciones Blazor Wasm no se ejecutarán directamente desde el sistema de archivos local debido a las restricciones de seguridad del navegador.</p>
+
+<p>Blazor Wasm puede funcionar sin conexión, es decir, cuando se pierda la conexión de red al servidor, la aplicación cliente puede seguir funcionando pero obviamente, no podrá comunicarse con el servidor para recuperar nuevos datos.</p>
+
+<p>También puede ejecutarse fácilmente como una aplicación web progresiva, lo que significa que el cliente puede elegir instalar nuestra aplicación en su dispositivo y ejecutarla cuando lo desee sin ningún acceso a la red.</p>
+
+<p>Con el código ejecutándose en la máquina del cliente, significa que la carga del servidor se reduce significativamente.</p>
+
+<h1 id="contras">Contras</h1>
+
+<p>El archivo blazor.webassembly.js inicia la aplicación cliente. Descarga todos los ensamblados DLL .NET necesarios, lo que hace que el tiempo de inicio de la aplicación sea más lento que en el lado del servidor.</p>
+
+<p>Mono Framework interpreta .NET Intermediate Language, por lo que es más lento que ejecutar Blazor en el lado del servidor. La compilación con anticipación (AOT) está prevista para una versión futura.</p>
+
+<p>Blazor Wasm aún no admite más de un hilo, por lo que todo el procesamiento se produce en el hilo de la interfaz de usuario, aunque las llamadas a servidores / JavaScript, etc. ocurren de forma asíncrona, por lo que no bloquea la capacidad de respuesta de la interfaz de usuario.</p>
+
+<p>Además, Blazor Wasm solo funciona en los navegadores más nuevos y no es compatible con los motores de búsqueda (a menos que habilitemos la representación previa del lado del servidor).</p>
+
+<h2 id="blazor-server">Blazor Server</h2>
+
+<p><img src="/assets/img/blog/tutorials/blazor-hosting-models/BlazorServerSide.png" alt="image" /></p>
+
+<h1 id="pros-1">Pros</h1>
+
+<p>El lado del servidor de Blazor procesa previamente el contenido HTML antes de enviarlo al navegador del cliente. Esto hace que sea compatible con los motores de búsqueda y no hay un tiempo de inicio perceptible.</p>
+
+<p>Las aplicaciones del lado del servidor de Blazor funcionarán en navegadores más antiguos, ya que no hay requisitos para Web Assembly, solo HTML y JavaScript. A medida que el código se ejecuta en el servidor, también es posible depurar nuestro código .NET en Visual Studio.</p>
+
+<h1 id="contras-1">Contras</h1>
+
+<p>El lado del servidor de Blazor configura una sesión en memoria para el cliente actual y usa SignalR para comunicarse entre el .NET que se ejecuta en el servidor y el navegador del cliente. Todo el uso de memoria y CPU tiene un costo para el servidor, para todos los usuarios. También significa que el cliente está vinculado al servidor que lo sirvió por primera vez, por lo que no funciona con el equilibrio de carga.</p>
+
+<p>Una vez que la página inicial se ha renderizado y enviado al navegador, el archivo blazor.server.js se conecta a cualquier evento de interacción del usuario relevante en el navegador para que pueda mediar entre el usuario y el servidor. Por ejemplo, si un elemento renderizado tiene registrado un evento @onclick, blazor.server.js se conectará a su evento de clic de JavaScript y luego usará su conexión SignalR para enviar ese evento al servidor y ejecutar el código .NET relevante.</p>
+
+<p>Una vez finalizado el código .NET, Blazor volverá a representar los componentes en la página y luego enviará un paquete delta de HTML al navegador del cliente para que pueda actualizar su visualización sin tener que volver a cargar toda la página.</p>
+
+  
+</article>
+:ET

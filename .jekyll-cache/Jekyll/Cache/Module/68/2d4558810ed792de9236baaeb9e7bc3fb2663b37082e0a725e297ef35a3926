@@ -1,0 +1,118 @@
+I"?
+
+
+
+
+
+<article id="post-alibaba-alibaba-instances-ecs-curso" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/alibaba/2021-09-03-alibaba-instances-ecs-curso/" class="flip-title">
+        Fundamentos de Elastic Compute Service - Instancias
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2021-09-03T00:00:00-05:00">03 Sep 2021</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <a href="/alibaba/" class="flip-title">Alibaba</a>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Alibaba</span>, <span>Instancias</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-04-27T12:53:57-05:00">2022-04-27</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/alibaba/2021-09-03-alibaba-instances-ecs-curso/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/alibaba/ecs-instance-types01.png"
+  
+  alt="Fundamentos de Elastic Compute Service - Instancias"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Tercer artículo sobre Elastic Compute Service de Alibaba - Instancias.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hola amigos, sean bienvenidos a esta serie de artículos introductorios dedicados a Elastic Compute Service o ECS de Alibaba. En esta segunda sección cubriremos las Instancias de ECS.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/alibaba/2021-09-03-alibaba-instances-ecs-curso/">Fundamentos de Elastic Compute Service - Instancias</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

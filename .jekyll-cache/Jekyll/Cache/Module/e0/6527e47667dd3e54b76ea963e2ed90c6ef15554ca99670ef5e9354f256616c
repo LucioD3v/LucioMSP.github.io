@@ -1,0 +1,118 @@
+I""	
+
+
+
+
+
+<article id="post-xamarin_forms-xamarin.forms-calendario-horizontal-xamarin-forms" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/xamarin_forms/xamarin.forms/2022-04-30-calendario-horizontal-xamarin-forms/" class="flip-title">
+        Implementando un Calendario Horizontal en Xamarin.Forms
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-04-30T00:00:00-05:00">30 Apr 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Xamarin_forms</span> / <span>Xamarin.forms</span>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>Calendario</span>, <span>Calendar</span>, <span>Control</span>, <span>Xamarin</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-05-06T13:44:09-05:00">2022-05-06</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      <a href="/xamarin_forms/xamarin.forms/2022-04-30-calendario-horizontal-xamarin-forms/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/tutorials/xamarin-horizontal-calendar/img01.png"
+  
+  alt="Implementando un Calendario Horizontal en Xamarin.Forms"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo mostraré que tan fácilmente es agregar un control de calendario de manera horizontal a nuestras aplicaciones de Xamarin.Forms
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Horizontal Calendar Control es un complemento multiplataforma para Xamarin.Forms que nos permite mostrar un calendario de una sola fila en nuestras aplicaciones.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/xamarin_forms/xamarin.forms/2022-04-30-calendario-horizontal-xamarin-forms/">Implementando un Calendario Horizontal en Xamarin.Forms</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET

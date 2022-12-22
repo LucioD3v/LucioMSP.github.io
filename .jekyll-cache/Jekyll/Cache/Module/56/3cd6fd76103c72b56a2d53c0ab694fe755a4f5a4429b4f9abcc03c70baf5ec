@@ -1,0 +1,181 @@
+I"�
+
+
+
+
+
+<article id="post-xamarin_forms-xamarin.forms-cómo-convertirse-mvp-csharp-corner" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Cómo convertirse en un MVP de C# Corner
+      
+    </h1>
+
+    <div class="post-date">
+      <span>
+        
+          
+          <time datetime="2022-05-12T00:00:00-05:00">12 May 2022</time>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+in <span>Xamarin_forms</span> / <span>Xamarin.forms</span>
+
+        
+
+
+
+
+
+
+
+
+
+on <span>C#</span>, <span>C</span>, <span>Sharp</span>, <span>Mvp</span>, <span>Corner</span>
+
+      </span>
+      
+        
+          
+          
+          
+            
+            <span class="ellipsis ml1" title="Last modified at">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              
+              <time datetime="2022-05-20T15:03:42-05:00">2022-05-20</time>
+            </span>
+          
+        
+      
+    </div>
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/post-headers/mvpCcorner.jpeg"
+  
+  alt="Cómo convertirse en un MVP de C# Corner"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      En este artículo daré a conocer todo sobre el premio MVP que brinda C# Corner.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>C# Corner se fundó en el año 2000 para compartir código con otros desarrolladores. Actualmente, C# Corner se ha convertido en una de las comunidades en línea más populares para que los desarrolladores de software y datos aprendan, compartan, nutran, orienten, motiven y obtengan recompensas.</p>
+
+<p>Más de 6 millones de desarrolladores visitan C# Corner cada mes. Entonces, la pregunta es, ¿por qué alguien querría unirse a C# Corner?</p>
+
+<p>Aquí hay algunas razones por las que uno querría unirse a C# Corner:</p>
+
+<ul>
+  <li>Las últimas noticias y actualizaciones relacionadas con el desarrollo de software se publican todos los días.</li>
+  <li>Aprendizaje gratuito para todos con artículos, ejemplos de código, tutoriales, ejemplos de código para descargar y descargas de libros.</li>
+  <li>El poder realizar tus preguntas en los foros.</li>
+  <li>Compartir tus conocimientos con otros compañeros desarrolladores y ayúdarlos.</li>
+  <li>La tutoría de los jóvenes es un aspecto fundamental de una comunidad.</li>
+  <li>Inspirar a otros e inspírarse con los expertos.</li>
+  <li>Motivar a los demás y déjarse motivar por los expertos.</li>
+  <li>Obtener reconocimiento en el escenario global convirtiéndose en autor, orador, experto en foros y MVP.</li>
+</ul>
+
+<h3 id="premio-mvp-de-c-corner">Premio MVP de C# Corner</h3>
+
+<p>Para reconocer a los miembros de nuestra comunidad, C# Corner tiene el premio C# Corner MVP (Most Valuable Professional - Profesional Más Valioso). C# Corner Award es el reconocimiento que recibe un miembro por contribuir y ayudar a la comunidad. Actualmente, hay alrededor de 150 MVP de C# Corner entre 3 millones de miembros registrados.</p>
+
+<p>A continuación les dejo una lista de los MVP actuales: <a href="https://www.c-sharpcorner.com/members/">https://www.c-sharpcorner.com/members/</a></p>
+
+<p><img src="/assets/img/blog/tutorials/csharp-mvp/img01.png" alt="image" /></p>
+
+<h3 id="cómo-convertirse-en-un-mvp-de-c-corner">Cómo convertirse en un MVP de C# Corner</h3>
+
+<p>El premio es un reconocimiento y se otorga a los miembros que ayudan a hacer crecer la comunidad de una o más de las siguientes maneras:</p>
+
+<ul>
+  <li>Contribuyendo con artículos y tutoriales con ejemplos de código.</li>
+  <li>Ayudar a otros respondiendo preguntas del foro</li>
+  <li>Respondiendo a los comentarios de los usuarios</li>
+  <li>Ayudando a mejorar la comunidad encontrando problemas y proporcionando comentarios</li>
+  <li>Hablando en grupos de usuarios y eventos de capítulos</li>
+  <li>Promocionando la comunidad compartiendo en las redes sociales, con amigos y compañeros de trabajo</li>
+  <li>Convertiendose en moderador</li>
+</ul>
+
+<h3 id="beneficios-de-ser-c-corner-mvp">Beneficios de ser C# Corner MVP</h3>
+
+<p>Como ya mencione anteriormente, el objetivo de la comunidad es empoderar a sus miembros con recursos, redes y posibilidades. Estos son algunos de los beneficios de convertirse en un MVP de C# Corner:</p>
+
+<ul>
+  <li>Reconocimiento mundial de ser un líder comunitario, influyente y experto.</li>
+  <li>Premio, una muestra de agradecimiento.</li>
+  <li>Oportunidades para hablar en reuniones, eventos de capítulos y conferencias</li>
+  <li>Oportunidades de creación con editores</li>
+  <li>Redes profesionales con personas influyentes de la industria y líderes de opinión.</li>
+  <li>Invitación a la conferencia anual C# Corner</li>
+</ul>
+
+<h3 id="cómo-seleccionan-a-los-mvp">¿Cómo seleccionan a los MVP?</h3>
+
+<p>Permítanme comenzar con esto: el hecho de que escriba artículos en C# Corner no significa que se convertirá en un MVP. El premio C# Corner MVP es un reconocimiento a nuestros principales miembros que son verdaderos líderes de la comunidad e inspiración para los demás.</p>
+
+<p>Cada año, hay un número fijo (entre 120 y 150) de MVP seleccionados para el premio MVP. Eso significa que, para convertirse en MVP, se debe estar entre los 150 principales contribuyentes durante los últimos 12 meses. Si ocupa el puesto 151, lo más probable es que no se sea seleccionado para el premio. Las contribuciones incluyen los puntos ganados por contribuciones que incluyen artículos, blogs, respuestas de foros, libros electrónicos, charlas, seminarios web y todo lo demás que hace en la comunidad. Otro factor que es importante es el compromiso con su contenido. Por ejemplo, si tiene un artículo que obtiene 1 millón de visitas en un año, obtendrá más puntos que un artículo que obtiene 1000 visitas. Los artículos destacados obtendrán más puntos para el premio MVP. Hablar en conferencias, escribir libros electrónicos y seminarios web tienen un impacto en la puntuación.</p>
+
+<p>Algunos MVP también pueden ser seleccionados por ayudar detrás de escena ayudando a la comunidad y mejorando la plataforma. Por ejemplo, puede haber un MVP que esté aumentando la conciencia de la comunidad de C# Corner en colegios y universidades o también puede haber un MVP que esté escribiendo código en los foros.</p>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>La comunidad de C# Corner está impulsada por sus miembros. Siéntase libre de publicar sus preguntas a continuación, si es que tiene alguna duda o inquietud, por favor.</p>
+
+<p>Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.</p>
+
+<p>Más información:</p>
+
+<ul>
+  <li><a href="https://www.c-sharpcorner.com/article/how-to-become-a-csharp-corner-mvp/">How To Become A C# Corner MVP</a></li>
+</ul>
+
+<p>¡Saludos!</p>
+
+  
+</article>
+:ET

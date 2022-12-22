@@ -1,0 +1,59 @@
+I"6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/xamarin_forms/#project"
+  >
+  <meta property="name" content="Xamarin.Forms"/>
+  <meta property="image" content="/assets/img/categories/xamarin-forms.png"/>
+
+  <a href="/projects/xamarin_forms/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">
+      
+        
+
+
+<img
+  
+    src="/assets/img/categories/xamarin-forms.png"
+  
+  alt="Xamarin.Forms"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="/projects/xamarin_forms/" class="flip-title" property="mainEntityOfPage">Xamarin.Forms</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Xamarin, Xamarin.Forms
+
+    </p>
+  
+  
+  <a class="fill-card no-hover" href="/projects/xamarin_forms/" tabindex="-1"><span class="sr-only">Continue reading Xamarin.Forms
+</span></a>
+</article>
+:ET

@@ -1,0 +1,2 @@
+I"�<p>El proceso de instalación es sumamente sencillo, puesto que el lado del servidor de Blazor y de WebAssembly ahora se envían como parte de .NET Core 3.2.0. En otras palabras, instalar Blazor ahora es tan simple como instalar la versión 16.6 o posterior de Visual Studio (Windows) Puede descargar la última versión de Visual Studio siguiendo este <a href="https://visualstudio.microsoft.com/vs/">enlace</a>.</p>
+:ET
