@@ -78,15 +78,15 @@ copyright:             Made with ❤ by Vicente Guzmán © 2021. All rights rese
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
+paginate:              20
 paginate_path:         /page-:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-tao
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # remote_theme: hydecorp/hydejack@v9
+
 
 # Customizaton
 # ========================================================================================
@@ -276,9 +276,10 @@ collections:
 # ========================================================================================
 
 exclude:
- - .jekyll-cache
+  - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/.git
+  - .jekyll-cache
   - .sass-cache
-  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
@@ -291,8 +292,6 @@ include:
 # ========================================================================================
 
 plugins:
-  - jekyll-feed
-  - jekyll-timeago
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
@@ -370,33 +369,3 @@ compress_html:
 
 sass:
   style:               compressed
-
-# Jekyll Compose Defaults
-# ---------------------------------------------------------------------------------------
-
-jekyll_compose:
-  default_front_matter:
-    drafts:
-      layout: post
-      description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-    posts:
-      layout: post
-      description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-    projects:
-      layout: project
-      description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-      links:
-        - title: Project Link
-          url: https://example.com
