@@ -7,11 +7,13 @@
 # url:                   https://luciomsp.github.io
 url:                     https://vicenteguzman.com
 
-# Uncomment and set the "base URL" of your site.
-# When your site is in a subdirectory, set to `/<name of directory>`,
-# with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
-# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+# IMPORTANT: Set The "base URL" of your site.
+# When your site sits in a subdirectory, set to /<name of directory>
+# (with leading /, but without the < >).
+# Use the empty string '' otherwise.
+# For GitHub project sites, this is usually the name of the project,
+# e.g. `/hydejack`.
+baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -81,13 +83,6 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              20
 paginate_path:         /page-:num/
 
-# Theme
-# ---------------------------------------------------------------------------------------
-
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
-
-
 # Customizaton
 # ========================================================================================
 
@@ -111,6 +106,9 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+
+# The font used for code blocks. Expects a string that is a valid CSS font-family value.
+font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
 defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
@@ -304,6 +302,14 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+
+
+  
+# Theme
+# ---------------------------------------------------------------------------------------
+
+# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
