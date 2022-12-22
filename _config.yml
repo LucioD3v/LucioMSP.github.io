@@ -7,13 +7,11 @@
 # url:                   https://luciomsp.github.io
 url:                     https://vicenteguzman.com
 
-# IMPORTANT: Set The "base URL" of your site.
-# When your site sits in a subdirectory, set to /<name of directory>
-# (with leading /, but without the < >).
-# Use the empty string '' otherwise.
-# For GitHub project sites, this is usually the name of the project,
-# e.g. `/hydejack`.
-baseurl:               ''
+# Uncomment and set the "base URL" of your site.
+# When your site is in a subdirectory, set to `/<name of directory>`,
+# with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
+# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
+# baseurl:               '/hydejack-starter-kit'
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -80,9 +78,14 @@ copyright:             Made with ❤ by Vicente Guzmán © 2021. All rights rese
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              20
+paginate:              10
 paginate_path:         /page-:num/
 
+# Theme
+# ---------------------------------------------------------------------------------------
+
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ========================================================================================
@@ -272,10 +275,9 @@ collections:
 # ========================================================================================
 
 exclude:
-  - ./#jekyll-theme-hydejack/node_modules
-  - ./#jekyll-theme-hydejack/.git
-  - .jekyll-cache
+ - .jekyll-cache
   - .sass-cache
+  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
@@ -300,12 +302,6 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-
-# Theme
-# ---------------------------------------------------------------------------------------
-
-# theme: jekyll-theme-hydejack
-theme: jekyll-theme-hydejack
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -371,3 +367,33 @@ compress_html:
 
 sass:
   style:               compressed
+
+# Jekyll Compose Defaults
+# ---------------------------------------------------------------------------------------
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+    posts:
+      layout: post
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+    projects:
+      layout: project
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      links:
+        - title: Project Link
+          url: https://example.com
