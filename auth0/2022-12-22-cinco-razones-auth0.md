@@ -8,7 +8,7 @@ noindex: true
 comments: true
 author: lucio
 kate: hl markdown;
-categories: [vcs]
+categories: [auth0]
 tags:
   - auth0
   - okta
