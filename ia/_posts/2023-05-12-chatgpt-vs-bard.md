@@ -27,10 +27,17 @@ Como ya sabemos, todo el mundo ubica perfectamente a ChatGPT, pero en estos día
 
 En resumen es el equivalente de GPT de OpenAI.
 
+![image](/assets/img/blog/tutorials/ai-bard/00.jpg)
 
-A coninuación les hago saber lo que puede hacer Bard, pero no ChatGPT :
+A continuación les hago saber lo que puede hacer Bard, pero no ChatGPT :
 
-![image](/assets/img/blog/tutorials/github-copilot/00.png)
+1 - Bard es gratuito, tiene acceso a internet y es accesible en varios países, pero aún no detecta algunos idiomas.
+
+![image](/assets/img/blog/tutorials/ai-bard/01.jpg)
+
+2 - Como se menciono, fue desarrollador por Google, por lo tanto esta conectado en tiempo real a Internet
+
+![image](/assets/img/blog/tutorials/ai-bard/02.jpg)
 
 ## Conclusión
 Sin duda alguna, GitHub Copilot es el primer paso para empoderar a los desarrolladores con IA. A partir de hoy que ya está disponible para todos los desarrolladores, creo que las empresas no dudarán en volterar a verlo cuando la compañia lo comience a ofrecer a estas ultimas a finales de este año.
