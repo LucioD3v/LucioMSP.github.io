@@ -2,7 +2,7 @@
 layout: post
 title: Bard la nueva herramienta de IA de Google
 description: En este artículo hablare sobre BARD, el equivalente de GPT de Open AI pero de Google.
-image: /assets/img/blog/post-headers/ia/chatgpt-vs-bard.jpg
+image: /assets/img/blog/post-headers/ia/bard.jpg
 noindex: true
 comments: true
 author: lucio
@@ -13,7 +13,7 @@ tags:
   - ia
   - google
   - chatgpt
-  gpt
+  - gpt
 keywords:
   - google
   - chatgpt
@@ -23,43 +23,14 @@ keywords:
 lang: es
 ---
 
-El día de hoy (21-Junio-2022) salio la noticia de que GitHub Copilot ya está disponible de forma general y pública!, lo cual sinceramente es algo genial.
+Como ya sabemos, todo el mundo ubica perfectamente a ChatGPT, pero en estos días se ha dado a conocer a Bard, la nueva herramienta IA de Google. Misma con la cual la empresa desarrolladora de Android pretende tener un competidor propio en este campo.
+
+En resumen es el equivalente de GPT de OpenAI.
+
+
+A coninuación les hago saber lo que puede hacer Bard, pero no ChatGPT :
 
 ![image](/assets/img/blog/tutorials/github-copilot/00.png)
-
-## Qué es GitHub Copilot?
-Bueno, para quienes no lo saben, GitHub Copilot es el asistente basado en la Inteligencia Artificial de OpenAI que sugiere código y funciones completas en tiempo real.
-
-Cabe destacar que desde su lanzamiento de la technical preview del año pasado, GitHub Copilot ha demostrado ser un interesante recurso para los programadores, y claro, este no busca reemplazarnos, antes al contrario, busca brindarnos ayuda para evitar perder el tiempo principalmente con ciertas tareas repetitivas.
-
-## GitHub Copilot permite a los desarrolladores
-- Obtenga sugerencias de codificación basadas en IA: obtenemos sugerencias de código que coincidan con el contexto y las convenciones de estilo de un proyecto, y recorre diferentes opciones para decidir qué aceptar, rechazar o editar.
-
-- Utilice su entorno preferido: podemos integrar GitHub Copilot con editores populares, incluidos Neovim, JetBrains IDE, Visual Studio y Visual Studio Code como una extensión discreta.
-
-- Codifique con confianza en un territorio desconocido: nos permite codificar en nuevos idiomas o probar algo nuevo, ya que podemos dejar que GitHub Copilot nos sugiera sintaxis y código en docenas de idiomas, para que podamos pasar más tiempo aprendiendo haciendo.
-
-## Donde me registro?
-Puedes registrarte para acceder a una versión de prueba gratuita [aquí](https://github.com/features/copilot?utm_medium=email&utm_source=announcement&utm_campaign=copilot-technical-preview), pero..
-
-![image](/assets/img/blog/tutorials/github-copilot/01.png)
-
-## Cuánto cuesta ($$)
-
-Pero hay que tomar en cuenta que será de pago a partir del 22 de Agosto, en donde podrás adquirir un plan mensual (10 dólares al mes) o un plan anual (100 dólares) para continuar utilizando este asistente de programación.
-
-![image](/assets/img/blog/tutorials/github-copilot/02.png)
-
-## No todo en la vida son noticias malas...
-
-Pero existen formas de utilizarlo GRATIS:
-
-* Si eres estudiante (a través del GitHub Student Developer Pack) 
-* Si mantienes un proyecto open-source popular
-
-"Visite la página de suscripción de GitHub Copilot para ver si es uno de los mantenedores de código abierto que cumple con nuestros criterios", dice [GitHub](https://github.com/pricing#faq-copilot) para estos últimos.
-
-![image](/assets/img/blog/tutorials/github-copilot/03.png)
 
 ## Conclusión
 Sin duda alguna, GitHub Copilot es el primer paso para empoderar a los desarrolladores con IA. A partir de hoy que ya está disponible para todos los desarrolladores, creo que las empresas no dudarán en volterar a verlo cuando la compañia lo comience a ofrecer a estas ultimas a finales de este año.
@@ -70,7 +41,6 @@ Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más
 
 Más información:
 
-- [GitHub Copilot](https://github.com/features/copilot?utm_medium=email&utm_source=announcement&utm_campaign=copilot-technical-preview)
-- [GitHub Copilot Docs](https://github.com/github/copilot-docs/tree/main/docs?utm_medium=email&utm_source=announcement&utm_campaign=copilot-technical-preview#getting-started)
+- [Bard](https://bard.google.com/)
 
 ## ¡Happy Coding!
