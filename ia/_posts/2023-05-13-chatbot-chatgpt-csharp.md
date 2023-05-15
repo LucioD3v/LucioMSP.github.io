@@ -31,9 +31,10 @@ En este breve artículo comparto la presentación utilizada en la sesión brinda
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/I6MceluaIEfFF7?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/LucioMSP/creando-un-chatbot-en-c-con-chatgptpdf" title="Creando un Chatbot en C# con ChatGPT.pdf" target="_blank">Creando un Chatbot en C# con ChatGPT.pdf</a></strong> from <strong><a href="https://www.slideshare.net/LucioMSP" target="_blank">Vicente Gerardo Guzman Lucio</a></strong></div>
 
+
 Más información:
 
-- [Bard](https://bard.google.com/)
+- [Creating a C# Chatbot with ChatGPT](https://www.bytehide.com/blog/chatbot-chatgpt-csharp)
 - [GitHub Repo](https://github.com/LucioMSP/Chatbot-ChatGPT-CSharp)
 
 ## ¡Happy Coding!
