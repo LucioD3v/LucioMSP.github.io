@@ -25,7 +25,8 @@ lang: es
 
 Como ya sabemos, todo el mundo ubica perfectamente a ChatGPT, pero en estos días se ha dado a conocer a Bard, la nueva herramienta IA de Google. Misma con la cual la empresa desarrolladora de Android pretende tener un competidor propio en este campo.
 
-¿Qué es BARD?
+## ¿Qué es BARD?
+
 Bueno, pues como se puede intuir, es un sistema de Inteligencia Artificial creado por Google, el cual se centra en ser el mejor sistema conversacional, puesto que busca tener una interacción con mensajes más normales. Esta IA está basada en LaMDA, un potente modelo de lenguaje experiemntal diseñado obviamente por Google centrado especificamente para aplicaciones de diálogo.
 
 En resumen es el equivalente de GPT de OpenAI pero mejorado:
