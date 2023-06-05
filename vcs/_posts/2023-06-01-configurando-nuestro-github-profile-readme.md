@@ -47,13 +47,13 @@ La configuración de nuestro archivo se puede lograr en menos de 5 minutos. ¡Em
 
 El primer paso es contar con una cuenta, por ende si aún no se tiene una cuenta de GitHub, debemos de crear una en [GitHub](https://github.com/) y regístrarnos. Tu nombre de usuario es público y así es como los desarrolladores te etiquetarán cuando colabores en proyectos, ¡así que asegúrate de elegir algo apropiado!
 
-![image](/assets/img/blog/tutorials/github-copilot/tuto000.jpg)
+![image](/assets/img/blog/tutorials/github-profile/tuto000.jpg)
 
 ### Paso 2 - Crear un Nuevo Repositorio
 
 Una vez que hayamos iniciado sesión en GitHub, naveguemos hasta la barra de herramientas superior, posteriormente hagamos clic en el botón más (+) y seleccionemos "Nuevo repositorio".
 
-![image](/assets/img/blog/tutorials/github-copilot/tuto001.jpg)
+![image](/assets/img/blog/tutorials/github-profile/tuto001.jpg)
 
 ### Paso 3 - Nombra tu Repositorio
 
@@ -61,13 +61,13 @@ En la nueva vista (pantalla) asignaremos a nuestro nuevo repositorio el mismo no
 En la sección "Inicializar este repositorio con", deberemos de nmarcar "Agregar un archivo README".
 Acto seguido, hagamos clic en el botón azul (puede ser verde) "Crear repositorio".
 
-![image](/assets/img/blog/tutorials/github-copilot/tuto002.jpg)
+![image](/assets/img/blog/tutorials/github-profile/tuto002.jpg)
 
 ### Paso 4 - Hora de Editar
 
 ¡Listo! Ya con esto hemos creado el archivo que se utiliza como README y que se muestra en nuestro perfil. Por lo tanto los invito a que den rienda suelta a tu creatividad y añadan lo que gusten mostrar.
 
-![image](/assets/img/blog/tutorials/github-copilot/tuto003.jpg)
+![image](/assets/img/blog/tutorials/github-profile/tuto003.jpg)
 
 ## Ejemplos README
 
@@ -75,19 +75,19 @@ A continuación enlisto algunos ejemplos de perfiles README. Pueden redactar des
 
 [James Montemagno](https://github.com/jamesmontemagno)
 
-![image](/assets/img/blog/tutorials/github-copilot/profile001.jpg)
+![image](/assets/img/blog/tutorials/github-profile/profile001.jpg)
 
 [Denny Perez](https://github.com/DennyPerez18)
 
-![image](/assets/img/blog/tutorials/github-copilot/profile002.jpg)
+![image](/assets/img/blog/tutorials/github-profile/profile002.jpg)
 
 [Andrew Young](https://github.com/andyruwruw/)
 
-![image](/assets/img/blog/tutorials/github-copilot/profile003.jpg)
+![image](/assets/img/blog/tutorials/github-profile/profile003.jpg)
 
 [Rafnix Guzmán](https://github.com/rafnixg/)
 
-![image](/assets/img/blog/tutorials/github-copilot/profile004.jpg)
+![image](/assets/img/blog/tutorials/github-profile/profile004.jpg)
 
 ## Conclusión
 
