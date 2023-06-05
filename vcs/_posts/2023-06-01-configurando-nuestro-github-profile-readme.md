@@ -71,7 +71,7 @@ Acto seguido, hagamos clic en el botón azul (puede ser verde) "Crear repositori
 
 ## Ejemplos README
 
-A continuación enlisto algunos ejemplos de perfiles README. Pueden redactar desde uno básico, como el mío, que muestre todos mis diferentes enlaces de redes sociales y lo que hago. O puede ser más creativo, que muestre a sus suscriptores de YouTube, cuando están en vivo en Twitch, que reproduzca música, etc.
+A continuación enlisto algunos ejemplos de perfiles README. Pueden redactar desde uno básico, como el mío, que muestra todas mis diferentes enlaces de redes sociales y lo que hago. O puede ser más creativo, que muestre a sus suscriptores de YouTube, cuando están en vivo en Twitch, que reproduzca música, etc.
 
 [James Montemagno](https://github.com/jamesmontemagno)
 
