@@ -3,36 +3,36 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Vicente G. Guzmán Lucio"
-  label: "Software Engineer"
-  picture: "/assets/icons/icon.png"
-  email: "luciomsp@geeks.ms"
-  phone: "(+52) 55 4348 4042 (MX)"
-  cellphone: "(805) 223 7460 (USA)"
+  label:  "Software Engineer"
+  picture:  "/assets/icons/icon.png"
+  email:  "luciomsp@geeks.ms"
+  phone:  "(+52) 55 4348 4042 (MX)"
+  cellphone:  "(805) 223 7460 (USA)"
   summary: >
     Vicente hails from Irapuato, Guanajuato.
-    He is a software developer with more than 11 years of experience; 
+    He is a software developer with more than 10 years of experience; 
   location:
-    address: ""
+    address:  ""
     postalCode: "11200"
     city: "México City"
-    countryCode: "MX"
+    countryCode:  "MX"
     region: "México"
   profiles:
-    - network: "Github"
+    - network:  "Github"
       username: "luciomsp"
-      url: "https://github.com/luciomsp"
-    - network: "LinkedIn"
+      url:  "https://github.com/luciomsp"
+    - network:  "LinkedIn"
       username: "vggl01"
-      url: "https://linkedin.com/in/vggl01/"
-    - network: "Twitter"
+      url:  "https://linkedin.com/in/vggl01/"
+    - network:  "Twitter"
       username: "luciomsp"
-      url: "https://twitter.com/luciomsp"
+      url:  "https://twitter.com/luciomsp"
 work:
-  - company: "Accenture"
+  - company:  "Accenture"
     position: "Application Development Specialist"
     website: "https://www.accenture.com/"
     startDate: "2021-04-12"
-    endDate: ""
+    endDate:  ""
     summary: >
       Accenture Limited is a multinational strategy consulting, technology services and outsourcing company.
     highlights:
@@ -101,13 +101,13 @@ volunteer:
     position: "Organizer"
     website: "https://www.meetup.com/es-ES/vox-Ninja-Alexa-Mx/"
     startDate: "2019-01-01"
-    endDate: ""
+    endDate:  ""
     summary: "Community of alexa developers in México which aim focus is sharing knowledge about Amazon Alexa platform."
   - organization: "Xamarin Latino"
     position: "Blogger "
     website: "https://xamarinlatino.com/"
     startDate: "2019-11-08"
-    endDate: ""
+    endDate:  ""
     summary: "Xamarin Latino promotes the creation of Xamarin content within the Spanish-speaking community. Spanish is the second most spoken language in the world; With this initiative we want to remove language barriers and provide professionals and amateurs with sources of information."
 education:
   - institution: "La Salle"
