@@ -20,10 +20,10 @@ keywords:
 lang: es
 ---
 
-Y bueno, hasta ahora en lo que va de 14 días de viaje de aprendizaje de Git, hemos visto y profundizado en:
+Y bueno, hasta ahora en lo que va de los 14 días de viaje de aprendizaje de Git, hemos visto y profundizado en:
 
-[¿Qué es el control de versiones?](https://vicenteguzman.com/vcs/2022-11-02-que-es-vcs/)
-[¿Qué es Git?](https://vicenteguzman.com/vcs/2022-11-03-que-es-git/)
+- [¿Qué es el control de versiones?](https://vicenteguzman.com/vcs/2022-11-02-que-es-vcs/)
+- [¿Qué es Git?](https://vicenteguzman.com/vcs/2022-11-03-que-es-git/)
 
 Ahora es el momento de ponerse manos a la obra con Git e instalar la herramienta en nuestros equipos (computadoras).
 
@@ -31,7 +31,7 @@ Ahora es el momento de ponerse manos a la obra con Git e instalar la herramienta
 
 Git es una herramienta que se puede instalar en cualquier sistema operativo, ya sea macOS, Windows o Linux. A continuación nos centraremos en los métodos de instalación de Windows.
 
-- Lo primero que se debe de hacer es dirigirnos a [https://git-scm.com/downloads](https://git-scm.com/downloads) y descargar la última versión del cliente.
+- Lo primero que debemos de hacer es dirigirnos a [https://git-scm.com/downloads](https://git-scm.com/downloads) y descargar la última versión del cliente.
 - Una vez que se haya descargado el archivo correcto, hacemos doble clic en él para iniciar la instalación.
 
 Cabe señalar que la instalación se realiza a través de un asistente, por lo cual se nos harán algunas preguntas básicas:
@@ -40,7 +40,7 @@ Cabe señalar que la instalación se realiza a través de un asistente, por lo c
 - Ubicación de instalación
 
 ### Componentes
-Y luego se nos preguntará qué componentes podemos instalar. Los valores predeterminados generalmente están bien para comenzar con Git. Es posible que desee seleccionar la opción para instalar un icono en su escritorio y configurarlo para buscar actualizaciones diariamente.
+Y luego se nos preguntará qué componentes podemos instalar. Los valores predeterminados generalmente están bien para comenzar con Git. Es posible que desee seleccionar la opción para instalar un icono en su escritorio y configurarlo para buscar actualizaciones diariamente, tal y como podemos ver a continuación:
 
 ![image](/assets/img/blog/tutorials/install-git/01.jpg)
 

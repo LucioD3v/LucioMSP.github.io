@@ -10,7 +10,7 @@ basics:
   cellphone: "(805) 223 7460 (USA)"
   summary: >
     Vicente hails from Irapuato, Guanajuato.
-    He is a software developer with more than 11 years of experience; 
+    He is a software developer with more than 10 years of experience; 
   location:
     address: ""
     postalCode: "11200"
@@ -29,7 +29,7 @@ basics:
       url: "https://twitter.com/luciomsp"
 work:
   - company: "Accenture"
-    position: "Application Development Specialist"
+    position: "Custom Software Engineering Team Lead"
     website: "https://www.accenture.com/"
     startDate: "2021-04-12"
     endDate: ""
