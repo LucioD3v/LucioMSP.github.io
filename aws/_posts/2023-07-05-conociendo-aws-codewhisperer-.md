@@ -20,7 +20,7 @@ keywords:
 lang: es
 ---
 
-CodeWhisperer es la nueva herramienta de Amazon que permite construir diversos códigos guiándose por los comentarios de los desarrolladores.
+Antes d comenzar, tengamos en cuenta que GitHub Copilot ha tenido gran aceptación en el mercado, por ello es que grandes empresas han comenzado a buscar otras alternativas para poder albergar sus códigos. Tomando esto en consideración, Amazon tomo la delantera y opto por lanzar Code Whisperer, misma que se puede resumir como la nueva herramienta que permite construir diversos códigos guiándose por los comentarios de los desarrolladores.
 
 ## ¿Qué es CodeWhisperer?
 CodeWhisperer es una herramienta para auxiliar a los programadores a través del autocompletado del código. Al igual que Copilot, cuenta con una IA que ha sido nutrida por diversos códigos y comentarios, por lo cual sugiere la integración de funciones basándose en los caracteres del código escrito. Además, examina el código en tiempo real y permite buscar vulnerabilidades.
@@ -56,7 +56,6 @@ Es posible usar CodeWhisperer para entrenar los modelos de machine learning.
 Permite construir aplicaciones con los servicios AWS.
 Si bien, muchos de estos son parte de otras plataformas, Amazon lo potencializo con las varias ventajas. Entre estas destacan:
 
- 
 Genera funciones enteras y bloques de código lógicos
 Facilita el uso de los diversos servicios de AWS.
 En el caso de tener un código ya registrado, proporciona la información del repositorio y la licencia.
@@ -65,8 +64,11 @@ CodeWhisperer de Amazon no es solamente una “copia” de GitHub Copilot, pues 
 
 Además de esto, las mentes detrás de CodeWhisperer desean que sea una herramienta usada de manera adecuada, logrando así, proyectos funcionales y éticos.
 
+Video: AWS CodeWhisperer, el GitHub Copilot Gratuito de AWS
 
-Gracias por leer mi artículo hasta el final. Espero que hayas aprendido algo especial hoy. Si disfrutó de este artículo, compártalo con sus amigos y si tiene sugerencias o pensamientos para compartir conmigo, escríbalos en el cuadro de comentarios.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fy5UUQ0aeq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Espero que hayas aprendido algo especial hoy. Si disfrutaste de este artículo, apoyame compartiendolo con tus amigos y si tiene sugerencias o pensamientos para compartir conmigo, escríbalos en el cuadro de comentarios.
 
 
 ## ¡Happy Coding! 
