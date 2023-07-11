@@ -20,10 +20,10 @@ keywords:
 lang: es
 ---
 
-Antes de comenzar, tengamos en cuenta que GitHub Copilot ha tenido gran aceptación en el mercado, por ello es que grandes empresas han comenzado a buscar otras alternativas para poder albergar sus códigos. Tomando esto en consideración, Amazon tomo la delantera y opto por lanzar Code Whisperer, misma que se puede resumir como la nueva herramienta que permite construir diversos códigos guiándose por los comentarios de los desarrolladores.
+Antes de comenzar, tengamos en cuenta que GitHub Copilot ha tenido gran aceptación en el mercado, por ello es que grandes empresas han comenzado a buscar otras alternativas para poder albergar sus códigos. Tomando esto en consideración, Amazon tomo la delantera y opto por lanzar CodeWhisperer, misma que se puede resumir como la nueva herramienta que permite construir diversos códigos guiándose por los comentarios de los desarrolladores.
 
 ## ¿Qué es CodeWhisperer?
-CodeWhisperer es una herramienta para apoyar los programadores a través del autocompletado del código. Es decir, nos ayuda a hacer pair programming basado en IA que genera sugerencias de código en tiempo real en nuestro IDE para ayudarnos a crear software. Al igual que Copilot y como ya lo mencioe, cuenta con una Inteligencia Artificial que ha sido nutrida por diversos códigos y comentarios, por lo cual sugiere la integración de funciones basándose en los caracteres del código escrito. Además de examinar el código en tiempo real nos permite buscar vulnerabilidades.
+CodeWhisperer es una herramienta para apoyar los programadores a través del autocompletado del código. Es decir, nos ayuda a hacer pair programming basado en IA que generá sugerencias de código en tiempo real en nuestro IDE para ayudarnos a crear software. Al igual que Copilot y como ya lo mencioné, cuenta con una Inteligencia Artificial que ha sido nutrida por diversos códigos y comentarios, por lo cual sugiere la integración de funciones basándose en los caracteres del código escrito. Además de examinar el código en tiempo real nos permite buscar vulnerabilidades.
 
 Una de las particularidades de CodeWhisperer es que detecta el estilo personal de codificación de cada desarrollador, lo que lo hace de gran ayuda para los desarrolladores.
 
@@ -34,7 +34,7 @@ CodeWhisperer es una extensión de AWS Toolkit y es compatible con Java, JavaScr
 ![image](/assets/img/blog/tutorials/aws-codewhisperer/vscode.jpeg)
 
 ### Nota Importante: 
-CodeWhisperer Individual es gratuito, solo se requiere un inicio de sesión con AwS Builder.
+CodeWhisperer Individual es gratuito, solo se requiere un inicio de sesión con AWS Builder.
 
 ## ¿Cómo funciona?
 Conforme se vaya programando (tirando/escribiendo código), CodeWhisperer analiza los comentarios en inglés y código circundante para ayudar en el proceso de escritura de código. Utiliza un gran modelo de lenguaje (LLM) entrenado con una gran cantidad de código fuente, incluyendo código de Amazon y de código abierto. Al escribir código, CodeWhisperer sugiere fragmentos de código directamente en el editor, lo que acelera el proceso de creación de código.
@@ -54,9 +54,9 @@ Espero que hayas aprendido algo especial hoy. Si disfrutaste de este artículo, 
 
 ## ¡Happy Coding! 
 
-Más Información:
+Más información:
 
-- Amazon CodeWhispererer- https://aws.amazon.com/es/codewhisperer/
-- Amazon CodeWhisperer el asistente de programación de Amazon - https://www.adictosaltrabajo.com/2023/05/24/amazon-codewhisperer-el-asistente-de-programacion-de-amazon/
-- Introducing Amazon CodeWhisperer, the ML-powered coding companion -  https://aws.amazon.com/es/blogs/machine-learning/introducing-amazon-codewhisperer-the-ml-powered-coding-companion/
+- [Amazon CodeWhispererer](https://aws.amazon.com/es/codewhisperer/) 
+- [Amazon CodeWhisperer el asistente de programación de Amazon](https://www.adictosaltrabajo.com/2023/05/24/amazon-codewhisperer-el-asistente-de-programacion-de-amazon/)
+- [Introducing Amazon CodeWhisperer, the ML-powered coding companion](https://aws.amazon.com/es/blogs/machine-learning/introducing-amazon-codewhisperer-the-ml-powered-coding-companion/)
 
