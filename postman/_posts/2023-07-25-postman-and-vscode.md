@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La espera ha terminado - Postman + VS Code
+title: La espera ha terminado, Postman & VS Code
 description: Con la extensión de Postman en Visual Studio Code, los desarrolladores pueden realizar pruebas y colaborar con eficiencia, lo que los ayuda a optimizar el flujo de trabajo al trabajar con APIs y servicios web.
 image: /assets/img/blog/post-headers/postman/vscode-postman.jpg
 noindex: true
@@ -10,7 +10,6 @@ kate: hl markdown;
 categories: [postman]
 tags:
   - postman
-  -visual studio code
 keywords:
   - development
   
