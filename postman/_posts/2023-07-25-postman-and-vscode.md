@@ -60,8 +60,7 @@ Con la extensión de Postman en Visual Studio Code, los desarrolladores podemos 
 
 - Colaboración en equipo: Facilita el trabajo en equipo al permitir compartir colecciones, comentarios y documentación relacionada con las APIs con otros miembros del equipo.
 
-### Nota: 
-Esta extensión se encuentra actualmente en su fase beta.
+#### ** Nota: Esta extensión se encuentra actualmente en su fase beta. **
 
 ## Instalación
 
@@ -114,10 +113,38 @@ Si no se tiene una cuenta de Postman, habrá que crear una para iniciar sesión 
 
 Para obtener más información sobre cómo registrarse en Postman, consulte la [documentación de Postman](https://learning.postman.com/docs/getting-started/postman-account/#signing-up-for-a-postman-account).
 
+## Envío de solicitudes
+
+Una de las acciones que podemos realizar, es poder crear y enviar solicitudes HTTP, para esto hagamos lo siguiente:
+
+1. Seleccionemos un espacio de trabajo del menú desplegable de los espacios de trabajo en la barra lateral.
+
+![image](/assets/img/blog/tutorials/postman-vs-code/09.jpg)
+
+2. Acto seguido, seleccionemos el menú desplegable de solicitud en la barra lateral, luego seleccione HTTP.
+
+![image](/assets/img/blog/tutorials/postman-vs-code/10.jpg)
+
+Si anteriormente seleccionó HTTP en el menú desplegable de solicitudes, puede crear otra solicitud HTTP seleccionando Nueva solicitud HTTP en la barra lateral.
+
+3. Especifique los detalles que necesita para su solicitud.
+
+![image](/assets/img/blog/tutorials/postman-vs-code/11.jpg)
+
+4. Demos clic en Enviar (Send).
+
+![image](/assets/img/blog/tutorials/postman-vs-code/12.jpg)
+
+Las solicitudes enviadas en la extensión de VS Code aparecen en el historial de solicitudes de su espacio de trabajo tanto en la extensión como en la aplicación Postman.
+
+#### ** Nota: Para obtener más información sobre cómo crear y enviar solicitudes HTTP, consulte la [documentación de Postman](https://learning.postman.com/docs/sending-requests/requests/). **
+
 ## Conclusión
 
-En este artículo, aprendimos sobre Postman, las funciones y cómo realizar una primera solicitud GET API usando Postman y sinceramente es una de las extensiones que no debe faltar en tu Visual Studio Code. 
+En este artículo, aprendimos sobre la nueva extensión de Postman para VS Code y como instalarla, así como las funciones y cómo realizar una primera solicitud. 
+
+Desde mi punto de vista, sinceramente es una de las extensiones que no debe faltar en tu Visual Studio Code. 
 
 Por último, si tienen alguna sugerencia o consulta sobre este artículo, por favor póngase en contacto conmigo.
 
-¡Hasta la próxima!
+#### ¡Hasta la próxima!
