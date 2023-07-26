@@ -16,8 +16,6 @@ keywords:
 lang: es
 ---
 
-## Introducción
-
 Postman es una poderosa herramienta para probar y desarrollar APIs de forma eficiente, ahora bien, integrada como una extensión en Visual Studio Code, nos permite a los desarrolladores enviar solicitudes HTTP, analizar respuestas y colaborar con equipos de manera sencilla y organizada.
 
 ![image](/assets/img/blog/tutorials/postman-vs-code/000.jpg)
