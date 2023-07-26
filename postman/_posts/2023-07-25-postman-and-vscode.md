@@ -16,6 +16,8 @@ keywords:
 lang: es
 ---
 
+## Introducción
+
 Postman es una poderosa herramienta para probar y desarrollar APIs de forma eficiente, ahora bien, integrada como una extensión en Visual Studio Code, nos permite a los desarrolladores enviar solicitudes HTTP, analizar respuestas y colaborar con equipos de manera sencilla y organizada.
 
 ![image](/assets/img/blog/tutorials/postman-vs-code/000.jpg)
@@ -58,10 +60,8 @@ Con la extensión de Postman en Visual Studio Code, los desarrolladores podemos 
 
 - Colaboración en equipo: Facilita el trabajo en equipo al permitir compartir colecciones, comentarios y documentación relacionada con las APIs con otros miembros del equipo.
 
-![image](/assets/img/blog/tutorials/postman-vs-code/01.png)
-
 ### Nota: 
-Esta extensión se encuentra actualmente en su fase beta. Agradecemos sus comentarios y paciencia mientras ajustamos sus capacidades.
+Esta extensión se encuentra actualmente en su fase beta.
 
 ## Instalación
 
@@ -79,12 +79,9 @@ Si se sigue el camino de la segunda opción, solo seleccionemos la extensión y 
 
 La verdad es que es muy sencillo su funcionamiento, una vez que se tenga Postman instalado en nuestro Visual Studio Code, solo deberemos de firmarnos, es decir, iniciar sesión con nuestra cuenta de Postman.
 
-## Paso a Paso - Iniciar Sesión
+### Paso a Paso - Iniciar Sesión
 
-Abra la extensión del Código VS.
-
-
-Seleccione Iniciar sesión en la barra lateral. 
+Primero, abramos la extensión del Código VS, posteriormente seleccionemos Iniciar Sesión (Sign In) en la barra lateral. 
 
 ![image](/assets/img/blog/tutorials/postman-vs-code/04.jpg)
 
@@ -96,7 +93,7 @@ En su navegador, seleccione un equipo de Postman y luego inicie sesión en Postm
 
 ![image](/assets/img/blog/tutorials/postman-vs-code/06.jpg)
 
-Después de iniciar sesión, puede cerrar la pestaña del navegador.
+Después de iniciar sesión, nos preguntará si deseamos abrir VS Code, al indicarle que lo haga, podemos cerrar la pestaña del navegador.
 
 ![image](/assets/img/blog/tutorials/postman-vs-code/07.jpg)
 
@@ -106,8 +103,7 @@ Al regresar a Visual Studio Code, se visualizarán los espacios de trabajo del e
 
 Para obtener más información sobre cómo iniciar sesión en Postman, consulte la [documentación de Postman](https://learning.postman.com/docs/getting-started/postman-account/#signing-in-to-postman).
 
-### Nota:
-Tengamos presente que se debe iniciar sesión en Postman para poder utilizar la extensión de VS Code.
+#### Importante: Tengamos presente que se debe iniciar sesión en Postman para poder utilizar la extensión de VS Code.
 
 Si no se tiene una cuenta de Postman, habrá que crear una para iniciar sesión y usar la extensión de VS Code:
 
