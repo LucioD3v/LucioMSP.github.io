@@ -82,10 +82,10 @@ Utiliza var con moderación y preferiblemente en casos donde el tipo es obvio.
 
 ~~~bash
 
-// Mal
+// Incorrecto
 List<string> nombres = new List<string>();
 
-// Bien
+// Correcto
 var nombres = new List<string>();
 
 ~~~
@@ -133,10 +133,10 @@ Utiliza expresiones lambda para mejorar la concisión del código.
 
 ~~~bash
 
-// Mal
+// Incorrecto
 lista.Where(delegate(int x) { return x > 5; });
 
-// Bien
+// Correcto
 lista.Where(x => x > 5);
 
 ~~~
@@ -146,7 +146,7 @@ Utiliza clases estáticas para métodos que no dependan del estado de una instan
 
 ~~~bash
 
-// Mal
+// Incorrecto
 public class Utilidades
 {
     public int Sumar(int a, int b)
@@ -155,7 +155,7 @@ public class Utilidades
     }
 }
 
-// Bien
+// Correcto
 public static class Utilidades
 {
     public static int Sumar(int a, int b)
@@ -206,13 +206,13 @@ Divide métodos largos en funciones más pequeñas para mejorar la claridad y ma
 
 ~~~bash
 
-// Mal
+// Incorrecto
 public void ProcesarDatos()
 {
     // Código extenso y difícil de entender
 }
 
-// Bien
+// Correcto
 public void ProcesarDatos()
 {
     ProcesarParte1();
@@ -232,32 +232,9 @@ private void ProcesarParte2()
 
 ~~~
 
-Estos ejemplos representan solo algunas de las muchas prácticas recomendadas al escribir código en C#. Adaptarlas a las necesidades específicas de tu proyecto puede mejorar aún más la calidad y mantenibilidad del código.
+Estos ejemplos representan solo algunas de las muchas prácticas recomendadas al escribir código en C#. Adaptarlas a las necesidades específicas de nuestros proyectos puede mejorar aún más la calidad y mantenibilidad del código.
 
-Seguir estos consejos le ayudará a escribir un mejor código C# que sea más conciso, legible y fácil de mantener.
-
-Aquí hay algunos consejos más, no específicos de C#, pero igualmente importantes:
-
-Utilice async/await para que su código responda mejor.
-Async/await le permite escribir código asincrónico que es fácil de leer y mantener.
-
-Utilice nombres de variables descriptivos.
-Los nombres de sus variables deben ser claros y concisos, y deben describir con precisión los datos que almacenan. Evite el uso de abreviaturas o nombres vagos como xey.
-
-Agrupe el código relacionado.
-Esto hará que su código sea más fácil de leer y comprender. Por ejemplo, puede agrupar todo el código de una característica particular en una clase o espacio de nombres separado.
-
-Utilice pruebas unitarias.
-Las pruebas unitarias son una excelente manera de probar su código y asegurarse de que funcione como se esperaba.
-
-Refactorice su código periódicamente.
-La refactorización es el proceso de mejorar la estructura y el diseño de su código sin cambiar su funcionalidad. Esto hará que su código sea más fácil de mantener y reutilizable.
-
-Utilice patrones de diseño.
-Los patrones de diseño son soluciones reutilizables a problemas comunes de diseño de software. El uso de patrones de diseño puede hacer que su código sea más eficiente, mantenible y extensible.
-
-
-Espero que este pequeño artículo te haya brindado suficiente información para aplicar dicho control en sus aplicaciones .NET MAUI y ver los resultados esperados.
+Espero que este pequeño artículo te haya brindado suficiente información para aplicar dichas mejoras en nuestras aplicaciones desarroladas en C#.
 
 Aprovecho el espacio para invitarte a dejar un comentario si deseas que dé más detalles sobre cualquier cosa dentro de este artículo.
 
