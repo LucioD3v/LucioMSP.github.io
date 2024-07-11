@@ -22,17 +22,17 @@ lang: es
 ---
 
 ## ¿Qué es Alibaba Cloud Model Studio?
+
 Alibaba Cloud Model Studio es una plataforma integral diseñada específicamente para el desarrollo de IA generativa. Con fácil acceso a los modelos básicos (FM) líderes en la industria, incluidas las series Qwen-Max, Qwen-Plus, Qwen-Turbo y Qwen 2, puede personalizar estos modelos con los datos de su empresa configurando una generación de recuperación aumentada (RAG) arquitectura con un solo clic, cree agentes de IA en unos pocos pasos simples y desarrolle aplicaciones de IA generativa (GenAI) que comprendan su negocio sin preocuparse por la infraestructura subyacente y la potencia informática, todo en una red de nube aislada que mitiga los riesgos de privacidad.
 
 Dicho de otra manera, AC Model Studio permite a los desarrolladores y empresas construir, entrenar, y desplegar modelos de inteligencia artificial (IA) y aprendizaje automático (ML) de manera eficiente.
 
-## Características principales de Apache Spark:
+## Características principales:
 
-1. Velocidad: Una de las características distintivas de Apache Spark es su velocidad. Utiliza el procesamiento en memoria (in-memory processing) para realizar operaciones de manera más rápida que los sistemas tradicionales basados en disco. Además, Spark optimiza las operaciones mediante la ejecución en paralelo y la minimización de la necesidad de escribir datos en disco.
-2. Capacidad de procesamiento distribuido: Apache Spark está diseñado para trabajar con grandes volúmenes de datos distribuidos en clústeres de computadoras. Distribuye automáticamente los datos y las operaciones de procesamiento en múltiples nodos del clúster, lo que permite un escalado horizontal para manejar conjuntos de datos masivos.
-3. Facilidad de uso: Spark proporciona APIs en varios lenguajes de programación, como Scala, Java, Python y R, lo que facilita a los desarrolladores escribir aplicaciones y realizar análisis de datos. Además, cuenta con un conjunto de bibliotecas integradas para tareas comunes, como procesamiento de datos SQL, machine learning, procesamiento de gráficos y más.
-4. Versatilidad: Además de ser un motor de procesamiento de datos en memoria, Apache Spark es altamente versátil. Puede utilizarse para una amplia gama de aplicaciones, incluyendo análisis de datos en tiempo real, procesamiento de lotes, análisis predictivo, machine learning, procesamiento de gráficos y más.
-5. Compatibilidad con diferentes fuentes de datos: Spark es compatible con múltiples fuentes de datos, incluyendo sistemas de almacenamiento como HDFS, Amazon S3, Apache HBase, Cassandra, entre otros. Esto permite a los usuarios acceder y procesar datos de diversas fuentes en un único entorno de trabajo.
+1. Capability-Enhanced FMs: Impulse sus aplicaciones con capacidades mejoradas de modelos de IA, como preguntas y respuestas, escritura, NL2SQL, etc., de la serie Tongyi de Alibaba Cloud, que incluye Tongyi Qwen, Tongyi Wanxiang y la serie de modelos Qwen de código abierto.
+2. Built-In Model Inference and Evaluation Workflows: Acelere los flujos de trabajo de desarrollo de modelos con herramientas integrales diseñadas para admitir SFT y LoRA, compresión de modelos integrada y aceleración de inferencia, evaluación de modelos multidimensionales en plantillas visualizadas e implementación de modelos con un solo clic.
+3. Simplified GenAI Application Development: Acelere el desarrollo de aplicaciones de IA generativa con flujos de trabajo prediseñados en lienzo visualizado, orquestación altamente personalizable, ingeniería de avisos basada en plantillas y un amplio conjunto de API para una fácil integración con su sistema empresarial.
+4. Comprehensive Security Measures: Proteja los datos de su empresa en almacenamiento y transmisión completando el desarrollo de modelos y aplicaciones en su red dedicada de Nube Privada Virtual (VPC) y accediendo a los datos con PrivateLink, aplique una gobernanza de contenido personalizable a las indicaciones y el contenido, y combine principios de IA responsable con herramientas para la responsabilidad humana.
 
 ## ¿Cómo funciona?
 
@@ -44,7 +44,23 @@ Dicho de otra manera, AC Model Studio permite a los desarrolladores y empresas c
 
 ![image](/assets/img/blog/tutorials/alibaba/howWorksModelStudio.png)
 
+## Precios y Especificaciones
+Todas las opciones son gratuitas hasta el 15 de Julio del 2024.
+
+![image](/assets/img/blog/tutorials/alibaba/priceModelStudio.png)
+
+## DEMO - Paso a Paso
+
+1. Inicia sesion en la consola de Alibaba Cloud
+
+![image](/assets/img/blog/tutorials/alibaba/priceModelStudio.png)
+
+
+
+
 
 En resumen, esta plataforma es ideal para empresas que desean integrar capacidades avanzadas de IA en sus operaciones sin la necesidad de invertir grandes recursos en infraestructura y talento especializado en IA.
+
+Más información: [Alibaba Cloud Model Studio](https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1)
 
 ¡Hasta la próxima!
