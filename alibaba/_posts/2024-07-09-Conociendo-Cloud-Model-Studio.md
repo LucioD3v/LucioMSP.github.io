@@ -86,11 +86,11 @@ Intentemos de nuevo pero esta vez en Ingles:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/08.png)
 
-**Nota**: La imagen que les muestro anteriormente es en el momento justo donde se encontraba generando la respuesta, pero acto seguido mostro el siguiente error, lo cual da a entender que aún no procesa solicitus más amplias o concretas:
+**Nota**: La imagen que les muestro anteriormente es en el momento justo donde se encontraba generando la respuesta, pero acto seguido mostro el siguiente error, lo cual da a entender que aún no procesa solicitudes más amplias o concretas:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/081.png)
 
-Y bueno, parece que solo funciona para algunos idiomas tales Inglés, Japonés, Chino y Coreano (son los que probe, será cuestión de intentar con otros). Desde mi punto de vista creo que esta muy bien, solo habrá que esperar a que mejore un poco más y que acepte otros idiomas.
+Y bueno, parece que solo funciona para algunos idiomas tales como el Inglés, Japonés, Chino y Coreano (son los que probe, será cuestión de intentar con otros). Desde mi punto de vista creo que esta muy bien, solo habrá que esperar a que mejore un poco más y que acepte otros idiomas.
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/09.png)
 
