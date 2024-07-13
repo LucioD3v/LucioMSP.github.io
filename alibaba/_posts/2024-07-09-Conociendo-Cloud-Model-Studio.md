@@ -29,10 +29,13 @@ Dicho de otra manera, AC Model Studio permite a los desarrolladores y empresas c
 
 ## Características principales:
 
-**1. Capability-Enhanced FMs**: Permite impulsar nuestras aplicaciones con capacidades mejoradas de modelos de IA, como preguntas y respuestas, escritura, NL2SQL, etc., de la serie Tongyi de Alibaba Cloud, que incluye Tongyi Qwen, Tongyi Wanxiang y la serie de modelos Qwen de código abierto.
-**2. Built-In Model Inference and Evaluation Workflows**: Nos permite acelerar los flujos de trabajo de desarrollo de modelos con herramientas integrales diseñadas para admitir SFT y LoRA, compresión de modelos integrada y aceleración de inferencia, evaluación de modelos multidimensionales en plantillas visualizadas e implementación de modelos con un solo clic.
-**3. Simplified GenAI Application Development**: Nos permite agilizar el desarrollo de aplicaciones de IA generativa con flujos de trabajo prediseñados en lienzo visualizado, orquestación altamente personalizable, ingeniería de avisos basada en plantillas y un amplio conjunto de API para una fácil integración con su sistema empresarial.
-**4. Comprehensive Security Measures**: Nos permite proteger los datos de la empresa en almacenamiento y transmisión completando el desarrollo de modelos y aplicaciones en su red dedicada de Nube Privada Virtual (VPC) y accediendo a los datos con PrivateLink, aplicando una gobernanza de contenido personalizable a las indicaciones y el contenido, y combinando principios de IA responsable con herramientas para la responsabilidad humana.
+- **Capability-Enhanced FMs**: Permite impulsar nuestras aplicaciones con capacidades mejoradas de modelos de IA, como preguntas y respuestas, escritura, NL2SQL, etc., de la serie Tongyi de Alibaba Cloud, que incluye Tongyi Qwen, Tongyi Wanxiang y la serie de modelos Qwen de código abierto.
+
+- **Built-In Model Inference and Evaluation Workflows**: Nos permite acelerar los flujos de trabajo de desarrollo de modelos con herramientas integrales diseñadas para admitir SFT y LoRA, compresión de modelos integrada y aceleración de inferencia, evaluación de modelos multidimensionales en plantillas visualizadas e implementación de modelos con un solo clic.
+
+- **Simplified GenAI Application Development**: Nos permite agilizar el desarrollo de aplicaciones de IA generativa con flujos de trabajo prediseñados en lienzo visualizado, orquestación altamente personalizable, ingeniería de avisos basada en plantillas y un amplio conjunto de API para una fácil integración con su sistema empresarial.
+
+- **Comprehensive Security Measures**: Nos permite proteger los datos de la empresa en almacenamiento y transmisión completando el desarrollo de modelos y aplicaciones en su red dedicada de Nube Privada Virtual (VPC) y accediendo a los datos con PrivateLink, aplicando una gobernanza de contenido personalizable a las indicaciones y el contenido, y combinando principios de IA responsable con herramientas para la responsabilidad humana.
 
 ## ¿Cómo funciona?
 
@@ -51,23 +54,23 @@ Todas las opciones son gratuitas hasta el 15 de Julio del 2024.
 
 ## Primer Acercamiento - Paso a Paso
 
-1. Inicia sesión en la consola de [Alibaba Cloud Model Studio](https://bailian.console.alibabacloud.com/?spm=a3c0i.29328889.1985584540.1.29722d2fKhpF0I)
+1.- Inicia sesión en la consola de [Alibaba Cloud Model Studio](https://bailian.console.alibabacloud.com/?spm=a3c0i.29328889.1985584540.1.29722d2fKhpF0I)
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/01.png)
 
-2. Aceptemos los Terminos del Servicio
+2.- Aceptemos los Terminos del Servicio
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/02.png)
 
-3. En la pagina de inicio (HomaPage) podremos visualizar el cuadro de texto donde ingresaremos nuestras indicaciones o mejor conocidos como "prompts"
+3.- En la pagina de inicio (HomaPage) podremos visualizar el cuadro de texto donde ingresaremos nuestras indicaciones o mejor conocidos como "prompts"
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/03.png)
 
-4. Tal y como podemos observar, podemos elegir el modelo con el que queramos chatear, como Qwen-Max, Qwen-Plus, Qwen-Turbo y Qwen1.5-32B-Chat.
+4.- Tal y como podemos observar, podemos elegir el modelo con el que queramos chatear, como Qwen-Max, Qwen-Plus, Qwen-Turbo y Qwen1.5-32B-Chat.
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/04.png)
 
-5. Interactuemos entonces, en mi caso ingrese el siguiente prompt: "Eres un autor de canciones mexicanas, escribe una canción de banda que hable de amor y se base en una historia real"
+5.- Interactuemos entonces, en mi caso ingrese el siguiente prompt: "Eres un autor de canciones mexicanas, escribe una canción de banda que hable de amor y se base en una historia real"
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/06.png)
 
@@ -83,11 +86,11 @@ Intentemos de nuevo pero esta vez en Ingles:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/08.png)
 
-**Nota**: La imagen que les muestro anteriormente es en el momento justo donde se encontraba generando la respuesta, pero acto seguido mostro el siguiente error:
+**Nota**: La imagen que les muestro anteriormente es en el momento justo donde se encontraba generando la respuesta, pero acto seguido mostro el siguiente error, lo cual da a entender que aún no procesa solicitus más amplias o concretas:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/081.png)
 
-Y bueno, parece que solo funciona para algunos idiomas tales Inglés, Japonés, Chino y Coreano (son los que probe). Desde mi punto de vista creo que esta muy bien, solo es cuestion de tiempo para que acepte otros idiomas.
+Y bueno, parece que solo funciona para algunos idiomas tales Inglés, Japonés, Chino y Coreano (son los que probe, será cuestión de intentar con otros). Desde mi punto de vista creo que esta muy bien, solo habrá que esperar a que mejore un poco más y que acepte otros idiomas.
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/09.png)
 
