@@ -29,10 +29,10 @@ Dicho de otra manera, AC Model Studio permite a los desarrolladores y empresas c
 
 ## Características principales:
 
-1. **Capability-Enhanced FMs**: Permite impulsar nuestras aplicaciones con capacidades mejoradas de modelos de IA, como preguntas y respuestas, escritura, NL2SQL, etc., de la serie Tongyi de Alibaba Cloud, que incluye Tongyi Qwen, Tongyi Wanxiang y la serie de modelos Qwen de código abierto.
-2. Built-In Model Inference and Evaluation Workflows: Nos permite acelerar los flujos de trabajo de desarrollo de modelos con herramientas integrales diseñadas para admitir SFT y LoRA, compresión de modelos integrada y aceleración de inferencia, evaluación de modelos multidimensionales en plantillas visualizadas e implementación de modelos con un solo clic.
-3. Simplified GenAI Application Development: Nos permite agilizar el desarrollo de aplicaciones de IA generativa con flujos de trabajo prediseñados en lienzo visualizado, orquestación altamente personalizable, ingeniería de avisos basada en plantillas y un amplio conjunto de API para una fácil integración con su sistema empresarial.
-4. Comprehensive Security Measures: Nos permite proteger los datos de la empresa en almacenamiento y transmisión completando el desarrollo de modelos y aplicaciones en su red dedicada de Nube Privada Virtual (VPC) y accediendo a los datos con PrivateLink, aplicando una gobernanza de contenido personalizable a las indicaciones y el contenido, y combinando principios de IA responsable con herramientas para la responsabilidad humana.
+**1. Capability-Enhanced FMs**: Permite impulsar nuestras aplicaciones con capacidades mejoradas de modelos de IA, como preguntas y respuestas, escritura, NL2SQL, etc., de la serie Tongyi de Alibaba Cloud, que incluye Tongyi Qwen, Tongyi Wanxiang y la serie de modelos Qwen de código abierto.
+**2. Built-In Model Inference and Evaluation Workflows**: Nos permite acelerar los flujos de trabajo de desarrollo de modelos con herramientas integrales diseñadas para admitir SFT y LoRA, compresión de modelos integrada y aceleración de inferencia, evaluación de modelos multidimensionales en plantillas visualizadas e implementación de modelos con un solo clic.
+**3. Simplified GenAI Application Development**: Nos permite agilizar el desarrollo de aplicaciones de IA generativa con flujos de trabajo prediseñados en lienzo visualizado, orquestación altamente personalizable, ingeniería de avisos basada en plantillas y un amplio conjunto de API para una fácil integración con su sistema empresarial.
+**4. Comprehensive Security Measures**: Nos permite proteger los datos de la empresa en almacenamiento y transmisión completando el desarrollo de modelos y aplicaciones en su red dedicada de Nube Privada Virtual (VPC) y accediendo a los datos con PrivateLink, aplicando una gobernanza de contenido personalizable a las indicaciones y el contenido, y combinando principios de IA responsable con herramientas para la responsabilidad humana.
 
 ## ¿Cómo funciona?
 
@@ -51,7 +51,7 @@ Todas las opciones son gratuitas hasta el 15 de Julio del 2024.
 
 ## Primer Acercamiento - Paso a Paso
 
-1. Inicia sesión en la consola de (Alibaba Cloud Model Studio)[https://bailian.console.alibabacloud.com/?spm=a3c0i.29328889.1985584540.1.29722d2fKhpF0I]
+1. Inicia sesión en la consola de [Alibaba Cloud Model Studio](https://bailian.console.alibabacloud.com/?spm=a3c0i.29328889.1985584540.1.29722d2fKhpF0I)
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/01.png)
 
@@ -71,7 +71,7 @@ Todas las opciones son gratuitas hasta el 15 de Julio del 2024.
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/06.png)
 
-Nota: Al dar clic en el boton de "Activate" nos aparecera una ventana emergente cuestionando que deseamos continuar usando el servicio de Alibaba Cloud Model Studio, para esto simplemente marquemos el checkbox y demos en el botón de "Confirm Activation":
+Nota: Al dar clic en el boton de **"Activate"** nos aparecera una ventana emergente cuestionando que deseamos continuar usando el servicio de Alibaba Cloud Model Studio, para esto simplemente marquemos el checkbox y demos en el botón de **"Confirm Activation"**:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/05.png)
 
@@ -83,14 +83,17 @@ Intentemos de nuevo pero esta vez en Ingles:
 
 ![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/08.png)
 
-Bueno amigos, parece que algo esta fallando, al parecer y desde mi punto de vista, no se encuentra entrenado para este tipo de solicitud, ya que realice otras pruebas y sin problema me respondio:
+**Nota**: La imagen que les muestro anteriormente es en el momento justo donde se encontraba generando la respuesta, pero acto seguido mostro el siguiente error:
 
-![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/08.png)
+![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/081.png)
 
+Y bueno, parece que solo funciona para algunos idiomas tales Inglés, Japonés, Chino y Coreano (son los que probe). Desde mi punto de vista creo que esta muy bien, solo es cuestion de tiempo para que acepte otros idiomas.
+
+![image](/assets/img/blog/tutorials/alibaba/modelstudio_demo/09.png)
 
 
 ## Conclusión
-En resumen, esta plataforma es ideal para empresas que desean integrar capacidades avanzadas de IA en sus operaciones sin la necesidad de invertir grandes recursos en infraestructura y talento especializado en IA.
+En resumen, Alibaba Cloud Model Studio es una poderosa herramienta que democratiza el desarrollo de la IA, permitiendo a las empresas innovar rápidamente y aprovechar el poder del aprendizaje automático sin barreras de entrada significativas.
 
 ## En el siguiente capítulo...
 En el siguiente articulo veremos como obtener una API Key y como integrarlo en un desarrollo, ya veremos si lo haceoms desde .NET o con Amazon Alexa, no se lo pierdan.
