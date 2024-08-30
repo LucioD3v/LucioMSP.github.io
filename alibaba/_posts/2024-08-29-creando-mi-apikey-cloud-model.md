@@ -47,20 +47,21 @@ Ahora bien para poder crear nuestra API Key deberemos de seleccionar el icono de
 
 ### Paso 04
 
-Acto seguido se nos mostrara la siguiente pantalla:
+Acto seguido se nos mostrará la siguiente pantalla:
 
 ![image](/assets/img/blog/tutorials/alibaba/api_key/05.png)
 
 ### Paso 05
 
 Hagamos clic en el botón "My API Key (0/10)"
-*Nota:* Como podemos entender, no indica la cantidad que tenemos creadas y que podemos generar hasta 10 diferentes API Keys.
+
+**Nota:** Como podemos entender, no indica la cantidad que tenemos creadas y que podemos generar hasta 10 diferentes API Keys.
 
 ![image](/assets/img/blog/tutorials/alibaba/api_key/06.png)
 
 ### Paso 06
 
-Posterior a que hayamos dado clic al boton en el paso anterior, se nos mostrara una ventana emergente en donde nos solicitara que seleccionemos el espacio de trabajo (Workspace) y una breve descripción de la API Key a crear. Pasemos a llenar los campos y hagamos clic en el boton de OK.
+Posterior a que hayamos dado clic al botón en el paso anterior, se nos mostrará una ventana emergente en donde nos solicitará que seleccionemos el espacio de trabajo (Workspace) y una breve descripción de la API Key a crear. Pasemos a llenar los campos y hagamos clic en el botón de OK.
 
 ![image](/assets/img/blog/tutorials/alibaba/api_key/07.png)
 
@@ -68,11 +69,13 @@ Posterior a que hayamos dado clic al boton en el paso anterior, se nos mostrara 
 
 ### Paso 07
 
-Y listo, podremos visualizar nuestra API Key. Así mismo esta contara con dos acciones, la de visualizarla de manera completa para poder copiarla y la de eliminarla (borrarla):
+Y listo, podremos visualizar nuestra API Key. Así mismo esta contará con dos acciones, la de visualizarla de manera completa para poder copiarla y la de eliminarla (borrarla):
 
 ![image](/assets/img/blog/tutorials/alibaba/api_key/09.png)
 
 ### Resumen
+
+Como pudimos apreciar, es super sencillo crear una API Key de Cloud Studio, ahora tocará integrarla en alguna aplicación, ya sea algún chatbot o bueno, lo que se les ocurra, por mi parte estaré revisando si puedo integrarla en una Alexa Skill, ya les estaré contando y mostrando el resultado.
 
 Espero que hayas aprendido algo especial hoy. Si disfrutaste de este artículo, apoyame compartiendolo con tus amigos y si tienes alguna sugerencia o pensamiento para compartir conmigo, pasa a dejarlo en el cuadro de comentarios.
 
