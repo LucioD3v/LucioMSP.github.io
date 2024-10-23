@@ -2,7 +2,7 @@
 layout: post
 title: Amazon Q - Tu compañero para programar
 description: Resumen de mi participación en el Meetup del User Group Ajolotes en la Nube.
-image: /assets/img/blog/post-headers/aws/amazonQ-meetup.jpg
+image: /assets/img/blog/post-headers/aws/amazonQ-meetup.png
 noindex: true
 comments: true
 author: lucio
@@ -10,7 +10,7 @@ kate: hl markdown;
 categories: [aws]
 tags:
   - aws
-  - amazon q
+  - amazon Q
   - cloud
   - developer
 keywords:
