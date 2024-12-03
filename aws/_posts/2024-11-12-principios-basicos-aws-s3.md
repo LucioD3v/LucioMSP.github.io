@@ -32,15 +32,58 @@ Amazon S3 organiza los datos en "buckets" o contenedores de almacenamiento en lo
 ### Video - Amazon S3
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zSXpnzAtrHA?si=XHCGGR-YD4TxAKuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Ventajas
+## [Tipos de Almacenamiento](https://aws.amazon.com/es/s3/storage-classes/?gclid=CjwKCAiAxqC6BhBcEiwAlXp459Yr0Eu932MEmP_o8t9OUewPbJFAF0quTm-lgpdRCAPf75WuCk7e5hoC5aUQAvD_BwE&trk=403e297f-6f7f-4dc0-9757-182e9e9f956c&sc_channel=ps&ef_id=CjwKCAiAxqC6BhBcEiwAlXp459Yr0Eu932MEmP_o8t9OUewPbJFAF0quTm-lgpdRCAPf75WuCk7e5hoC5aUQAvD_BwE:G:s&s_kwcid=AL!4422!3!646996315409!e!!g!!amazon%20s3!19636895691!149631417590)
 
+Cabe destacar que Amazon S3 no es el único servicio de alojamiento de archivos que ofrece Amazon Web Services, sino que cuenta con los siguientes:
 
-## Desventajas
+- De uso general: Amazon S3 Estándar (S3 Estándar)
+- De acceso desconocido o modificado: Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering)
+- De alto rendimiento: Amazon S3 Express One Zone
+- De acceso poco frecuente: Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+- De archivo: Glacier Instant Retrieval / Glacier Flexible Retrieval (antes, S3 Glacier) / Glacier Deep Archive
+- S3 Outposts
 
+### ¿Qué otras opciones ofrece Amazon S3?
+Como ya se menciono anteriormente, S3 nos da la facilidad de almacenar todo tipo de archivos, pero lo que hay que tener presente de igual manera, es que nos brinda otras opciones, tales como:
+
+* Alojamiento de Sitios Web
+* Analisis de Big Data
+* Integración con maquinas virtuales
+* 
+
+### Ventajas
+A continuacion se enlistan las principales ventajas de usar Amazon S3:
+
+**Escalabilidad ilimitada**
+Amazon S3 permite almacenar una cantidad practicamente ilimitada de datos, sin necesidad de gestionar infraestructura fisica.
+
+**Alta durabilidad y disponibilidad**
+Amazon S3 garantiza una durabilidad del 99.99999999% y una alta disponibilidad.
+
+**Costos flexibles**
+
+**Seguridad Robusta**
+
+** **
+
+## Seguridad
+Con respecto a la seguridad, Amazon S3 no lo pasa desapercibido, por ende nos brinda diferentes caracteristicas para proteger los datos almacenados en nuestros buckets:
+
+- Amazon Macie: Macie proporciona automáticamente un inventario completo de buckets de S3 mediante el escaneo de buckets para identificar y categorizar los datos.
+
+![image](/assets/img/blog/tutorials/aws-s3/amazonmacie.png) 
+
+- Cifrado: Amazon S3 de manera automatica cifra todas las cargas de datos a cualquier bucket, admitiendo tanto cifrado del servidor como del cliente.
+
+![image](/assets/img/blog/tutorials/aws-s3/amazoncifrado.png) 
+
+- Identity and Access Management: De manera predeterminada, todos los recursos de Amazon S3 son privados, es decir, solo el propietario de los mismos y dueño de la cuenta de AWS con la que se genero, puede acceder a estos.
+
+![image](/assets/img/blog/tutorials/aws-s3/amazonidentity.png) 
 
 ### Resumen
 
-
+En resumen........
 
 Espero que hayas aprendido algo especial hoy. Si disfrutaste de este artículo, apoyame compartiendolo con tus amigos y si tienes alguna sugerencia o pensamiento para compartir conmigo, pasa a dejarlo en el cuadro de comentarios.
 
