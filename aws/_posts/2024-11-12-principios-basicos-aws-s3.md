@@ -49,7 +49,6 @@ Como ya se menciono anteriormente, S3 nos da la facilidad de almacenar todo tipo
 * Alojamiento de Sitios Web
 * Analisis de Big Data
 * Integración con maquinas virtuales
-* 
 
 ### Ventajas
 A continuacion se enlistan las principales ventajas de usar Amazon S3:
@@ -61,10 +60,17 @@ Amazon S3 permite almacenar una cantidad practicamente ilimitada de datos, sin n
 Amazon S3 garantiza una durabilidad del 99.99999999% y una alta disponibilidad.
 
 **Costos flexibles**
+Ofrece múltiples clases de almacenamiento adaptadas a diferentes necesidades, tales como:
+- S3 Standard para acceso frecuente
+- S3 One Zone-IA para acceso poco frecuente
+- S3 Glacier para archivo a largo plazo
 
 **Seguridad Robusta**
-
-** **
+S3 proporciona una variedad de características de seguridad:
+- Autenticación y autorización
+- Encriptación de datos
+- Protección contra la eliminación accidental de objetos
+- Protección contra la eliminación de objetos no autorizados
 
 ## Seguridad
 Con respecto a la seguridad, Amazon S3 no lo pasa desapercibido, por ende nos brinda diferentes caracteristicas para proteger los datos almacenados en nuestros buckets:
@@ -81,9 +87,25 @@ Con respecto a la seguridad, Amazon S3 no lo pasa desapercibido, por ende nos br
 
 ![image](/assets/img/blog/tutorials/aws-s3/amazonidentity.png) 
 
+- AWS Trusted Advisor: Este nos permite inspeccionar el entorno de AWS y luego brindarnos recomendaciones cuando surgan oportunidades para solucionar déficits de seguridad.
+
+![image](/assets/img/blog/tutorials/aws-s3/trustedadvisor.png) 
+
+- AWS PrivateLink para S3: Mediante esta herramienta podemos tener acceso a S3 de forma directa como un punto de enlace privado dentro de la red virtual.
+
+![image](/assets/img/blog/tutorials/aws-s3/privatelink.png) 
+
+- Verificación de la Integridad de los datos: Contamos con 4 algoritmos de suma de comprobación compatibles (SHA-1, SHA-256, CRC32 o CRC32C) para verificar la integridadd de los datos de las solicitudes de carga y descarga.
+
+![image](/assets/img/blog/tutorials/aws-s3/integridaddatos.png) 
+
 ### Resumen
 
-En resumen........
+En resumen, Amazon S3 es una solución de almacenamiento en la nube que destaca por su escalabilidad ilimitada, alta durabilidad y flexibilidad en los costos. Aunado a que brinda diversas clases de almacenamiento para optimizar recursos según las necesidades, garantiza la seguridad de los datos mediante cifrado y control de accesos, y facilita la integración con otros servicios de AWS así como con herramientas de terceros.
+
+Sinceramente es una opción robusta y eficiente para quienes buscan soluciones avanzadas de gestión de datos en la nube.
+
+----
 
 Espero que hayas aprendido algo especial hoy. Si disfrutaste de este artículo, apoyame compartiendolo con tus amigos y si tienes alguna sugerencia o pensamiento para compartir conmigo, pasa a dejarlo en el cuadro de comentarios.
 
