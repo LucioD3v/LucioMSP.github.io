@@ -42,14 +42,14 @@ keywords:              [code, developer]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/icons/icon2.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                Vicente Gerardo Guzmán Lucio
   email:               luciomsp@geeks.ms
   # Used by `jekyll-seo-tag`:
-  twitter:             luciomsp
+  twitter:             luciod3v
 
 # Add links to the sidebar.
 menu:
@@ -325,7 +325,7 @@ theme: jekyll-theme-hydejack
 
 # Used for Twitter cards
 #twitter:
-username:            luciomsp
+username:            luciod3v
 
 # Used for Facebook open graph
 # facebook:
@@ -339,7 +339,7 @@ social:
    links:
     - https://github.com/LucioD3v
     - https://x.com/LucioD3v
-    - https://www.linkedin.com/in/vggl01/
+    - https://www.linkedin.com/in/luciod3v/
 
 
 # Other Plugins
