@@ -3,7 +3,7 @@ layout: post
 title:  Integrando Qwen de Alibaba Cloud en una Alexa Skill
 image: /assets/img/blog/post-headers/alexa/alexa-qwen.png
 description: >
-  Aprende a integrar la API de Qwen de Alibaba Cloud en una Alexa Skill. En este tutorial aprenDerás el paso a paso desde la configuración hasta la implementación, para que puedas aprovechar la IA en tu asistente de voz.
+  Aprende a integrar la API de Qwen de Alibaba Cloud en una Alexa Skill. En este tutorial aprenderás el paso a paso desde la configuración hasta la implementación, para que puedas aprovechar la IA en tu asistente de voz.
 noindex: true
 comments: true
 author: lucio
@@ -22,9 +22,7 @@ keywords:
 lang: es
 ---
 
-### Introducción
-
-Crear una Alexa Skill que se comunique con un modelo de IA como Qwen de Alibaba Cloud puede ser un gran reto para desarrollar asistentes conversacionales inteligentes. Es por ello que en este artículo, te enseñare el paso a paso de cómo integrar la API de Qwen en una Alexa Skill desde la Alexa Developer Console.
+Crear una Alexa Skill que se comunique con un modelo de IA como Qwen de Alibaba Cloud puede ser un gran reto para desarrollar asistentes conversacionales inteligentes. Es por ello que en este artículo, te enseñaré el paso a paso de cómo integrar la API de Qwen en una Alexa Skill desde la Alexa Developer Console.
 
 Pero antes de comenzar, conozcamos un poco sobre Qwen:
 
@@ -147,6 +145,7 @@ Con esta integración, tu Skill de Alexa ahora puede aprovechar el poder de la I
 
 ### Más información: 
 
+- [Repositorio](https://github.com/LucioD3v/Alexa-Skill-and-Qwen)
 - [Qwen LLMs](https://www.alibabacloud.com/help/en/model-studio/developer-reference/what-is-qwen-llm)
 - [Playground](https://bailian.console.alibabacloud.com/?spm=a2c63.p38356.0.0.67354be5zAZ730#/efm/model_experience_center/text)´
 
