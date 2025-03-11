@@ -45,7 +45,7 @@ A continuación, te explico cómo puedes comenzar a usar Qwen AI sin costo algun
 - Abre tu navegador web favorito y navega al sitio de [Qwen Chat](https://chat.qwen.ai/).
 - Aqui deberas de iniciar sesión, ya sea con tu correo electrónico o con tu cuenta de Google.
 - Posterior a esto, selecciona la versión de Qwen que desees utilizar en el menú desplegable (algunas de las opciones son Qwen 2.5 Plus, Max, etc.).
--Por ultimo, en el Chatbox escribe tu consulta o petición y Qwen AI te responderá de inmediato.
+Por ultimo, en el Chatbox escribe tu consulta o petición y Qwen AI te responderá de inmediato.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenImage00.png)
 
@@ -53,9 +53,12 @@ En mi caso, hice uso de Qwen 2.5 Max para crear una imagen, en donde el prompt f
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage01.png)
 
+Y bueno, ahora si pasemos a lo que nos interesa.
+## Crear una Alexa Skill que integre la API de Qwen AI
+
 ### Paso 1: Crear la API-Key de Alibaba Cloud Model Studio
 
-Una vez que ya sabemos como funciona Qwen, lo primero que deberemos de hacer será conseguir la API que utilizaremos en nuestra Alexa Skill. Para ello realicemos lo siguiente:
+Ya sabemos como funciona Qwen, lo primero que deberemos de hacer será conseguir la API que utilizaremos en nuestra Alexa Skill. Para ello realicemos lo siguiente:
 
 ** Navega al portal de [Alibaba Cloud](https://account.alibabacloud.com/) 
 
@@ -63,7 +66,7 @@ Una vez que ya sabemos como funciona Qwen, lo primero que deberemos de hacer ser
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage02.png)
 
-** Una vez dentro, del lado superior derecho se encuentra la opcion de **Model Studio**, misma que es facil de reconocer puesto que esta al lado de un rectangulo naranja con la leyenda "Free Trial". 
+** Una vez dentro, del lado superior derecho se encuentra la opcion de **Model Studio**, misma que es facil de reconocer puesto que esta al lado de un rectangulo naranja con la leyenda "Free Trial".
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage03.png)
 
@@ -98,11 +101,47 @@ Una vez creada, demos click en la accion de **View**, puesto que esta nos mostra
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage10.png)
 
-#### Paso 2: Crea un Intent personalizado
+- Ingresemos un nombre para nuestra Skill
+- Seleccionemos la ubicacion primaria
 
-Configura un Intent llamado QwenIntent con una variable de entrada (slot) llamada userInput
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage11.png)
 
-### Paso 3:
+- Escogamos el tipo de experiencia
+- Eligamos el modelo
+- Seleccionemos el servicio de aprovisionamiento
+- Indiquemos la region
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage12.png)
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage13.png)
+
+- Por ultimo seleccionemos la plantilla de la Skill a utilizar, en este caso usaremos la de **Start from Scratch**
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage14.png)
+
+- Revisemos que todo este en orden con respecto a lo previamente indicado y demos click en el boton de **Create Skill**
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage15.png)
+
+- Esperemos unos minutos en lo que se genera la Skill.
+
+### Paso 3.1: Construyendo la Skill
+- Una vez creada, demos click en el boton de **Invocation Name**, puesto que al generarse por primera vez, no cuenta con el nombre con el cual el usuario lo podra invocar.
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage16.png)
+
+- Cambiemos el texto por el nombre con el cual queremos que se invoque nuestra Alexa Skill, en mi caso le puse: qwen cloud model
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage17.png)
+
+- Salvemos nuestro cambio haciendo click en el boton de **Save**
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage18.png)
+
+### Paso 3.2: Crea un Intent personalizado
+
+- En la sección de **Intents**, demos click en el boton de **Add Intent** y configuremos un nuevo Intent llamado QwenIntent con una variable de entrada (Slot) llamada userInput
+
+### Paso 3.3: 
 
 ### Paso 4:
 
