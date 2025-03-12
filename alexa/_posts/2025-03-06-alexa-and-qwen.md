@@ -253,40 +253,41 @@ const QwenIntentHandler = {
 
 #### Definición del controlador de intención (QwenIntentHandler):
 
-**canHandle(handlerInput)**: Esta función determina si el controlador puede manejar la solicitud actual. Verifica si el tipo de solicitud es IntentRequest y si el nombre de la intención es QwenIntent.
-**handle(handlerInput)**: Esta función maneja la solicitud cuando canHandle devuelve true.
-Obtención del valor del slot:
+- **canHandle(handlerInput)**: Esta función determina si el controlador puede manejar la solicitud actual. Verifica si el tipo de solicitud es IntentRequest y si el nombre de la intención es QwenIntent.
+- **handle(handlerInput)**: Esta función maneja la solicitud cuando canHandle devuelve true.
 
-**const userInput = Alexa.getSlotValue(handlerInput.requestEnvelope, "userInput");**: Obtiene el valor del slot userInput del requestEnvelope.
+#### Obtención del valor del slot:
+
+- **const userInput = Alexa.getSlotValue(handlerInput.requestEnvelope, "userInput");**: Obtiene el valor del slot userInput del requestEnvelope.
 
 #### Configuración de la solicitud a la API de Qwen:
 
-**const apiKey = "API Key";**: Define la clave de API (debe ser reemplazada por una clave válida).
-**const requestData = JSON.stringify({...});**: Crea el cuerpo de la solicitud en formato JSON, incluyendo el modelo y los mensajes.
+- **const apiKey = "API Key";**: Define la clave de API (debe ser reemplazada por una clave válida).
+- **const requestData = JSON.stringify({...});**: Crea el cuerpo de la solicitud en formato JSON, incluyendo el modelo y los mensajes.
 
 #### Opciones de la solicitud HTTPS:
 
-**const options = {...};**: Define las opciones para la solicitud HTTPS, incluyendo el hostname, path, method, y headers.
+- **const options = {...};**: Define las opciones para la solicitud HTTPS, incluyendo el hostname, path, method, y headers.
 
 #### Realización de la solicitud HTTPS:
 
-**return new Promise((resolve, reject) => {...});**: Crea una promesa para manejar la solicitud asincrónica.
-**const req = https.request(options, (res) => {...});**: Realiza la solicitud HTTPS con las opciones definidas.
-**res.on("data", (chunk) => {...});**: Recibe los datos de la respuesta en fragmentos.
-**res.on("end", () => {...});**: Procesa la respuesta completa cuando se recibe.
-**req.on("error", (error) => {...});**: Maneja cualquier error que ocurra durante la solicitud.
+- **return new Promise((resolve, reject) => {...});**: Crea una promesa para manejar la solicitud asincrónica.
+- **const req = https.request(options, (res) => {...});**: Realiza la solicitud HTTPS con las opciones definidas.
+- **res.on("data", (chunk) => {...});**: Recibe los datos de la respuesta en fragmentos.
+- **res.on("end", () => {...});**: Procesa la respuesta completa cuando se recibe.
+- **req.on("error", (error) => {...});**: Maneja cualquier error que ocurra durante la solicitud.
 
 #### Procesamiento de la respuesta de la API:
 
-**const data = JSON.parse(responseData);**: Analiza la respuesta JSON.
-**if (!data.output || !data.output.text) {...};**: Verifica si la respuesta es válida.
-**const botResponse = data.output.text + "¿Te gustó la respuesta?";**: Construye la respuesta del bot.
-**resolve(handlerInput.responseBuilder.speak(botResponse).reprompt("¿Quieres preguntarme algo más?").getResponse());**: Envía la respuesta al usuario.
+- **const data = JSON.parse(responseData);**: Analiza la respuesta JSON.
+- **if (!data.output || !data.output.text) {...};**: Verifica si la respuesta es válida.
+- **const botResponse = data.output.text + "¿Te gustó la respuesta?";**: Construye la respuesta del bot.
+- **resolve(handlerInput.responseBuilder.speak(botResponse).reprompt("¿Quieres preguntarme algo más?").getResponse());**: Envía la respuesta al usuario.
 
 #### Manejo de errores:
 
-**catch (error) {...};**: Captura y maneja cualquier error durante el procesamiento de la respuesta.
-**req.on("error", (error) => {...});**: Captura y maneja cualquier error durante la solicitud HTTPS.
+- **catch (error) {...};**: Captura y maneja cualquier error durante el procesamiento de la respuesta.
+- **req.on("error", (error) => {...});**: Captura y maneja cualquier error durante la solicitud HTTPS.
 
 En resumen, este controlador permite que la Alexa Skill envíe una solicitud a la API de Qwen, procese la respuesta y responda al usuario con el resultado generado por la API.
 
@@ -294,7 +295,7 @@ Para finalizar, añadamos el controlador creado en el **exports.handler**:
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage24.png)
 
-Nota: No olvidemos guardar nuestros cambios y construir nuestra Skill.
+**Nota**: No olvidemos guardar nuestros cambios y construir nuestra Skill.
 
 ### Paso 4: Probar la Skill en la Consola de Alexa
 
