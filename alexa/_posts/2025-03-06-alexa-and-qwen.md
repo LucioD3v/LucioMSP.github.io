@@ -27,9 +27,9 @@ Crear una Alexa Skill que se comunique con un modelo de IA como Qwen de Alibaba 
 Pero antes de comenzar, conozcamos un poco sobre Qwen:
 
 ## ¿Qué es Qwen?
-Qwen AI es una herramienta de inteligencia artificial desarrollada por Alibaba que ofrece diversas capacidades, incluyendo la generación de texto, creación de imágenes y videos, asi como la asistencia en programación. Lo mejor de todo es que muchas de sus funciones están disponibles de forma gratuita a través de Qwen Chat. 
+Qwen AI es una herramienta de inteligencia artificial desarrollada por Alibaba que ofrece diversas capacidades, incluyendo la generación de texto, creación de imágenes y videos, así como la asistencia en programación. Lo mejor de todo es que muchas de sus funciones están disponibles de forma gratuita a través de Qwen Chat.
 
-Aunado a lo anterior, Qwen ofrece una API para poder interactuar con esta y el dia de hoy haremos uso de la misma.
+Aunado a lo anterior, Qwen ofrece una API para poder interactuar con esta y el día de hoy haremos uso de la misma.
 
 ### Prerrequisitos
 
@@ -43,9 +43,9 @@ Antes de comenzar, asegúrate de tener lo siguiente:
 A continuación, te explico cómo puedes comenzar a usar Qwen AI sin costo alguno, solamente debes de seguir estos sencillos pasos:
 
 - Abre tu navegador web favorito y navega al sitio de [Qwen Chat](https://chat.qwen.ai/).
-- Aqui deberas de iniciar sesión, ya sea con tu correo electrónico o con tu cuenta de Google.
+- Aquí deberás de iniciar sesión, ya sea con tu correo electrónico o con tu cuenta de Google.
 - Posterior a esto, selecciona la versión de Qwen que desees utilizar en el menú desplegable (algunas de las opciones son Qwen 2.5 Plus, Max, etc.).
-Por ultimo, en el Chatbox escribe tu consulta o petición y Qwen AI te responderá de inmediato.
+Por último, en el Chatbox escribe tu consulta o petición y Qwen AI te responderá de inmediato.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenImage00.png)
 
@@ -53,24 +53,24 @@ En mi caso, hice uso de Qwen 2.5 Max para crear una imagen, en donde el prompt f
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage01.png)
 
-Y bueno, ahora si pasemos a lo que nos interesa.
+Y bueno, ahora sí pasemos a lo que nos interesa.
 ## Crear una Alexa Skill que integre la API de Qwen AI
 
 ### Paso 1: Crear la API-Key de Alibaba Cloud Model Studio
 
-Ya sabemos como funciona Qwen, lo primero que deberemos de hacer será conseguir la API que utilizaremos en nuestra Alexa Skill. Para ello realicemos lo siguiente:
+Ya sabemos cómo funciona Qwen, lo primero que deberemos de hacer será conseguir la API que utilizaremos en nuestra Alexa Skill. Para ello realicemos lo siguiente:
 
 ** Navega al portal de [Alibaba Cloud](https://account.alibabacloud.com/) 
 
-** Inicia sesión o crea tu cuenta en caso de que no cuentes todavia con una.
+** Inicia sesión o crea tu cuenta en caso de que no cuentes todavía con una.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage02.png)
 
-** Una vez dentro, del lado superior derecho se encuentra la opcion de **Model Studio**, misma que es facil de reconocer puesto que esta al lado de un rectangulo naranja con la leyenda "Free Trial".
+** Una vez dentro, del lado superior derecho se encuentra la opción de **Model Studio**, misma que es fácil de reconocer puesto que está al lado de un rectángulo naranja con la leyenda "Free Trial".
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage03.png)
 
-** Al hacer click, nos abrira otra ventana en donde debemos de hacer click en el boton que dice "**Activate Now**".
+** Al hacer click, nos abrirá otra ventana en donde debemos de hacer click en el botón que dice "**Activate Now**".
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage04.png)
 
@@ -78,54 +78,54 @@ Ya sabemos como funciona Qwen, lo primero que deberemos de hacer será conseguir
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage05.png)
 
-** Ya estando aqui, nos dirigiremos a nuestro perfil (icono superior derecho), en donde al solo pasar el cursor nos desplegara un menu, aqui seleccionemos la opcion de **API-KEY**
+** Ya estando aquí, nos dirigiremos a nuestro perfil (icono superior derecho), en donde al solo pasar el cursor nos desplegará un menú, aquí seleccionemos la opción de **API-KEY**
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage06.png)
 
-** A continuacion nos desplegara la siguiente vista:
+** A continuación nos desplegará la siguiente vista:
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage07.png)
 
-** Demos click en el boton **Create My API Key** y añadamos la informacion que nos solicita, el cual es el espacio de trabajo y una descripcion, cabe destacar que esta ultima no es obligatoria:
+** Demos click en el botón **Create My API Key** y añadamos la información que nos solicita, el cual es el espacio de trabajo y una descripción, cabe destacar que esta última no es obligatoria:
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage08.png)
 
-Una vez creada, demos click en la accion de **View**, puesto que esta nos mostrara toda la API Key, copiemosla de momento, ya que mas adelante la utilizaremos.
+** Una vez creada, demos click en la acción de **View**, puesto que esta nos mostrará toda la API Key, copiémosla de momento, ya que más adelante la utilizaremos.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage09.png)
 
 
 ### Paso 2: Crear la Alexa Skill en la Alexa Developer Console
 
-** Ahora toca acceder a la [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask), en donde procederemos a generar una nueva Skill.
+Ahora toca acceder a la [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask), en donde procederemos a generar una nueva Skill.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage10.png)
 
 - Ingresemos un nombre para nuestra Skill
-- Seleccionemos la ubicacion primaria
+- Seleccionemos la ubicación primaria
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage11.png)
 
-- Escogamos el tipo de experiencia
-- Eligamos el modelo
+- Escojamos el tipo de experiencia
+- Elijamos el modelo
 - Seleccionemos el servicio de aprovisionamiento
-- Indiquemos la region
+- Indiquemos la región
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage12.png)
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage13.png)
 
-- Por ultimo seleccionemos la plantilla de la Skill a utilizar, en este caso usaremos la de **Start from Scratch**
+- Por último seleccionemos la plantilla de la Skill a utilizar, en este caso usaremos la de **Start from Scratch**
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage14.png)
 
-- Revisemos que todo este en orden con respecto a lo previamente indicado y demos click en el boton de **Create Skill**
+- Revisemos que todo esté en orden con respecto a lo previamente indicado y demos click en el botón de **Create Skill**
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage15.png)
 
 - Esperemos unos minutos en lo que se genera la Skill.
 
-### Paso 3.1: Construyendo la Skill
-- Una vez creada, demos click en el boton de **Invocation Name**, puesto que al generarse por primera vez, no cuenta con el nombre con el cual el usuario lo podra invocar.
+### Paso 3: Construyendo la Skill
+- Una vez creada, demos click en el botón de **Invocation Name**, puesto que al generarse por primera vez, no cuenta con el nombre con el cual el usuario lo podrá invocar.
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage16.png)
 
@@ -133,19 +133,41 @@ Una vez creada, demos click en la accion de **View**, puesto que esta nos mostra
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage17.png)
 
-- Salvemos nuestro cambio haciendo click en el boton de **Save**
+- Salvemos nuestro cambio haciendo click en el botón de **Save**
 
 ![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage18.png)
 
-### Paso 3.2: Crea un Intent personalizado
+### Paso 3.1: Crea un Intent personalizado
 
-- En la sección de **Intents**, demos click en el boton de **Add Intent** y configuremos un nuevo Intent llamado QwenIntent con una variable de entrada (Slot) llamada userInput
+- En la sección de **Intents** (que está dentro de Interaction Model), demos click en el botón de **+Add Intent** y configuremos un nuevo Intent llamado QwenIntent con una variable de entrada (Slot) llamada **userInput**
 
-### Paso 3.3: 
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage19.png)
 
-### Paso 4:
+- En los Sample Utterances agreguemos los siguientes ejemplos tomando en cuenta el Slot, mismo que hay setearlo como de tipo **AMAZON.SearchQuery**
 
-Implementa la siguiente lógica en el archivo index.js con el siguiente código:
+    - Quisiera saber {userInput}
+    - Dime {userInput}
+    - Explícame {userInput}
+    - Responde {userInput}
+    - Quiero saber {userInput}
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage20.png)
+
+- Nuevamente guardemos nuestros cambios haciendo click en el botón de **Save**
+
+- Por último y como punto obligatorio debemos de construir la Skill (habilidad), para esto hagamos click en el botón **Build skill** que se encuentra en la parte superior derecha.
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage21.png)
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage22.png)
+
+### Paso 3.2: Hora del Código
+
+Lo siguiente que debemos de realizar, es navegar al Tab de **Code** en donde abriremos el archivo "index.js".
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage23.png)
+
+Posteriormente agregaremos el controlador de la intención (Intent) previamente creada (**QwenIntent**), misma que interactuará con la API de Qwen de Alibaba Cloud. En otras palabras, implementa la siguiente lógica debajo del controlador de Lanzamiento de la Skill (LaunchRequestHandler**)
 
 ~~~bash
 
@@ -197,7 +219,7 @@ const QwenIntentHandler = {
                             throw new Error("Respuesta inválida de la API.");
                         }
 
-                        const botResponse = data.output.text + "¿Te gusto la respuesta?...";
+                        const botResponse = data.output.text + "¿Te gustó la respuesta?";
 
                         resolve(handlerInput.responseBuilder
                             .speak(botResponse)
@@ -227,13 +249,60 @@ const QwenIntentHandler = {
 
 ~~~
 
-### Paso 5: Probar la Skill en la Consola de Alexa
+### Explicación del código:
 
-- Hagamos click en la pestaña Test
+#### Definición del controlador de intención (QwenIntentHandler):
+
+**canHandle(handlerInput)**: Esta función determina si el controlador puede manejar la solicitud actual. Verifica si el tipo de solicitud es IntentRequest y si el nombre de la intención es QwenIntent.
+**handle(handlerInput)**: Esta función maneja la solicitud cuando canHandle devuelve true.
+Obtención del valor del slot:
+
+**const userInput = Alexa.getSlotValue(handlerInput.requestEnvelope, "userInput");**: Obtiene el valor del slot userInput del requestEnvelope.
+
+#### Configuración de la solicitud a la API de Qwen:
+
+**const apiKey = "API Key";**: Define la clave de API (debe ser reemplazada por una clave válida).
+**const requestData = JSON.stringify({...});**: Crea el cuerpo de la solicitud en formato JSON, incluyendo el modelo y los mensajes.
+
+#### Opciones de la solicitud HTTPS:
+
+**const options = {...};**: Define las opciones para la solicitud HTTPS, incluyendo el hostname, path, method, y headers.
+
+#### Realización de la solicitud HTTPS:
+
+**return new Promise((resolve, reject) => {...});**: Crea una promesa para manejar la solicitud asincrónica.
+**const req = https.request(options, (res) => {...});**: Realiza la solicitud HTTPS con las opciones definidas.
+**res.on("data", (chunk) => {...});**: Recibe los datos de la respuesta en fragmentos.
+**res.on("end", () => {...});**: Procesa la respuesta completa cuando se recibe.
+**req.on("error", (error) => {...});**: Maneja cualquier error que ocurra durante la solicitud.
+
+#### Procesamiento de la respuesta de la API:
+
+**const data = JSON.parse(responseData);**: Analiza la respuesta JSON.
+**if (!data.output || !data.output.text) {...};**: Verifica si la respuesta es válida.
+**const botResponse = data.output.text + "¿Te gustó la respuesta?";**: Construye la respuesta del bot.
+**resolve(handlerInput.responseBuilder.speak(botResponse).reprompt("¿Quieres preguntarme algo más?").getResponse());**: Envía la respuesta al usuario.
+
+#### Manejo de errores:
+
+**catch (error) {...};**: Captura y maneja cualquier error durante el procesamiento de la respuesta.
+**req.on("error", (error) => {...});**: Captura y maneja cualquier error durante la solicitud HTTPS.
+
+En resumen, este controlador permite que la Alexa Skill envíe una solicitud a la API de Qwen, procese la respuesta y responda al usuario con el resultado generado por la API.
+
+Para finalizar, añadamos el controlador creado en el **exports.handler**:
+
+![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage24.png)
+
+Nota: No olvidemos guardar nuestros cambios y construir nuestra Skill.
+
+### Paso 4: Probar la Skill en la Consola de Alexa
+
+- Hagamos clic en la pestaña Test
 - Lanza la Skill escribiendo el nombre que le diste en el "Invocation Name".
 - Envía una pregunta y verifica la respuesta generada por Qwen
 
-![image](/assets/img/blog/tutorials/alexa-qwen/Image1.jpg)
+![image](/assets/img/blog/tutorials/alexa-qwen/01.png)
 
 ### Conclusión
 
@@ -245,8 +314,7 @@ Con esta integración, tu Alexa Skill ahora puede aprovechar el poder de la IA d
 
 - [Repositorio](https://github.com/LucioD3v/Alexa-Skill-and-Qwen)
 - [Qwen LLMs](https://www.alibabacloud.com/help/en/model-studio/developer-reference/what-is-qwen-llm)
-- [Playground](https://bailian.console.alibabacloud.com/?spm=a2c63.p38356.0.0.67354be5zAZ730#/efm/model_experience_center/text)´
-
+- [Playground](https://bailian.console.alibabacloud.com/?spm=a2c63.p38356.0.0.67354be5zAZ730#/efm/model_experience_center/text)
 
 ## **¡Happy Coding!**
 
