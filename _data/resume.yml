@@ -5,7 +5,7 @@ basics:
   name: "Vicente G. Guzmán Lucio"
   label:  "Software Engineer"
   picture:  "/assets/icons/icon2.jpg"
-  email:  "luciomsp@geeks.ms"
+  email:  "vicenteguzman@outlook.com"
   phone:  "(+52) 55 4348 4042 (MX)"
   cellphone:  "(805) 223 7460 (USA)"
   summary: >
@@ -18,7 +18,7 @@ basics:
     countryCode:  "MX"
     region: "México"
   profiles:
-    - network:  "Github"
+    - network:  "GitHub"
       username: "luciod3v"
       url:  "https://github.com/luciod3v"
     - network:  "LinkedIn"
