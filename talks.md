@@ -21,6 +21,14 @@ Here you will find the talks I have given throughout my career:
 - Fecha: **05/Febrero/2025**
 - YouTube Video: **[Principios Básicos de un Programador en el Mundo Real](https://www.youtube.com/live/kA44zAFk23A?si=vZUGd5eONwFfbIkN)**
 
+### GitHub Copilot: Codificando a la velocidad de la luz
+
+ ![image](/assets/img/talks/githubCodificando.jpeg)
+
+- Comunidad: **My Bots LATAM**
+- Fecha: **07/Noviembre/2024**
+- YouTube Video: **[GitHub Copilot: Codificando a la velocidad de la luz](https://www.youtube.com/live/zbnrvRrhIOg?si=pXCXV_vndz-JCLuX)**
+
 
 ### SageMaker - Transformando el Aprendizaje Automático en AWS
 
@@ -28,4 +36,4 @@ Here you will find the talks I have given throughout my career:
 
 - Comunidad: **AWS Women Colombia**
 - Fecha: **22/Agosto/2024**
-- YouTube Video: **[Episodio II: El Ataque del Nivel 200 - SageMaker: Transformando el Aprendizaje Automático en AWSS](https://www.youtube.com/watch?v=ojbVlWU7IqI)**
+- YouTube Video: **[Episodio II: El Ataque del Nivel 200 - SageMaker: Transformando el Aprendizaje Automático en AWS](https://www.youtube.com/watch?v=ojbVlWU7IqI)**
