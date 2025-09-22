@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  Integrando Amazon Nova Lite en una Alexa Skill
-image: /assets/img/blog/post-headers/alexa/Nota_Lite.png
-
-Amazon Nova Lite es un modelo multimodal de muy bajo costo que es increíblemente rápido para procesar entradas de imágenes, video y texto para generar salidas de texto que esta disponible a través de Amazon Bedrock. En este tutorial aprenderemos a integrarlo en una Alexa Skill para poder generar respuestas más dinámicas, creativas y relevantes para tus usuarios.
-
+image: /assets/img/blog/post-headers/alexa/nova-lite.png
+description: >
+    Amazon Nova Lite es un modelo multimodal de muy bajo costo que es increíblemente rápido para procesar entradas de imágenes, video y texto para generar salidas de texto que esta disponible a través de Amazon Bedrock. En este tutorial aprenderemos a integrarlo en una Alexa Skill para poder generar respuestas más dinámicas, creativas y relevantes para tus usuarios.
 noindex: true
 comments: true
 author: lucio
@@ -61,7 +60,7 @@ Posteriormente:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/04.png)
 
-Por último seleccionemos la plantilla de la Skill a utilizar, en este caso usaremos la de **Start from Scratch**.
+Por último seleccionemos la plantill a utilizar, en este caso usaremos la de **Start from Scratch**.
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/05.png)
 
@@ -75,21 +74,29 @@ Esperemos unos minutos en lo que se genera la Skill.
 
 ### Paso 2: Construyendo la Skill
 
-Una vez creada, demos click en el botón de **Invocation Name**, puesto que al generarse por primera vez, no cuenta con el nombre con el cual el usuario lo podrá invocar.
+Una vez creada, demos click en el botón de **Invocation Name**, puesto que al generarse por primera vez, no cuenta con el nombre con el cual el usuario la podrá invocar.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/08.png)
 
 Cambiemos el texto por el nombre con el cual queremos que se invoque nuestra Alexa Skill, en mi caso le puse: terra nova
 
-![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/1.1.png)
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/09.png)
 
 Salvemos nuestro cambio haciendo click en el botón de **Save**
 
-![image](/assets/img/blog/tutorials/alexa-qwen/qwenimage18.png)
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/10.png)
 
 ### Paso 3: Crea un Intent personalizado
 
-En la sección de **Intents** (que está dentro de Interaction Model), demos click en el botón de **+Add Intent** y configuremos un nuevo Intent llamado GenerarTextoNova con una variable de entrada (Slot) llamada **consulta**
+En la sección de **Intents** (que está dentro de Interaction Model), demos click en el botón de **+Add Intent**
 
-En los Sample Utterances añade algunas expresiones de usuario de ejemplo que los usuarios podrian decir para activa esta intencion. Asegurate de incluir el Slot, mismo que hay setearlo como de tipo **AMAZON.SearchQuery**
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/11.png)
+
+Acto seguido configuremos un nuevo Intent llamado GenerarTextoNova
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/12.png)
+
+En los Sample Utterances añadamos algunas expresiones de ejemplo que los usuarios podrian decir para activar esta intencion. Asegurate de crear un Slot, al cual pueden nombrarlo como gusten, en mi caso lo llamare  **consulta** y por ultimo hay que setearlo como de tipo **AMAZON.SearchQuery**
 
     - Quisiera saber {consulta}
     - Genera texto sobre {consulta}
@@ -100,44 +107,44 @@ En los Sample Utterances añade algunas expresiones de usuario de ejemplo que lo
     - Responde {consulta}
     - Quiero saber {consulta}
 
-![image](/assets/img/blog/tutorials/alexa-qwen/1.3.png)
-
-![image](/assets/img/blog/tutorials/alexa-qwen/1.4.png)
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/13.png)
 
 Nuevamente guardemos nuestros cambios haciendo click en el botón de **Save**
 
 Por último y como punto obligatorio debemos de construir la Skill (habilidad), para esto hagamos click en el botón **Build skill** que se encuentra en la parte superior derecha.
 
-![image](/assets/img/blog/tutorials/alexa-qwen/1.5.png)
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/14.png)
 
 ### Paso 4: Hora del Código
 
-Lo siguiente que debemos de realizar, es configurar una funcion de AWS Lambda, para ello deberemos de navegar a la consola de AWS 
-https://console.aws.amazon.com/lambda/
+Lo siguiente que debemos de realizar, es configurar una funcion de AWS Lambda, para ello deberemos de navegar a la consola de 
+[Amazon Management Console](https://console.aws.amazon.com/)
 
-En la vista donde nos encontramos ubiquemos la opcion de "Copiar ARN" y demos clic aqui, puesto que nos servira en el siguiente paso.
+
+CREAR FUNCION LAMBDA - Imagenes
 
 ## Paso 5: Conecta la Skill con la Lambda
 
-En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y aqui selecciones "AWS Lambda ARN"
-
-Peguemos aqui el ARN del paso anterior que sacamos de nuestra funcion lambda creada
-
-Copia el ARN (Amazon Resource Name) de tu función de Lambda desde la Consola de AWS Lambda y pégalo en el campo correspondiente en la Consola de Alexa.
+Para que la función Lambda pueda comunicarse con la Alexa Skill, lo que deberemos de hacer será copiar el ARN (Amazon Resource Name) de la función y pégarlo en el campo correspondiente en la Consola de Alexa.
 
 arn:aws:lambda:us-east-1:171489363667:function:alexaNovaMicroBackend
+
+En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y aqui selecciones "AWS Lambda ARN"
+
+Peguemos aqui el ARN del paso anterior:
 
 ## Paso 6: Configurar el Trigger de Alexa Skills Kit:
 
 En la vista de tu función Lambda, haz clic en "Agregar disparador".
-Selecciona "Alexa Skills Kit".
-Habilita la "Verificación de ID de habilidad" y pega el ID de tu Skill de Alexa (lo encuentras en la consola de desarrolladores de Alexa).
+Selecciona "Alexa Skills Kit" y habilita la "Verificación de ID de habilidad" y pega el ID de tu Skill de Alexa (lo encuentras en la consola de desarrolladores de Alexa).
 
 ## Paso 7: Agregando Permisos 
 Ahora vayamos a la consola de IAM (https://us-east-1.console.aws.amazon.com/iam/home#/home) para configurar los permisos necesarios 
 
 Busca el rol de IAM asociado a tu función de Lambda (generalmente tiene un nombre similar al de tu función).
+
 Haz clic en el nombre del rol.
+
 Vayamos a la seccion de Politicas, haz clic en "Crear política" y luego en "Crear política" y seleccionamos JSON.
 
 Pega la siguiente política JSON, asegurándote de reemplazar <REGION> con la región de AWS donde estás trabajando:
@@ -200,11 +207,11 @@ Ahora, busquemos nuestra nueva politica creada y al seleccionarla, demos clic en
 En la siguiente vista observaremos las diversas entidades que podemos asociar, en este caso omitamoslas y solo demos clic en Asociar Politica
 
 ### Paso 6: Integración con Boto3 en Lambda
-Ahora, vamos a escribir el código de Python en tu función de Lambda para interactuar con Amazon Bedrock.
+Ahora, vamos a escribir el código de Python en la función de Lambda para interactuar con Amazon Bedrock.
 
-Ve a la Consola de AWS Lambda y selecciona tu función.
+Para esto, vayamos a la Consola de AWS Lambda y seleccionemos la función.
 
-Reemplaza el código existente en el editor con el siguiente código de ejemplo:
+Reemplaza el código existente en el editor con el siguiente código:
 
 ~~~bash
 
@@ -275,19 +282,19 @@ def invoke_titan_text(prompt):
 
 ~~~
 
-Por ultimo, hagamos clic en **"Deploy (Desplegar)"**
+Por último, hagamos clic en **"Deploy (Desplegar)"**
 
 
 ### Paso 7: Probar la Skill en la Consola de Alexa
 
 - Hagamos clic en la pestaña Test
-- Lanza la Skill escribiendo el nombre que le diste en el "Invocation Name".
-- Envía una pregunta y verifica la respuesta generada por Nova Micro
+- Lanza la Skill escribiendo el nombre que le diste en el "Invocation Name", en mi caso seria **terra nova**.
+- Envía una pregunta y verifica la respuesta generada por Nova Lite
 
 
 ### Conclusión
 
-Con esta integración, tu Alexa Skill ahora puede aprovechar el poder de la IA de Qwen para ofrecer respuestas inteligentes. Cabe señalar que puedes mejorarla agregando manejo de errores y otras funcionalidades.
+
 
 ¿Tienes dudas? ¡Déjalas en los comentarios! 🚀
 
