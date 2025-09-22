@@ -3,7 +3,7 @@ layout: post
 title:  Integrando Amazon Nova Lite en una Alexa Skill
 image: /assets/img/blog/post-headers/alexa/nova-lite.png
 description: >
-    Amazon Nova Lite es un modelo multimodal de muy bajo costo que es increíblemente rápido para procesar entradas de imágenes, video y texto para generar salidas de texto que esta disponible a través de Amazon Bedrock. En este tutorial aprenderemos a integrarlo en una Alexa Skill para poder generar respuestas más dinámicas, creativas y relevantes para tus usuarios.
+  Amazon Nova Lite es un modelo multimodal de muy bajo costo que es increíblemente rápido para procesar entradas de imágenes, video y texto para generar salidas de texto que esta disponible a través de Amazon Bedrock. En este tutorial aprenderemos a integrarlo en una Alexa Skill para poder generar respuestas más dinámicas, creativas y relevantes para tus usuarios.
 noindex: true
 comments: true
 author: lucio
@@ -12,10 +12,7 @@ categories: [alexa]
 tags:
   - alexa
   - aws
-  - ai
-  - ia
   - bedrock
-  - nova
 keywords:
   - alexa
   - aws
