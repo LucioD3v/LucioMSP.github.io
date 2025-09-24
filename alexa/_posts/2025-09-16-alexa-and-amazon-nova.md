@@ -264,7 +264,7 @@ Acto seguido, dejemos seleccionado el producto de Alexa que viene por default (K
 
 Finalmente, hagamos clic en **Agregar**.
 
-## Paso 7: Agregando Permisos 
+## Paso 7: Añadiendo Permisos 
 
 Nuevamente en nuestra función Lambda, ahora vayamos a la pestaña de **Configuración** y seleccionemos la opción de Permisos, puesto que aqui configuraremos los consentimientos necesarios:
 
@@ -278,7 +278,7 @@ Nos abrira una nueva ventana en nuestro navegador, ubiquemos **Agregar permisos*
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/32.png)
 
-En el **Editor de políticas" seleccionamos JSON y peguemos la siguiente política:
+En el **Editor de políticas** seleccionamos JSON y peguemos la siguiente política:
 
 ~~~bash
 {
@@ -342,18 +342,35 @@ Posteriormente en la nueva ventana denominada **Revisar y Crear**, tocara asigar
 
 ### Paso 7: Configurar el Tiempo de Espera
 
-Ya por último, en la función Lambda, seleccionemos la pestaña de **Configuración**, y si hacemos clic en "Configuración general" podremos observa que el tiempo de espera es de 3 segundos, 
+Ya por último, en la función Lambda, seleccionemos la pestaña de **Configuración**, y si hacemos clic en "Configuración general" podremos observar que el tiempo de espera es de 3 segundos:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/35.png)
+
+Pasemos a modificar esto, por ende hagamos clic en **Editar** y cambiemos el tiempo de espera a 10 segundos, posteriormente hagamos clic en **Guardar**.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/36.png)
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/37.png)
 
 ### Paso 8: Probar la Skill en la Consola de Alexa
 
 - Hagamos clic en la pestaña Test
-- Lanza la Skill escribiendo el nombre que le diste en el "Invocation Name", en mi caso seria **terra nova**.
-- Envía una pregunta y verifica la respuesta generada por Nova Lite
 
-![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/37.png)
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/38.png)
 
+- Activemos el entorno de pruebas seleccionando "Development"
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/39.png)
+
+- Lanza la Skill escribiendo el nombre que le diste en el **Invocation Name**, en mi caso seria **terra nova** y sumale un ejemplo de frase que haga que ingrese a nuestro **Intent**, por ejemplo:
+
+**Abre terra nova y genera texto sobre los power rangers**
+
+- Esperemos unos segundos y deberiamos de ver la respuesta generada por Nova Lite:
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/40.png)
+
+Y ¡listo!, hemos logrado integrar Amazon Nova Lite en una Alexa Skill.
 
 ### Conclusión
 Integrar Amazon Nova Lite en una Alexa Skill puede transformar la experiencia del usuario al proporcionar respuestas más inteligentes y contextuales. Con los pasos descritos en este tutorial, ahora tienes las herramientas necesarias para comenzar a experimentar con esta poderosa combinación de tecnologías.
