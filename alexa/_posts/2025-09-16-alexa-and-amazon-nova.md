@@ -114,11 +114,35 @@ Por último y como punto obligatorio debemos de construir la Skill (habilidad), 
 
 ### Paso 4: Hora del Código
 
-Lo siguiente que debemos de realizar, es configurar una funcion de AWS Lambda, para ello deberemos de navegar a la consola de 
-[Amazon Management Console](https://console.aws.amazon.com/)
+Lo siguiente que debemos de realizar, es configurar una función de AWS Lambda, para ello deberemos de navegar a la consola de 
+[Amazon Management Console](https://console.aws.amazon.com/) y seleccionar Lambda o buscarlo si es que no se tiene como visitado recientemente.
 
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/15.png)
 
-CREAR FUNCION LAMBDA - Imagenes
+Una vez dentro, si no tenemos ninguna función creada previamente, se nos mostrara de la siguiente manera, en donde haremos clic en **Crear una función**:
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/16.png)
+
+En la siguiente vista, seleccionemos **Crear desde cero** e ingresemos los siguientes datos:
+- Nombre: alexaNovaBackend
+- Tiempo de ejecución: Python 3.13
+- Arquitectura: x86_64
+- Permisos: Creación de un nuevo rol con permisos básicos de Lambda
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/17.png)
+
+Hagamos clic en el botón de **Crear función**.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/18.png)
+
+Una vez creada, nos encontraremos en la vista de edición de la función Lambda.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/19.png)
+
+Posteriormente desplacemonos a la pestaña **Código fuente** que se encuentra en la parte inferior y en donde podremos pegar el código que se encuentra en el siguiente [Gist](https://gist.github.com/LucioD3v/dae03b3ef42f19125cfa073097a2f8c3) o al final de este post.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/20.png)
+
 
 ## Paso 5: Conecta la Skill con la Lambda
 
@@ -297,9 +321,7 @@ Por último, hagamos clic en **"Deploy (Desplegar)"**
 
 ## ¿Lo quieres ver en video?
 
-Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arellano en el AWS Community Day Colombia y Bolivia 2025.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZEtXe7rrgVo?si=MG2GxF6cYr33u3Xl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arellano en los AWS Community Day de Bolivia:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CneHRDE7EMw?si=5XD97dkrRY7LiEVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
