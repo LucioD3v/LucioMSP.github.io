@@ -89,7 +89,7 @@ En la sección de **Intents** (que está dentro de Interaction Model), demos cli
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/11.png)
 
-Acto seguido configuremos un nuevo Intent llamado GenerarTextoNova
+Acto seguido configuremos un nuevo Intent llamado **GenerarTextoNova**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/12.png)
 
@@ -139,100 +139,9 @@ Una vez creada, nos encontraremos en la vista de edición de la función Lambda.
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/19.png)
 
-Posteriormente desplacemonos a la pestaña **Código fuente** que se encuentra en la parte inferior y en donde podremos pegar el código que se encuentra en el siguiente [Gist](https://gist.github.com/LucioD3v/dae03b3ef42f19125cfa073097a2f8c3) o al final de este post.
+## - Integración con Boto3 en Lambda -
 
-![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/20.png)
-
-
-## Paso 5: Conecta la Skill con la Lambda
-
-Para que la función Lambda pueda comunicarse con la Alexa Skill, lo que deberemos de hacer será copiar el ARN (Amazon Resource Name) de la función y pégarlo en el campo correspondiente en la Consola de Alexa.
-
-arn:aws:lambda:us-east-1:171489363667:function:alexaNovaMicroBackend
-
-En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y aqui selecciones "AWS Lambda ARN"
-
-Peguemos aqui el ARN del paso anterior:
-
-## Paso 6: Configurar el Trigger de Alexa Skills Kit:
-
-En la vista de tu función Lambda, haz clic en "Agregar disparador".
-Selecciona "Alexa Skills Kit" y habilita la "Verificación de ID de habilidad" y pega el ID de tu Skill de Alexa (lo encuentras en la consola de desarrolladores de Alexa).
-
-## Paso 7: Agregando Permisos 
-Ahora vayamos a la consola de IAM (https://us-east-1.console.aws.amazon.com/iam/home#/home) para configurar los permisos necesarios 
-
-Busca el rol de IAM asociado a tu función de Lambda (generalmente tiene un nombre similar al de tu función).
-
-Haz clic en el nombre del rol.
-
-Vayamos a la seccion de Politicas, haz clic en "Crear política" y luego en "Crear política" y seleccionamos JSON.
-
-Pega la siguiente política JSON, asegurándote de reemplazar <REGION> con la región de AWS donde estás trabajando:
-
-~~~bash
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "bedrock:InvokeModel"
-            ],
-            "Resource": "arn:aws:bedrock:<REGION>::foundation-model/amazon.titan-text-lite-v1"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "logs:CreateLogGroup",
-                "logs:CreateLogStream",
-                "logs:PutLogEvents"
-            ],
-            "Resource": "arn:aws:logs:REGION:ACCOUNT_ID:log-group:/aws/lambda/YOUR_LAMBDA_FUNCTION_NAME:*"
-        }
-    ]
-}
-~~~
-
-La region trabajada en este ejemplo es: us-east-1
-
-~~~bash
-{
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Effect": "Allow",
-			"Action": "bedrock:InvokeModel",
-			"Resource": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-lite-v1"
-		},
-		{
-			"Effect": "Allow",
-			"Action": [
-				"logs:CreateLogGroup",
-				"logs:CreateLogStream",
-				"logs:PutLogEvents"
-			],
-			"Resource": "arn:aws:logs:*:*:*"
-		}
-	]
-}
-~~~
-
-***Nota:*** En este ejemplo, estamos utilizando **"amazon.titan-text-lite-v1"**, que es parte de la familia de modelos Titan Text Lite ofrecidos a través de Bedrock. Si requieres hacer uso de otro FM como "Nova Micro" asegúrate de actualizar el "Resource" en la política de IAM. Para esto, consulta la documentación de Amazon Bedrock para obtener el ARN exacto del modelo Nova que necesites cuando esté disponible.
-
-Haz clic en "Siguiente", posteriormente en la nueva ventana denominada Revisar y Crear, tocara asigarle un nombre a la política 
-(ej. BedrockAlexaNovaLitePolicy) y haz clic en "Crear política".
-
-Ahora, busquemos nuestra nueva politica creada y al seleccionarla, demos clic en Acciones -> Asociar
-
-En la siguiente vista observaremos las diversas entidades que podemos asociar, en este caso omitamoslas y solo demos clic en Asociar Politica
-
-### Paso 6: Integración con Boto3 en Lambda
-Ahora, vamos a escribir el código de Python en la función de Lambda para interactuar con Amazon Bedrock.
-
-Para esto, vayamos a la Consola de AWS Lambda y seleccionemos la función.
-
-Reemplaza el código existente en el editor con el siguiente código:
+Posteriormente desplacemonos a la pestaña **Código fuente** que se encuentra en la parte inferior y reemplacemos el código existente con el siguiente:
 
 ~~~bash
 
@@ -303,25 +212,157 @@ def invoke_titan_text(prompt):
 
 ~~~
 
+A grandes rasgos lo que hace este código de Python es que la función Lambda interactue con Amazon Bedrock.
+
+**Nota:** el código de igual manera se encuentra en el siguiente [Gist](https://gist.github.com/LucioD3v/dae03b3ef42f19125cfa073097a2f8c3)
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/20.png)
+
 Por último, hagamos clic en **"Deploy (Desplegar)"**
 
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/21.png)
 
-### Paso 7: Probar la Skill en la Consola de Alexa
+## Paso 5: Conecta la Skill con la Lambda
+
+Para que la función Lambda pueda comunicarse con la Alexa Skill, lo que debemos de hacer primero será copiar el ARN (Amazon Resource Name) de la función y pégarlo en el campo correspondiente en la Consola de Alexa.
+
+~~~bash
+
+arn:aws:lambda:us-east-1:842676015954:function:alexaNovaBackend
+
+~~~
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/22.png)
+
+En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y aqui selecciones "AWS Lambda ARN"
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/23.png)
+
+Peguemos aqui el ARN del paso anterior:
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/24.png)
+
+No se nos olvide guardar los cambios haciendo click en el boton **Save**.
+
+## Paso 6: Configurar el Trigger de Alexa Skills Kit:
+
+Nuevamente en la vista de nuestra función Lambda, hagamos clic en **Agregar desencadenador**
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/25.png)
+
+En la nueva vista, del dropdown seleccionemos **Alexa**
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/26.png)
+
+Acto seguido, dejemos seleccionado el producto de Alexa que viene por default (Kit de habilidades de Alexa) y en la sección de **Verificación del ID de la habilidad** peguemos el ID de nuestra Alexa Skill (lo encuentras en la consola de desarrolladores de Alexa).
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/27.png)
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/28.png)
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/29.png)
+
+Finalmente, hagamos clic en **Agregar**.
+
+## Paso 7: Agregando Permisos 
+
+Nuevamente en nuestra función Lambda, ahora vayamos a la pestaña de **Configuración** y seleccionemos la opción de Permisos, puesto que aqui configuraremos los consentimientos necesarios:
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/30.png)
+
+Aqui, lo que haremos sera buscar el rol de IAM asociado a la función Lambda (generalmente tiene un nombre similar al de la función). Una vez localizado, hagamos clic en el nombre del rol.
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/31.png)
+
+Nos abrira una nueva ventana en nuestro navegador, ubiquemos **Agregar permisos** y del dropdown eligamos **Crear política insertada**
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/32.png)
+
+En el **Editor de políticas" seleccionamos JSON y peguemos la siguiente política:
+
+~~~bash
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "bedrock:InvokeModel"
+            ],
+            "Resource": "arn:aws:bedrock:<REGION>::foundation-model/amazon.titan-text-lite-v1"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:REGION:ACCOUNT_ID:log-group:/aws/lambda/YOUR_LAMBDA_FUNCTION_NAME:*"
+        }
+    ]
+}
+~~~
+**Importante:** Asegurate de reemplazar <REGION> con la región de AWS donde estás trabajando.
+
+La region trabajada en este ejemplo es: us-east-1
+
+~~~bash
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": "bedrock:InvokeModel",
+			"Resource": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-lite-v1"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"logs:CreateLogGroup",
+				"logs:CreateLogStream",
+				"logs:PutLogEvents"
+			],
+			"Resource": "arn:aws:logs:*:*:*"
+		}
+	]
+}
+~~~
+
+***Nota:*** En este ejemplo, estamos utilizando **"amazon.titan-text-lite-v1"**, que es parte de la familia de modelos Titan Text Lite ofrecidos a través de Bedrock. Si requieres hacer uso de otro FM como "Nova Micro" asegúrate de actualizar el "Resource" en la política de IAM. Para esto, consulta la documentación de Amazon Bedrock para obtener el ARN exacto del modelo Nova que necesites cuando esté disponible.
+
+Hagamos clic en "Siguiente".
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/33.png)
+
+Posteriormente en la nueva ventana denominada **Revisar y Crear**, tocara asigarle un nombre a la política 
+(ej. BedrockAlexaNovaPolicy) y haz clic en "Crear política".
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/34.png)
+
+### Paso 7: Configurar el Tiempo de Espera
+
+Ya por último, en la función Lambda, seleccionemos la pestaña de **Configuración**, y si hacemos clic en "Configuración general" podremos observa que el tiempo de espera es de 3 segundos, 
+
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/35.png)
+
+### Paso 8: Probar la Skill en la Consola de Alexa
 
 - Hagamos clic en la pestaña Test
 - Lanza la Skill escribiendo el nombre que le diste en el "Invocation Name", en mi caso seria **terra nova**.
 - Envía una pregunta y verifica la respuesta generada por Nova Lite
 
+![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/37.png)
+
 
 ### Conclusión
-
-
+Integrar Amazon Nova Lite en una Alexa Skill puede transformar la experiencia del usuario al proporcionar respuestas más inteligentes y contextuales. Con los pasos descritos en este tutorial, ahora tienes las herramientas necesarias para comenzar a experimentar con esta poderosa combinación de tecnologías.
 
 ¿Tienes dudas? ¡Déjalas en los comentarios! 🚀
 
 ## ¿Lo quieres ver en video?
 
-Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arellano en los AWS Community Day de Bolivia:
+Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arellano en el AWS Community Day de Bolivia:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CneHRDE7EMw?si=5XD97dkrRY7LiEVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -333,7 +374,6 @@ Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arella
 
 - [Gits - Lambda Function](https://gist.github.com/LucioD3v/dae03b3ef42f19125cfa073097a2f8c3)
 - [Gits - Politica](https://gist.github.com/LucioD3v/4c79dcb5f9f6025996844e907caed481)
-
 
 ## **¡Happy Coding!**
 
