@@ -39,7 +39,7 @@ Antes de comenzar, asegúrate de tener lo siguiente:
 
 ### Paso 1: Crear la Alexa Skill
 
-Vayamos a la [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask), en donde procederemos a generar una nueva Skill donde clic en el boton "Crear skill":
+Vayamos a la [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask), en donde procederemos a generar una nueva Skill donde clic en el boton **"Crear skill"**:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/01.png)
 
@@ -57,7 +57,7 @@ Posteriormente:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/04.png)
 
-Por último seleccionemos la plantill a utilizar, en este caso usaremos la de **Start from Scratch**.
+Por último seleccionemos la plantilla a utilizar, en este caso usaremos la de **Start from Scratch**.
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/05.png)
 
@@ -75,7 +75,7 @@ Una vez creada, demos click en el botón de **Invocation Name**, puesto que al g
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/08.png)
 
-Cambiemos el texto por el nombre con el cual queremos que se invoque nuestra Alexa Skill, en mi caso le puse: terra nova
+Cambiemos el texto por el nombre con el cual queremos que se invoque nuestra Alexa Skill, en mi caso le puse: **terra nova**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/09.png)
 
@@ -93,7 +93,7 @@ Acto seguido configuremos un nuevo Intent llamado **GenerarTextoNova**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/12.png)
 
-En los Sample Utterances añadamos algunas expresiones de ejemplo que los usuarios podrian decir para activar esta intencion. Asegurate de crear un Slot, al cual pueden nombrarlo como gusten, en mi caso lo llamare  **consulta** y por ultimo hay que setearlo como de tipo **AMAZON.SearchQuery**
+En los Sample Utterances añadamos algunas expresiones de ejemplo que los usuarios podrian decir para activar esta intención. Asegurate de crear un Slot, el cual pueden nombrarlo como gusten, en mi caso lo llamare  **consulta** y por último hay que setearlo como de tipo **AMAZON.SearchQuery**
 
     - Quisiera saber {consulta}
     - Genera texto sobre {consulta}
@@ -119,7 +119,7 @@ Lo siguiente que debemos de realizar, es configurar una función de AWS Lambda, 
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/15.png)
 
-Una vez dentro, si no tenemos ninguna función creada previamente, se nos mostrara de la siguiente manera, en donde haremos clic en **Crear una función**:
+Una vez dentro, si no tenemos ninguna función creada previamente, se nos mostrará de la siguiente manera, en donde haremos clic en **Crear una función**:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/16.png)
 
@@ -131,7 +131,7 @@ En la siguiente vista, seleccionemos **Crear desde cero** e ingresemos los sigui
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/17.png)
 
-Hagamos clic en el botón de **Crear función**.
+Hagamos clic en el botón de **Crear una función**.
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/18.png)
 
@@ -141,7 +141,7 @@ Una vez creada, nos encontraremos en la vista de edición de la función Lambda.
 
 ## - Integración con Boto3 en Lambda -
 
-Posteriormente desplacemonos a la pestaña **Código fuente** que se encuentra en la parte inferior y reemplacemos el código existente con el siguiente:
+Posteriormente desplacémonos a la pestaña **Código fuente** que se encuentra en la parte inferior y reemplacemos el código existente con el siguiente:
 
 ~~~bash
 
@@ -234,19 +234,19 @@ arn:aws:lambda:us-east-1:842676015954:function:alexaNovaBackend
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/22.png)
 
-En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y aqui selecciones "AWS Lambda ARN"
+En la consola de Alexa, vayamos a la seccion de "Endpoint" en la Skill y borremos lo que se encuentra en **Default Region**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/23.png)
 
-Peguemos aqui el ARN del paso anterior:
+Para poder pegar el ARN del paso anterior:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/24.png)
 
-No se nos olvide guardar los cambios haciendo click en el boton **Save**.
+Que no se nos olvide guardar los cambios haciendo click en el boton **Save**
 
-## Paso 6: Configurar el Trigger de Alexa Skills Kit:
+## Paso 6: Configurar el trigger de Alexa Skills Kit:
 
-Nuevamente en la vista de nuestra función Lambda, hagamos clic en **Agregar desencadenador**
+Nuevamente en la vista de nuestra función Lambda, hagamos clic en **+ Agregar desencadenador**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/25.png)
 
@@ -340,7 +340,7 @@ Posteriormente en la nueva ventana denominada **Revisar y Crear**, tocara asigar
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/34.png)
 
-### Paso 7: Configurar el Tiempo de Espera
+### Paso 7: Configurar el Tiempo de espera
 
 Ya por último, en la función Lambda, seleccionemos la pestaña de **Configuración**, y si hacemos clic en "Configuración general" podremos observar que el tiempo de espera es de 3 segundos:
 
