@@ -274,7 +274,7 @@ Aqui, lo que haremos sera buscar el rol de IAM asociado a la función Lambda (ge
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/31.png)
 
-Nos abrira una nueva ventana en nuestro navegador, ubiquemos **Agregar permisos** y del dropdown eligamos **Crear política insertada**
+Nos abrira una nueva ventana en nuestro navegador, ubiquemos **Agregar permisos** y del dropdown elijamos **Crear política insertada**
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/32.png)
 
@@ -303,9 +303,9 @@ En el **Editor de políticas** seleccionamos JSON y peguemos la siguiente polít
     ]
 }
 ~~~
-**Importante:** Asegurate de reemplazar <REGION> con la región de AWS donde estás trabajando.
+**Importante:** Asegúrate de reemplazar <REGION> con la región de AWS donde estás trabajando.
 
-La region trabajada en este ejemplo es: us-east-1
+La región trabajada en este ejemplo es: us-east-1
 
 ~~~bash
 {
@@ -335,12 +335,12 @@ Hagamos clic en "Siguiente".
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/33.png)
 
-Posteriormente en la nueva ventana denominada **Revisar y Crear**, tocara asigarle un nombre a la política 
+Posteriormente en la nueva ventana denominada **Revisar y Crear**, tocara asignarle un nombre a la política 
 (ej. BedrockAlexaNovaPolicy) y haz clic en "Crear política".
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/34.png)
 
-### Paso 7: Configurar el Tiempo de espera
+### Paso 7: Configurar el tiempo de espera
 
 Ya por último, en la función Lambda, seleccionemos la pestaña de **Configuración**, y si hacemos clic en "Configuración general" podremos observar que el tiempo de espera es de 3 segundos:
 
@@ -362,11 +362,11 @@ Pasemos a modificar esto, por ende hagamos clic en **Editar** y cambiemos el tie
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/39.png)
 
-- Lanza la Skill escribiendo el nombre que le diste en el **Invocation Name**, en mi caso seria **terra nova** y sumale un ejemplo de frase que haga que ingrese a nuestro **Intent**, por ejemplo:
+- Lanza la Skill escribiendo el nombre que le diste en el **Invocation Name**, en mi caso seria **terra nova** y súmale un ejemplo de frase que haga que ingrese a nuestro **Intent**, por ejemplo:
 
 **Abre terra nova y genera texto sobre los power rangers**
 
-- Esperemos unos segundos y deberiamos de ver la respuesta generada por Nova Lite:
+- Esperemos unos segundos y deberíamos de ver la respuesta generada por Nova Lite:
 
 ![image](/assets/img/blog/tutorials/nova-lite-alexa-skill/40.png)
 
@@ -379,7 +379,7 @@ Integrar Amazon Nova Lite en una Alexa Skill puede transformar la experiencia de
 
 ## ¿Lo quieres ver en video?
 
-Aqui les dejo la grabacion de mi participacion al lado de mi colega Uriel Arellano en el AWS Community Day de Bolivia:
+Aquí les dejo la grabación de mi participación al lado de mi colega Uriel Arellano en el AWS Community Day de Bolivia:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CneHRDE7EMw?si=5XD97dkrRY7LiEVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
