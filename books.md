@@ -48,7 +48,7 @@ Este libro te servirá de guía para diseñar, construir e implementar aplicacio
 
 # Gusto Adquirido: El Despertar de Steve
 
- ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
+ ![image](/assets/img/books/portada-gusto-adquirido.jpg)
 
 * **Autor:** Vicente Gerardo Guzmán Lucio 
 * **Liberado:** Febrero 2026
