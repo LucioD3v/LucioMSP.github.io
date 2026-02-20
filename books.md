@@ -6,6 +6,8 @@ Here you can find the books I wrote:
 
 - [The Alexa Revolution](https://www.amazon.com/dp/B099BZMZ4D)
 - [La revolución de Alexa](https://www.amazon.com.mx/dp/B08R8X5QM5)
+- [Gusto Aquirido: El Despertar de Steve](https://www.amazon.com.mx/dp/B0GP669TM3)
+
 
 # The Alexa Revolution
 
@@ -43,3 +45,22 @@ Primer libro sobre el desarrollo de Alexa Skills escrito en español.
 En 2018 se instalaron aproximadamente 100 millones de dispositivos controlados por voz en hogares de todo el mundo. Los asistentes que los controlan, como Amazon Alexa y Google Assistant se están volviendo más potentes, con nuevas características que se agregan cada día. Las aplicaciones de voz mejoran la forma en la que los usuarios interactúan con estos asistentes, ya sea que estén preguntando por el tiempo, pidiendo resultados deportivos o escuchando música.
 
 Este libro te servirá de guía para diseñar, construir e implementar aplicaciones basadas en voz para Alexa. En su interior, conocerás y aprenderás a desarrollar tus propias Skills, el término con el que Amazon ha designado a las aplicaciones de voz para Alexa. Todo desde cero, por lo que no te debes de preocupar si no eres desarrollador, es decir, no se necesitan conocimientos previos de programación. Una vez dominado lo básico, profundizaremos en el flujo de conversación y en conceptos más avanzados.
+
+# Gusto Adquirido: El Despertar de Steve
+
+ ![image](/assets/img/books/la_revolucion_de_alexa.jpg)
+
+* **Autor:** Vicente Gerardo Guzmán Lucio 
+* **Liberado:** Febrero 2026
+* **Editor:** Autoeditado
+* **Comprar:** [Amazon Kindle](https://www.amazon.com.mx/dp/B0GP669TM3)
+
+Primer libro que marca la incursión en el terror contemporáneo, explorando la deshumanización y
+los instintos más primitivos en un mundo que se cree civilizado.
+
+**Un accidente. Una gota de sangre. Un hambre que no tiene fin.**
+
+Steve tiene veinticuatro años, una motocicleta vieja y una vida sin contratiempos. Pero un sábado de grasa y sangre, un accidente fortuito en su garaje despierta un instinto enterrado en su ADN. Tras probar su propia sangre, el mundo se vuelve ceniza: la comida ya no alimenta y el hambre se convierte en una bestia eléctrica.
+Ahora, atrapado entre las aulas universitarias y la anatomía real de las calles, Steve debe elegir a sus presas. En los callejones más oscuros de la ciudad, busca a los "fantasmas": aquellos que nadie extrañará, aquellos que la sociedad ya olvidó.
+
+Una historia de horror visceral sobre la delgada línea entre la humanidad y el instinto depredador. ¿Hasta dónde llegarías para calmar un hambre que no es de este mundo?
