@@ -3,7 +3,7 @@ layout: post
 title: Mi experiencia como Mentor en el primer Alibaba Cloud x TiDB Meetup + Challenge en México
 description: 
   La nube de Alibaba Cloud cada vez toma más fuerza en México. El pasado 12 de marzo se llevó a cabo el primer evento organizado por Software Guru, donde Alibaba Cloud y TiDB invitaron a los desarrolladores a participar en un reto único para construir plataformas con IA en tiempo real.
-image: /assets/img/blog/post-headers/alibaba/MVP2024.jpg
+image: /assets/img/blog/post-headers/alibaba/headerTiBDChallenge.jpg
 noindex: true
 comments: true
 author: lucio
