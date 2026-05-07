@@ -103,7 +103,7 @@ Una vez creado lo anterior, procederemos a crear la Lambda, en donde ocurre la m
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso3-1.jpg)
 
-6. Una vez creada la función, peguemos el siguiente código que comparto a continuacion:
+Una vez creada la función, peguemos el siguiente código que comparto a continuacion:
 
 ```python
 import boto3
@@ -132,7 +132,7 @@ def lambda_handler(event, context):
     return response
 
 ```
-7. Por últmo para "guardar los cambios", hagamos clic en **Deploy**
+Por últmo para "guardar los cambios", hagamos clic en **Deploy**
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso3-2.jpg)
 
@@ -149,7 +149,7 @@ Ahora necesitamos que la función sepa cuándo actuar. Por ello...
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4.jpg)
 
-4. Demos clic en **Agregar**
+Demos clic en **Agregar**
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4-1.jpg)
 
