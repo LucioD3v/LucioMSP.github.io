@@ -149,7 +149,7 @@ Ahora necesitamos que la función sepa cuándo actuar. Por ello...
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4.jpg)
 
-5. Demos clic en **Agregar**
+4. Demos clic en **Agregar**
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4-1.jpg)
 
@@ -159,7 +159,7 @@ Llego el momento esperado, procedamos a subir cualquier imagen al bucket de S3.
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso5.jpg)
 
-Posteriormente se haya realizado esto, vayamos a la pestaña **Monitorear** en nuestra Lambda demos clic en **Ver registros de CloudWatch**s.
+Posteriormente se haya realizado esto, vayamos a la pestaña **Monitorear** en nuestra Lambda demos clic en **Ver registros de CloudWatch**.
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso5-1.jpg)
 
