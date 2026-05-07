@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crea tu propia Fábrica de Reconocimiento de Imágenes con Amazon Rekognition
-description: En este artículo aprenderemos a darle vision artificial a nuestra aplicacion, en donde integraremos Amazon S3 para el almacenamiento, IAM Roles para la seguridad, AWS Lambda para la lógica Serverless y Amazon CloudWatch para el monitoreo en tiempo real.
+description: En este artículo aprenderemos a darle vision artificial a nuestra aplicación, en donde integraremos Amazon S3 para el almacenamiento, IAM Roles para la seguridad, AWS Lambda para la lógica Serverless y Amazon CloudWatch para el monitoreo en tiempo real.
 image: /assets/img/blog/post-headers/aws/bannerFabricaIA.png
 noindex: true
 comments: true
@@ -21,15 +21,38 @@ keywords:
 lang: es
 ---
 
-Como programador sin duda alguna buscamos tener algun factor que nos haga ser mas competitivos y en tiempos de IA, la ventaja no está en quién programa el algoritmo de más complejo, sino en quién sabe orquestar las herramientas que ya existen para resolver problemas reales hoy. 
+Como programador sin duda alguna buscamos tener algun factor que nos haga ser mas competitivos y en tiempos de IA, la ventaja no está en quién programa el algoritmo más complejo, sino en quién sabe orquestar las herramientas que ya existen para resolver problemas reales. 
 
-Es por ello que este pequeña guía, veremos como integrar Amazon Rekognition en un flujo totalmente automatizado, es decir, nos olvidaremos de configurar GPUs o entrenar modelos por semanas; vamos a conectar piezas de ingeniería para que nuestras fotos(imagenes) se conviertan en datos accionables en milisegundos. El objetivo es simple: subes una foto a la nube y, automáticamente, la IA nos dice qué hay en ella.
+Es por ello que esta pequeña guía, veremos como integrar Amazon Rekognition en un flujo totalmente automatizado, es decir, nos olvidaremos de configurar GPUs o entrenar modelos por semanas; vamos a conectar piezas de ingeniería para que nuestras fotos(imágenes) se conviertan en datos accionables en milisegundos. El objetivo es simple: subir una foto a la nube y, automáticamente, la IA nos dice qué hay en ella.
 
 Asi que si estás listo para pasar de la teoría a una arquitectura que escala a millones de imágenes por el precio de un café, sigue leyendo.
 
+## De la Ciencia Ficción a tu Stack de Desarrollo 
+
+La barrera de entrada para la IA ha caído. Lo que antes era un privilegio de laboratorios con presupuestos astronómicos, hoy es una pieza de LEGO en nuestro stack.  
+
+- Ayer: Necesitabas PhDs, inversión masiva en GPUs y meses de entrenamiento para modelos que solían ser inalcanzables.  
+- Hoy: Tenemos accesos a modelos pre-entrenados de clase mundial en milisegundos.
+ 
+Es decir, ahora nuestro valor real está en la orquestación: conectar estas capacidades para resolver problemas de negocio con agilidad y escala. 
+
+### La era Serverless
+
+En el mundo del desarrollo moderno, existe una distinción fundamental que todo arquitecto debe comprender para dominar la nube:
+
+El Mito: "No hay servidores".
+La Realidad: Hay servidores, pero no son tu problema.
+
+Al adoptar este enfoque, dejas de gestionar máquinas para centrarte en la orquestación de servicios.
+
+Los beneficios son:
+ - Escalabilidad automática: Tu sistema crece de forma fluida para procesar desde una hasta un millón de peticiones sin intervención manual.
+ - Modelo de pago por uso: La infraestructura es eficiente financieramente; si nadie usa tu aplicación, el costo es de $0.
+ - Foco total en el valor de negocio: Te olvidas por completo del parcheo de sistemas operativos y la gestión de parches para dedicar el 100% de tu tiempo a tu lógica.
+
 ## El "Dream Team" de AWS que usaremos
 
-Para que esto funcione, necesitamos conectar varias piezas. Piénsenlo como si armaramos una figura de LEGO:
+Para que esto funcione, necesitamos conectar varias piezas. Tal y como lo comente anteriormente, veamoslo como si armaramos una figura de LEGO:
 
 1.  **Amazon S3:** Nuestro almacén. Aquí es donde caerán las fotos.
 2.  **IAM Roles:** El guardia de seguridad. Le daremos a nuestra función los permisos justos para trabajar.
@@ -37,44 +60,50 @@ Para que esto funcione, necesitamos conectar varias piezas. Piénsenlo como si a
 4.  **Amazon Rekognition:** El experto en visión. La IA que hace el trabajo pesado de análisis.
 5.  **Amazon CloudWatch:** Nuestra bitácora. Aquí veremos los resultados que la IA nos devuelva.
 
----
+### Arquitectura
+
+Como bien lo han de saber, una buena solución no solamente se basa en elegir los servicios correctos, sino en cómo estos se orquestan para trabajar de forma armónica. A continuación, muestro el mapa de arquitectura nivel 100 que guía nuestra "fábrica" de reconocimiento: un flujo totalmente desacoplado y orientado a eventos que nos permite escalar sin intervención manual.
+
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/arquitectura_fabrica.png) 
 
 ## Paso 1: El Almacén de Datos (S3)
 
-Lo primero es tener un lugar donde guardar las imágenes.
+Y bueno, tal como lo podemos ver en la imagen anterior, lo primero que debemos de tener, es el lugar donde se guardaran/almacenaran las imágenes, para ello sigamos lo siguiente:
 
-1. Entren a la consola de S3 y den clic en **Create bucket**.
-2. Elijan un nombre único (yo usaré `cucuta-cloud-demo-2026`). 
-3. Dejen las opciones por defecto y denle a **Create**.
+1. Entremos a la consola de AWS, naveguemos a S3 y demos clic en **Crear bucket**.
+2. Elijamos un nombre único (yo usaré `fabric-ai-cloud-2026`). 
+3. Dejemos las opciones por defecto y demos clic en **Crear bucket**.
 
-> ![CAPTURA: Pantalla de creación de Bucket en S3 con el nombre resaltado]
-
----
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso1.jpg)
 
 ## Paso 2: Seguridad ante todo (IAM)
 
-Nuestra Lambda necesita permiso para leer de S3 y para llamar a la API de Rekognition.
+Lo siguiente segun lo indica la arquitectura es brindar los permisos necesarios para que nuestra Lambda pueda "leer" lo que se encuentra en nuestro S3 y asi poder llamar a la API de Rekognition.
 
-1. En el servicio de **IAM**, creen un nuevo **Role**.
-2. Seleccionen **Lambda** como el servicio que usará este rol.
-3. Busquen y agreguen estas políticas:
+1. En el servicio de **IAM**, creemos un nuevo **Role**.
+2. Seleccionemos **Lambda** como el servicio que usará este rol.
+3. Busquemos y agreguemos las siguientes políticas:
     * `AmazonS3ReadOnlyAccess`
     * `AmazonRekognitionReadOnlyAccess`
     * `AWSLambdaBasicExecutionRole` (para que pueda escribir logs).
-4. Pónganle un nombre claro, como `LambdaRekognitionRoleCucuta`.
+4. Asignemosle un nombre claro, como `FabricRekognitionRole`.
+5. Demos clic en **Crear rol**
 
-> ![CAPTURA: Lista de políticas adjuntas al Rol en la consola de IAM]
-
----
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso2.jpg)
 
 ## Paso 3: El Cerebro (AWS Lambda)
 
-Aquí es donde ocurre la magia de la orquestación.
+Una vez creado lo anterior, procederemos a crear la Lambda, en donde ocurre la magia de la orquestación.
 
-1. Vayan a **Lambda** y den clic en **Create function**.
-2. Elijan **Python 3.12** como lenguaje.
-3. En la sección de permisos, seleccionen el Rol que acabamos de crear en el paso anterior.
-4. Una vez creada la función, peguen el código que les compartí en el Gist.
+1. Vayamos a **Lambda** y demos clic en **Crear función**.
+2. Asignemosle un nombre unico, en mi caso será `FabricRekognitionLambda`.
+3. Elijamos **Python 3.14** como versión ejecutable (lenguaje en la que se escribirá la función).
+4. En la sección de "Configuración adicional", habilitemos la opción de rol de ejecución personalizada y seleccionemos el rol que acabamos de crear en el paso anterior.
+5. Demos clic en **Crear función**
+
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso3-1.jpg)
+
+6. Una vez creada la función, peguemos el siguiente código que comparto a continuacion:
 
 ```python
 import boto3
@@ -96,43 +125,53 @@ def lambda_handler(event, context):
         MinConfidence=80
     )
     
-    print("--- RESULTADOS CÚCUTA-CLOUD ---")
+    print("--- RESULTADOS FABRIC-CLOUD ---")
     for label in response['Labels']:
         print(f"Detectado: {label['Name']} ({label['Confidence']:.2f}%)")
         
     return response
 
 ```
+7. Por últmo para "guardar los cambios", hagamos clic en **Deploy**
 
-![CAPTURA: Editor de código de Lambda con el código pegado y el botón Deploy resaltado]
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso3-2.jpg)
 
-Paso 4: Conectando los puntos (Trigger)
-Necesitamos que la función sepa cuándo actuar.
+Y bueno, antes de avanzar, solo quiero compartir un poco sobre Amazon Rekognition, puesto que en el código anterior lo mandamos llamar. 
+Este es un servicio de inteligencia artificial de AWS que permite analizar imágenes y videos para identificar objetos, rostros, texto, actividades y contenido inapropiado. Sus casos de uso van mas centrados para ambitos de seguridad, automatización y análisis visual, sin necesidad de desarrollar modelos desde cero. 
 
-Dentro de la configuración de la Lambda, den clic en Add trigger.
+## Paso 4: Conectando los puntos (Trigger)
 
-Seleccionen S3 y elijan el bucket que crearon al inicio.
+Ahora necesitamos que la función sepa cuándo actuar. Por ello...
 
-En tipo de evento, dejen All object create events.
+1. Dentro de la configuración de la Lambda, hagamos clic en **+ Agregar desencadenador**.
+2. Seleccionemos S3 y elijamos el bucket que creamos al inicio.
+3. En tipo de evento, dejemos "Todos los eventos de creación de objetos".
 
-![CAPTURA: Diagrama de la función Lambda mostrando el trigger de S3 conectado a la izquierda]
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4.jpg)
 
-Paso 5: ¡Hora de la verdad! (CloudWatch)
-Ahora, suban cualquier imagen a su bucket de S3. Una vez subida:
+5. Demos clic en **Agregar**
 
-Vayan a la pestaña Monitor en su Lambda.
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso4-1.jpg)
 
-Den clic en View CloudWatch logs.
+## Paso 5: ¡Hora de la verdad! (CloudWatch)
 
-Busquen el último stream de log y ¡ahí lo tienen! Verán la lista de objetos que la IA detectó en milisegundos.
+Llego el momento esperado, procedamos a subir cualquier imagen al bucket de S3. 
 
-![CAPTURA: Logs de CloudWatch mostrando las etiquetas detectadas por la IA]
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso5.jpg)
+
+Posteriormente se haya realizado esto, vayamos a la pestaña **Monitorear** en nuestra Lambda demos clic en **Ver registros de CloudWatch**s.
+
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso5-1.jpg)
+
+Busquemos el último stream de log y ¡ahí debe de aparecer! Se mostrará una lista de objetos que la IA detectó en milisegundos.
+
+![image](/assets/img/blog/tutorials/aws-fabrica-ai/paso5-1.jpg)
 
 ---
 
 ### 🎤 **Sesión en Vivo:** 
 
-Cabe destacar que este mismo contenido tuve el honor de brindarlo en el **AWS User Group Cúcuta** el pasado **30 de abril**. A continuación, comparto la grabación de la transmisión y el material utilizado en la sesión para que puedas seguir el taller a tu propio ritmo.
+Cabe destacar que este mismo contenido tuve el honor de brindarlo en el **AWS User Group Cúcuta** el pasado **30 de abril**. A continuación, comparto la grabación de la transmisión y el material utilizado en la sesión para que puedan seguir el taller a tu propio ritmo.
 
 ![image](/assets/img/blog/tutorials/aws-fabrica-ai/MeetupCucutaVicente.jpg) 
 
@@ -155,7 +194,7 @@ Ya por último, si tienen dudas o logran implementar algo loco con esto, ¡etiqu
 ¡A seguir construyendo en la nube!
 
 ### P.D
-Por último, si estas interesado en aprender más sobre los servicios de AWS y te encuentras en la Ciudad de México, te invito a que asistas a los Meetups del User Group [Ajolotes en la Nube](https://www.meetup.com/es-ES/ajolotesenlanube/), en donde constantemente se brindan charlas técnicas y se dan a conocer mñas eventos de la comunidad de AWS.
+Por último, si estas interesado en aprender más sobre los servicios de AWS y te encuentras en la Ciudad de México, te invito a que asistas a los Meetups del User Group [Ajolotes en la Nube](https://www.meetup.com/es-ES/ajolotesenlanube/), en donde constantemente se brindan charlas técnicas y se dan a conocer más eventos de la comunidad de AWS.
 
 ## ¡Happy Coding! 
 
