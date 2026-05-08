@@ -40,8 +40,8 @@ Es decir, ahora nuestro valor real está en la orquestación: conectar estas cap
 
 En el mundo del desarrollo moderno, existe una distinción fundamental que todo arquitecto debe comprender para dominar la nube:
 
-El Mito: "No hay servidores".
-La Realidad: Hay servidores, pero no son tu problema.
+- El Mito: "No hay servidores".
+- La Realidad: Hay servidores, pero no son tu problema.
 
 Al adoptar este enfoque, dejas de gestionar máquinas para centrarte en la orquestación de servicios.
 
